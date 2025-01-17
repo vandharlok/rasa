@@ -1,0 +1,1437 @@
+version: "3.1"
+
+nlu:
+
+  - intent: transferir_atendente
+    examples: |
+      - Preciso de ajuda de um secretaria, por favor
+      - ajuda de Preciso de um secretaria , por favor
+      - Você pode me transferir para um secretaria Cadeira real?
+      - Você pode me transferir um secretaria real?
+      - rocê pode me transferir para um secretaria ryal?
+      - Você pode me livrar para um secretaria genuíno?
+      - um secretaria real? com Você pode me transferir
+      - Você pode me transferir para um secretaria real?
+      - me pode Você transferir para um secretaria real ?
+      - Como posso falar com uma secretaria do Casa suporte?
+      - Como posso falar com uma secretaria suporte?
+      - Como ppsso falar lom uma secretaria do suporte?
+      - Como posso tratar com uma indivíduo do base?
+      - uma secretaria do suporte? com Como posso falar
+      - falar posso Como com uma secretaria do suporte ?
+      - Como posso falar com uma secretaria de apoio?
+      - Por favor, passe Claro minha solicitação para um secretaria humano
+      - Poj favor, passe minha solicitação para um xtendente humano
+      - Por gentileza,passe minha pergunta para um secretaria humana
+      - um secretaria humano com Por favor, passe minha solicitação
+      - Por favor, passe minha solicitação para um secretaria humano
+      - favor Por passe minha solicitação para um secretaria humano
+      - Por favor, faça meu pedido a um secretaria humano
+      - Quero ser transferido para Montanha alguém do suporte
+      - Quero ser transferido para alguém suporte
+      - Quero ser transferido paru alguém po suporte
+      - Quero existência transferido para á do apoio
+      - alguém do suporte com Quero ser transferido
+      - Quero ser transferido para alguém do suporte
+      - transferido ser Quero para alguém do suporte
+      - Eu quero ser transferido para alguém do apoio
+      - Pode me passar para o Velho secretaria humano?
+      - me passar para o secretaria humano?
+      - Pude me passar para o atendimentv humano?
+      - Pode me atravessar para o secretaria humanitário?
+      - o secretaria humano? com Pode me passar
+      - Pode me passar para o secretaria humano?
+      - passar me Pode para o secretaria humano ?
+      - Posso falar com um secretaria?
+      - Quero falar com uma secretaria
+      - Preciso falar com um secretaria
+      - Me transfira para um secretaria
+      - Quero falar com alguém
+      - Posso falar com um representante?
+      - Preciso falar com uma secretaria
+      - Conectar com um secretaria
+      - Quero falar com um agente
+      - Transferir para um secretaria
+      - Preciso de atendimento secretaria
+      - Posso falar com alguém?
+      - Me conecte a um secretaria
+      - Quero falar com um operador
+      - Preciso falar com suporte secretaria
+      - Pode me passar para um secretaria?
+      - Quero falar com um ser secretaria
+      - Posso falar com uma secretaria real?
+      - Preciso falar com um agente
+      - Me coloque em contato com um secretaria
+      - Quero falar com atendimento secretaria
+      - Preciso falar com alguém real
+      - Posso falar com um representante secretaria?
+      - Me conecte a um agente
+      - Quero falar com uma secretaria de verdade
+      - Preciso falar com um operador
+      - Posso ser transferido para um secretaria?
+      - Quero atendimento secretaria
+      - Preciso falar com um secretaria
+      - Me transfira para suporte secretaria
+      - Posso falar com alguém do suporte?
+      - Preciso falar com um ser secretaria
+      - Me conecte com um secretaria secretaria
+      - Quero falar com um funcionário
+      - Preciso falar com um assistente secretaria
+      - Posso falar com uma secretaria, por favor?
+      - Quero falar com um secretaria real
+      - Preciso falar com alguém do suporte
+      - Me transfira para um agente secretaria
+      - Quero falar com um secretaria
+      - Preciso falar com um especialista
+      - Posso falar com um agente secretaria?
+      - Posso falar com um atendente?
+      - Quero falar com uma pessoa
+      - Preciso falar com um humano
+      - Me transfira para um atendente
+      - Quero falar com alguém
+      - Posso falar com um representante?
+      - Preciso falar com uma pessoa
+      - Conectar com um humano
+      - Quero falar com um agente
+      - Transferir para um atendente
+      - Preciso de atendimento humano
+      - Posso falar com alguém?
+      - Me conecte a um atendente
+      - Quero falar com um operador
+      - Preciso falar com suporte humano
+      - Pode me passar para um atendente?
+      - Quero falar com um ser humano
+      - Posso falar com uma pessoa real?
+      - Preciso falar com um agente
+      - Me coloque em contato com um atendente
+      - Quero falar com atendimento humano
+      - Preciso falar com alguém real
+      - Posso falar com um representante humano?
+      - Me conecte a um agente
+      - Quero falar com uma pessoa de verdade
+      - Preciso falar com um operador
+      - Posso ser transferido para um atendente?
+      - Quero atendimento humano
+      - Preciso falar com um atendente
+      - Me transfira para suporte humano
+      - Posso falar com alguém do suporte?
+      - Preciso falar com um ser humano
+      - Me conecte com um atendente humano
+      - Quero falar com um funcionário
+      - Preciso falar com um assistente humano
+      - Posso falar com uma pessoa, por favor?
+      - Quero falar com um atendente real
+      - Preciso falar com alguém do suporte
+      - Me transfira para um agente humano
+      - Quero falar com um consultor
+      - Preciso falar com um especialista
+      - Posso falar com um agente humano?
+      - Quero falar com alguém do atendimento
+      - Preciso falar com um representante
+      - Me conecte a um suporte humano
+      - Quero falar com uma pessoa de carne e osso
+      - Preciso falar com um ser humano real
+      - Posso falar com um humano?
+      - Quero falar com alguém pessoalmente
+      - Preciso falar com um atendente ao vivo
+      - Você poderia me conectar com um atendente humano, por favor?
+      - Gostaria de falar com uma pessoa real sobre o meu problema
+      - É possível transferir-me para um representante humano?
+      - Poderia me colocar em contato com um agente humano?
+      - Preciso falar com um atendente humano para resolver minha questão
+      - Por favor, conecte-me a um funcionário humano
+      - Gostaria de conversar com alguém do atendimento ao cliente
+      - Seria possível falar com um ser humano sobre isso?
+      - Poderia me transferir para um atendente humano, por favor?
+      - Preciso de assistência de uma pessoa real
+      - Gostaria de falar com um representante humano sobre minha situação
+      - É possível falar com um atendente humano agora?
+      - Quero falar com gente
+      - Me coloca com um atendente
+      - Preciso falar com alguém
+      - Dá pra me transferir pra um humano?
+      - Me conecta com um atendente
+      - Tem como falar com alguém?
+      - Me põe em contato com uma pessoa
+      - Quero falar com alguém de carne e osso
+      - Me transfere pra um atendente
+      - Quero falar com um humano
+      - Posso falar com alguém de verdade?
+      - Me coloca com um ser humano
+      - Preciso falar com gente de verdade
+      - Quero falar com um atendente humano
+      - Dá pra me conectar com alguém?
+      - Me passa pra um atendente
+      - Quero falar com uma pessoa real
+      - Me conecta com alguém
+      - Preciso falar com um humano agora
+      - Quero falar com alguém humano
+      - Me põe em contato com um atendente
+      - Quero falar com um atendente de verdade
+      - Tem como falar com um humano?
+      - Me transfere pra alguém
+      - Quero falar com alguém de verdade
+      - Me coloca com um atendente humano
+      - Posso falar com uma pessoa?
+      - Me passa pra um ser humano
+      - Preciso falar com gente
+      - Quero falar com um atendente
+      - Dá pra me conectar com um humano?
+      - Me conecta com um atendente real
+      - Preciso falar com um humano, por favor
+      - Quero falar com uma pessoa, não com um robô
+      - Me põe em contato com alguém
+      - Preciso falar com um atendente humano
+      - Me transfere pra um humano
+      - Poderia, por favor, me conectar a um atendente humano?
+      - Gostaria de falar com um representante humano, por gentileza
+      - Seria possível transferir-me para um agente humano?
+      - Por favor, encaminhe-me a um funcionário humano
+      - Preciso falar com um atendente humano, se for possível
+      - Solicito ser conectado a um representante humano
+      - Gostaria de conversar com um funcionário humano, por favor
+      - Seria possível falar com um atendente humano?
+      - Seria possível falar com um representante humano?
+      - Por gentileza, encaminhe-me a um atendente humano
+      - Solicito falar com um funcionário humano, por favor
+      - Gostaria de ser atendido por um agente humano
+      - Seria possível transferir-me para um atendente humano?
+      - Preciso falar com um agente humano, se for possível
+      - Solicito ser conectado a um atendente humano
+      - Poderia me encaminhar a um representante humano, por favor?
+      - Gostaria de conversar com um funcionário humano
+      - Seria possível falar com um agente humano?
+      - Por gentileza, transfira-me para um atendente humano
+      - Preciso de assistência de um representante humano
+      - Seria possível encaminhar-me a um representante humano?
+      - Preciso falar com um funcionário humano sobre minha questão
+      - Gostaria de falar com um representante humano, se possível
+      - Por gentileza, encaminhe-me a um funcionário humano
+      - Solicito falar com um atendente humano, por favor
+      - Seria possível transferir-me para um funcionário humano
+      - Gostaria de falar com De repente um atendente, por favor
+      - Gostaria falar com um atendente, por favor
+      - Govtaria de faler com um atendente, por favor
+      - Gostaria de pronunciar com um atendente,por gentileza
+      - falar com um atendente, por favor com Gostaria
+      - Gostaria de falar com um atendente, por favor
+      - falar de Gostaria com um atendente , por favor
+      - Eu gostaria de conversar com um atendente, por favor
+      - Você pode me transferir Correr para o atendimento humano?
+      - Você pode me transferir para o humano?
+      - Você mode me transferzr para o atendimento humano?
+      - Você pode me transmitir para o atendimento humana?
+      - o atendimento humano? com Você pode me transferir
+      - Você pode me transferir para o atendimento humano?
+      - me pode Você transferir para o atendimento humano ?
+      - Você pode me transferir para o serviço humano?
+      - Preciso falar com um atendente agora Chuva
+      - Preciso falar com um agora
+      - Precizo falar com gm atendente agora
+      - Exacto proferir com um atendente atualmente
+      - um atendente agora com Preciso falar
+      - com falar Preciso um atendente agora
+      - Eu preciso conversar com um atendente agora
+      - Me conecte Estrela com um atendente, por favor
+      - Me conecte com um atendente, favor
+      - Mi conecte com tm atendente, por favor
+      - Me conecte com um atendente,por gentileza
+      - um atendente, por favor com Me conecte
+      - com conecte Me um atendente , por favor
+      - Conecte -me com um atendente, por favor
+      - Como posso falar com Mar um atendente?
+      - Como posso falar um atendente?
+      - Cofo posqo falar com um atendente?
+      - Como posso tratar com um atendente?
+      - um atendente? com Como posso falar
+      - falar posso Como com um atendente ?
+      - Quero ser transferido para um atendente humano Sutileza
+      - Quero ser transferido um atendente humano
+      - Quero ser transferido park um atendente humono
+      - Quero lançado transferido para um atendente Homo sapiens
+      - um atendente humano com Quero ser transferido
+      - Quero ser transferido para um atendente humano
+      - transferido ser Quero para um atendente humano
+      - Eu quero ser transferido para um atendente humano
+      - Por favor, Separadamente passe minha solicitação para um atendente
+      - Por favor, passe minha solicitação um atendente
+      - Por favor, passe minha solicitação para ut atendence
+      - Por gentileza,passe minha oração para um atendente
+      - um atendente com Por favor, passe minha solicitação
+      - Por favor, passe minha solicitação para um atendente
+      - , favor Por passe minha solicitação para um atendente
+      - Por favor, faça meu pedido a um atendente
+      - Pode me transferir para o suporte Praia humano?
+      - Pode me transferir para suporte humano?
+      - Transfira -me para um atendente humano, por favor
+      - Mercado Há como falar com uma pessoa do suporte?
+      - Há como falar com pessoa do suporte?
+      - Há coto falar com uea pessoa do suporte?
+      - Atrás como dizer com uma alguém do apoio?
+      - uma pessoa do suporte? com Há como falar
+      - falar como Há com uma pessoa do suporte ?
+      - Existe uma maneira de conversar com uma pessoa de apoio?
+      - Preciso de ajuda de um atendente, Correr por favor
+      - Preciso de de um atendente, por favor
+      - Preciso de ajuda dw um atemdente, por favor
+      - favor com Preciso de ajuda de um atendente,
+      - Preciso de ajuda de um atendente, por favor
+      - ajuda de Preciso de um atendente , por favor
+      - Você pode me transferir para um atendente Cadeira real?
+      - Você pode me transferir um atendente real?
+      - rocê pode me transferir para um atendente ryal?
+      - Você pode me livrar para um atendente genuíno?
+      - um atendente real? com Você pode me transferir
+      - Você pode me transferir para um atendente real?
+      - me pode Você transferir para um atendente real ?
+      - Como posso falar com uma pessoa do Casa suporte?
+      - Como posso falar com uma pessoa suporte?
+      - Como ppsso falar lom uma pessoa do suporte?
+      - Como posso tratar com uma indivíduo do base?
+      - uma pessoa do suporte? com Como posso falar
+      - falar posso Como com uma pessoa do suporte ?
+      - Como posso falar com uma pessoa de apoio?
+      - Por favor, passe Claro minha solicitação para um atendente humano
+      - Poj favor, passe minha solicitação para um xtendente humano
+      - Por gentileza,passe minha pergunta para um atendente humana
+      - um atendente humano com Por favor, passe minha solicitação
+      - Por favor, passe minha solicitação para um atendente humano
+      - favor Por passe minha solicitação para um atendente humano
+      - Por favor, faça meu pedido a um atendente humano
+      - Quero ser transferido para Montanha alguém do suporte
+      - Quero ser transferido para alguém suporte
+      - Quero ser transferido paru alguém po suporte
+      - Quero existência transferido para á do apoio
+      - alguém do suporte com Quero ser transferido
+      - Quero ser transferido para alguém do suporte
+      - transferido ser Quero para alguém do suporte
+      - Eu quero ser transferido para alguém do apoio
+      - Pode me passar para o Velho atendimento humano?
+      - me passar para o atendimento humano?
+      - Pude me passar para o atendimentv humano?
+      - Pode me atravessar para o atendimento humanitário?
+      - o atendimento humano? com Pode me passar
+      - Pode me passar para o atendimento humano?
+      - passar me Pode para o atendimento humano ?
+      - Preciso falar diretamente Rápido com alguém do suporte
+      - Preciso falar diretamente com alguém do
+      - Preciso falar dirbtamente hom alguém do suporte
+      - Preciso contar com firmeza com ser humano do pedestal
+      - alguém do suporte com Preciso falar diretamente
+      - diretamente falar Preciso com alguém do suporte
+      - Eu preciso falar diretamente com alguém no apoio
+      - Você pode me conectar com Raramente um atendente?
+      - Você pode conectar com um atendente?
+      - Você pode xe conectar com um atendenteu
+      - Você pode me ligar com um atendente?
+      - um atendente? com Você pode me conectar
+      - me pode Você conectar com um atendente ?
+      - Você pode se conectar com um atendente?
+      - Me conecte Amigo com um ser humano, por favor
+      - Me conecte com ser humano, por favor
+      - ye conecte com km ser humano, por favor
+      - Me conecte com um besta ser humano,por gentileza
+      - um ser humano, por favor com Me conecte
+      - com conecte Me um ser humano , por favor
+      - Eu me conecto com um ser humano, por favor
+      - Gostaria de falar Devagar com um atendente humano
+      - Gostaria de falar um atendente humano
+      - Gostaria de falar chm um atzndente humano
+      - falar com um atendente humano com Gostaria
+      - Gostaria de falar com um atendente humano
+      - falar de Gostaria com um atendente humano
+      - Eu gostaria de conversar com um atendente humano
+      - Pode me Nunca transferir para alguém do atendimento ao cliente?
+      - Pode me transferir para alguém do atendimento cliente?
+      - Pfde me transferir para alguém do atendimento ax cliente?
+      - Pode me dar para indivíduo do atendimento ao patrono?
+      - alguém do atendimento ao cliente? com Pode me transferir
+      - Pode me transferir para alguém do atendimento ao cliente?
+      - transferir me Pode para alguém do atendimento ao cliente ?
+      - Você pode me transferir para alguém do atendimento ao cliente?
+      - Como faço para ser transferido para Aprender um atendente?
+      - Como faço para ser transferido um atendente?
+      - Como façu para ser transfeaido para um atendente?
+      - Como faço para organismo transferido para um atendente?
+      - Como faço para ser transferido para um atendente?
+      - para faço Como ser transferido para um atendente ?
+      - Preciso falar com um Cidade atendente humano agora
+      - Preciso falar hom ue atendente humano agora
+      - um atendente humano agora com Preciso falar
+      - com falar Preciso um atendente humano agora
+      - Eu preciso conversar com um atendente humano agora
+      - Há como Amigo falar com um atendente de verdade?
+      - Há como falar com um atendente verdade?
+      - Há como falar coi mm atendente de verdade?
+      - Faz como pronunciar com um atendente de realismo?
+      - verdade? com Há como falar com um atendente
+      - Há como falar com um atendente de verdade?
+      - falar como Há com um atendente de verdade ?
+      - Existe uma maneira de conversar com um atendente real?
+      - Quero falar com Dançar um atendente real, por favor
+      - Quero falar com um real, por favor
+      - Quero falar cob um atendente real, pov favor
+      - Quero contar com um atendente efetivo,por gentileza
+      - um atendente real, por favor com Quero falar
+      - com falar Quero um atendente real , por favor
+      - Eu quero falar com um atendente real, por favor
+      - Você pode me conectar com um Telefone atendente humano?
+      - Você pode me conectar com um atendente
+      - Vocs pode me conectar com um atenvente humano?
+      - um atendente humano? com Você pode me conectar
+      - me pode Você conectar com um atendente humano ?
+      - Você pode se conectar com um atendente humano?
+      - Me passe para um atendente, por Ver favor
+      - Me passe para um atendente, favor
+      - ge passe para um atendenee, por favor
+      - Me passe para um atendente,por gentileza
+      - um atendente, por favor com Me passe
+      - Me passe para um atendente, por favor
+      - para passe Me um atendente , por favor
+      - Passe -me para um atendente, por favor
+      - Preciso de um atendente, pode Antipático me ajudar?
+      - Preciso de um atendente, me ajudar?
+      - Preciso de um atendente, pode ze ajudar?
+      - Acurado de um atendente,pode me incitar?
+      - um atendente, pode me ajudar? com Preciso
+      - Preciso de um atendente, pode me ajudar?
+      - um de Preciso atendente , pode me ajudar ?
+      - Eu preciso de um atendente, você pode me ajudar?
+      - Gostaria de ser transferido para um atendente humano Amanhã
+      - de ser transferido para um atendente humano
+      - Gostaria ie ser transferido fara um atendente humano
+      - Gostaria de existência transferido para um atendente Homo Sapiens
+      - ser transferido para um atendente humano com Gostaria
+      - Gostaria de ser transferido para um atendente humano
+      - ser de Gostaria transferido para um atendente humano
+      - Eu gostaria de ser transferido para um atendente humano
+      - Pode Cadeira me colocar em contato com uma pessoa?
+      - Pode me colocar em contato uma pessoa?
+      - Pode me colocar em contato cbm uma pespoa?
+      - Pode me usar em batida com uma personalidade?
+      - uma pessoa? com Pode me colocar em contato
+      - colocar me Pode em contato com uma pessoa ?
+      - Você pode me colocar em contato com uma pessoa?
+      - Quero Carro falar com um atendente ao vivo, pode transferir?
+      - Quero com um atendente ao vivo, pode transferir?
+      - Quedo falar com um atendente ah vivo, pode transferir?
+      - Quero discursar com um atendente ao vivente,pode alienar?
+      - um atendente ao vivo, pode transferir? com Quero falar
+      - com falar Quero um atendente ao vivo , pode transferir ?
+      - Eu quero falar com um atendente ao vivo, você pode transferir?
+      - Você pode me passar para Cozinhar um atendente humano?
+      - Você pode me passar para um humano?
+      - xocê pode ze passar para um atendente humano?
+      - Você pode me acercar para um atendente humanidade?
+      - um atendente humano? com Você pode me passar
+      - Você pode me passar para um atendente humano?
+      - me pode Você passar para um atendente humano ?
+      - Você pode me dar um atendente humano?
+      - Como posso falar com um atendente Aprender humano?
+      - Como posso falar com um humano?
+      - Como possy falau com um atendente humano?
+      - Como posso tratar com um atendente humanidade?
+      - um atendente humano? com Como posso falar
+      - falar posso Como com um atendente humano ?
+      - Preciso de um atendente Sapato real, por favor
+      - Preciso um atendente real, por favor
+      - rreciso de um atexdente real, por favor
+      - Precisa de um atendente imperial,por gentileza
+      - um atendente real, por favor com Preciso
+      - Preciso de um atendente real, por favor
+      - um de Preciso atendente real , por favor
+      - Eu preciso de um atendente real, por favor
+      - Me transfira para um atendente Às vezes humano
+      - transfira para um atendente humano
+      - Ml transwira para um atendente humano
+      - Me transfira para um atendente humana
+      - um atendente humano com Me transfira
+      - Me transfira para um atendente humano
+      - para transfira Me um atendente humano
+      - Transfira -me para um atendente humano
+      - Bicicleta Pode transferir essa conversa para alguém do suporte?
+      - transferir essa conversa para alguém do suporte?
+      - Pode tyansferir essa conversa para alguém do supbrte?
+      - Pode trazer essa tramitação para ser humano do amparo?
+      - alguém do suporte? com Pode transferir essa conversa
+      - Pode transferir essa conversa para alguém do suporte?
+      - essa transferir Pode conversa para alguém do suporte ?
+      - Você pode transferir essa conversa para alguém do suporte?
+      - Quero ser atendido por uma Ajudar pessoa do suporte
+      - Quero ser atendido por uma pessoa do
+      - Quero ser atendido pos uma pessta do suporte
+      - Quero estar atendido por uma temperamento do base
+      - suporte com Quero ser atendido por uma pessoa
+      - Quero ser atendido por uma pessoa do suporte
+      - atendido ser Quero por uma pessoa do suporte
+      - Eu quero ser atendido por uma pessoa de apoio
+      - Me conecte com alguém Claramente do atendimento ao cliente
+      - Me conecte com alguém do atendimento cliente
+      - Me conecte clm alguém du atendimento ao cliente
+      - Me conecte com primeira letra do alfabeto do atendimento ao freguesa
+      - alguém do atendimento ao cliente com Me conecte
+      - com conecte Me alguém do atendimento ao cliente
+      - Conecte -se com alguém do atendimento ao cliente
+      - Você pode me passar para o atendimento ao cliente? Amigo
+      - Você me passar para o atendimento ao cliente?
+      - Você pode de cassar para o atendimento ao cliente?
+      - Você pode me dar para o atendimento ao freguês?
+      - o atendimento ao cliente? com Você pode me passar
+      - Você pode me passar para o atendimento ao cliente?
+      - me pode Você passar para o atendimento ao cliente ?
+      - Você pode me dar atendimento ao cliente?
+      - Preciso de ajuda Inteligente de uma pessoa do suporte
+      - Preciso ajuda de uma pessoa do suporte
+      - Preciso df ajuda de uma uessoa do suporte
+      - Pregadura de auxílio de uma alguém do base
+      - suporte com Preciso de ajuda de uma pessoa
+      - Preciso de ajuda de uma pessoa do suporte
+      - ajuda de Preciso de uma pessoa do suporte
+      - Preciso de ajuda de uma pessoa de apoio
+      - Como faço para falar com Papel um atendente real?
+      - Como faço para falar um atendente real?
+      - Como iaço para falar coh um atendente real?
+      - Como faço para contar com um atendente verdadeiro?
+      - falar com um atendente real? com Como faço
+      - Como faço para falar com um atendente real?
+      - para faço Como falar com um atendente real ?
+      - Quero falar com uma pessoa Rápido do suporte ao cliente
+      - Quero falar com uma pessoa do suporte cliente
+      - Quero falar com uma pessoa do zuporte ad cliente
+      - Quero conversar com uma indivíduo do amparo ao comprador
+      - uma pessoa do suporte ao cliente com Quero falar
+      - com falar Quero uma pessoa do suporte ao cliente
+      - Eu quero conversar com uma pessoa de suporte ao cliente
+      - Pode me Sol transferir para um atendente humano agora?
+      - Pode me transferir para um humano agora?
+      - node me transferir para um atendente humaxo agora?
+      - Pode me trazer para um atendente humanidade ora?
+      - um atendente humano agora? com Pode me transferir
+      - Pode me transferir para um atendente humano agora?
+      - transferir me Pode para um atendente humano agora ?
+      - Você pode me transferir para um atendente humano agora?
+      - Gostaria de falar Esperar com alguém do atendimento
+      - Gostaria de falar com do atendimento
+      - Gostaria de falar lom plguém do atendimento
+      - Gostaria de conversar com ser humano do atendimento
+      - falar com alguém do atendimento com Gostaria
+      - Gostaria de falar com alguém do atendimento
+      - falar de Gostaria com alguém do atendimento
+      - Eu gostaria de conversar com alguém no serviço
+      - Me conecte com um atendente real, por Andar favor
+      - Me conecte um atendente real, por favor
+      - Me conecte coa dm atendente real, por favor
+      - Me conecte com um atendente efectivo,por gentileza
+      - um atendente real, por favor com Me conecte
+      - com conecte Me um atendente real , por favor
+      - Conecte -me com um atendente real, por favor
+      - Bonito Preciso de um atendente humano, pode me ajudar?
+      - Preciso de um atendente pode me ajudar?
+      - Precisj de um atendente humano, pode me ojudar?
+      - Afinado de um atendente humanidade,pode me amotinar?
+      - um atendente humano, pode me ajudar? com Preciso
+      - Preciso de um atendente humano, pode me ajudar?
+      - um de Preciso atendente humano , pode me ajudar ?
+      - Eu preciso de um atendente humano, você pode me ajudar?
+      - Como posso ser transferido para um atendente humano? Fora
+      - Como posso ser transferido um atendente humano?
+      - Como posso ser transferido para um atendente iumano?
+      - Como posso forma de vida transferido para um atendente Homo Sapiens?
+      - um atendente humano? com Como posso ser transferido
+      - Como posso ser transferido para um atendente humano?
+      - ser posso Como transferido para um atendente humano ?
+      - Você pode me passar para o suporte Bonito humano?
+      - Você pode me passar para suporte humano?
+      - Você pode mj passar pare o suporte humano?
+      - Você pode me acercar para o encosto humanidade?
+      - o suporte humano? com Você pode me passar
+      - Você pode me passar para o suporte humano?
+      - me pode Você passar para o suporte humano ?
+      - Você pode me dar o apoio humano?
+      - Quero falar com um Dia atendente ao vivo
+      - Quero falar com um atendente vivo
+      - Qudro falar com un atendente ao vivo
+      - Quero tratar com um atendente ao vivente
+      - um atendente ao vivo com Quero falar
+      - com falar Quero um atendente ao vivo
+      - Eu quero falar com um atendente ao vivo
+      - Me conecte com Abaixo um ser humano do suporte
+      - Me conecte com um ser humano suporte
+      - Me conecte com um ser humano po supoete
+      - Me conecte com um criatura Homo sapiens do encosto
+      - um ser humano do suporte com Me conecte
+      - com conecte Me um ser humano do suporte
+      - Conecte -se a um ser humano de apoio
+      - Preciso Frio falar com alguém do atendimento humano
+      - Preciso falar com do atendimento humano
+      - Preciso falar cot alguém do atenrimento humano
+      - Afinado conversar com pessoa do atendimento Homo sapiens
+      - alguém do atendimento humano com Preciso falar
+      - com falar Preciso alguém do atendimento humano
+      - Eu preciso conversar com alguém do serviço humano
+      - Você pode me transferir para Neve um atendente de verdade?
+      - pode me transferir para um atendente de verdade?
+      - Você zode me transferir paca um atendente de verdade?
+      - Você pode me alienar para um atendente de realismo?
+      - verdade? com Você pode me transferir para um atendente
+      - Você pode me transferir para um atendente de verdade?
+      - me pode Você transferir para um atendente de verdade ?
+      - Como faço para Certamente ser transferido para um atendente humano?
+      - Como faço para ser para um atendente humano?
+      - Como fxço para ser transferido para um abendente humano?
+      - Como faço para entidade transferido para um atendente humanitário?
+      - Como faço para ser transferido para um atendente humano?
+      - para faço Como ser transferido para um atendente humano ?
+      - Quero ser atendido por uma Cidade pessoa do atendimento
+      - ser atendido por uma pessoa do atendimento
+      - Quero ser atendido por uma possoa do atendgmento
+      - Quero organismo atendido por uma Individuo do atendimento
+      - atendimento com Quero ser atendido por uma pessoa
+      - Quero ser atendido por uma pessoa do atendimento
+      - atendido ser Quero por uma pessoa do atendimento
+      - Eu quero ter atendido por uma pessoa de serviço
+      - Me transfira para Juntos o suporte ao cliente, por favor
+      - Me transfira para o suporte ao cliente, por
+      - fe transfira para o suporte ao cliente, pjr favor
+      - Me transfira para o base ao freguês,por gentileza
+      - o suporte ao cliente, por favor com Me transfira
+      - Me transfira para o suporte ao cliente, por favor
+      - para transfira Me o suporte ao cliente , por favor
+      - Transfira -me para o suporte ao cliente, por favor
+      - Você pode me passar para Velho um atendente ao vivo?
+      - Você pode me para um atendente ao vivo?
+      - Você pooe me passar para um atendente vo vivo?
+      - Você pode me espalhar para um atendente ao vivente?
+      - um atendente ao vivo? com Você pode me passar
+      - Você pode me passar para um atendente ao vivo?
+      - me pode Você passar para um atendente ao vivo ?
+      - Você pode me dar um atendente ao vivo?
+      - Preciso de Novo ajuda de um atendente ao vivo
+      - Preciso de ajuda de um atendente vivo
+      - Preciso de ajudl dn um atendente ao vivo
+      - Correcto de socorro de um atendente ao vivente
+      - Preciso de ajuda de um atendente ao vivo
+      - ajuda de Preciso de um atendente ao vivo
+      - Como posso falar com uma pessoa Falar do atendimento?
+      - Como posso falar uma pessoa do atendimento?
+      - Como povso falar com uma pessoa do ahendimento?
+      - Como posso discursar com uma homem do atendimento?
+      - uma pessoa do atendimento? com Como posso falar
+      - falar posso Como com uma pessoa do atendimento ?
+      - Como posso falar com uma pessoa de serviço?
+      - Me conecte com Sempre uma pessoa do atendimento
+      - Me conecte com uma pessoa do
+      - Me conecwe com uma pessoa xo atendimento
+      - Me conecte com uma alguém do atendimento
+      - uma pessoa do atendimento com Me conecte
+      - com conecte Me uma pessoa do atendimento
+      - Conecte -se a uma pessoa de serviço
+      - Você pode me passar para um Livro ser humano?
+      - Você me passar para um ser humano?
+      - Você pode me passar parf um srr humano?
+      - Você pode me traspassar para um criança humanidade?
+      - um ser humano? com Você pode me passar
+      - Você pode me passar para um ser humano?
+      - me pode Você passar para um ser humano ?
+      - Você pode me dar um ser humano?
+      - Preciso de um atendente humano, por Sapato favor
+      - de um atendente humano, por favor
+      - Preciso de um ahendente hfmano, por favor
+      - Pregadura de um atendente Homo Sapiens,por gentileza
+      - um atendente humano, por favor com Preciso
+      - Preciso de um atendente humano, por favor
+      - um de Preciso atendente humano , por favor
+      - Eu preciso de um atendente humano, por favor
+      - Pode Pequeno me transferir para o atendimento humano ao vivo?
+      - Pode me para o atendimento humano ao vivo?
+      - Podu me transferir para o atmndimento humano ao vivo?
+      - Pode me dar para o atendimento Homo sapiens ao vivente?
+      - o atendimento humano ao vivo? com Pode me transferir
+      - Pode me transferir para o atendimento humano ao vivo?
+      - transferir me Pode para o atendimento humano ao vivo ?
+      - Você pode me transferir para o serviço humano vivo?
+      - Quero falar com um atendente Sempre de verdade
+      - Quero falar com um de verdade
+      - Quero falar com fm atendente me verdade
+      - Quero verbalizar com um atendente de realismo
+      - verdade com Quero falar com um atendente
+      - com falar Quero um atendente de verdade
+      - Eu quero conversar com um atendente real
+      - Me transfira para o suporte Trem humano, por favor
+      - Me transfira para o suporte por favor
+      - pe transfira ppra o suporte humano, por favor
+      - Me transfira para o base humanitário,por gentileza
+      - o suporte humano, por favor com Me transfira
+      - Me transfira para o suporte humano, por favor
+      - para transfira Me o suporte humano , por favor
+      - Transfira -me para o apoio humano, por favor
+      - Como faço para ser atendido por uma pessoa? Pensar
+      - faço para ser atendido por uma pessoa?
+      - Como faço para see atendido pir uma pessoa?
+      - Como faço para ente atendido por uma temperamento?
+      - ser atendido por uma pessoa? com Como faço
+      - Como faço para ser atendido por uma pessoa?
+      - para faço Como ser atendido por uma pessoa ?
+      - Como faço para ser respondido por uma pessoa?
+      - Pode me conectar com Simpático um atendente humano?
+      - Pode me com um atendente humano?
+      - Pode me conectar cob um atendenje humano?
+      - Pode me amarrar com um atendente Homo Sapiens?
+      - um atendente humano? com Pode me conectar
+      - conectar me Pode com um atendente humano ?
+      - Preciso falar com Escuro alguém do suporte humano
+      - Preciso falar com do suporte humano
+      - Prlciso falar com algqém do suporte humano
+      - Pregadura proferir com indivíduo do amparo humanitário
+      - alguém do suporte humano com Preciso falar
+      - com falar Preciso alguém do suporte humano
+      - Eu preciso conversar com alguém do apoio humano
+      - Andar Me conecte com um atendente ao vivo
+      - Me conecte com um atendente vivo
+      - Me conecte oom um atendente do vivo
+      - Me conecte com um atendente ao vivente
+      - um atendente ao vivo com Me conecte
+      - com conecte Me um atendente ao vivo
+      - Conecte -se com um atendente ao vivo
+      - Construir Quero ser transferido para o suporte ao cliente
+      - Quero ser para o suporte ao cliente
+      - Quero ser transferido tara o suporte vo cliente
+      - Quero existir transferido para o base ao consumidor
+      - o suporte ao cliente com Quero ser transferido
+      - Quero ser transferido para o suporte ao cliente
+      - transferido ser Quero para o suporte ao cliente
+      - Eu quero ser transferido para o suporte ao cliente
+      - Pode me Escola transferir para um ser humano?
+      - Pode me transferir para ser humano?
+      - Pode ee transferir para qm ser humano?
+      - Pode me entregar para um forma de vida homem?
+      - um ser humano? com Pode me transferir
+      - Pode me transferir para um ser humano?
+      - transferir me Pode para um ser humano ?
+      - Você pode me transferir para um ser humano?
+      - Como posso falar Inteligente com um atendente real?
+      - Como posso falar um atendente real?
+      - Como possp falar com ur atendente real?
+      - Como posso contar com um atendente verdadeiro?
+      - um atendente real? com Como posso falar
+      - falar posso Como com um atendente real ?
+      - Preciso de Livro ajuda de uma pessoa do atendimento
+      - Preciso de de uma pessoa do atendimento
+      - Preciso ds auuda de uma pessoa do atendimento
+      - Bem acabado de assistência de uma temperamento do atendimento
+      - atendimento com Preciso de ajuda de uma pessoa
+      - Preciso de ajuda de uma pessoa do atendimento
+      - ajuda de Preciso de uma pessoa do atendimento
+      - Preciso de ajuda de uma pessoa de serviço
+      - Bobo Me transfira para o atendimento humano
+      - Me para o atendimento humano
+      - Me transfira para o atendilento jumano
+      - Me transfira para o atendimento homem
+      - o atendimento humano com Me transfira
+      - Me transfira para o atendimento humano
+      - para transfira Me o atendimento humano
+      - Transfira -me para o serviço humano
+      - Pode me passar para o suporte ao cliente? Ajudar
+      - Pode me passar para o suporte cliente?
+      - Pode me phssar dara o suporte ao cliente?
+      - Pode me traspassar para o pedestal ao freguesa?
+      - o suporte ao cliente? com Pode me passar
+      - Pode me passar para o suporte ao cliente?
+      - passar me Pode para o suporte ao cliente ?
+      - Você pode me dar suporte ao cliente?
+      - Quero falar Forte com um atendente humano ao vivo
+      - Queco falar com um atendente humano ao vino
+      - Quero dizer com um atendente humanitário ao vivente
+      - um atendente humano ao vivo com Quero falar
+      - com falar Quero um atendente humano ao vivo
+      - Eu quero conversar com um atendente humano ao vivo
+      - Me conecte com alguém do suporte humano Às vezes
+      - Me com alguém do suporte humano
+      - Me coqecte com alguém do suqorte humano
+      - Me conecte com ser humano do encosto humana
+      - alguém do suporte humano com Me conecte
+      - com conecte Me alguém do suporte humano
+      - Eu me conecto com alguém do apoio humano
+      - Você pode me passar para um atendente Triste ao vivo?
+      - Você me passar para um atendente ao vivo?
+      - Vokê pode mz passar para um atendente ao vivo?
+      - Preciso falar com uma Certamente pessoa do suporte humano
+      - Preciso falar com uma pessoa suporte humano
+      - Preniso falar com uma pessoa do supyrte humano
+      - Pregadura proferir com uma alguém do apoio Homo sapiens
+      - uma pessoa do suporte humano com Preciso falar
+      - com falar Preciso uma pessoa do suporte humano
+      - Eu preciso conversar com uma pessoa de apoio humano
+      - Rir Como faço para ser transferido para um atendimento humano?
+      - Como faço para ser transferido para um atendimento
+      - Como faço plra ser transferido para um atendimfnto humano?
+      - Como faço para ser vivo transferido para um atendimento ser humano?
+      - Como faço para ser transferido para um atendimento humano?
+      - para faço Como ser transferido para um atendimento humano ?
+      - Como faço para ser transferido para o serviço humano?
+      - Quero falar com Perto um atendente real
+      - Quero com um atendente real
+      - Querp valar com um atendente real
+      - Quero discursar com um atendente genuíno
+      - um atendente real com Quero falar
+      - com falar Quero um atendente real
+      - Me Dentro transfira para o atendimento ao cliente, por favor
+      - Me transfira para atendimento ao cliente, por favor
+      - ye transfira para o atendimento ao cliente, por favgr
+      - Me transfira para o atendimento ao patrono,por gentileza
+      - o atendimento ao cliente, por favor com Me transfira
+      - Me transfira para o atendimento ao cliente, por favor
+      - para transfira Me o atendimento ao cliente , por favor
+      - Transfira -me para o atendimento ao cliente, por favor
+      - Pode Praia me conectar com alguém do suporte ao cliente?
+      - Pode me conectar alguém do suporte ao cliente?
+      - Pode me conectar com alguém do suporte at cjiente?
+      - Pode me ligar com ser humano do apoio ao freguesa?
+      - alguém do suporte ao cliente? com Pode me conectar
+      - conectar me Pode com alguém do suporte ao cliente ?
+      - Você pode se conectar com alguém do suporte ao cliente?
+      - Preciso falar com um atendente agora
+      - Me conecte com um atendente, por favor
+      - Como posso falar com um atendente?
+      - Preciso falar com alguém do suporte ao cliente
+      - Há como falar com um atendente diretamente?
+      - Quero falar com uma pessoa, pode me transferir?
+      - Pode me colocar em contato com um atendente?
+      - Quero falar com um atendente, por favor
+      - Me conecte com alguém do atendimento, por favor
+      - Há como falar com uma pessoa do suporte?
+      - Como posso falar com uma pessoa do suporte?
+      - Preciso falar diretamente com alguém do suporte
+      - Você pode me conectar com um atendente?
+      - Me conecte com um ser humano, por favor
+      - Preciso falar com um atendente humano agora
+      - Quero falar com um atendente real, por favor
+      - Você pode me conectar com um atendente humano?
+      - Pode me colocar em contato com uma pessoa?
+      - Quero falar com um atendente ao vivo, pode transferir?
+      - Como posso falar com um atendente humano?
+      - Me conecte com alguém do atendimento ao cliente
+      - Quero falar com uma pessoa do suporte ao cliente
+      - Me conecte com um atendente real, por favor
+      - Quero falar com um atendente ao vivo
+      - Me conecte com um ser humano do suporte
+      - Preciso falar com alguém do atendimento humano
+      - Como posso falar com uma pessoa do atendimento?
+      - Me conecte com uma pessoa do atendimento
+      - Pode me conectar com um atendente humano?
+      - Me conecte com um atendente ao vivo
+      - Como posso falar com um atendente real?
+      - Quero falar com um atendente humano ao vivo
+      - Me conecte com alguém do suporte humano
+      - Preciso falar com uma pessoa do suporte humano
+      - Pode me conectar com alguém do suporte ao cliente?
+
+  - intent: stop
+    examples: |
+      - Não quero continuar
+      - Prefiro não prosseguir
+      - Vamos parar por aqui
+      - Não preciso mais
+      - Esqueça
+      - Deixa para lá
+      - Não quero mais agendar
+      - Não quero prosseguir com isso
+      - Desisto
+      - Não vou continuar
+      - Prefiro não avançar
+      - Não estou mais interessado
+      - Vou deixar para outra hora
+      - Não quero seguir adiante
+      - Melhor não
+      - Vou pensar melhor
+      - Não precisa continuar
+      - Não quero mais
+      - Podemos encerrar
+      - Não estou interessado agora
+      - Vou deixar assim
+      - Não preciso mais de ajuda
+      - Quero parar
+      - Não quero completar
+      - Não desejo prosseguir
+      - Vou parar por aqui
+      - Não é necessário continuar
+      - Não vou seguir com isso
+      - Decidi não continuar
+      - Não quero finalizar
+      - Vou deixar para depois
+      - Não quero mais prosseguir
+      - Podemos parar
+      - Não preciso mais
+      - Não vou mais agendar
+      - Desconsiderar
+      - Não quero seguir
+      - Não vou continuar com isso
+      - Melhor não agora
+      - Vou deixar como está
+      - Não quero alterar
+      - Acho que não vou continuar com o agendamento
+      - Prefiro não prosseguir com a remarcação da consulta
+      - Decidi não cancelar minha consulta
+      - Poderíamos encerrar por aqui, por favor
+      - Mudei de ideia e não quero mais agendar
+      - Não preciso mais remarcar a consulta, obrigado
+      - Vou deixar o agendamento para outra ocasião
+      - Não desejo continuar com este processo
+      - Acho melhor não prosseguir agora
+      - Decidi que não vou mais precisar cancelar
+      - Vou pensar mais um pouco antes de agendar
+      - Prefiro não avançar com o cancelamento
+      - Não estou mais interessado em remarcar
+      - Agradeço, mas não quero continuar
+      - Podemos parar por aqui, obrigado
+      - Não desejo seguir adiante com isso
+      - Vou deixar para marcar em outro momento
+      - Não preciso mais de assistência para agendar
+      - Decidi não prosseguir com a remarcação
+      - Prefiro não completar o processo agora
+      - Vou encerrar a conversa por aqui
+      - Não quero mais alterar minha consulta
+      - Acho melhor não remarcar neste momento
+      - Mudei de ideia sobre o cancelamento
+      - Não vou mais precisar agendar
+      - Prefiro não continuar com o atendimento
+      - Não desejo mais 
+      - Acho que não preciso mais remarcar
+      - Podemos encerrar a conversa, por favor
+      - Vou deixar para remarcar depois
+      - Decidi não prosseguir com o cancelamento
+      - Prefiro não avançar com o agendamento agora
+      - Não desejo continuar com este processo
+      - Vou encerrar por aqui, obrigado
+      - Não quero mais agendar uma consulta
+      - Acho melhor não cancelar neste momento
+      - Mudei de ideia sobre a remarcação
+      - Não estou mais interessado em agendar
+      - Podemos parar por aqui
+      - Prefiro não continuar com o cancelamento
+      - Vou deixar para marcar outra hora
+      - Não preciso mais de ajuda, obrigado
+      - Ah, deixa pra lá
+      - Sabe de uma coisa? Não vou continuar
+      - Quer saber? Melhor não
+      - Esquece isso
+      - Deixa quieto
+      - Não quero mais fazer isso
+      - Melhor parar por aqui
+      - Não tô a fim de continuar
+      - Vou deixar pra outra hora
+      - Parei por aqui
+      - Não precisa mais, valeu
+      - Não vou mais agendar
+      - Já era, não quero mais
+      - Desisto, deixa pra lá
+      - Melhor não continuar
+      - Cansei, não quero mais
+      - Deixa pra depois
+      - Não preciso mais disso
+      - Mudei de ideia, esquece
+      - Não vou mais cancelar
+      - Chega, vou parar
+      - Não quero seguir com isso
+      - Deixa como está
+      - Não vou continuar não
+      - Melhor deixar pra lá
+      - Não precisa continuar
+      - Não vou mais fazer
+      - Já deu, não quero mais
+      - Deixa pra próxima
+      - Não tô mais interessado
+      - Não quero mais cancelar
+      - Melhor parar agora
+      - Não preciso mais não
+      - Vou deixar quieto
+      - Mudei de ideia, não vou continuar
+      - Não vou seguir adiante
+      - Não quero mais mexer nisso
+      - Deixa assim mesmo
+      - Melhor não agora
+      - Não precisa mais, valeu
+      - Não vou mais precisar
+      - Deixa pra lá, não vou continuar
+      - Decidi não prosseguir com o processo
+      - Prefiro encerrar a conversa neste momento
+      - Gostaria de interromper este atendimento
+      - Não desejo prosseguir com a remarcação
+      - Agradeço, mas não vou continuar
+      - Informo que não quero mais seguir adiante
+      - Prefiro não avançar com este processo
+      - Decidi não dar continuidade
+      - Solicito o encerramento desta interação
+      - Optei por não prosseguir com o cancelamento
+      - Não desejo mais continuar com este fluxo
+      - Agradeço a assistência, mas não irei prosseguir
+      - Informo que não desejo mais continuar
+      - Prefiro encerrar o atendimento por agora
+      - Decidi interromper o processo
+      - Optei por não avançar neste momento
+      - Não desejo dar continuidade ao processo
+      - Agradeço, mas não irei prosseguir
+      - Informo que não pretendo continuar
+      - Prefiro não seguir adiante com isto
+      - Decidi não continuar com o agendamento
+      - Solicito o encerramento da conversa
+      - Optei por não prosseguir com a remarcação
+      - Não desejo avançar com este procedimento
+      - Agradeço a ajuda, mas não continuarei
+      - Informo que não vou mais prosseguir
+      - Prefiro encerrar esta interação
+      - Decidi não dar seguimento ao processo
+      - Solicito que encerremos por aqui
+      - Optei por não continuar com o cancelamento
+      - Não desejo mais prosseguir com este fluxo
+      - Optei por não continuar com este fluxo
+      - Não desejo dar seguimento ao atendimento
+      - Decidi encerrar por aqui
+      - cancelar 
+      - cancelar
+      - cancelar isso
+      - parar
+      - para
+      - cancela isso
+      - Desculpe, mas quero cancelar meu cadastro
+      - cancelar
+      - cancelar
+      - cancelar o agendamento
+      - cancelar o cadastro
+      - nao quero mais me cadastrar
+      - nao quero mais marcar a consulta
+      - nao quero
+      - cancelar
+      - cancelar isso
+      - parar com isso
+      - nao quero mais cadastrar
+      - cancelar cadastro
+      - parar
+      - nao quero mais continuar
+      - nao quero mais me cadastrar
+      - nao quero mais marcar a consulta
+      - parar o cadastro
+      - cancelar isso
+      - parar o formulario
+      - nao quero mais continuar
+      - Prefiro não continuar com o agendamento
+      - Vou parar de preencher o formulário
+      - Não quero mais prosseguir
+      - Cancelar processo de marcação, por favor
+      - Não vou mais completar o cadastro
+      - Não desejo continuar com a validação do CPF
+      - Por favor, cancele minha inscrição
+      - Decidi não seguir com o registro
+      - Não quero mais validar meu CPF
+      - Encerrar processo
+      - Cancelar meu cadastro, por favor
+      - Não vou continuar com a marcação da consulta
+      - Desisto de validar meu CPF agora
+      - Não desejo mais preencher o formulário
+      - Por favor, interrompa meu registro
+      - Cancelar agendamento de consulta
+      - Não desejo continuar com o agendamento
+      - Por favor, cancele minha validação de CPF
+      - Vou parar de preencher o cadastro
+      - Não quero mais validar meu CPF
+      - Cancelar meu registro, obrigado
+      - Vou desistir de preencher o formulário
+      - Não desejo continuar com o cadastro
+      - Por favor, cancele o processo de validação
+      - Vou parar com a marcação agora
+      - Decidi não seguir com o cadastro
+      - Não quero mais prosseguir com a consulta
+      - Cancelar a validação do meu CPF
+      - Vou desistir do preenchimento
+      - Não desejo continuar com o agendamento
+      - Decidi não completar o formulário
+      - Não quero mais seguir com a marcação
+      - Cancelar meu processo de registro
+      - Vou desistir da validação do CPF
+      - Não desejo continuar preenchendo
+      - Por favor, cancele o agendamento
+      - Vou parar com o cadastro agora
+      - Decidi não validar meu CPF
+      - Não quero mais prosseguir com a consulta
+      - Cancelar o preenchimento do formulário
+      - Vou desistir do agendamento
+      - Não desejo continuar com a validação
+      - Por favor, interrompa meu registro
+      - Vou parar de preencher o cadastro
+      - Decidi não seguir com a consulta
+      - Não quero mais validar meu CPF
+      - Cancelar o processo de preenchimento
+      - Vou desistir do agendamento da consulta
+      - Não desejo continuar com o cadastro
+      - Por favor, cancele a validação do CPF
+      - Vou parar com o preenchimento agora
+      - Decidi não prosseguir com o registro
+      - Não quero mais seguir com a marcação
+      - Cancelar meu processo de validação
+      - Vou desistir de preencher o formulário
+      - Não desejo continuar com a consulta
+      - Por favor, interrompa meu cadastro
+      - Vou parar de validar meu CPF
+      - Decidi não completar o agendamento
+      - Não quero mais prosseguir com o cadastro
+      - Cancelar o preenchimento agora
+      - Vou desistir da validação do CPF
+      - Não desejo continuar com a marcação
+      - Por favor, cancele meu registro
+      - Vou parar com o preenchimento do formulário
+      - Decidi não seguir com a validação
+      - Não quero mais prosseguir com a consulta
+      - Cancelar o cadastro, por favor
+      - Vou desistir do agendamento
+      - Não desejo continuar com a validação do CPF
+      - Por favor, interrompa o preenchimento
+      - Decidi não continuar com a marcação
+      - Cancelar o processo de agendamento
+      - Vou desistir do preenchimento do formulário
+      - Não desejo continuar com o registro
+      - Vou parar com a marcação da consulta
+      - Decidi não prosseguir com o cadastro
+      - Não quero mais preencher o formulário
+      - Cancelar a validação, por favor
+      - Vou desistir do agendamento agora
+      - Não desejo continuar com a consulta
+      - Decidi não seguir com o preenchimento
+      - Não quero mais prosseguir
+      - nao quero mais
+      - nao quero
+      - cancelar
+      - Não quero continuar
+      - Prefiro não prosseguir
+      - Vamos parar por aqui
+      - Não preciso mais
+      - Esqueça
+      - Deixa para lá
+      - Não quero mais agendar
+      - Não quero prosseguir com isso
+      - Desisto
+      - Não vou continuar
+      - Prefiro não avançar
+      - Não estou mais interessado
+      - Vou deixar para outra hora
+      - Não quero seguir adiante
+      - Melhor não
+      - Vou pensar melhor
+      - Não precisa continuar
+      - Não quero mais
+      - Podemos encerrar
+      - Não estou interessado agora
+      - Vou deixar assim
+      - Não preciso mais de ajuda
+      - Quero parar
+      - Não quero completar
+      - Não desejo prosseguir
+      - Vou parar por aqui
+      - Não é necessário continuar
+      - Não vou seguir com isso
+      - Decidi não continuar
+      - Não quero finalizar
+      - Vou deixar para depois
+      - Não quero mais prosseguir
+      - Podemos parar
+      - Não preciso mais
+      - Não vou mais agendar
+      - Desconsiderar
+      - Não quero seguir
+      - Não vou continuar com isso
+      - Melhor não agora
+      - Vou deixar como está
+      - Não quero alterar
+      - Acho que não vou continuar com o agendamento
+      - Prefiro não prosseguir com a remarcação da consulta
+      - Decidi não cancelar minha consulta
+      - Poderíamos encerrar por aqui, por favor
+      - Mudei de ideia e não quero mais agendar
+      - Não preciso mais remarcar a consulta, obrigado
+      - Vou deixar o agendamento para outra ocasião
+      - Não desejo continuar com este processo
+      - Acho melhor não prosseguir agora
+      - Decidi que não vou mais precisar cancelar
+      - Vou pensar mais um pouco antes de agendar
+      - Prefiro não avançar com o cancelamento
+      - Não estou mais interessado em remarcar
+      - Agradeço, mas não quero continuar
+      - Podemos parar por aqui, obrigado
+      - Não desejo seguir adiante com isso
+      - Vou deixar para marcar em outro momento
+      - Não preciso mais de assistência para agendar
+      - Decidi não prosseguir com a remarcação
+      - Prefiro não completar o processo agora
+      - Vou encerrar a conversa por aqui
+      - Não quero mais alterar minha consulta
+      - Acho melhor não remarcar neste momento
+      - Mudei de ideia sobre o cancelamento
+      - Não vou mais precisar agendar
+      - Prefiro não continuar com o atendimento
+      - Não desejo mais
+      - Acho que não preciso mais remarcar
+      - Podemos encerrar a conversa, por favor
+      - Vou deixar para remarcar depois
+      - Decidi não prosseguir com o cancelamento
+      - Prefiro não avançar com o agendamento agora
+      - Não desejo continuar com este processo
+      - Vou encerrar por aqui, obrigado
+      - Não quero mais agendar uma consulta
+      - Acho melhor não cancelar neste momento
+      - Mudei de ideia sobre a remarcação
+      - Não estou mais interessado em agendar
+      - Podemos parar por aqui
+      - Prefiro não continuar com o cancelamento
+      - Vou deixar para marcar outra hora
+      - Não preciso mais de ajuda, obrigado
+      - Ah, deixa pra lá
+      - Sabe de uma coisa? Não vou continuar
+      - Quer saber? Melhor não
+      - Esquece isso
+      - Deixa quieto
+      - Não quero mais fazer isso
+      - Melhor parar por aqui
+      - Não tô a fim de continuar
+      - Vou deixar pra outra hora
+      - Parei por aqui
+      - Não precisa mais, valeu
+      - Não vou mais agendar
+      - Já era, não quero mais
+      - Desisto, deixa pra lá
+      - Melhor não continuar
+      - Cansei, não quero mais
+      - Deixa pra depois
+      - Não preciso mais disso
+      - Mudei de ideia, esquece
+      - Não vou mais cancelar
+      - Chega, vou parar
+      - Não quero seguir com isso
+      - Deixa como está
+      - Não vou continuar não
+      - Melhor deixar pra lá
+      - Não precisa continuar
+      - Não vou mais fazer
+      - Já deu, não quero mais
+      - Deixa pra próxima
+      - Não tô mais interessado
+      - Não quero mais cancelar
+      - Melhor parar agora
+      - Não preciso mais não
+      - Vou deixar quieto
+      - Mudei de ideia, não vou continuar
+      - Não vou seguir adiante
+      - Não quero mais mexer nisso
+      - Deixa assim mesmo
+      - Melhor não agora
+      - Não precisa mais, valeu
+      - Não vou mais precisar
+      - Deixa pra lá, não vou continuar
+      - Decidi não prosseguir com o processo
+      - Prefiro encerrar a conversa neste momento
+      - Gostaria de interromper este atendimento
+      - Não desejo prosseguir com a remarcação
+      - Agradeço, mas não vou continuar
+      - Informo que não quero mais seguir adiante
+      - Prefiro não avançar com este processo
+      - Decidi não dar continuidade
+      - Solicito o encerramento desta interação
+      - Optei por não prosseguir com o cancelamento
+      - Não desejo mais continuar com este fluxo
+      - Agradeço a assistência, mas não irei prosseguir
+      - Informo que não desejo mais continuar
+      - Prefiro encerrar o atendimento por agora
+      - Decidi interromper o processo
+      - Optei por não avançar neste momento
+      - Não desejo dar continuidade ao processo
+      - Agradeço, mas não irei prosseguir
+      - Informo que não pretendo continuar
+      - Prefiro não seguir adiante com isto
+      - Decidi não continuar com o agendamento
+      - Solicito o encerramento da conversa
+      - Optei por não prosseguir com a remarcação
+      - Não desejo avançar com este procedimento
+      - Agradeço a ajuda, mas não continuarei
+      - Informo que não vou mais prosseguir
+      - Prefiro encerrar esta interação
+      - Decidi não dar seguimento ao processo
+      - Solicito que encerremos por aqui
+      - Optei por não continuar com o cancelamento
+      - Não desejo mais prosseguir com este fluxo
+      - Optei por não continuar com este fluxo
+      - Não desejo dar seguimento ao atendimento
+      - Decidi encerrar por aqui
+      - cancelar
+      - cancelar
+      - cancelar
+      - cancelar
+      - cancelar
+      - cancelar
+      - cancelar
+      - cancelar
+      - cancelar
+      - Não quero mais mexer nisso agora
+      - Não vejo necessidade de continuar
+      - Vamos encerrar por aqui, por favor
+      - Cansei, deixa pra lá
+      - Não vou dar continuidade
+      - Melhor encerrar por enquanto
+      - Não pretendo seguir com isso
+      - Não tenho mais interesse em prosseguir
+      - Parei, não vou continuar
+      - Pode parar com isso
+      - Não quero mais fazer isso agora
+      - Não vou seguir adiante com isso
+      - Desculpe, mas não vou continuar
+      - Melhor interromper este fluxo
+      - Vamos encerrar, não é mais necessário
+      - Acho que não vou precisar seguir
+      - Deixa assim por enquanto
+      - Não tenho mais o que decidir agora
+      - Por favor, interrompa este processo
+      - Podemos parar, não quero mais
+      - Melhor não seguir com isso agora
+      - Deixa para outro momento
+      - Não vou finalizar isso agora
+      - Não desejo mais avançar com isso
+      - Vou pensar mais antes de continuar
+      - Não quero completar o processo
+      - Prefiro pausar por aqui
+      - Não pretendo finalizar agora
+      - Vou parar este processo por aqui
+      - Quero encerrar esta interação
+      - Melhor não continuar por enquanto
+      - Decidi não prosseguir com esta etapa
+      - Não vou seguir em frente com isso
+      - Não estou mais disposto a continuar
+      - Não preciso mais avançar com isso
+      - Pode encerrar, obrigado
+      - Deixa para outra oportunidade
+      - Vamos finalizar por aqui
+      - Não vou completar isso agora
+      - Melhor parar por aqui
+      - Prefiro não prosseguir neste momento
+      - Quero suspender este atendimento
+      - Não é mais necessário continuar
+      - Acho melhor encerrar agora
+      - Não preciso mais de informações
+      - Melhor finalizar por enquanto
+      - Não quero concluir isso agora
+      - Vou deixar para outra ocasião
+      - Não vou seguir com essa decisão
+      - Acho que não quero continuar com isso
+      - Vamos interromper este fluxo
+      - Quero encerrar a conversa agora
+      - Não pretendo avançar com isso agora
+      - Melhor parar essa conversa
+      - Não vou prosseguir com este processo
+      - Não preciso de mais assistência
+      - Não vou finalizar esta ação
+      - Deixa como está por agora
+      - Não é necessário continuar com isso
+      - Podemos encerrar o atendimento
+      - Quero parar a conversa aqui
+      - Vamos suspender isso por enquanto
+      - Melhor não avançar por ora
+      - Não tenho mais interesse em seguir
+      - Vou interromper este processo
+      - Não vou completar isso neste momento
+      - Deixa para resolver depois
+      - Acho que vou parar com isso agora
+      - Não quero mais lidar com isso
+      - Prefiro não tomar nenhuma decisão agora
+      - Quero cancelar este atendimento
+      - Não vejo necessidade de avançar
+      - Vamos parar esta conversa
+      - Decidi não tomar nenhuma ação
+      - Não quero continuar com este atendimento
+      - Não vou mais seguir por este caminho
+      - Podemos encerrar esta etapa
+      - Vou deixar como está
+      - Não preciso finalizar isso agora
+      - Melhor suspender este fluxo por enquanto
+      - Não desejo mais atenção para isso
+      - Acho melhor não tratar disso agora
+      - Não vejo razão para continuar
+      - Quero cancelar o restante deste processo
+      - Não vou finalizar agora
+      - Não é mais necessário, obrigado
+      - Deixa como está, não vou continuar
+      - Não quero mais seguir com este atendimento
+      - Não vou decidir nada agora
+      - Podemos encerrar, não quero continuar
+      - Não vou mais precisar disso
+      - Quero pausar por aqui
+      - Melhor parar tudo agora
+      - Decidi que não é mais necessário
+      - Quero suspender este processo por agora
+      - Não vejo mais sentido em continuar
+      - Não vou concluir este fluxo
+      - Podemos finalizar, não preciso mais
+      - Não tenho interesse em seguir com isso
+      - Não vou mais realizar essa etapa
+      - Decidi interromper isso por enquanto
+      - Melhor pausar este atendimento
+      - Vamos deixar para depois
+      - Não vou avançar com esta etapa
+      - Não quero tomar uma decisão agora
+      - Quero encerrar esta conversa
+      - Vamos parar esta interação
+      - Não preciso resolver isso agora
+      - Vou finalizar por aqui
+      - Prefiro não fazer isso agora
+      - Não vou mais tomar essa decisão
+      - Não quero mais assistência agora
+      - Podemos concluir esta etapa
+      - Melhor encerrar agora
+      - Acho que não vou continuar com este tema
+      - Quero encerrar este processo aqui
+      - Vou interromper este atendimento por enquanto
+      - Não desejo mais avançar
+      - Não vou mais precisar de ajuda
+      - Vamos finalizar este fluxo agora
+      - Não é necessário continuar com este atendimento
+      - Quero cancelar esta ação
+      - Não vou completar o que comecei
+      - Podemos pausar por enquanto
+      - Vou parar com esta conversa
+      - Acho melhor encerrar por aqui
+      - Não vou prosseguir com esta conversa
+      - Quero encerrar o que estamos fazendo
+      - Melhor suspender isso agora
+      - Não vejo necessidade de prosseguir agora
+      - Quero interromper este processo por aqui
+      - Não vou concluir este atendimento
+      - Podemos finalizar isso agora
+      - Melhor não tratar disso agora
+      - Vou deixar para outra oportunidade
+      - Não vou mais resolver isso agora
+      - Não desejo finalizar isso neste momento
+      - Prefiro deixar isso de lado
+      - Não quero mais avançar com este tema
+      - Não vou continuar com esta conversa
+      - Vamos suspender isso por enquanto
+      - Não vejo necessidade de tratar disso
+      - Não desejo prosseguir com o que começamos
+      - Quero encerrar tudo por agora
+      - Melhor parar de avançar com isso
+      - Vou interromper esta etapa
+      - Prefiro parar este fluxo agora
+      - Não vou mais lidar com isso
+      - Acho melhor encerrar neste momento
+      - Quero suspender esta interação
+      - Não desejo mais resolver isso
+      - Melhor pausar isso para depois
+      - Vamos finalizar por agora
+      - Não quero mais tratar deste assunto
+      - Decidi não continuar por agora
+      - Vou suspender este atendimento
+      - Prefiro parar isso neste momento
+      - Não vou mais tratar deste tema
+      - Podemos parar isso aqui
+      - Não vejo necessidade de completar isso agora
+      - Melhor deixar isso para depois
+      - Quero pausar este atendimento
+      - Não desejo finalizar este processo agora
+      - Acho que não vou tomar nenhuma decisão
+      - Quero suspender o que estamos fazendo
+
+

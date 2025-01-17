@@ -1,0 +1,1789 @@
+version: "3.1"
+
+nlu:
+
+
+  - intent: concordancia
+    examples: |
+      - Tenho sim
+      - Sou sim
+      - Preciso de ajuda sim
+      - Quero reservar sim
+      - Já estou cadastrado sim
+      - Estou sim
+      - Quero sim
+      - Claro
+      - Com certeza
+      - Desejo prosseguir
+      - Estou pronto
+      - Pode ajudar
+      - Quero marcar sim 
+      - Estou
+      - Quero
+      - Quero continuar
+      - Quero prosseguir
+      - Gostaria
+      - Por favor, me ajude
+      - Preciso
+      - Estou cadastrado
+      - Quero cancelar
+      - Pode marcar
+      - Preciso de assistência
+      - Desejo reservar
+      - Já me cadastrei
+      - Gostaria de agendar
+      - Quero ajuda
+      - Por favor, prossiga
+      - Necessito de ajuda
+      - Quero fazer uma reserva
+      - Estou inscrito
+      - Estou cadastrado
+      - Por favor
+      - sim Quero agendar uma consulta
+      - sim Quero remarcar a consulta
+      - sim Quero cancelar o agendamento 
+      - Pode me ajudar
+      - Estou pronto para prosseguir
+      - Tenho sim
+      - Sou sim
+      - Quero agendar sim
+      - Claro, bora marcar
+      - Com certeza, vamos lá
+      - Preciso remarcar sim
+      - Quero cancelar sim
+      - Pode ajudar sim
+      - Tô dentro
+      - Já sou cadastrado
+      - Isso, quero agendar
+      - Vamos remarcar sim
+      - Me dá uma força
+      - Quero reservar
+      - Já me cadastrei
+      - Claro que sim
+      - Manda ver
+      - Quero prosseguir
+      - Preciso de ajuda
+      - Vamos continuar
+      - Tô pronto
+      - Pode ser
+      - Vamos lá
+      - Quero marcar
+      - Preciso remarcar
+      - Quero cancelar
+      - Ajuda aí
+      - Isso mesmo
+      - Bora continuar
+      - Quero fazer isso
+      - Vamos em frente
+      - Quero
+      - Pode marcar sim 
+      - Quero reservar sim
+      - Tô cadastrado
+      - Pode me ajudar
+      - Claro, preciso remarcar
+      - Quero cancelar sim
+      - Vamos agendar
+      - Me ajuda aí
+      - Com certeza
+      - Quero remarcar
+      - Isso, quero cancelar
+      - Estou cadastrado
+      - Vamos prosseguir
+      - Pode ajudar
+      - Quero reservar
+      - Preciso de ajuda
+      - Tô pronto pra continuar
+      - Vamos agendar sim 
+      - tenho cadastro sim
+      - tenho
+      - tenho
+      - tenho
+      - quero sim
+      - quero
+      - tenho sim
+      - pode ser 
+      - pode
+      - ser pode
+      - poderia ser
+      - pide sxm
+      - pode sim
+      - Talvez sim
+      - quero sim 
+      - sim
+      - quero sim
+      - Sim eu quero
+      - exatomente
+      - exatamente
+      - isso Esperar mesmo
+      - isso
+      - asso mesqo
+      - isso mesmo
+      - claro
+      - Claro
+      - claro que sim
+      - cvm centeza
+      - certeza com
+      - desejo sim Lento
+      - desejo
+      - sim desejo
+      - Eu desejo
+      - Sim
+      - sou Lá sim
+      - sou
+      - soy wim
+      - sou sim
+      - sim eu sou
+      - Eu sou
+      - Com certeza
+      - certeza
+      - Cgm ceqteza
+      - Com segurança
+      - certeza Com
+      - Claro que sim
+      - Claro sim
+      - Clajo qud sim
+      - Naturalmente que sim
+      - Absoyutamente
+      - Absolutamente
+      - Sim flor  por favor
+      - por favor
+      - Sim por gentileza
+      - favor com Sim 
+      - Sim  por favor
+      - por   Sim favor
+      - Concocdo
+      - Concordo
+      - Ótimh
+      - Ótimo
+      - Excelente
+      - Óptimg
+      - Óptimo
+      - Pode ser 
+      - ser Pode
+      - Poderia ser
+      - Sim pode
+      - Sim podr
+      - Sim pode
+      - pode Sim 
+      - Sim você pode
+      - Pode sim
+      - Sim 
+      - claro Sim 
+      - Sim claro
+      - Melhor ainda Carro
+      - Mulhor minda
+      - Melhor ainda
+      - Ainda melhor
+      - Concordo Dia
+      - Cqncordo
+      - Claro que
+      - Claro qce sim
+      - ja sim
+      - agora sim
+      - Sim gostaria de Computador agendar
+      - Sim de agendar
+      - Sim gostarij de ageedar
+      - Sim gostaria de programar
+      - agendar com Sim  gostaria
+      - Sim  gostaria de agendar
+      - gostaria   Sim de agendar 
+      - Sim  eu gostaria de agendar
+      - Com certeza  quero agendar
+      - Com certeza  quero
+      - Com cegteza  qugro agendar
+      - Com certeza  quero agendar
+      - certeza Com quero agendar 
+      - Sim  eu desejo agendar Navio
+      - eu desejo agendar
+      - Sic  eu degejo agendar
+      - Sim  eu desejo agendar
+      - eu   Sim desejo agendar 
+      - Sim  eu quero agendar
+      - Claro  pode agendar pra mim Fraco
+      - Claro  pode pra mim
+      - Claro  pode agendar pma sim
+      - Claro pode programar pra mim
+      - Claro  pode agendar pra mim
+      - pode   Claro agendar pra mim 
+      - Claro  você pode agendar para mim
+      - Acordar Sim  quero marcar sim
+      - Sim  quero sim
+      - Sim  suero msrcar sim
+      - Sim quero indicar sim
+      - Sim  quero marcar sim
+      - quero   Sim marcar sim 
+      - Sim  eu quero marcar sim
+      - Sim  desejo agendar Quente
+      - Sim  agendar
+      - Sim  dvsejo agendarz
+      - Sim  desejo agendar
+      - desejo   Sim agendar 
+      - Sim  quero agendar a consulta
+      - quero agendar a consulta
+      - Simx quero agendar a conwulta
+      - Sim quero planificar a consulta
+      - Sim  quero agendar a consulta
+      - quero   Sim agendar a consulta 
+      - Sim  eu quero agendar a consulta
+      - Brincar Claro  pode agendar
+      - pode agendar
+      - Claro  rode ayendar
+      - Claro  pode agendar
+      - pode   Claro agendar 
+      - Claro  você pode agendar
+      - Sim  quero sim Cozinhar
+      - Sim  sim
+      - cim  quvro sim
+      - Sim quero sim
+      - quero   Sim sim 
+      - Sim  eu quero
+      - Sim  desejo marcar a consulta
+      - Sim  desejo a consulta
+      - Sim  degejo marcar a coqsulta
+      - Sim deseo indicar a consulta
+      - Sim  desejo marcar a consulta
+      - desejo sim marcar a consulta 
+      - Sim  eu quero marcar a consulta
+      - Com Sem querer certeza  pode agendar
+      - certeza  pode agendar
+      - Com certeya  pode agengar
+      - Com certeza  pode agendar
+      - certeza Com pode agendar 
+      - Certamente você pode agendar
+      - Acordar Sim  já quero agendar
+      - Sim quero agendar
+      - Slm já qwero agendar
+      - Sim já quero agendar
+      - já Sim quero agendar 
+      - Sim  eu já quero agendar
+      - Sim desejo marcar 
+      - Sim marcar
+      - him desejo uarcar
+      - Sim deseo indicar
+      - Sim desejo marcar
+      - desejo Sim marcar 
+      - Sim eu quero marcar
+      - Sim por favor  agende 
+      - Sim por agende
+      - Simw por favor  agendq
+      - Sim por gentileza agende
+      - favor  agende com Sim 
+      - Sim  por favor agende
+      - por Sim favor agende 
+      - Sim  agende
+      - Pode marcar sim 
+      - Pode sim
+      - Pode magcar sim
+      - Pode marcar  sim
+      - marcar Pode sim 
+      - Você pode marcar  sim
+      - Sim  quero remarcar a consulta
+      - Sim  quexo remarcnr a consulta
+      - Sim  quero remarcar a consulta
+      - quero sim remarcar a consulta 
+      - Sim  eu quero reagendar a consulta
+      - Sim  pode remarcar a data da consulta
+      - Sim  pode remarcar a data consulta
+      - Sim  poje remarcar a data dm consulta
+      - consulta com sim pode remarcar a data
+      - Sim  pode remarcar a data da consulta
+      - pode sim remarcar a data da consulta 
+      - Sim  você pode reagendar a data do agendamento
+      - certeza  quero remarcar
+      - Coy certeza  quero remarcarx
+      - Com certeza  quero remarcar
+      - certeza Com quero remarcar 
+      - Com certeza  quero reagendar
+      - Sim  preciso remarcar a De repente consulta
+      - preciso remarcar a consulta
+      - Sim  preciso remarcir a cobsulta
+      - Sim  preciso remarcar a consulta
+      - preciso sim remarcar a consulta 
+      - Sim  eu preciso reagendar o compromisso
+      - Claro Sim  pode remarcar  por favor
+      - Sim  remarcar  por favor
+      - Sim  pove remarcar  pov favor
+      - favor com Sim  pode remarcar 
+      - Sim  pode remarcar  por favor
+      - pode   Sim remarcar   por favor 
+      - Sim  você pode reagendar  por favor
+      - Lá Sim  quero sim remarcar
+      - Sim  quero remarcar
+      - Sim  quero sim remarcar
+      - quero   Sim sim remarcar 
+      - Sim eu quero reagendar
+      - Claro pode Rio remarcar a consulta
+      - Claro pode remarcar consulta
+      - Clako pode remarcau a consulta
+      - Claro  pode remarcar a consulta
+      - pode claro remarcar a consulta 
+      - Sim desejo remarcar a consulta
+      - Sid desejo remarcar a consulta
+      - Sim desejo remarcar a consulta
+      - desejo sim remarcar a consulta 
+      - Sim  por favor remarque para Calmo mim
+      - Sim  por remarque para mim
+      - Sim  pdr favor remarque para mim
+      - Sim por gentileza remarque para mim
+      - Sim  por favor remarque para mim
+      - por sim favor remarque para mim 
+      - Sim  por favor reagendá -lo
+      - Sim  Antipático quero cancelar a consulta agendada
+      - Sim  quero a consulta agendada
+      - Shm  quero cancelar a consulta agendada
+      - Sim quero cassar a consulta agendada
+      - Sim  quero cancelar a consulta agendada
+      - quero sim cancelar a consulta agendada 
+      - Sim  quero cancelar a consulta programada
+      - Pode cancelar minha consulta sim Avião
+      - Pode cancelar minha consulta
+      - Pode qancelar minha consulta nim
+      - Pode cancelar minha consulta sim
+      - minha cancelar Pode consulta sim 
+      - Você pode cancelar minha consulta sim
+      - Sim eu cancelar
+      - Sim ea aesejo cancelar
+      - Sim eu desejo cancelar
+      - eu Sim desejo cancelar 
+      - Sim eu quero cancelar
+      - Sim cancele minha consulta  por Baixo favor
+      - Sim cancele consulta  por favor
+      - Sim clncele mvnha consulta  por favor
+      - Sim cancele minha consulta por gentileza
+      - favor com Sim cancele minha consulta 
+      - Sim  cancele minha consulta por favor
+      - cancele Sim minha consulta  por favor 
+      - Sim  desejo cancelar Chave a consulta
+      - Sim aesejo cancelar a consulta
+      - Sim  desejo cancelar a consulta
+      - desejo sim cancelar a consulta 
+      - Sim  quero cancelar a consulta
+      - Grande Sim  pode cancelar a consulta
+      - Sim  pode cancelar 
+      - Sim pode cancelar a ponsulta
+      - Sim pode invalidar a consulta
+      - Sim  pode cancelar a consulta
+      - pode sim cancelar a consulta 
+      - Sim  você pode cancelar a consulta
+      - Sim  Nadar quero cancelar a consulta agendada
+      - Sim  quero cancelar consulta agendada
+      - Sim  qoero cancelar a consulta ogendada
+      - Sim quero rescindir a consulta agendada
+      - Sim  já tenho cadastro com vocês Juntos
+      - Sim  já tenho com vocês
+      - Sim  má tcnho cadastro com vocês
+      - Sim já tenho cadastro com vocês
+      - vocês com Sim  já tenho cadastro
+      - já   Sim tenho cadastro com vocês 
+      - Sim  eu já tenho registro com você
+      - Sim  estou cadastrado com Separadamente vocês
+      - estou cadastrado com vocês
+      - Sim  estou cadastrxdo cof vocês
+      - Sim estou cadastrado com vocês
+      - vocês com Sim  estou cadastrado
+      - estou sim cadastrado com vocês 
+      - Sim  estou registrado com você
+      - Sim  tenho Forte cadastro
+      - Sim  cadastro
+      - Siu  trnho cadastro
+      - Sim tenho cadastro rural
+      - Sim  tenho cadastro
+      - tenho sim cadastro 
+      - Sim Trabalhar já tenho cadastro sim
+      - já tenho cadastro sim
+      - Sim  já fenho cadastro sim
+      - Sim já tenho cadastro rural sim
+      - Sim  já tenho cadastro sim
+      - já   Sim tenho cadastro sim 
+      - Sim  eu já tenho registro sim
+      - Sim  eu já sou  cadastrado
+      - Sim  já sou cadastrado
+      - Sim  ep já sou gadastrado
+      - Sim eu já sou cadastrado
+      - Sim  eu já sou cadastrado
+      - eu   Sim já sou cadastrado 
+      - Sim  já estou registrado
+      - Sim  sou na plataforma
+      - Sim sou cadastrado na píer
+      - Sim  já possuo cadastro Frequentemente com vocês
+      - Sim  possuo cadastro com vocês
+      - Sim  já possyo cadastro cob vocês
+      - Sim já possuo cadastro rural com vocês
+      - vocês com Sim  já possuo cadastro
+      - já   Sim possuo cadastro com vocês 
+      - Sim  já Consertar estou cadastrado
+      - já estou cadastrado
+      - Sim  gá estou cadastrjdo
+      - Sim já estou cadastrado
+      - Sim  já estou cadastrado
+      - já   Sim estou cadastrado 
+      - Sim  Jogar já estou registrado com vocês
+      - Sim  já estou registrado com
+      - Sim  má esjou registrado com vocês
+      - Sim já estou registrado com vocês
+      - vocês com Sim  já estou registrado
+      - já   Sim estou registrado com vocês 
+      - Sim  já estou registrado com você
+      - Sim  podem checar  já tenho cadastro Sapato
+      - Sim  podem checar  tenho cadastro
+      - Sim  podxm cxecar  já tenho cadastro
+      - Sim podem conferir já tenho cadastro 
+      - Sim  podem checar  já tenho cadastro
+      - podem   Sim checar   já tenho cadastro 
+      - Sim  eles podem verificar  eu já tenho registro
+      - Sim  Lá estou sim cadastrado
+      - estou sim cadastrado
+      - sim  estou scm cadastrado
+      - Sim estou sim cadastrado
+      - Sim  estou sim cadastrado
+      - estou sim  cadastrado 
+      - Sim  estou registrado
+      - Sim  quero marcar uma Mesa consulta
+      - Sim  marcar uma consulta
+      - Sime quero farcar uma consulta
+      - Sim quero delimitar uma consulta
+      - Sim  quero marcar uma consulta
+      - quero sim marcar uma consulta 
+      - Sim  eu quero marcar uma consulta
+      - Sim  Assistir desejo marcar uma consulta
+      - sim desejo sim marcar uma consulta
+      - Sim  desejo marcar uma consulta
+      - desejo sim marcar uma consulta 
+      - Sim  pode marcar a consulta Ler
+      - pode marcar a consulta
+      - eim  pode marcab a consulta
+      - Sim pode indicar a consulta
+      - Sim  pode marcar a consulta
+      - pode sim marcar a consulta 
+      - Sim  você pode marcar a consulta
+      - Sim  desejo marcar Devagar agora
+      - Sim  desejo marcar
+      - Simu deuejo marcar agora
+      - Sim caprichoso indicar actualmente
+      - Sim  desejo marcar agora
+      - desejo Sim marcar agora 
+      - Sim  eu quero marcar agora
+      - Sim  quero marcar a consulta com Claro vocês
+      - Sim  quero marcar a consulta vocês
+      - Sim  quero matcar a consulta com vqcês
+      - vocês com sim quero marcar a consulta
+      - quero sim marcar a consulta com vocês 
+      - Sim  eu quero marcar a consulta com você
+      - Sim  por favor Separadamente marque a consulta
+      - Sim  por favor marque consulta
+      - Sim  psr favor maaque a consulta
+      - Sim por gentileza marque a consulta
+      - favor  marque a consulta com Sim 
+      - Sim  por favor  marque a consulta
+      - por   Sim favor   marque a consulta 
+      - Sim  por favor marque a consulta
+      - Sim  desejo marcar a consulta Relógio com vocês
+      - Sim  desejo marcar consulta com vocês
+      - Sim  desejo marchr a consultt com vocês
+      - Sim anseio delimitar a consulta com vocês
+      - vocês com Sim  desejo marcar a consulta
+      - desejo   Sim marcar a consulta com vocês 
+      - Sim  pode Bonito marcar uma consulta pra mim
+      - Sim  marcar uma consulta pra mim
+      - Sam  pode marcar uma consulta nra mim
+      - Sim pode indicar uma consulta pra mim
+      - Sim  pode marcar uma consulta pra mim
+      - pode   Sim marcar uma consulta pra mim 
+      - Sim  você pode marcar uma consulta para mim
+      - pode ser
+      - pode sim
+      - quero sim
+      - exatamente
+      - isso mesmo
+      - claro
+      - claro que sim
+      - com certeza
+      - quero sim
+      - desejo sim
+      - s
+      - ss
+      - sim
+      - isso
+      - sou sim
+      - sou
+      - Com certeza
+      - Claro que sim
+      - Absolutamente
+      - Sim  por favor
+      - Concordo
+      - Claro
+      - sss
+      - Ótimo
+      - Óptimo
+      - Pode ser
+      - Sim  pode
+      - Pode sim
+      - Sim  claro
+      - Melhor ainda
+      - Concordo
+      - Claro
+      - Claro que sim
+      - Com certeza
+      - Claro
+      - Sim
+      - ja sim
+      - Sim  gostaria de agendar
+      - Com certeza  quero agendar
+      - Sim  eu desejo agendar
+      - Claro  pode agendar pra mim
+      - Sim  quero marcar sim
+      - Sim  desejo agendar
+      - Sim  quero agendar a consulta
+      - Claro  pode agendar
+      - Sim  quero sim
+      - Sim  desejo marcar a consulta
+      - Com certeza  pode agendar
+      - Sim  já quero agendar
+      - Sim  desejo marcar
+      - Sim  por favor  agende
+      - Pode marcar  sim
+      - Sim  quero remarcar a consulta
+      - Sim  pode remarcar a data da consulta
+      - Com certeza  quero remarcar
+      - Sim  preciso remarcar a consulta
+      - Sim  pode remarcar  por favor
+      - Sim  quero sim remarcar
+      - Claro  pode remarcar a consulta
+      - Sim  desejo remarcar a consulta
+      - Sim  por favor  remarque para mim
+      - Sim  quero cancelar a consulta agendada
+      - Pode cancelar minha consulta sim
+      - Sim  eu desejo cancelar
+      - Sim  cancele minha consulta  por favor
+      - Sim  desejo cancelar a consulta
+      - Sim  pode cancelar a consulta
+      - Sim  quero cancelar a consulta agendada
+      - Sim  já tenho cadastro com vocês
+      - Sim  estou cadastrado com vocês
+      - Sim  tenho cadastro
+      - Sim  já tenho cadastro sim
+      - Sim  eu já sou cadastrado
+      - Sim  sou cadastrado na plataforma
+      - Sim  já possuo cadastro com vocês
+      - Sim  já estou cadastrado
+      - Sim  já estou registrado com vocês
+      - Sim  podem checar  já tenho cadastro
+      - Sim  estou sim cadastrado
+      - Sim  quero marcar uma consulta
+      - Sim  desejo marcar uma consulta
+      - Sim  pode marcar a consulta
+      - Sim  desejo marcar agora
+      - Sim  quero marcar a consulta com vocês
+      - Sim  por favor  marque a consulta
+      - Sim  desejo marcar a consulta com vocês
+      - Sim  pode marcar uma consulta pra mim
+      
+  - intent: perguntar_dias_livres
+    examples: |
+      - Quais Telefone são os próximos dias disponíveis para agendamento?
+      - Quais são os dias disponíveis para agendamento?
+      - Quais sbo os próximos divs disponíveis para agendamento?
+      - Quais salubre os próximos vida disponíveis para agendamento?
+      - agendamento? com Quais são os próximos dias disponíveis
+      - Quais são os próximos dias disponíveis para agendamento?
+      - os são Quais próximos dias disponíveis para agendamento ?
+      - Quais são os próximos dias disponíveis para nomeação?
+      - Que Calmo data tem disponível?
+      - Que data disponível?
+      - Que data tem disponível?
+      - tem data Que disponível ?
+      - Que data está disponível?
+      - Que dia tem disponível? Chuva
+      - dia tem disponível?
+      - Que dio tem disponíver?
+      - Que período tem usável?
+      - Que dia tem disponível?
+      - tem dia Que disponível ?
+      - Que dia está disponível?
+      - Trabalhar Que dia tem agenda livre?
+      - dia tem agenda livre?
+      - pue dia tem agenda livret
+      - Que tempo (parâmetro) tem Assistente Pessoal Digital gratís?
+      - Que dia tem agenda livre?
+      - tem dia Que agenda livre ?
+      - Em que dia ele tem uma agenda gratuita?
+      - Fogo Que dia tem horário livre?
+      - dia tem horário livre?
+      - Qge kia tem horário livre?
+      - Que época tem agenda gratís?
+      - Que dia tem horário livre?
+      - tem dia Que horário livre ?
+      - Em que dia ele tem tempo livre?
+      - Qual Doce a data mais próxima livre?
+      - Qual a data próxima livre?
+      - Qual a data mxis próxgma livre?
+      - Quão a dia demais próxima gratís?
+      - Qual a data mais próxima livre?
+      - data a Qual mais próxima livre ?
+      - Qual é a data mais próxima grátis?
+      - Voce Mercado pode me mostrar as datas disponíveis?
+      - Voce me mostrar as datas disponíveis?
+      - Voce pode me mostrdr as datas disponíveim?
+      - Voce pode me indicar as datas disponíveis?
+      - Voce pode me mostrar as datas disponíveis?
+      - me pode Voce mostrar as datas disponíveis ?
+      - Você pode me mostrar as datas disponíveis?
+      - Voce pode me apresentar as datas Sem dúvida disponíveis em breve?
+      - Voce pode me as datas disponíveis em breve?
+      - Voxe pode me apresentar as datas disponíveis hm breve?
+      - Voce pode me levantar as datas disponíveis em curto?
+      - Voce pode me apresentar as datas disponíveis em breve?
+      - me pode Voce apresentar as datas disponíveis em breve ?
+      - Você pode me apresentar as datas disponíveis em breve?
+      - Voce poderia listar os dias disponíveis nas próximas semanas? Grande
+      - Voce poderia listar os dias nas próximas semanas?
+      - Voce poderia listar hs dias disponívews nas próximas semanas?
+      - Voce poderia listar os vida disponíveis nas próximas semanas?
+      - Voce poderia listar os dias disponíveis nas próximas semanas?
+      - listar poderia Voce os dias disponíveis nas próximas semanas ?
+      - Você poderia listar os dias disponíveis nas próximas semanas?
+      - Me informe sobre qualquer período livre que tenha nos próximos Bicicleta tempos
+      - Me informe qualquer período livre que tenha nos próximos tempos
+      - Mn informe sebre qualquer período livre que tenha nos próximos tempos
+      - Me informe sobre qualquer momento gratís que tenha nos próximos tempos
+      - Me informe sobre qualquer período livre que tenha nos próximos tempos
+      - sobre informe Me qualquer período livre que tenha nos próximos tempos
+      - Conte -me sobre qualquer período livre que você tenha em um futuro próximo
+      - Quais são os próximos períodos livres que posso marcar Esperar uma consulta?
+      - Quais são os próximos períodos livres que posso marcar uma
+      - Quais são os próximos períodos livres que posso marcar uza consulta?
+      - Quais saudável os próximos períodos livres que posso delimitar uma consulta?
+      - Quais são os próximos períodos livres que posso marcar uma consulta?
+      - os são Quais próximos períodos livres que posso marcar uma consulta ?
+      - Quais são os próximos períodos gratuitos que posso marcar uma consulta?
+      - Podem me dizer quais são as proximas Amanhã datas disponíveis?
+      - Podem me dizer quais as proximas datas disponíveis?
+      - Podem re dizen quais são as proximas datas disponíveis?
+      - Podem me dizer quais mentalmente são as proximas datas disponíveis?
+      - Podem me dizer quais são as proximas datas disponíveis?
+      - dizer me Podem quais são as proximas datas disponíveis ?
+      - Você pode me dizer quais são as próximas datas disponíveis?
+      - Eu gostaria de ver as próximas oportunidades Consertar para agendar
+      - Eu gostaria de ver as próximas oportunidades agendar
+      - Eu gostaria de ver as próximas oporturidades para aoendar
+      - Eu gostaria de sentir as próximas oportunidades para programar
+      - ver as próximas oportunidades para agendar com Eu gostaria
+      - Eu gostaria de ver as próximas oportunidades para agendar
+      - de gostaria Eu ver as próximas oportunidades para agendar
+      - Eu gostaria de ver as próximas oportunidades de agendar
+      - Quando Triste você tem vagas disponíveis para os próximos dias?
+      - Quando você tem vagas disponíveis para os próximos
+      - Quando tocê tem vagas disponíveis para os próximos diasx
+      - Momento você tem vagas disponíveis para os próximos dia-a-dia?
+      - os próximos dias? com Quando você tem vagas disponíveis
+      - Quando você tem vagas disponíveis para os próximos dias?
+      - tem você Quando vagas disponíveis para os próximos dias ?
+      - Estou procurando dias abertos Telefone para consulta nos próximos tempos  você pode ajudar?
+      - Estou procurando dias abertos para consulta nos próximos você pode ajudar?
+      - Esyou procurando dias abertos para consulta nbs próximos tempos  você pode ajudar?
+      - Estou procurando dia-a-dia abertos para consulta nos próximos tempos você pode guiar?
+      - consulta nos próximos tempos  você pode ajudar? com Estou procurando dias abertos
+      - Estou procurando dias abertos para consulta nos próximos tempos  você pode ajudar?
+      - dias procurando Estou abertos para consulta nos próximos tempos   você pode ajudar ?
+      - Estou procurando dias abertos para consulta nos próximos momentos  você pode ajudar?
+      - Pode checar quais são os próximos dias Janela vazios?
+      - Pode quais são os próximos dias vazios?
+      - Pode chepar quais são ks próximos dias vazios?
+      - Pode conferir quais mentalmente são os próximos vida vazios?
+      - Pode checar quais são os próximos dias vazios?
+      - quais checar Pode são os próximos dias vazios ?
+      - Você pode verificar quais são os próximos dias vazios?
+      - Quero saber quando são os próximos horários livres Juntos
+      - Quero saber quando são os próximos livres
+      - Quero syber quando são os próximos hqrários livres
+      - Quero conhecimento tempo saudável os próximos horários livres
+      - Quero saber quando são os próximos horários livres
+      - quando saber Quero são os próximos horários livres
+      - Quero saber quando são os próximos horários gratuitos
+      - Poderia me informar sobre os próximos espaços disponíveis? Computador
+      - Poderia me informar sobre os próximos disponíveis?
+      - Poderia me informar sobre ys aróximos espaços disponíveis?
+      - Poderia me noticiar sobre os próximos espaços disponíveis?
+      - Poderia me informar sobre os próximos espaços disponíveis?
+      - informar me Poderia sobre os próximos espaços disponíveis ?
+      - Você poderia me contar sobre os próximos espaços disponíveis?
+      - Quais são as próximas datas livres para fazer uma reserva? Neve
+      - são as próximas datas livres para fazer uma reserva?
+      - Quais são as próximas datas livres para fafer umg reserva?
+      - Quais sadio as próximas datas livres para por uma reservas (ecologia)?
+      - fazer uma reserva? com Quais são as próximas datas livres
+      - Quais são as próximas datas livres para fazer uma reserva?
+      - as são Quais próximas datas livres para fazer uma reserva ?
+      - Quais são as próximas datas gratuitas para fazer uma reserva?
+      - Quais são Feliz os próximos períodos livres disponíveis?
+      - Quais são os próximos períodos livres
+      - Quais são os próximos períodos lxvres disponíveis?
+      - Quais salubre os próximos períodos livres disponíveis?
+      - Quais são os próximos períodos livres disponíveis?
+      - os são Quais próximos períodos livres disponíveis ?
+      - Quais são os próximos períodos gratuitos disponíveis?
+      - Pode me informar quais Pensar dias estão abertos?
+      - Pode me informar quais dias abertos?
+      - Pmde me informar quais dias estão aoertos?
+      - Pode me notificar quais dia-a-dia estão abertos?
+      - Pode me informar quais dias estão abertos?
+      - informar me Pode quais dias estão abertos ?
+      - Você pode me informar quais dias estão abertos?
+      - Quero uma lista dos dias livres nas Grande próximas semanas
+      - Quero uma lista dos livres nas próximas semanas
+      - Quero uma lista dos dias livres naz próximas semanas
+      - Quero uma listagem dos dia-a-dia livres nas próximas semanas
+      - Quero uma lista dos dias livres nas próximas semanas
+      - lista uma Quero dos dias livres nas próximas semanas
+      - Eu quero uma lista de dias livres nas próximas semanas
+      - Calmo Poderia me mostrar as próximas datas que estão livres para agendamento?
+      - Poderia me mostrar as próximas que estão livres para agendamento?
+      - Poderia me mostrar rs próximas datas que estão livres para agendamento?
+      - Poderia me exibir as próximas datas que estão livres para agendamento?
+      - agendamento? com Poderia me mostrar as próximas datas que estão livres
+      - Poderia me mostrar as próximas datas que estão livres para agendamento?
+      - mostrar me Poderia as próximas datas que estão livres para agendamento ?
+      - Você poderia me mostrar as próximas datas gratuitas para agendar?
+      - Preciso saber Lá quais dias ainda estão disponíveis
+      - Preciso saber quais dias estão disponíveis
+      - Preciio saber quaiq dias ainda estão disponíveis
+      - Exato conhecimento quais dia-a-dia ainda estão disponíveis
+      - Preciso saber quais dias ainda estão disponíveis
+      - quais saber Preciso dias ainda estão disponíveis
+      - Eu preciso saber quais dias ainda estão disponíveis
+      - Existem vagas Forte nos dias que se aproximam?
+      - Existem nos dias que se aproximam?
+      - Existem vapas ios dias que se aproximam?
+      - Existem vagas nos vida que abster-se aproximam?
+      - Existem vagas nos dias que se aproximam?
+      - nos vagas Existem dias que se aproximam ?
+      - Existem vagas nos dias para se aproximar?
+      - Que Comer datas estão livres para os proximos dias?
+      - Que datas estão livres para os dias?
+      - Que datas estão livres para ys pooximos dias?
+      - Que datas estão livres para os proximos dia-a-dia?
+      - os proximos dias? com Que datas estão livres
+      - Que datas estão livres para os proximos dias?
+      - estão datas Que livres para os proximos dias ?
+      - Quais datas são gratuitas para os próximos dias?
+      - Pode verificar quais Fraco são os próximos horários desocupados?
+      - Pode verificar quais são próximos horários desocupados?
+      - Poue verificar quais são os próximos horários desocupatos?
+      - Pode provar quais sã os próximos horários desocupados?
+      - Pode verificar quais são os próximos horários desocupados?
+      - quais verificar Pode são os próximos horários desocupados ?
+      - Você pode verificar quais são os próximos tempos vazios?
+      - Estou interessado em saber quais dias estão Baixo disponíveis para reserva no próximo mês
+      - Estou interessado saber quais dias estão disponíveis para reserva no próximo mês
+      - Estou interessado em saber quais dias estio disponíveis para reuerva no próximo mês
+      - Estou interessado em Base de conhecimento quais vida estão disponíveis para reservas (ecologia) no a seguir lua
+      - reserva no próximo mês com Estou interessado em saber quais dias estão disponíveis
+      - Estou interessado em saber quais dias estão disponíveis para reserva no próximo mês
+      - em interessado Estou saber quais dias estão disponíveis para reserva no próximo mês
+      - Por favor  Cantar liste os dias que estão livres para consulta nos próximos dias
+      - Por favor  liste os dias estão livres para consulta nos próximos dias
+      - Por favor  liste oe diaz que estão livres para consulta nos próximos dias
+      - Por gentileza liste os dia-a-dia que estão livres para consulta nos próximos vida
+      - consulta nos próximos dias com Por favor  liste os dias que estão livres
+      - Por favor  liste os dias que estão livres para consulta nos próximos dias
+      - favor Por liste os dias que estão livres para consulta nos próximos dias
+      - Liste os dias gratuitos para consulta nos próximos dias
+      - Você tem alguma informação sobre dias livres para Inteligente a próxima semana?
+      - Você tem alguma informação sobre dias livres para a semana?
+      - Você tem alguma informação eobre diax livres para a próxima semana?
+      - Você tem alguma notícias sobre vida livres para a próxima semana?
+      - a próxima semana? com Você tem alguma informação sobre dias livres
+      - Você tem alguma informação sobre dias livres para a próxima semana?
+      - alguma tem Você informação sobre dias livres para a próxima semana ?
+      - Você tem alguma informação sobre dias gratuitos para a próxima semana?
+      - Me dê uma ideia dos próximos dias com Hoje horários livres
+      - Me uma ideia dos próximos dias com horários livres
+      - Me dê uma ideia qos pcóximos dias com horários livres
+      - Me dê uma objectivo dos próximos dia-a-dia com horários livres
+      - horários livres com Me dê uma ideia dos próximos dias
+      - uma dê Me ideia dos próximos dias com horários livres
+      - Dê -me uma idéia dos próximos dias com horários gratuitos
+      - Vocês têm horários disponíveis para uma consulta nos Sem dúvida próximos dias?
+      - Vocês têm horários disponíveis uma consulta nos próximos dias?
+      - Vocês têm horárjos disponíveis para uma consulta nos próximos dpas?
+      - Vocês têm horários disponíveis para uma consulta nos próximos vida?
+      - uma consulta nos próximos dias? com Vocês têm horários disponíveis
+      - Vocês têm horários disponíveis para uma consulta nos próximos dias?
+      - horários têm Vocês disponíveis para uma consulta nos próximos dias ?
+      - Você tem horários disponíveis para uma consulta nos próximos dias?
+      - quais Pagar horários estão disponíveis?
+      - horários estão disponíveis?
+      - quans horyrios estão disponíveis?
+      - quais horários estão disponíveis?
+      - estão horários quais disponíveis ?
+      - Que horas estão disponíveis?
+      - Há Perto algum horário disponível para consulta nesta semana?
+      - Há algum horário disponível para nesta semana?
+      - Há algum horárif disponível ppra consulta nesta semana?
+      - Há tempo algum agenda utilizável para consulta nesta semana?
+      - consulta nesta semana? com Há algum horário disponível
+      - Há algum horário disponível para consulta nesta semana?
+      - horário algum Há disponível para consulta nesta semana ?
+      - Existe algum horário de compromisso nesta semana?
+      - Gostaria de saber os horários livres para uma consulta nos próximos Devagar dias
+      - Gostaria de saber os horários livres para uma consulta nos dias
+      - Gostaria de sayer os horários livres para uma consulta nqs próximos dias
+      - Gostaria de consciência os horários livres para uma consulta nos próximos vida
+      - saber os horários livres para uma consulta nos próximos dias com Gostaria
+      - Gostaria de saber os horários livres para uma consulta nos próximos dias
+      - saber de Gostaria os horários livres para uma consulta nos próximos dias
+      - Gostaria de conhecer os horários gratuitos para uma consulta nos próximos dias
+      - Quais horários vocês têm Nadar livres para agendamento de consultas?
+      - Quais vocês têm livres para agendamento de consultas?
+      - Quais horárros vocês têm livres ptra agendamento de consultas?
+      - Quais horários vocês têm livres para agendamento de consultoria?
+      - consultas? com Quais horários vocês têm livres para agendamento
+      - Quais horários vocês têm livres para agendamento de consultas?
+      - vocês horários Quais têm livres para agendamento de consultas ?
+      - A que horas você é gratuito para agendamento de consultas?
+      - Existe algum horário livre para uma Rir consulta amanhã?
+      - Existe algum horário livre para consulta amanhã?
+      - Existe slgum horário livre prra uma consulta amanhã?
+      - Existe algum agenda gratís para uma consulta manhã?
+      - uma consulta amanhã? com Existe algum horário livre
+      - Existe algum horário livre para uma consulta amanhã?
+      - horário algum Existe livre para uma consulta amanhã ?
+      - Há um tempo livre para uma consulta amanhã?
+      - Poderiam me informar os horários disponíveis para consultas Sutileza médicas?
+      - Poderiam informar os horários disponíveis para consultas médicas?
+      - Pgderiam me informar os horárioa disponíveis para consultas médicas?
+      - Poderiam me contar os horários disponíveis para consultoria médicas?
+      - consultas médicas? com Poderiam me informar os horários disponíveis
+      - Poderiam me informar os horários disponíveis para consultas médicas?
+      - informar me Poderiam os horários disponíveis para consultas médicas ?
+      - Você poderia me informar sobre os horários disponíveis para consultas médicas?
+      - Quais Roupa horários estão abertos para eu agendar uma consulta?
+      - Quais horários estão abertos para eu agendar uma
+      - Quais horários estão abhrtos para ea agendar uma consulta?
+      - Quais horários estão abertos para eu programar uma consulta?
+      - eu agendar uma consulta? com Quais horários estão abertos
+      - Quais horários estão abertos para eu agendar uma consulta?
+      - estão horários Quais abertos para eu agendar uma consulta ?
+      - Que horas estão abertas para eu agendar uma consulta?
+      - quais Ouvir horários vocês têm para consulta?
+      - quais horários vocês para consulta?
+      - quais horários vocêb lêm para consulta?
+      - quais horários vocês têm para consulta?
+      - consulta? com quais horários vocês têm
+      - vocês horários quais têm para consulta ?
+      - Que horas você tem para consulta?
+      - Vocês poderiam verificar quais Pássaro horários estão livres para consulta?
+      - Vocês poderiam verificar horários estão livres para consulta?
+      - Vocês poderiam verificar quais horários estro livrex para consulta?
+      - Vocês poderiam provar quais horários estão livres para consulta?
+      - consulta? com Vocês poderiam verificar quais horários estão livres
+      - Vocês poderiam verificar quais horários estão livres para consulta?
+      - verificar poderiam Vocês quais horários estão livres para consulta ?
+      - Você poderia verificar quais horários são gratuitos para consulta?
+      - Quando posso marcar uma consulta nos próximos Mesa dias?
+      - Quando posso marcar uma consulta próximos dias?
+      - Quando posso marcar uma consulto mos próximos dias?
+      - Segundo posso delimitar uma consulta nos próximos dia-a-dia?
+      - Quando posso marcar uma consulta nos próximos dias?
+      - marcar posso Quando uma consulta nos próximos dias ?
+      - Quais horários Mercado estão disponíveis para a próxima semana?
+      - horários estão disponíveis para a próxima semana?
+      - Quaij horários ustão disponíveis para a próxima semana?
+      - Quais horários estão disponíveis para a próxima semana?
+      - a próxima semana? com Quais horários estão disponíveis
+      - estão horários Quais disponíveis para a próxima semana ?
+      - Qual o primeiro dia livre Vento para agendamento?
+      - Qual o primeiro livre para agendamento?
+      - Qual o primeiro dia limre para asendamento?
+      - Daquela maneira o antes de tudo jornada gratís para agendamento?
+      - agendamento? com Qual o primeiro dia livre
+      - Qual o primeiro dia livre para agendamento?
+      - primeiro o Qual dia livre para agendamento ?
+      - Qual é o primeiro dia livre para agendamento?
+      - Tem algum horário disponível Fogo ainda nesta semana?
+      - Tem algum horário disponível nesta semana?
+      - Tem algum horário disponível aindd nestm semana?
+      - Tem algum ordem do dia que está por aparecer ainda nesta semana?
+      - Tem algum horário disponível ainda nesta semana?
+      - horário algum Tem disponível ainda nesta semana ?
+      - Há um tempo disponível no final desta semana?
+      - Calmo Pode me dizer quando há um horário livre para consulta?
+      - Pode me dizer quando há um horário livre consulta?
+      - Pode me dizer quando há um horário lavre pari consulta?
+      - Pode me dizer segundo faz um cronograma gratís para consulta?
+      - consulta? com Pode me dizer quando há um horário livre
+      - Pode me dizer quando há um horário livre para consulta?
+      - dizer me Pode quando há um horário livre para consulta ?
+      - Você pode me dizer quando há um tempo livre para consulta?
+      - Qual a primeira data aberta para marcar uma Chuva consulta?
+      - Qual a primeira data para marcar uma consulta?
+      - Qual a primeira data aberta para marcak uma conbulta?
+      - Ídem a principal dia aberta para indicar uma consulta?
+      - marcar uma consulta? com Qual a primeira data aberta
+      - Qual a primeira data aberta para marcar uma consulta?
+      - primeira a Qual data aberta para marcar uma consulta ?
+      - Qual é a primeira data de abertura para marcar uma consulta?
+      - Quando posso agendar a Acima consulta mais cedo possível?
+      - posso agendar a consulta mais cedo possível?
+      - Quando posso agendar a consulta maij cedo possíveo?
+      - Quando posso planificar a consulta mais adiante brevemente viável?
+      - Quando posso agendar a consulta mais cedo possível?
+      - agendar posso Quando a consulta mais cedo possível ?
+      - Quando posso agendar a consulta o mais rápido possível?
+      - Pode verificar os dias disponíveis Jogo para agendamento?
+      - Pode verificar os dias para agendamento?
+      - Pode verificar os nias disnoníveis para agendamento?
+      - Pode provar os dia-a-dia disponíveis para agendamento?
+      - agendamento? com Pode verificar os dias disponíveis
+      - Pode verificar os dias disponíveis para agendamento?
+      - os verificar Pode dias disponíveis para agendamento ?
+      - Você pode verificar os dias disponíveis para consulta?
+      - Qual é o próximo dia disponível para uma consulta Beber médica?
+      - é o próximo dia disponível para uma consulta médica?
+      - Qual é o próximo yia disponível paaa uma consulta médica?
+      - Na qualidade de é o seguinte tempo a ser publicado para uma consulta médica?
+      - uma consulta médica? com Qual é o próximo dia disponível
+      - Qual é o próximo dia disponível para uma consulta médica?
+      - o é Qual próximo dia disponível para uma consulta médica ?
+      - O que está no dia seguinte disponível para uma consulta médica?
+      - Gostaria de saber Sapato quando posso agendar uma consulta
+      - Gostaria de saber quando posso uma consulta
+      - Gostarif de saber quando posoo agendar uma consulta
+      - Gostaria de entender momento posso programar uma consulta
+      - saber quando posso agendar uma consulta com Gostaria
+      - Gostaria de saber quando posso agendar uma consulta
+      - saber de Gostaria quando posso agendar uma consulta
+      - Eu gostaria de saber quando posso agendar uma consulta
+      - Quais dias você tem disponíveis Relógio para consulta?
+      - dias você tem disponíveis para consulta?
+      - Quais dias você tem disponíveik para aonsulta?
+      - Quais dia-a-dia você tem disponíveis para consulta?
+      - consulta? com Quais dias você tem disponíveis
+      - Quais dias você tem disponíveis para consulta?
+      - você dias Quais tem disponíveis para consulta ?
+      - Em que dias você tem disponível para consulta?
+      - Qual é a data Andar mais próxima para agendar uma consulta?
+      - Qual a data mais próxima para agendar uma consulta?
+      - Qurl é a data mais próxima para agendar uma zonsulta?
+      - Daquela maneira é a dia além disso próxima para programar uma consulta?
+      - agendar uma consulta? com Qual é a data mais próxima
+      - Qual é a data mais próxima para agendar uma consulta?
+      - a é Qual data mais próxima para agendar uma consulta ?
+      - Gato Quando posso marcar uma consulta no futuro próximo?
+      - Quando posso marcar uma consulta no próximo?
+      - Quandp posso marcar uma consulta no futuro próximo?
+      - Quando posso delimitar uma consulta no vindouro seguinte?
+      - Quando posso marcar uma consulta no futuro próximo?
+      - marcar posso Quando uma consulta no futuro próximo ?
+      - Quando posso marcar uma consulta em um futuro próximo?
+      - Quais são os horários disponíveis nos Raramente próximos dias?
+      - Quais são os disponíveis nos próximos dias?
+      - Quais são os horários disponívpis ros próximos dias?
+      - Quais sã os horários disponíveis nos próximos dia-a-dia?
+      - Quais são os horários disponíveis nos próximos dias?
+      - os são Quais horários disponíveis nos próximos dias ?
+      - Qual é o dia mais rápido para uma Procurar consulta disponível?
+      - Qual é o dia mais rápido para uma consulta
+      - Qual é o dca mfis rápido para uma consulta disponível?
+      - Na qualidade de é o tempo (parâmetro) além disso rápida para uma consulta usável?
+      - uma consulta disponível? com Qual é o dia mais rápido
+      - Qual é o dia mais rápido para uma consulta disponível?
+      - o é Qual dia mais rápido para uma consulta disponível ?
+      - Consertar Quais são as opções de datas disponíveis para consulta?
+      - Quais são as opções datas disponíveis para consulta?
+      - Quais são es opções de datas disponíveis parp consulta?
+      - Quais salubre as opções de datas disponíveis para consulta?
+      - datas disponíveis para consulta? com Quais são as opções
+      - Quais são as opções de datas disponíveis para consulta?
+      - as são Quais opções de datas disponíveis para consulta ?
+      - Existe algum dia livre para Foto agendamento esta semana?
+      - Existe algum livre para agendamento esta semana?
+      - Existe algtm dia livre para agendamfnto esta semana?
+      - Existe algum período gratís para agendamento esta semana?
+      - agendamento esta semana? com Existe algum dia livre
+      - Existe algum dia livre para agendamento esta semana?
+      - dia algum Existe livre para agendamento esta semana ?
+      - Existe um dia livre para cronograma esta semana?
+      - Rápido Você pode me mostrar os horários de consulta disponíveis?
+      - Você pode mostrar os horários de consulta disponíveis?
+      - Você pode me mzstrar os horáqios de consulta disponíveis?
+      - Você pode me ler os horários de consulta disponíveis?
+      - consulta disponíveis? com Você pode me mostrar os horários
+      - Você pode me mostrar os horários de consulta disponíveis?
+      - me pode Você mostrar os horários de consulta disponíveis ?
+      - Posso saber quais são os dias Consertar livres para uma consulta?
+      - Posso saber quais são os dias para uma consulta?
+      - Poaso saber quais são os dias livres para ima consulta?
+      - Posso conhecimento quais sadio os dia-a-dia livres para uma consulta?
+      - uma consulta? com Posso saber quais são os dias livres
+      - Posso saber quais são os dias livres para uma consulta?
+      - quais saber Posso são os dias livres para uma consulta ?
+      - Quais Janela datas você tem livres para agendar consulta?
+      - Quais você tem livres para agendar consulta?
+      - Quais datas você tem livree paca agendar consulta?
+      - Quais datas você tem livres para planificar consulta?
+      - agendar consulta? com Quais datas você tem livres
+      - Quais datas você tem livres para agendar consulta?
+      - você datas Quais tem livres para agendar consulta ?
+      - Que datas você tem de graça para agendar consulta?
+      - Tem algum horário de consulta Doce para essa semana?
+      - Tem horário de consulta para essa semana?
+      - Thm algum horárix de consulta para essa semana?
+      - Tem algum agenda de consulta para essa semana?
+      - consulta para essa semana? com Tem algum horário
+      - Tem algum horário de consulta para essa semana?
+      - horário algum Tem de consulta para essa semana ?
+      - Existe algum horário de consulta para esta semana?
+      - Pode me informar sobre os próximos dias abertos para Hoje consulta?
+      - Pode me informar sobre os próximos dias para consulta?
+      - Pode me informyr snbre os próximos dias abertos para consulta?
+      - Pode me advertir sobre os próximos vida abertos para consulta?
+      - consulta? com Pode me informar sobre os próximos dias abertos
+      - Pode me informar sobre os próximos dias abertos para consulta?
+      - informar me Pode sobre os próximos dias abertos para consulta ?
+      - Você pode me falar sobre os próximos dias abertos para consulta?
+      - Preciso saber quais datas estão livres para agendamento Feio
+      - Preciso saber quais datas livres para agendamento
+      - Preciso saber quais datas estão livres park agendzmento
+      - Afinado sentimento de si quais datas estão livres para agendamento
+      - agendamento com Preciso saber quais datas estão livres
+      - Preciso saber quais datas estão livres para agendamento
+      - quais saber Preciso datas estão livres para agendamento
+      - Preciso saber quais datas são gratuitas para agendamento
+      - Quais dias da próxima semana estão disponíveis Inteligente para consulta?
+      - Quais dias da semana estão disponíveis para consulta?
+      - Quais dias da próxima semanx estão disponíveds para consulta?
+      - Quais dia-a-dia da próxima semana estão disponíveis para consulta?
+      - consulta? com Quais dias da próxima semana estão disponíveis
+      - Quais dias da próxima semana estão disponíveis para consulta?
+      - da dias Quais próxima semana estão disponíveis para consulta ?
+      - Em que dias a próxima semana estão disponíveis para consulta?
+      - Assistir Qual é o próximo horário disponível para marcar consulta?
+      - Qual é o horário disponível para marcar consulta?
+      - Qual é o próximo horário disponível park marcar consultay
+      - Desta maneira é o iminente ordem do dia utilizável para indicar consulta?
+      - marcar consulta? com Qual é o próximo horário disponível
+      - Qual é o próximo horário disponível para marcar consulta?
+      - o é Qual próximo horário disponível para marcar consulta ?
+      - Qual é a próxima vez disponível para marcar uma consulta?
+      - Quando há disponibilidade para marcar Grande uma consulta médica?
+      - Quando há disponibilidade para marcar uma consulta
+      - Quando há disponibilidade para marcai umm consulta médica?
+      - Segundo faz acessibilidade para delimitar uma consulta médica?
+      - marcar uma consulta médica? com Quando há disponibilidade
+      - Quando há disponibilidade para marcar uma consulta médica?
+      - disponibilidade há Quando para marcar uma consulta médica ?
+      - Quando está disponível para marcar uma consulta médica?
+      - Preciso agendar uma consulta  quais datas você Sapato tem livres?
+      - Preciso agendar uma consulta  quais datas tem livres?
+      - Prediso agenxar uma consulta  quais datas você tem livres?
+      - Exacto programar uma consulta quais datas você tem livres?
+      - Preciso agendar uma consulta  quais datas você tem livres?
+      - uma agendar Preciso consulta   quais datas você tem livres ?
+      - Eu preciso agendar uma consulta  quais datas você tem de graça?
+      - Quando posso marcar a consulta Raramente mais próxima possível?
+      - Quando posso a consulta mais próxima possível?
+      - Qxando posso marcar a consulta mais cróxima possível?
+      - Instante posso delimitar a consulta em continuação próxima prestimoso?
+      - Quando posso marcar a consulta mais próxima possível?
+      - marcar posso Quando a consulta mais próxima possível ?
+      - Quando posso fazer a consulta mais próxima possível?
+      - Você tem horários livres para os próximos dias? Escola
+      - Você tem livres para os próximos dias?
+      - Você tem horários lpvres para os próximos dias?
+      - Você tem horários livres para os próximos vida?
+      - os próximos dias? com Você tem horários livres
+      - Você tem horários livres para os próximos dias?
+      - horários tem Você livres para os próximos dias ?
+      - Você tem horários gratuitos para os próximos dias?
+      - Quando é o próximo horário vago para uma Bicicleta consulta?
+      - Quando é o próximo horário vago para consulta?
+      - Quando é o próxamo horário vago pbra uma consulta?
+      - Momento é o de perto ordem do dia desocupado para uma consulta?
+      - uma consulta? com Quando é o próximo horário vago
+      - Quando é o próximo horário vago para uma consulta?
+      - o é Quando próximo horário vago para uma consulta ?
+      - Qual o Gradualmente primeiro dia livre para consulta médica?
+      - Qual o primeiro dia para consulta médica?
+      - vual o primeiro dia livre paja consulta médica?
+      - Ingualmente o ao princípio tempo (parâmetro) gratís para consulta médica?
+      - consulta médica? com Qual o primeiro dia livre
+      - Qual o primeiro dia livre para consulta médica?
+      - primeiro o Qual dia livre para consulta médica ?
+      - Qual é o primeiro dia livre para consulta médica?
+      - Pode listar os horários disponíveis para agendar uma consulta? Beber
+      - Pode listar os horários disponíveis para agendar consulta?
+      - Pode listar os horáriop disponíveis para agendar uza consulta?
+      - Pode listar os horários disponíveis para planificar uma consulta?
+      - agendar uma consulta? com Pode listar os horários disponíveis
+      - Pode listar os horários disponíveis para agendar uma consulta?
+      - os listar Pode horários disponíveis para agendar uma consulta ?
+      - Você pode listar os horários disponíveis para agendar uma consulta?
+      - Qual a primeira data livre Ler para agendar uma consulta médica?
+      - a primeira data livre para agendar uma consulta médica?
+      - Qual a primeira data livfe para agendar uma consulta médica?
+      - Ídem a principal dia gratís para planificar uma consulta médica?
+      - agendar uma consulta médica? com Qual a primeira data livre
+      - Qual a primeira data livre para agendar uma consulta médica?
+      - primeira a Qual data livre para agendar uma consulta médica ?
+      - Qual é a primeira data gratuita para agendar uma consulta médica?
+      - Quais dias estão disponíveis para consulta Caneta na próxima semana?
+      - Quais dias estão disponíveis para consulta na semana?
+      - Quais dias estão fisponíveis para consulta na próxiua semana?
+      - Quais vida estão disponíveis para consulta na próxima semana?
+      - consulta na próxima semana? com Quais dias estão disponíveis
+      - Quais dias estão disponíveis para consulta na próxima semana?
+      - estão dias Quais disponíveis para consulta na próxima semana ?
+      - Que dias estão disponíveis para consulta na próxima semana?
+      - Pode me mostrar as datas livres Trabalhar para consulta?
+      - Pode me mostrar datas livres para consulta?
+      - Pode me fostrar as datas livres para consulte?
+      - Pode me exibir as datas livres para consulta?
+      - consulta? com Pode me mostrar as datas livres
+      - Pode me mostrar as datas livres para consulta?
+      - mostrar me Pode as datas livres para consulta ?
+      - Você pode me mostrar as datas gratuitas para consulta?
+      - Existe alguma data disponível ainda Frequentemente este mês?
+      - Existe alguma data disponível este mês?
+      - Existe algumv data disponível ainda eswe mês?
+      - Existe alguma dia a ser publicado ainda este lua?
+      - Existe alguma data disponível ainda este mês?
+      - data alguma Existe disponível ainda este mês ?
+      - Quais são os próximos horários livres para agendar consulta? Claramente
+      - Quais os próximos horários livres para agendar consulta?
+      - Quais são os próximos horários livres pnra agendar cvnsulta?
+      - Quais sã os próximos horários livres para planificar consulta?
+      - agendar consulta? com Quais são os próximos horários livres
+      - Quais são os próximos horários livres para agendar consulta?
+      - os são Quais próximos horários livres para agendar consulta ?
+      - Quais são os próximos horários gratuitos para agendar a consulta?
+      - Pode me informar sobre os dias abertos para consulta? Vender
+      - Pode me informar os dias abertos para consulta?
+      - Pode me informar sobre os dias abertos plra lonsulta?
+      - Pode me anunciar sobre os dia-a-dia abertos para consulta?
+      - consulta? com Pode me informar sobre os dias abertos
+      - Pode me informar sobre os dias abertos para consulta?
+      - informar me Pode sobre os dias abertos para consulta ?
+      - Você pode me falar sobre dias abertos para consulta?
+      - Quando posso agendar a consulta mais Inteligente cedo disponível?
+      - Quando posso agendar a consulta cedo disponível?
+      - Quando posso amendar a consulta mais cedo divponível?
+      - Quando posso programar a consulta ademais já a ser publicado?
+      - Quando posso agendar a consulta mais cedo disponível?
+      - agendar posso Quando a consulta mais cedo disponível ?
+      - Quando posso agendar a consulta antecipada disponível?
+      - Tem alguma data livre para consulta nas próximas semanas? Rapidamente
+      - Tem alguma data livre para consulta nas próximas
+      - Tem alyuma data livre pard consulta nas próximas semanas?
+      - Tem alguma dia gratís para consulta nas próximas semanas?
+      - consulta nas próximas semanas? com Tem alguma data livre
+      - Tem alguma data livre para consulta nas próximas semanas?
+      - data alguma Tem livre para consulta nas próximas semanas ?
+      - Você tem uma data gratuita para consulta nas próximas semanas?
+      - Chave Quais horários posso escolher para marcar uma consulta?
+      - Quais posso escolher para marcar uma consulta?
+      - Quais horbrios posso escolher para larcar uma consulta?
+      - Quais horários posso especificar para indicar uma consulta?
+      - marcar uma consulta? com Quais horários posso escolher
+      - Quais horários posso escolher para marcar uma consulta?
+      - posso horários Quais escolher para marcar uma consulta ?
+      - Que horas posso escolher marcar uma consulta?
+      - Qual é o horário de Andar consulta disponível mais próximo?
+      - Qual é o horário de consulta disponível mais
+      - yual é o horário dh consulta disponível mais próximo?
+      - Ao longo de é o plano de consulta utilizável ademais a seguir?
+      - consulta disponível mais próximo? com Qual é o horário
+      - Qual é o horário de consulta disponível mais próximo?
+      - o é Qual horário de consulta disponível mais próximo ?
+      - Qual é o tempo de consulta mais próximo?
+      - Preciso saber quando Construir você tem horários livres para agendamento
+      - Preciso saber você tem horários livres para agendamento
+      - Preciso saber quando você tem horários livres hara agendamento
+      - Perfeito conhecer instante você tem horários livres para agendamento
+      - agendamento com Preciso saber quando você tem horários livres
+      - Preciso saber quando você tem horários livres para agendamento
+      - quando saber Preciso você tem horários livres para agendamento
+      - Preciso saber quando você tem horários gratuitos para agendamento
+      - Tem alguma vaga disponível para Escuro consulta nesta semana?
+      - Tem alguma vaga disponível para consulta nesta
+      - Tum alguma vaga disponível para consulta nesta semara?
+      - Tem alguma vácuo a ser lançado para consulta nesta semana?
+      - consulta nesta semana? com Tem alguma vaga disponível
+      - Tem alguma vaga disponível para consulta nesta semana?
+      - vaga alguma Tem disponível para consulta nesta semana ?
+      - Você tem alguma vaga disponível para consulta esta semana?
+      - Quais dias da semana você tem Feio horários disponíveis para consulta?
+      - Quais dias da você tem horários disponíveis para consulta?
+      - Quais dgas da semana vscê tem horários disponíveis para consulta?
+      - Quais vida da semana você tem horários disponíveis para consulta?
+      - consulta? com Quais dias da semana você tem horários disponíveis
+      - Quais dias da semana você tem horários disponíveis para consulta?
+      - da dias Quais semana você tem horários disponíveis para consulta ?
+      - Em que dias da semana você tem horários disponíveis para consulta?
+      - Quando você tem horários Cachorro livres para consulta nas próximas semanas?
+      - Quando tem horários livres para consulta nas próximas semanas?
+      - Quando você tem uorários livres para consulta nas próximas cemanas?
+      - Segundo você tem horários livres para consulta nas próximas semanas?
+      - consulta nas próximas semanas? com Quando você tem horários livres
+      - Quando você tem horários livres para consulta nas próximas semanas?
+      - tem você Quando horários livres para consulta nas próximas semanas ?
+      - Quando você tem horários gratuitos para consulta nas próximas semanas?
+      - Qual o dia mais próximo com horários livres para consulta? Sem querer
+      - Qual o dia mais próximo com livres para consulta?
+      - Qual o dia mais pyóximo cog horários livres para consulta?
+      - Ingualmente o tempo (parâmetro) além disso próximoa com horários livres para consulta?
+      - consulta? com Qual o dia mais próximo com horários livres
+      - Qual o dia mais próximo com horários livres para consulta?
+      - dia o Qual mais próximo com horários livres para consulta ?
+      - Qual é o dia mais próximo com horários gratuitos para consulta?
+      - Ônibus Pode me dizer quando posso agendar uma consulta médica?
+      - Pode me dizer quando posso uma consulta médica?
+      - sode me dizer quando posso agendar uma consulja médica?
+      - Pode me dizer momento posso planificar uma consulta médica?
+      - Pode me dizer quando posso agendar uma consulta médica?
+      - dizer me Pode quando posso agendar uma consulta médica ?
+      - Você pode me dizer quando eu posso agendar uma consulta médica?
+      - Qual é a data mais próxima disponível para consulta? Cadeira
+      - é a data mais próxima disponível para consulta?
+      - Qual é a data majs próxima disponível para cotsulta?
+      - Desta maneira é a dia ademais próxima visível para consulta?
+      - consulta? com Qual é a data mais próxima disponível
+      - Qual é a data mais próxima disponível para consulta?
+      - a é Qual data mais próxima disponível para consulta ?
+      - Quando Escrever posso marcar a consulta mais breve possível?
+      - Quando posso marcar consulta mais breve possível?
+      - Qpando posso marcar a consulta mais breve pxssível?
+      - Quando posso delimitar a consulta mais adiante curto praticável?
+      - Quando posso marcar a consulta mais breve possível?
+      - marcar posso Quando a consulta mais breve possível ?
+      - Quando posso marcar a consulta o mais rápido possível?
+      - Me dê uma ideia dos próximos dias com horários livres
+
+  - intent: negacao
+    examples: |
+      - Não quero agendar
+      - Tô de boa, não preciso remarcar
+      - Não quero cancelar
+      - Não preciso de ajuda, valeu
+      - Não quero reservar
+      - Não sou cadastrado
+      - Não
+      - Nem quero
+      - Não, obrigado
+      - Prefiro não agendar agora
+      - Não tô afim
+      - Não quero prosseguir
+      - Não tô interessado
+      - Não quero ajuda
+      - Não quero marcar nada
+      - Não estou
+      - Não preciso
+      - Não quero remarcar
+      - Não quero cancelar a consulta
+      - Não preciso de assistência
+      - Não quero reservar agora
+      - Ainda não me cadastrei
+      - Não gostaria
+      - Prefiro não
+      - Não quero remarcar minha consulta
+      - Não desejo cancelar minha consulta
+      - Não preciso de ajuda
+      - Não quero fazer reserva
+      - Não tô inscrito
+      - Não tô cadastrado
+      - Não quero marcar consulta
+      - Não preciso remarcar
+      - Não desejo cancelar
+      - Valeu, mas não
+      - Não quero agendar consulta
+      - Não quero remarcar não
+      - Não quero cancelar o agendamento
+      - Não precisa, valeu
+      - Não quero prosseguir
+      - Nem quero
+      - Não desejo continuar
+      - Não tô interessado em agendar
+      - Não preciso remarcar
+      - Não quero cancelar
+      - Valeu, mas não preciso
+      - Não quero agendar agora
+      - Não desejo remarcar
+      - Não quero cancelar minha consulta
+      - Não preciso de ajuda
+      - Não quero, obrigado
+      - Tô de boa
+      - Não quero agendar
+      - Não preciso remarcar
+      - Não quero cancelar
+      - Não preciso de ajuda
+      - Não quero reservar
+      - Não estou cadastrado
+      - Não
+      - Não quero
+      - Não, obrigado
+      - Prefiro não agendar
+      - Não desejo
+      - Não quero prosseguir
+      - Não estou interessado
+      - Não quero ajuda
+      - Não quero marcar
+      - Não estou
+      - Não preciso
+      - Não quero remarcar
+      - Não quero cancelar a consulta
+      - Não preciso de assistência
+      - Não desejo reservar
+      - Ainda não me cadastrei
+      - Não gostaria
+      - Não quero ajuda
+      - Prefiro não
+      - Não quero remarcar minha consulta
+      - Não desejo cancelar minha consulta
+      - Não necessito de ajuda
+      - Não quero fazer uma reserva
+      - Não estou inscrito
+      - Não estou cadastrado
+      - Não quero marcar uma consulta
+      - Não preciso remarcar
+      - Não desejo cancelar
+      - Obrigado, mas não
+      - Não quero agendar uma consulta
+      - Não quero remarcar a consulta
+      - Não quero cancelar o agendamento
+      - Não preciso de ajuda
+      - Não quero prosseguir
+      - Não quero
+      - Não desejo continuar
+      - Não estou interessado em agendar
+      - Não preciso remarcar
+      - Não quero cancelar
+      - Obrigado, mas não preciso
+      - Não quero agendar agora
+      - Não desejo remarcar
+      - Não quero cancelar minha consulta
+      - Não preciso de assistência
+      - Não  obrigado
+      - Nbo  obrigkdo
+      - Não agradecido
+      - obrigado Não 
+      - obrigado   Não 
+      - Não não quero agendar
+      - Não não agendar
+      - Nãl não quero agsndar
+      - Não não quero programar
+      - Não não quero agendar
+      - não Não quero agendar 
+      - Não eu não quero agendar
+      - Nbo  pnr enquanto está tudo bem
+      - Não por de acordo de está tudo bem
+      - enquanto está tudo bem com Não 
+      - Não por enquanto encontra-se tudo bem
+      - Não por enquanto está tudo bem
+      - Não não Rapidamente preciso marcar agora
+      - Não não marcar agora
+      - Não não pteciso marcay agora
+      - Não não bem acabado delimitar ora
+      - Não não preciso marcar agora
+      - não Não preciso marcar agora 
+      - Não desejo remarcar a consulta
+      - não desejo remarcar a consulta
+      - Não não afã notar a consulta
+      - Não não desejo remarcar a consulta
+      - não desejo remarcar a consulta 
+      - Não não quero reagendar a consulta
+      - Não não preciso cancelar Papel a consulta
+      - não preciso cancelar a consulta
+      - Não não pheciso caacelar a consulta
+      - Não não preciso cancelar a consulta
+      - não Não preciso cancelar a consulta 
+      - Não já está tudo Rápido certo  obrigado
+      - Não já está tudo certo 
+      - Nio já eswá tudo certo  obrigado
+      - Não já está tudo certo apreciativo
+      - Não já está tudo certo  obrigado
+      - Não já encontra-se tudo certo  obrigado
+      - já  Não está tudo certo   obrigado 
+      - Não está tudo bem  obrigado
+      - Não não tenho interesse em agendar Fogo
+      - Não não tenho interesse em
+      - Não não tento inceresse em agendar
+      - Não não tenho preocupação em planificar
+      - Não não tenho interesse em agendar
+      - não Não tenho interesse em agendar 
+      - Não quero Comprar remarcar
+      - Nlo quero rnmarcar
+      - Não quero mencionar
+      - Não quero remarcar
+      - Eu não quero reagendar
+      - Não Velho preciso cancelar obrigado
+      - Não preciso cancelar 
+      - Não prepiso cancelarr obrigado
+      - Não preciso cancelar  obrigado
+      - cancelar preciso Não   obrigado 
+      - Não desejo agendar no momento 
+      - Não desejo agendar momento
+      - não desejo agendar nb momento
+      - Não desejo agendar no momento
+      - Eu não quero agendar no momento
+      - Não não cadastro ainda
+      - Nuo não tenoo cadastro ainda
+      - Não não tenho cadastro rural ainda
+      - Não não tenho cadastro ainda
+      - não Não tenho cadastro ainda 
+      - Não ainda não tenho registro
+      - Não prefiro não Brinquedo marcar agora
+      - Não prefiro não marcar
+      - Não prefiho nãk marcar agora
+      - Não prefiro não delimitar actualmente
+      - Não prefiro não marcar agora
+      - Não eu prefiro não marcar agora
+      - Não não quero cancelar a Gradualmente consulta
+      - Não não quero a consulta
+      - eão nãs quero cancelar a consulta
+      - Não não quero rescindir a consulta
+      - Não não quero cancelar a consulta
+      - não Não quero cancelar a consulta 
+      - Não quero Encontrar marcar uma consulta agora
+      - Não marcar uma consulta agora
+      - não quero marcar uma consulta agorat
+      - Não quero delimitar uma consulta ora
+      - Não quero marcar uma consulta agora
+      - marcar quero Não uma consulta agora 
+      - Não obrigado vou deixar Cozinhar para depois
+      - Neo obrigaqo vou deixar para depois
+      - Não agradecido vou finalizar para próximo
+      - Não obrigado vou deixar para depois
+      - Não obrigado vou deixar para mais tarde
+      - Não não preciso agendar Escrever
+      - não preciso agendar
+      - Não não preciso agendnr
+      - Não preciso agendar
+      - Não quero remarcar a consulta Velho
+      - Não quero remarcar
+      - não quero remarbar a consulta
+      - Não quero reparar a consulta
+      - Não quero remarcar a consulta
+      - Não quero reagendar o compromisso
+      - Não já resolvi agradecido
+      - Não já resolvi  obrigado
+      - Não eu já decidi  obrigado
+      - Não não Destruir quero cancelar
+      - Não não cancelar
+      - Não não queio cancetar
+      - Não não quero anular
+      - Não não quero cancelar
+      - não Não quero cancelar 
+      - Não eu não quero cancelar
+      - Não está tudo certo com a Agitado consulta
+      - Não está tudo certo a consulta
+      - Não está tudo certx cou a consulta
+      - Não está tudo certo com a consulta
+      - Não  está tudo bem com a consulta
+      - Não desejo marcar Procurar uma consulta  obrigado
+      - Não marcar uma consulta  obrigado
+      - Não deswjo marcar tma consulta  obrigado
+      - Não caprichoso delimitar uma consulta apreciativo
+      - Não desejo marcar uma consulta  obrigado
+      - marcar desejo Não uma consulta   obrigado 
+      - Não não tenho Abaixo interesse em cancelar
+      - Não não tenho em cancelar
+      - Nãf não tsnho interesse em cancelar
+      - Não não tenho interesse em cancelar
+      - não Não tenho interesse em cancelar 
+      - Não obrigado  não tenho cadastro ainda Simpático
+      - Não obrigado  não cadastro ainda
+      - Não apreciativo não tenho cadastro rural ainda
+      - Não  obrigado  não tenho cadastro ainda
+      - obrigado   Não   não tenho cadastro ainda 
+      - Não  obrigado  ainda não tenho registro
+      - Nãg preciso mqrcar agora
+      - Não acurado indicar atualmente
+      - Não preciso marcar agora
+      - Não  Procurar prefiro não cancelar
+      - Nãow prefiro noo cancelar
+      - Não prefiro não anular
+      - Não  prefiro não cancelar
+      - prefiro  Não não cancelar 
+      - Não  obrigado  não preciso remarcar Rir
+      - Não  obrigado  preciso remarcar
+      - Não  obrcgado  não treciso remarcar
+      - Não apreciativo não exacto mencionar
+      - Não  obrigado  não preciso remarcar
+      - obrigado   Não   não preciso remarcar 
+      - Não  obrigado  não preciso reagendar
+      - Procurar Não  já tenho tudo organizado
+      - Não  já tenho organizado
+      - Não  já tenht tudo organizcdo
+      - Não já tenho tudo organizado
+      - Não  já tenho tudo organizado
+      - já   Não tenho tudo organizado 
+      - Não  eu já tenho tudo organizado
+      - Não quero fazer nada Neve disso agora
+      - Não quero fazer disso agora
+      - Nlo huero fazer nada disso agora
+      - Não quero delinear qualquer coisa disso atualmente
+      - Não quero fazer nada disso agora
+      - fazer quero Não nada disso agora 
+      - Eu não quero fazer nada disso agora
+      - Nao desejo cancelar consulta
+      - Nao desejo cancelaw a censulta
+      - Nao caprichoso invalidar a consulta
+      - Nao desejo cancelar a consulta
+      - cancelar desejo Nao a consulta 
+      - Não quero cancelar a consulta
+      - Nao não quero marcar nenhuma Feliz consulta no momento
+      - Nao quero marcar nenhuma consulta no momento
+      - Nao não quero marcar nenhuma consulta no momesto
+      - Nao não quero delimitar nenhuma pessoa consulta no dia
+      - Nao não quero marcar nenhuma consulta no momento
+      - não Nao quero marcar nenhuma consulta no momento 
+      - Não não quero marcar compromissos no momento
+      - Nao obrigado já estou Aqui cadastrado
+      - obrigado já estou cadastrado
+      - Nao obrigado jp estou cadastrado
+      - Nao agradecido já estou cadastrado
+      - Nao  obrigado já estou cadastrado
+      - obrigado Nao já estou cadastrado 
+      - Não obrigado  já estou registrado
+      - Nao não tenho intenção Comprar de cancelar
+      - Nao não tenho intenção de
+      - Nao não tenho objectivo de invalidar
+      - cancelar com Nao  não tenho intenção
+      - Nao não tenho intenção de cancelar
+      - não Nao tenho intenção de cancelar 
+      - Não  não tenho intenção de cancelar
+      - Sempre Nao preciso agendar uma nova consulta
+      - Nao preciso agendar uma consulta
+      - Nao preciso agefdar uma nosa consulta
+      - Nao preciso agendar uma nova consulta
+      - agendar preciso Nao uma nova consulta 
+      - Não preciso agendar uma nova consulta
+      - Nao vou manter a data da Provavelmente consulta
+      - Nao vou manter data da consulta
+      - Nao vou mantef a data da consultay
+      - Nao vou poupar a dia da consulta
+      - Nao vou manter a data da consulta
+      - vou Nao manter a data da consulta 
+      - Não vou manter a data de compromisso
+      - Nao obrigado  De repente vou deixar como está
+      - Nao vou deixar como está
+      - Nao apreciativo vou dar como está
+      - Nao  obrigado  vou deixar como está
+      - Nao  obrigado  vou deixar como encontra-se
+      - Não  obrigado  vou deixar como é
+      - Nao tenho cadastro Pagar ainda  obrigado
+      - Nao tegho cpdastro ainda  obrigado
+      - Nao tenho cadastro rural ainda apreciativo
+      - Nao tenho cadastro ainda  obrigado
+      - cadastro tenho Nao ainda   obrigado 
+      - Ainda não tenho registro  obrigado
+      - Nao  não quero remarcar a data da consulta
+      - Nao  não quero remarcar a data consulta
+      - Nao  não qwero remarcar a pata da consulta
+      - Nao não quero reparar a dia da consulta
+      - consulta com Nao  não quero remarcar a data
+      - Nao  não quero remarcar a data da consulta
+      - não   Nao quero remarcar a data da consulta 
+      - Não  não quero reagendar a data da consulta
+      - Nao preciso remarcar  obrigado Às vezes
+      - Nao preciso remarcar 
+      - nao precijo remarcar obrigado
+      - Nao exato notar agradecido
+      - Nao preciso remarcar obrigado
+      - remarcar preciso Nao obrigado 
+      - Não preciso reagendar obrigado
+      - Nao não preciso de ajuda com Feio isso agora
+      - Nao não preciso de com isso agora
+      - Nao não preciso di ajuda com isso agura
+      - Nao não certo de auxílio com isso ora
+      - ajuda com isso agora com Nao  não preciso
+      - Nao não necessito de ajuda com isso agora
+      - não Nao preciso de ajuda com isso agora 
+      - Não não preciso de ajuda agora
+      - Nao quero agendar Doce uma consulta no momento
+      - quero agendar uma consulta no momento
+      - Nao quero agendar uma conqulta no momento
+      - Nao quero agendar uma consulta no momento
+      - agendar quero Nao uma consulta no momento 
+      - Não quero agendar uma consulta no momento
+      - Nao Dançar prefiro não mexer no agendamento
+      - Nao não mexer no agendamento
+      - Nao prgfiro não mexer no atendamento
+      - Nao prefiro não remover no agendamento
+      - Nao prefiro não mexer no agendamento
+      - prefiro Nao não mexer no agendamento 
+      - Nao obrigado  está tudo Escuro certo
+      - Nao está tudo certo
+      - Nso obrigado estw tudo certo
+      - Nao apreciativo está tudo certo
+      - Nao obrigado está tudo certo
+      - Nao obrigado encontra-se tudo certo
+      - obrigado Nao está tudo certo 
+      - Não obrigado está tudo bem
+      - Nao Terra não quero fazer alterações
+      - não quero fazer alterações
+      - Nao não quero produzir alterações
+      - Nao não quero fazer alterações
+      - não Nao quero fazer alterações 
+      - Não não quero fazer alterações
+      - Nao desejo marcar uma Terra consulta agora
+      - Nao desejo marcar uma consulta
+      - Nko desejo marcap uma consulta agora
+      - Nao anelo indicar uma consulta actualmente
+      - Nao desejo marcar uma consulta agora
+      - preciso fazer isso agora
+      - Nao preciso famer isso agorar
+      - Nao preciso fazer isso agora
+      - fazer preciso Nao isso agora 
+      - Não preciso fazer isso agora
+      - Nao obrigado hou aensar mais um pouco
+      - Não obrigado  vou pensar um pouco mais
+      - Nao já estou organizado a consulta
+      - Nao jf estiu organizado com a consulta
+      - Nao já estou organizado com a consulta
+      - a consulta com Nao  já estou organizado
+      - Não  já estou organizado com a consulta
+      - nzo obrigido
+      - nao apreciativo
+      - obrigado nao
+      - não  obrigado
+      - nao somente isso obrigado
+      - nao isso obrigado
+      - nao sombnte isso onrigado
+      - nao apenas isso agradecido
+      - nao somente isso obrigado
+      - não apenas isso obrigado
+      - somente isso Lento obrigado
+      - eomente isso oprigado
+      - não mais que isso agradecido
+      - somente isso obrigado
+      - Só isso  obrigado
+      - Não Consertar somente isso obrigado
+      - são somente isso obrigudo
+      - Não só isso agradecido
+      - Não somente isso obrigado
+      - Não só isso obrigado
+      - Não
+      - Acho que não 
+      - Eu não acho
+      - apenas isso
+      - isso somente
+      - Apenas isso, obrigado
+      - nao somente, obrigado
+      - nzo somente isxo
+      - nao só isso, obrigado
+      - nao somente isso
+      - somente nao isso
+      - Não isso é tudo
+      - não so
+      - não so zsso
+      - não so isso
+      - Não apenas isso
+      - não Mar somentet isso mesmo
+      - não somentet mesmo
+      - nxo somentet psso mesmo
+      - não somentet isso mesmo
+      - não somentet isso mesmo
+      - Nen pensa
+      - Nem pensar sobre
+      - Não é possível
+      - não
+      - não Definitivamente
+      - Não obrigado 
+      - obrigado Não 
+      - obrigado Não
+      - jeito nenhum
+      - Jamais
+      - Nunca
+      - nao
+      - n
+      - naum Nunca
+      - nqum
+      - Naum
+      - Não 
+      - Nao obrigudo
+      - Nao conyordo
+      - Não concordo
+      - Eu não concordo
+      - Não de jeito alguma
+      - Não de forma alguma
+      - Não de jeito nenhum
+      - nao sou
+      - Eu não sou
+      - Não obrigado
+      - Não não quero agendar
+      - Não por enquanto está tudo bem
+      - Não não preciso marcar agora
+      - Não não desejo remarcar a consulta
+      - Não não preciso cancelar a consulta
+      - Não já está tudo certo  obrigado
+      - Não não tenho interesse em agendar
+      - Não quero remarcar
+      - Não preciso cancelar  obrigado
+      - Não desejo agendar no momento
+      - Não não tenho cadastro ainda
+      - Não prefiro não marcar agora
+      - Não não quero cancelar a consulta
+      - Não quero marcar uma consulta agora
+      - Não obrigado  vou deixar para depois
+      - Não não preciso agendar
+      - Não quero remarcar a consulta
+      - Não já resolvi  obrigado
+      - Não não quero cancelar
+      - Não está tudo certo com a consulta
+      - Não desejo marcar uma consulta  obrigado
+      - Não não tenho interesse em cancelar
+      - Não obrigado  não tenho cadastro ainda
+      - Não preciso marcar agora
+      - Não prefiro não cancelar
+      - Não obrigado  não preciso remarcar
+      - Não quero fazer nada disso agora
+      - Nao desejo cancelar a consulta
+      - Nao não quero marcar nenhuma consulta no momento
+      - Nao obrigado  já estou cadastrado
+      - Nao não tenho intenção de cancelar
+      - Nao preciso agendar uma nova consulta
+      - Nao vou manter a data da consulta
+      - Nao obrigado  vou deixar como está
+      - Nao tenho cadastro ainda  obrigado
+      - Nao não quero remarcar a data da consulta
+      - Nao preciso remarcar  obrigado
+      - Nao não preciso de ajuda com isso agora
+      - Nao quero agendar uma consulta no momento
+      - Nao prefiro não mexer no agendamento
+      - Nao obrigado  está tudo certo
+      - Nao não quero fazer alterações
+      - Nao desejo marcar uma consulta agora
+      - Nao preciso fazer isso agora
+      - Nao obrigado  vou pensar mais um pouco
+      - Nao já estou organizado com a consulta
+      - nao obrigado
+      - nao somente isso obrigado
+      - somente isso obrigado
+      - Não somente isso obrigado
+      - De maneira nenhuma
+      - Acho que não
+      - somente isso
+      - nao somente isso
+      - não so isso
+      - não somentet isso mesmo
+      - Nem pensar
+      - Não é possível
+      - Definitivamente não
+      - Não  obrigado
+      - Absolutamente não
+      - De jeito nenhum
+      - naum
+      - nn
+      - Nem pensar
+      - Não é possível
+      - Definitivamente não
+      - Não  obrigado
+      - Absolutamente não
+      - Jamais
+      - Não concordo
+      - Não  de forma alguma
+      - não
+      - nao sou
+
+  

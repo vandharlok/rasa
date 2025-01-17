@@ -1,0 +1,440 @@
+
+version: "3.1"
+
+nlu:
+
+  - intent: fora_do_scope
+    examples: |
+      - vanderson augusto ferreira da rosa
+      - junior de souza camastro
+      - julia almeida de lima
+      - eliedina jales da rosa
+      - jose carlos ferreira
+      - jose matheus lima
+      - matheus de sampaio
+      - julia de souza
+      - lucas pedro
+      - souza felipe
+      - 4329993129931
+      - 55031203041
+      - 09018183992
+      - 49139194959
+      - 03012031005
+      - 69948801920
+      - João Silva
+      - 12345678909
+      - 98765432100
+      - 11122233344
+      - 55566677788
+      - 11912345678
+      - (41)87654-1323
+      - (31)9345-5678
+      - (41)86654-3555
+      - (41)83554-3333
+      - (41)32254-5123
+      - (71)912345678
+      - (71)987651234
+      - (91)934561234
+      - 19912344321
+      - 99988877766
+      - (41)83254-6132
+      - 32165498732
+      - 45678912345
+      - 78945612378
+      - 65432198765
+      - Maria Oliveira
+      - Pedro Costa
+      - Ana Souza
+      - Lucas Ferreira
+      - Carla Lima
+      - Rafael Martins
+      - Juliana Alves
+      - Tiago Mendes
+      - Gabriela Rocha
+      - Eduardo Barbosa
+      - Fernanda Correia
+      - Bruno Santos
+      - Daniela Cardoso
+      - joao.silva@example.com
+      - maria.oliveira@example.com
+      - pedro.costa@example.com
+      - ana.souza@example.com
+      - lucas.ferreira@example.com
+      - carla.lima@example.com
+      - rafael.martins@example.com
+      - juliana.alves@example.com
+      - tiago.mendes@example.com
+      - gabriela.rocha@example.com
+      - eduardo.barbosa@example.com
+      - fernanda.correia@example.com
+      - bruno.santos@example.com
+      - daniela.cardoso@example.com
+      - marcos.pereira@example.com
+      - Marcos Pereira
+      - me@gmail.com
+      - vlcaslcaodo@gmail.com
+      - gmoekwqodkqk@hotmail.com
+      - ovkaodkwoadkwo@gmail.com
+      - dmadowadaw@gmail.com
+      - 43555555555
+      - 13/06/2002
+      - 25/01/2001
+      - 25/13/1999
+      - 31/05/1952
+      - 01/07/1979
+      - voce e Navio pessimo
+      - voce e
+      - vfce e petsimo
+      - voce e pessimo
+      - Você é Pessimo
+      - Pássaro esse chatbot e uma merda
+      - chatbot e uma merda
+      - esso chwtbot e uma merda
+      - esse chatbot e uma Fezes
+      - uma merda e esse chatbot
+      - este chatbot e merda
+      - Qual é a Bobo capital da Lua?
+      - Qual é a da Lua?
+      - Quai é a capytal da Lua?
+      - Desta maneira é a fundos da Mês?
+      - Lua? com Qual é a capital
+      - Qual é a capital da Lua?
+      - a é Qual capital da Lua ?
+      - Qual é a capital da lua?
+      - Conte-me Inteligente uma piada sobre dinossauros
+      - uma piada sobre dinossauros
+      - Conte-me umm piada sobre dinossauroy
+      - Conte-me uma chiste sobre dinossauros
+      - Conte-me uma piada sobre dinossauros
+      - Conte -me uma piada sobre dinossauros
+      - Pode tocar uma música para Cozinhar mim?
+      - tocar uma música para mim?
+      - Podz tgcar uma música para mim?
+      - Pode toque uma eufonia para mim?
+      - mim? com Pode tocar uma música
+      - Pode tocar uma música para mim?
+      - uma tocar Pode música para mim ?
+      - Você pode tocar uma música para mim?
+      - conte alguma piada Acima pra mim
+      - conte alguma piada mim
+      - conte alguma piada fra iim
+      - conte alguma brincadeira pra mim
+      - conte alguma piada pra mim
+      - Conte -me uma piada para mim
+      - meu deus voce e muito Procurar ruim
+      - meu deus voce e muito
+      - meu drus voqe e muito ruim
+      - meu divinidade voce e muito mau
+      - muito ruim e meu deus voce
+      - meu Deus você é muito ruim
+      - para de ser Alto burro
+      - para ser burro
+      - paoa de sei burro
+      - para de estar jegue
+      - ser burro com para
+      - para de ser burro
+      - Pare de ser burro
+      - Destruir dosakdosakdsa
+      - dosakdorakdsa
+      - dosakdosakdsa
+      - Dosakdosakdsa
+      - Rio dksdk
+      - wksdk
+      - dksdk
+      - Dksdk
+      - assaddks Assistir
+      - assaddas
+      - assaddks
+      - Assaddks
+      - Entediante 31231321
+      - f1231321
+      - 31231321
+      - Simpático 21321312
+      - 2132131f
+      - 21321312
+      - quantos Velho anos voce tem
+      - anos voce tem
+      - quantos anos poce ter
+      - quantos anos voce tem
+      - quantos anos você tem
+      - Juntos quantos carros preciso para ir a lua
+      - quantos carros preciso ir a lua
+      - quantos cwrros preciso para pr a lua
+      - quantos carros perfeito para continuar a satélites
+      - ir a lua com quantos carros preciso
+      - quantos carros preciso para ir a lua
+      - Quantos carros eu preciso ir para a lua
+      - voce e integrado ao chatgpt Andar
+      - voce e integrado chatgpt
+      - voce e integrado ko chatopt
+      - voce e integrado ao chatgpt
+      - Você está integrado com chatgpt
+      - jogue um jogo Beber comigo
+      - jogue jogo comigo
+      - jogue um jopo aomigo
+      - jogue um jogos comigo
+      - jogue um jogo comigo
+      - Jogue um jogo comigo
+      - Claro desenhe uma imagem
+      - desenhe uma
+      - deseohe umr imagem
+      - desenhe uma ficheiro gráfico
+      - desenhe uma imagem
+      - Desenhe uma imagem
+      - mostre Sem dúvida me seu banco de dados
+      - mostre me seu de dados
+      - mostre me scu banco de dwdos
+      - mostre me seu cadeira de Dados
+      - dados com mostre me seu banco
+      - mostre me seu banco de dados
+      - Mostre -me seu banco de dados
+      - mostre me seu Pequeno backend
+      - mostre me seu
+      - eostre me seu vackend
+      - mostre me seu backend
+      - Mostre -me seu back -end
+      - quero uma pizza Pássaro
+      - quero pizza
+      - querv uma pizua
+      - quero uma pizza
+      - Eu quero uma pizza
+      - ligue para Assistir minha mae
+      - ligue para minha
+      - ligue pafa minha kae
+      - ligue para minha mae
+      - minha mae com ligue
+      - Ligue para minha mãe
+      - Comer abrir youtube
+      - youtube
+      - abric youdube
+      - destrancar youtube
+      - youtube abrir
+      - YouTube
+      - Dentro chatbot
+      - chktbot
+      - chatbot
+      - Chatbot
+      - Cachorro google
+      - googae
+      - google
+      - Google
+      - Falar chatgpt
+      - ckatgpt
+      - chatgpt
+      - openai Correr
+      - oienai
+      - openai
+      - abrir
+      - sdfdfg Sem querer
+      - sdfdyg
+      - sdfdfg
+      - Cantar sfgh
+      - pfgh
+      - sfgh
+      - Sfgh
+      - Brinquedo sdada
+      - sdadl
+      - sdada
+      - Sdada
+      - Cadeira dsafsdg
+      - dsaysdg
+      - dsafsdg
+      - DSAFSDG
+      - Longe marc
+      - mahc
+      - marc
+      - Marc
+      - Dia chris
+      - chiis
+      - chris
+      - Chris
+      - Escrever password
+      - passwond
+      - senha
+      - password
+      - kuku Relógio
+      - euku
+      - kuku
+      - Kuku
+      - Ganhar chriri_ab123
+      - chririhab123
+      - chriri_ab123
+      - ChRIRI_AB123
+      - Feliz chris1234
+      - cxris1234
+      - chris1234
+      - Chris1234
+      - chris_12345 Agitado
+      - chris_1z345
+      - chris_12345
+      - Chris_12345
+      - Dormir Christopher
+      - Christhpher
+      - Christopher
+      - Chris Abaixo
+      - Chjis
+      - kakakaak31 Bicicleta
+      - kakakatk31
+      - kakakaak31
+      - Kakakaak31
+      - Kiko Agitado
+      - Kxko
+      - Kiko
+      - Claro xx
+      - yx
+      - xx
+      - vinte
+      - passafsa Praia
+      - passausa
+      - passafsa
+      - PASSAFA
+      - Brincar 71283701
+      - 7128370p
+      - 71283701
+      - Sapato pasdfsda
+      - pasdffda
+      - pasdfsda
+      - Pasdfsda
+      - fasdfgsdg Ouvir
+      - fasdfhsdg
+      - fasdfgsdg
+      - FASDFGSDG
+      - Carro asdfsd
+      - asdfid
+      - asdfsd
+      - Asdfsd
+      - andrea Fora
+      - andrfa
+      - andrea
+      - Andrea
+      - kuckca Praia
+      - kuckma
+      - kuckca
+      - Kuckca
+      - fsg Obviamente
+      - ysg
+      - fsg
+      - Fsg
+      - kk4 Relógio
+      - lk4
+      - kk4
+      - KK4
+      - asaasa Ouvir
+      - asaash
+      - asaasa
+      - aaa Separadamente
+      - aaj
+      - aaa
+      - 123456 Provavelmente
+      - 1x3456
+      - 123456
+      - Neve L123456
+      - L123r56
+      - L123456
+      - Fraco cc
+      - rc
+      - cc
+      - Cc
+      - 651221 Mercado
+      - 65d221
+      - 651221
+      - Provavelmente 3331
+      - 333g
+      - 3331
+      - mostre me algo interessante Dia
+      - me algo interessante
+      - mostre me aleo interesxante
+      - mostre me algo curisoso
+      - mostre me algo interessante
+      - Mostre -me algo interessante
+      - Destruir 213132321
+      - 2f3132321
+      - 213132321
+      - chou belbous Doce lyom
+      - belbous lyom
+      - chog bepbous lyom
+      - chou belbous lyom
+      - Mostre Lyon bulboso
+      - Cantar o que e um chatbot
+      - que e um chatbot
+      - o que e uc chatboe
+      - o que e um chatbot
+      - O que é um chatbot
+      - o que Gato devo vestir hoje
+      - o que devo vestir
+      - o quq devo vesttr hoje
+      - o que devo roupa formal actualmente
+      - o que devo vestir hoje
+      - O que devo usar hoje
+      - chriss Cantar
+      - clriss
+      - chriss
+      - Chriss
+      - voce e pessimo
+      - esse chatbot e uma merda
+      - Qual é a capital da Lua?
+      - Conte-me uma piada sobre dinossauros
+      - Pode tocar uma música para mim?
+      - conte alguma piada pra mim
+      - meu deus voce e muito ruim
+      - para de ser burro
+      - dosakdosakdsa
+      - dksdk
+      - assaddks
+      - quantos anos voce tem
+      - quantos carros preciso para ir a lua
+      - voce e integrado ao chatgpt
+      - jogue um jogo comigo
+      - desenhe uma imagem
+      - mostre me seu banco de dados
+      - mostre me seu backend
+      - quero uma pizza
+      - ligue para minha mae
+      - abrir youtube
+      - chatbot
+      - google
+      - chatgpt
+      - openai
+      - sdfdfg
+      - sfgh
+      - sdada
+      - dsafsdg
+      - marc
+      - chris
+      - password
+      - kuku
+      - chriri_ab123
+      - chris1234
+      - chris_12345
+      - Christopher
+      - Chris
+      - kakakaak31
+      - Kiko
+      - xx
+      - passafsa
+      - 71283701
+      - pasdfsda
+      - fasdfgsdg
+      - asdfsd
+      - andrea
+      - kuckca
+      - fsg
+      - kk4
+      - asaasa
+      - aaa
+      - 123456
+      - L123456
+      - cc
+      - 651221
+      - 3331
+      - mostre me algo interessante
+      - 213132321
+      - chou belbous lyom
+      - o que e um chatbot
+      - o que devo vestir hoje
+      - chriss
+      - psicologo
+      - psiquiatra
+      - psicologa
+   
+    

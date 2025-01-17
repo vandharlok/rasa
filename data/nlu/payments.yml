@@ -1,0 +1,690 @@
+version: "3.1"
+
+nlu:
+
+
+
+  - intent: preco_consulta
+    examples: |
+      - Ei, quanto custam suas consultas?
+      - Qual é o preço para uma visita ao médico?
+      - Você pode me dizer quanto é por agendamento?
+      - Quanto vocês cobram por consultas?
+      - Quanto custa para ver um médico aí?
+      - Tem uma lista de preços para suas consultas?
+      - Quanto é um check-up com vocês?
+      - O que vocês cobram por uma visita?
+      - Diga-me os preços de suas consultas.
+      - Quanto vou gastar em uma consulta?
+      - Qual é a taxa para ver um médico?
+      - Quanto é para fazer uma consulta?
+      - Qual é a sua tarifa por visita?
+      - Quanto pago por cada agendamento?
+      - Qual é o custo de uma consulta com vocês?
+      - Você pode me dar os preços de seus serviços?
+      - Quanto é uma consulta médica aí?
+      - Quais são suas taxas de consulta?
+      - Quanto custa uma visita?
+      - Qual é a cobrança por uma consulta?
+      - Quanto por um agendamento médico?
+      - O que vocês cobram por consulta?
+      - Quanto preciso pagar por uma visita?
+      - Qual é o preço de uma consulta?
+      - Você pode me dizer os preços das consultas?
+      - Quanto é um agendamento com seus médicos?
+      - Quais são os custos de suas consultas?
+      - Quanto vocês cobram por visita?
+      - Quanto custa ver um de seus médicos?
+      - Quanto são suas consultas médicas?
+      - Você pode me informar o preço por consulta?
+      - Quanto é uma visita ao médico com vocês?
+      - Quanto custam as consultas no seu local?
+      - Quanto vocês cobram por uma consulta?
+      - Qual é o valor para uma visita médica?
+      - Diga-me quanto custa uma consulta.
+      - Quanto é para marcar um agendamento?
+      - Quais são as taxas para ver um médico?
+      - Quanto pago por consulta?
+      - Qual é o custo para ver um médico aí?
+      - Quanto vocês cobram por uma visita ao consultório?
+      - Qual é a sua tarifa de consulta?
+      - Quanto é cada visita?
+      - Você pode me dizer o custo de suas consultas?
+      - Quanto custa para vir aí?
+      - Quais são suas cobranças por visita?
+      - Quanto é uma visita médica?
+      - Qual é o preço por agendamento?
+      - Quanto pago para ver um médico?
+      - Qual é a taxa por agendamento?
+      - Quanto custa um check-up com vocês?
+      - Poderia, por favor, informar-me o custo de cada consulta médica?
+      - Gostaria de saber os preços de suas consultas médicas.
+      - Posso saber as taxas para cada tipo de consulta médica que você oferece?
+      - Por favor, forneça-me os detalhes de preços para seus serviços de consulta.
+      - Estou interessado em entender o custo de agendar uma consulta médica.
+      - Poderia gentilmente informar-me as cobranças para cada consulta?
+      - Posso perguntar sobre as taxas associadas às suas consultas médicas?
+      - Poderia fornecer-me informações sobre o custo por consulta?
+      - Necessito de detalhes sobre os preços de suas diversas consultas médicas.
+      - Por favor, informe-me as taxas para cada serviço de consulta médica.
+      - Poderia, por favor, fornecer o detalhamento de custos para suas consultas?
+      - Agradeceria saber os preços de suas ofertas de consulta médica.
+      - Posso solicitar informações sobre as taxas para cada tipo de consulta?
+      - Gentileza informar-me as cobranças associadas ao agendamento de uma consulta.
+      - Estou buscando informações sobre os preços de suas consultas médicas.
+      - Poderia aconselhar-me sobre o custo por agendamento para consultas?
+      - Por favor, forneça-me detalhes sobre as taxas para seus serviços de consulta.
+      - Desejo saber os preços específicos para cada consulta médica.
+      - Você poderia me dizer o custo de seus serviços de consulta?
+      - Poderia esclarecer-me sobre as taxas para agendar uma consulta médica?
+      - Estou consultando sobre as cobranças para cada uma de suas consultas médicas.
+      - Por favor, informe-me sobre a estrutura de preços de suas ofertas de consulta.
+      - Gostaria de descobrir o custo associado a cada tipo de consulta.
+      - Poderia fornecer-me as taxas para suas diversas consultas médicas?
+      - Posso obter os detalhes dos custos para agendar consultas?
+      - Por favor, informe-me se há diferenças nas taxas para os tipos de consulta.
+      - Preciso saber os preços de suas consultas médicas para fins de planejamento.
+      - Gentileza fornecer as cobranças para cada um de seus serviços de consulta.
+      - Poderia informar-me as taxas associadas a cada consulta médica?
+      - Estou interessado nos detalhes de custo para suas consultas médicas.
+      - Por favor, aconselhe-me sobre os preços de seus serviços de consulta.
+      - Poderia, por favor, enviar-me informações sobre as taxas para consultas?
+      - Posso obter o detalhamento de custos para suas ofertas de consulta médica?
+      - Poderia me dizer se as taxas de consulta variam por tipo?
+      - Agradeceria detalhes sobre as cobranças para cada serviço de consulta.
+      - Por favor, informe-me sobre quaisquer diferenças de preços entre suas consultas.
+      - Poderia fornecer-me o custo por consulta médica?
+      - Estou buscando as taxas associadas ao agendamento de uma consulta.
+      - Gentileza informar-me se há cobranças adicionais para consultas.
+      - Posso perguntar sobre os preços de seus diversos serviços de consulta?
+      - Por favor, forneça-me as taxas para cada consulta médica que você oferece.
+      - Poderia me dizer o custo envolvido em agendar uma consulta?
+      - Gostaria de saber as taxas para cada tipo de consulta médica.
+      - Você poderia informar-me as cobranças para seus serviços de consulta?
+      - Por favor, informe-me se há taxas especiais para certas consultas.
+      - Poderia aconselhar-me sobre os preços de suas consultas médicas?
+      - Necessito de informações sobre o custo por consulta para seus serviços.
+      - Posso obter os detalhes das taxas associadas às consultas?
+      - Por favor, informe-me sobre as cobranças padrão para consultas médicas.
+      - Poderia fornecer informações sobre os preços de suas ofertas de consulta?
+      - Estou interessado em saber as taxas de suas consultas médicas.
+      - Você poderia me fornecer os preços de cada tipo de consulta médica?
+      - Gostaria de saber o custo de cada consulta médica que você oferece.
+      - Pode me informar sobre os preços de suas diversas consultas médicas?
+      - Por favor, deixe-me saber quanto custa cada uma de suas consultas médicas.
+      - Estou interessado em saber as taxas de cada consulta médica.
+      - Você poderia me dizer o custo associado a cada tipo de consulta?
+      - Agradeceria informações sobre os preços de suas consultas médicas.
+      - Posso ter detalhes sobre o custo de cada serviço de consulta médica?
+      - Por favor, forneça-me um detalhamento dos preços de suas consultas.
+      - Estou perguntando sobre as taxas de cada um de seus serviços de consulta médica.
+      - Você poderia me informar as cobranças para cada consulta médica?
+      - Gostaria de obter informações sobre quanto custa cada consulta.
+      - Pode me dizer os preços das diferentes consultas médicas que você oferece?
+      - Por favor, deixe-me saber o custo por consulta para seus serviços.
+      - Estou interessado nas taxas para cada tipo de consulta médica disponível.
+      - Você poderia fornecer a lista de preços de suas consultas médicas?
+      - Agradeceria saber o custo de agendar uma consulta médica.
+      - Posso perguntar sobre as taxas associadas a cada tipo de consulta?
+      - Por favor, informe-me sobre os preços de seus diversos serviços de consulta.
+      - Estou querendo saber quanto custa cada uma de suas consultas.
+      - Você poderia me dizer as cobranças para uma consulta com seus médicos?
+      - Gostaria de saber o custo por consulta médica.
+      - Pode me fornecer os detalhes de preços para cada consulta?
+      - Por favor, deixe-me saber as taxas de seus diferentes serviços de consulta.
+      - Estou interessado em entender a estrutura de custos para consultas.
+      - Você poderia me informar os preços para consultas individuais?
+      - Gostaria de saber o custo envolvido em cada consulta médica.
+      - Pode me dizer quanto você cobra por cada tipo de consulta?
+      - Por favor, forneça as informações de preços para suas consultas médicas.
+      - Estou buscando detalhes sobre as taxas para cada serviço de consulta que você oferece.
+      - Você poderia me dar uma ideia do custo por consulta médica?
+      - Agradeceria detalhes sobre quanto custa cada consulta.
+      - Posso ter informações sobre as cobranças de suas consultas médicas?
+      - Por favor, informe-me sobre as taxas associadas ao agendamento de uma consulta.
+      - Estou interessado nos preços de cada um de seus serviços de consulta.
+      - Você poderia me dizer o custo para agendar uma consulta médica?
+      - Gostaria de saber os preços de suas várias opções de consulta.
+      - Pode fornecer detalhes sobre o custo por consulta com seus médicos?
+      - Por favor, deixe-me saber quanto custa ver um médico para uma consulta.
+      - Estou perguntando sobre as taxas de consulta para seus serviços médicos.
+      - Você poderia me informar o preço por agendamento para consultas?
+      - Pode me dizer sobre as cobranças para seus serviços de consulta?
+      - Por favor, forneça-me os detalhes de custo para cada consulta médica.
+      - Estou interessado nos preços para consultas com seus especialistas.
+      - Você poderia fornecer informações sobre quanto custa cada agendamento de consulta?
+      - Agradeceria saber os preços de seus diferentes serviços de consulta.
+      - Posso perguntar sobre o custo por visita para consultas médicas?
+      - Por favor, informe-me sobre as taxas para agendar uma consulta.
+      - Estou querendo entender o custo de cada consulta que você oferece.
+      - Você poderia me dizer as cobranças associadas a cada serviço de consulta médica?
+      - Quanto custa cada consulta?
+      - Preços das consultas?
+      - Qual é o custo de uma consulta?
+      - Quanto por visita?
+      - Preço por consulta?
+      - Custo de cada agendamento?
+      - Quanto custam seus serviços?
+      - Qual o valor que você cobra por consulta?
+      - Taxas para consultas?
+      - Qual é o preço por visita?
+      - Quanto custa uma visita ao médico?
+      - Taxa de consulta?
+      - Lista de preços para consultas?
+      - Quanto custa para ver um médico?
+      - Cobranças por consulta?
+      - Quais são as tarifas de consulta?
+      - Quanto é uma consulta?
+      - Custo por visita médica?
+      - Qual é a taxa para uma consulta?
+      - Quanto você cobra por visita?
+      - Custo da consulta?
+      - Preço da consulta médica?
+      - Quanto custa um check-up?
+      - Quais são as suas taxas de consulta?
+      - Custo para ver o médico?
+      - Quanto custa cada visita?
+      - Quanto custam as consultas?
+      - Preço por visita ao médico?
+      - Quanto é um agendamento médico?
+      - Taxas para serviços médicos?
+      - Quais são as cobranças por visita?
+      - Custo da consulta médica?
+      - Qual é a tarifa para uma consulta?
+      - Preço de um agendamento?
+      - Quanto por uma consulta médica?
+      - Cobranças de consulta?
+      - Custo para cada consulta?
+      - Quais são os preços das consultas?
+      - Quanto custa uma visita ao consultório?
+      - Taxa por consulta?
+      - Qual é o custo de uma visita ao médico?
+      - Quanto para ver o médico?
+      - Preço da consulta?
+      - Preço para uma visita ao consultório?
+      - Quanto é cada agendamento?
+      - Quais são as suas taxas por consulta?
+      - Custo para ver um médico?
+      - quanto ta a consulta com o psicologo
+      - quanto ta a com o psicologo
+      - qusnto ta a consulta com o psizologo
+      - quanto é a consulta com o psicólogo
+      - quanto ta a consulta com o psiquiatra
+      - quanto ta a consulta com psiquiatra
+      - luanto ta a consulta wom o psiquiatra
+      - quanto ta a consulta com o encolhimento
+      - o psiquiatra com quanto ta a consulta
+      - quanto é a consulta com o psiquiatra
+      - qganto va a a consulta
+      - quanto ta a a consulta
+      - Quanto é a consulta
+      - qual o preco  da consulta
+      - qual o preco dw cocsulta
+      - segundo o preco da consulta
+      - consulta com qual o preco
+      - qual o preco da consulta
+      - Qual é o preço da consulta
+      - Quanto custa uma consulta geral nesta clínica
+      - Quanto custa uma consulta habitual nesta hospital
+      - Quanto custa uma consulta geral esta clínica
+      - Pode me informar qual é o valor de uma consulta
+      - Pode me informar qual é o valor uma consulta
+      - Pode me informar qual é o valor de umg consulya
+      - Pode me notificar o preco de uma consulta
+      - uma consulta com Pode me informar qual é o valor
+      - Você pode me informar qual é o valor de uma consulta
+      - Qual é o custo  para uma consulta com um especialista?
+      - Qual é custo para uma consulta com um especialista?
+      - Quav é o custo para uva consulta com um especialista?
+      - uma consulta com um especialista? com Qual é o custo
+      - Qual é o custo para uma consulta com um especialista?
+      - o é Qual custo para uma consulta com um especialista ?
+      - Qual é o custo de uma consulta com um especialista?
+      - Voce poderia me dizer quanto é cobrado por uma consulta?
+      - Voce poderia me dizer é cobrado por uma consulta?
+      - Voce poderia le dlzer quanto é cobrado por uma consulta?
+      - uma consulta? com Voce poderia me dizer quanto é cobrado
+      - me poderia Voce dizer quanto é cobrado por uma consulta ?
+      - Você poderia me dizer quanto é cobrado por uma consulta?
+      - Gostaria de saber o preço de uma consulta?
+      - Gostaria de sabez o preço de umo consulta?
+      - Gostaria de conhecer o custos de uma consulta?
+      - saber de Gostaria o preço de uma consulta ?
+      - Você gostaria de saber o preço de uma consulta?
+      - Qual é o valor cobrado para uma consulta? Ajudar
+      - Qual o valor cobrado para uma consulta?
+      - Qual é o valkr cobrado papa uma consulta?
+      - uma consulta? com Qual é o valor cobrado
+      - Qual é o valor cobrado para uma consulta?
+      - o é Qual valor cobrado para uma consulta ?
+      - Qual é o valor cobrado por uma consulta?
+      - Pode me dizer qual o custo de uma consulta nesta Inteligente clínica?
+      - Pode me dizer qual o custo de consulta nesta clínica?
+      - Pode me dizer qual o custo de ula consulta nesta clítica?
+      - Pode me dizer desta maneira o despesa de uma consulta nesta hospital?
+      - uma consulta nesta clínica? com Pode me dizer qual o custo
+      - Pode me dizer qual o custo de uma consulta nesta clínica?
+      - dizer me Pode qual o custo de uma consulta nesta clínica ?
+      - Você pode me dizer qual é o custo de uma consulta nesta clínica?
+      - Pode fornecer os preços Computador para as consultas disponíveis?
+      - Pode fornecer os preços para as disponíveis?
+      - yode fornecer os preços paga as consultas disponíveis?
+      - Pode proporcionar os custo para as consultoria disponíveis?
+      - as consultas disponíveis? com Pode fornecer os preços
+      - Pode fornecer os preços para as consultas disponíveis?
+      - os fornecer Pode preços para as consultas disponíveis ?
+      - Você pode fornecer preços para as consultas disponíveis?
+      - Agitado Quanto custa a consulta?
+      - custa a consulta?
+      - Quanto custa a consulta?
+      - a custa Quanto consulta ?
+      - Qual o valor da consulta?
+      - Qual valor da consulta?
+      - Qwal o valor da consulta?
+      - consulta? com Qual o valor
+      - valor o Qual da consulta ?
+      - Qual é o valor da consulta?
+      - Quanto custa Escuro uma consulta nesta clínica?
+      - Quanto custa uma consulta clínica?
+      - Quanto custb zma consulta nesta clínica?
+      - Quanto custa uma consulta nesta hospital?
+      - Quanto custa uma consulta nesta clínica?
+      - uma custa Quanto consulta nesta clínica ?
+      - qual o custo de uma consulta nesta clínica?
+      - qual o custo de uma nesta clínica?
+      - qual o custo de sma consuwta nesta clínica?
+      - uma consulta nesta clínica? com qual o custo
+      - custo o qual de uma consulta nesta clínica ?
+      - Qual é o custo de uma consulta nesta clínica?
+      - Qual o valor?
+      - Qual é o valor?
+      - preco
+      - preço
+      - quacto cssta
+      - quanto custa
+      - quanto custa isso
+      - qual e o valor
+      - qual o valor
+      - o valor e qual
+      - Qual é o valor
+      - valor
+      - o valor
+      - e o valqr
+      - e o valor
+      - o preço
+      - e o prdço
+      - e o custos
+      - e o preço
+      - Quanto Chave custa o atendimento com um especialista?
+      - Quanto custa o atendimento com especialista?
+      - Quanto custa o atendimenpo com ud especialista?
+      - Quanto custa o atendimento com um erudito?
+      - um especialista? com Quanto custa o atendimento
+      - o custa Quanto atendimento com um especialista ?
+      - Quanto custa o serviço com um especialista?
+      - Longe Qual é o preço para uma consulta de rotina?
+      - Qual o preço para uma consulta de rotina?
+      - Qual é o preçu uara uma consulta de rotina?
+      - Ídem é o custo para uma consulta de ramerrão?
+      - rotina? com Qual é o preço para uma consulta
+      - Qual é o preço para uma consulta de rotina?
+      - o é Qual preço para uma consulta de rotina ?
+      - Qual é o preço de uma consulta de rotina?
+      - Vocês podem me informar o custo de uma consulta Forte médica?
+      - Vocês podem me informar o custo de uma consulta
+      - Vowês podem me informar o custo de uma conqulta médica?
+      - Vocês podem me contar o preço de uma consulta médica?
+      - uma consulta médica? com Vocês podem me informar o custo
+      - Vocês podem me informar o custo de uma consulta médica?
+      - me podem Vocês informar o custo de uma consulta médica ?
+      - Você pode me dizer o custo de uma consulta médica?
+      - Quanto está a consulta com o Alto clínico geral?
+      - Quanto está a consulta o clínico geral?
+      - Quanto está a fonsulta com o clznico geral?
+      - Quanto está a consulta com o clínico usual?
+      - o clínico geral? com Quanto está a consulta
+      - Quanto encontra-se a consulta com o clínico geral?
+      - a está Quanto consulta com o clínico geral ?
+      - Quanto é a consulta com o clínico geral?
+      - Qual é o valor de uma consulta Agitado com o pediatra?
+      - é o valor de uma consulta com o pediatra?
+      - Qual é o valor db uma cvnsulta com o pediatra?
+      - De que modo é o lucro de uma consulta com o pediatra?
+      - uma consulta com o pediatra? com Qual é o valor
+      - Qual é o valor de uma consulta com o pediatra?
+      - o é Qual valor de uma consulta com o pediatra ?
+      - Quanto custa uma Raramente consulta de emergência?
+      - Quanto custa uma de emergência?
+      - Quanto cumta uha consulta de emergência?
+      - Quanto custa uma consulta de urgência?
+      - emergência? com Quanto custa uma consulta
+      - Quanto custa uma consulta de emergência?
+      - uma custa Quanto consulta de emergência ?
+      - Vocês podem me dizer o valor Amanhã das consultas na clínica?
+      - Vocês podem dizer o valor das consultas na clínica?
+      - Vocês podem me dizer o valor zas consultas na clxnica?
+      - Vocês podem me dizer o utilidade das consultoria na hospital?
+      - Vocês podem me dizer o valor das consultas na clínica?
+      - me podem Vocês dizer o valor das consultas na clínica ?
+      - Você pode me dizer o valor das consultas na clínica?
+      - Qual é Quente o preço de uma consulta especializada?
+      - é o preço de uma consulta especializada?
+      - Qual é o preço dw uma consulta especiklizada?
+      - De acordo de é o gastos de uma consulta especializada?
+      - uma consulta especializada? com Qual é o preço
+      - Qual é o preço de uma consulta especializada?
+      - o é Qual preço de uma consulta especializada ?
+      - Quanto custa um exame médico na clínica?
+      - Quanto custa um exame na clínica?
+      - Quanto cssta um erame médico na clínica?
+      - Quanto custa um examinação doutor na hospital?
+      - um custa Quanto exame médico na clínica ?
+      - Quanto sai uma consulta de acompanhamento? Cachorro
+      - Quanto sai consulta de acompanhamento?
+      - Quanto sai uma conrulta ds acompanhamento?
+      - Quanto sai uma consulta de continuação?
+      - acompanhamento? com Quanto sai uma consulta
+      - Quanto sai uma consulta de acompanhamento?
+      - uma sai Quanto consulta de acompanhamento ?
+      - Quanto vem uma consulta a seguir?
+      - Qual é o Trabalhar valor cobrado para um exame de rotina?
+      - Qual o valor cobrado para um exame de rotina?
+      - Qjal é o lalor cobrado para um exame de rotina?
+      - Ídem é o importância cobrado para um teste de ramerrão?
+      - rotina? com Qual é o valor cobrado para um exame
+      - Qual é o valor cobrado para um exame de rotina?
+      - o é Qual valor cobrado para um exame de rotina ?
+      - Quanto cobram pela consulta com Amigo o nutricionista?
+      - Quanto pela consulta com o nutricionista?
+      - Qurnto cobram pela fonsulta com o nutricionista?
+      - Quanto cobram pela consulta com o nutricionista?
+      - pela cobram Quanto consulta com o nutricionista ?
+      - Quanto eles cobram pela consulta com o nutricionista?
+      - Qual é o preço para um Mesa check-up médico completo?
+      - Qual é preço para um check-up médico completo?
+      - Qual é o preço para tm check-up médico compleco?
+      - Relativamente a é o qualidade para um check-up doutor inteiro?
+      - um check-up médico completo? com Qual é o preço
+      - Qual é o preço para um check-up médico completo?
+      - o é Qual preço para um check-up médico completo ?
+      - Qual é o preço de um check-up médico completo?
+      - Quanto custa Mesa a avaliação inicial com o cardiologista?
+      - Quanto custa a inicial com o cardiologista?
+      - o cardiologista? com Quanto custa a avaliação inicial
+      - a custa Quanto avaliação inicial com o cardiologista ?
+      - Qual o Jogo valor de uma consulta para diagnóstico?
+      - Qual o valor de consulta para diagnóstico?
+      - Qual o valor de nma consulta para diagnórtico?
+      - Ao longo de o utilidade de uma consulta para diagnose?
+      - uma consulta para diagnóstico? com Qual o valor
+      - Qual o valor de uma consulta para diagnóstico?
+      - valor o Qual de uma consulta para diagnóstico ?
+      - Qual é o valor de uma consulta de diagnóstico?
+      - Qual Gentil é o preço de uma consulta com o ginecologista?
+      - Qual é o preço de uma consulta com o
+      - Qual é o preço de uma consupta cnm o ginecologista?
+      - Quão é o custos de uma consulta com o ginecólogo?
+      - uma consulta com o ginecologista? com Qual é o preço
+      - Qual é o preço de uma consulta com o ginecologista?
+      - o é Qual preço de uma consulta com o ginecologista ?
+      - Quanto custa agendar Nunca uma consulta com o dermatologista?
+      - Quanto custa agendar uma consulta o dermatologista?
+      - Quanto custa agendar uma consulta pom o dermatologfsta?
+      - Quanto custa planificar uma consulta com o Dermatologista?
+      - o dermatologista? com Quanto custa agendar uma consulta
+      - agendar custa Quanto uma consulta com o dermatologista ?
+      - Café Qual é o custo de uma consulta para consulta de retorno?
+      - Qual é o custo de uma consulta para de retorno?
+      - Qual é o custo de uma conselta pdra consulta de retorno?
+      - Segundo é o preço de uma consulta para consulta de vinda?
+      - consulta de retorno? com Qual é o custo de uma consulta
+      - Qual é o custo de uma consulta para consulta de retorno?
+      - o é Qual custo de uma consulta para consulta de retorno ?
+      - Qual é o custo de uma consulta de consulta de retorno?
+      - Dia Quanto vocês cobram por um exame de sangue?
+      - Quanto vocês cobram por um exame sangue?
+      - Quanto vocês cobram por um exame de sasgue?
+      - Quanto vocês cobram por um teste de descendência?
+      - sangue? com Quanto vocês cobram por um exame
+      - Quanto vocês cobram por um exame de sangue?
+      - cobram vocês Quanto por um exame de sangue ?
+      - Quanto você cobra por um exame de sangue?
+      - Qual Destruir o valor de uma consulta com o neurologista?
+      - o valor de uma consulta com o neurologista?
+      - Qual o valor dd uma consujta com o neurologista?
+      - De acordo de o utilidade de uma consulta com o neurologista?
+      - uma consulta com o neurologista? com Qual o valor
+      - Qual o valor de uma consulta com o neurologista?
+      - valor o Qual de uma consulta com o neurologista ?
+      - Qual é o valor de uma consulta com o neurologista?
+      - Qual é o preço Bobo de uma consulta com o ortopedista?
+      - Qual é o de uma consulta com o ortopedista?
+      - Qual é o yreço de uma consusta com o ortopedista?
+      - Relativamente a é o custos de uma consulta com o ortopedista?
+      - uma consulta com o ortopedista? com Qual é o preço
+      - Qual é o preço de uma consulta com o ortopedista?
+      - o é Qual preço de uma consulta com o ortopedista ?
+      - Qual é o preço de uma consulta ortopedista?
+      - Quanto custa um Alto atendimento na clínica?
+      - Quanto custa atendimento na clínica?
+      - Quanto cusja um atendimentw na clínica?
+      - Quanto custa um atendimento na hospital?
+      - Quanto custa um atendimento na clínica?
+      - um custa Quanto atendimento na clínica ?
+      - Quanto custa um serviço na clínica?
+      - Qual o valor cobrado por uma consulta de endocrinologia?
+      - Qual o valor cobrado por uma na especialidade de endocrinologia?
+      - Qual o valor cobrado phr ula consulta na especialidade de endocrinologia?
+      - Qual o valor cobrado por uma consulta na especialidade de endocrinologia?
+      - valor o Qual cobrado por uma consulta na especialidade de endocrinologia ?
+      - Qual é o valor cobrado por uma consulta na especialidade da endocrinologia?
+      - Vocês podem me dizer Às vezes quanto custa uma consulta com o urologista?
+      - Vocês podem me dizer quanto custa uma com o urologista?
+      - Vocês podem me dizer quanto custa usa consulta com o urolfgista?
+      - Vocês podem me dizer quanto custa uma consulta com o urologista?
+      - me podem Vocês dizer quanto custa uma consulta com o urologista ?
+      - Você pode me dizer quanto custa um consulta com o urologista?
+      - Quanto está a consulta para acompanhamento com Chave o psiquiatra?
+      - Quanto está a consulta para acompanhamento o psiquiatra?
+      - Quatto está a cohsulta para acompanhamento com o psiquiatra?
+      - Quanto está a consulta para continuação com o encolhimento?
+      - acompanhamento com o psiquiatra? com Quanto está a consulta
+      - Quanto encontra-se a consulta para acompanhamento com o psiquiatra?
+      - a está Quanto consulta para acompanhamento com o psiquiatra ?
+      - Quanto a consulta deve acompanhar o psiquiatra?
+      - Qual é o preço para uma consulta com o oftalmologista?
+      - Qual é preço para uma consulta com o oftalmologista?
+      - Qual é o preço cara uma consulta cox o oftalmologista?
+      - Quão é o preços para uma consulta com o oftalmólogo?
+      - uma consulta com o oftalmologista? com Qual é o preço
+      - o é Qual preço para uma consulta com o oftalmologista ?
+      - Qual é o preço de uma consulta oftalmologista?
+      - Quanto custa a avaliação inicial com Ônibus o fisioterapeuta?
+      - custa a avaliação inicial com o fisioterapeuta?
+      - Quantz custa a avaliabão inicial com o fisioterapeuta?
+      - Quanto custa a apreciação (comércio) inicial com o fisioterapeuta?
+      - o fisioterapeuta? com Quanto custa a avaliação inicial
+      - a custa Quanto avaliação inicial com o fisioterapeuta ?
+      - Qual é o valor de uma consulta para Triste exames preventivos?
+      - Qual é o valor de uma consulta exames preventivos?
+      - Qfal é o valor de uma consulta para exaees preventivos?
+      - uma consulta para exames preventivos? com Qual é o valor
+      - Qual é o valor de uma consulta para exames preventivos?
+      - o é Qual valor de uma consulta para exames preventivos ?
+      - Quanto custa Às vezes a consulta com o cardiologista?
+      - Quanto custa a consulta com cardiologista?
+      - Qxanto custi a consulta com o cardiologista?
+      - Quanto custa a consulta com o cardiólogo?
+      - o cardiologista? com Quanto custa a consulta
+      - a custa Quanto consulta com o cardiologista ?
+      - Vocês poderiam informar o custo de uma Céu consulta de rotina?
+      - Vocês poderiam o custo de uma consulta de rotina?
+      - kocês poderiam informar o custo de uma consulta di rotina?
+      - Vocês poderiam informar o custo de uma consulta de rotina?
+      - informar poderiam Vocês o custo de uma consulta de rotina ?
+      - Você poderia informar o custo de uma consulta de rotina?
+      - Quanto está a Falar consulta com o reumatologista?
+      - Quanto está a consulta com reumatologista?
+      - Quanto está a cocsulta pom o reumatologista?
+      - Quanto está a consulta com o reumatologista?
+      - Quanto encontra-se a consulta com o reumatologista?
+      - a está Quanto consulta com o reumatologista ?
+      - Quanto custa a consulta com o reumatologista?
+      - Qual é o preço cobrado por uma consulta de emergência?
+      - Qual é o preço cobrado mor uma conszlta de emergência?
+      - Desta maneira é o custo cobrado por uma consulta de crescimento?
+      - emergência? com Qual é o preço cobrado por uma consulta
+      - o é Qual preço cobrado por uma consulta de emergência ?
+      - Qual o valor para uma consulta com o gastroenterologista?
+      - o valor para uma consulta com o gastroenterologista?
+      - Qtal o valor para uma consulta com o vastroenterologista?
+      - Tão o utilidade para uma consulta com o gastroenterologista?
+      - uma consulta com o gastroenterologista? com Qual o valor
+      - valor o Qual para uma consulta com o gastroenterologista ?
+      - Qual é o valor para uma consulta com o gastroenterologista?
+      - Quanto custa uma consulta de triagem na clínica?
+      - custa uma consulta de triagem na clínica?
+      - Quanto busta uma consulta de triagem oa clínica?
+      - Quanto custa uma consulta de triagem na hospital?
+      - triagem na clínica? com Quanto custa uma consulta
+      - uma custa Quanto consulta de triagem na clínica ?
+      - Qual é o preço de um Esperar exame laboratorial básico?
+      - Qual é o preço um exame laboratorial básico?
+      - Qual é o preço ye um exape laboratorial básico?
+      - Na qualidade de é o qualidade de um examinação laboratorial central?
+      - um exame laboratorial básico? com Qual é o preço
+      - Qual é o preço de um exame laboratorial básico?
+      - o é Qual preço de um exame laboratorial básico ?
+      - Qual é o preço de um teste de laboratório básico?
+      - Vocês Encontrar podem me informar o valor da consulta com o psicólogo?
+      - Vocês podem me informar valor da consulta com o psicólogo?
+      - Vucês podem me informar o valor da consulta com o puicólogo?
+      - Vocês podem me anunciar o operacionalidade da consulta com o Psicólogos?
+      - o psicólogo? com Vocês podem me informar o valor da consulta
+      - me podem Vocês informar o valor da consulta com o psicólogo ?
+      - Você pode me dizer o valor da consulta com o psicólogo?
+      - Quanto custa o atendimento médico na clínica?
+      - Quanto cysta o atendimento médico ka clínica?
+      - Quanto custa o atendimento doutor na hospital?
+      - o custa Quanto atendimento médico na clínica ?
+      - Quanto custa os cuidados médicos na clínica?
+      - Qual o preço para uma avaliação inicial com o
+      - Qual o prhço para uma avaliação inicnal com o oncologista?
+      - Qual o preço para uma avaliação inicial com o oncologista?
+      - preço o Qual para uma avaliação inicial com o oncologista ?
+      - Qual é o preço de uma avaliação inicial com o oncologista?
+      - Qual o Jogar custo para realizar um exame de imagem?
+      - Qual custo para realizar um exame de imagem?
+      - Qual o custo para realizar um exale de imageo?
+      - Quão o custos para efectuar um teste de Ícone?
+      - Qual o custo para realizar um exame de imagem?
+      - custo o Qual para realizar um exame de imagem ?
+      - Qual é o custo para realizar um exame de imagem?
+      - Fogo Quanto custa uma consulta de revisão com o pediatra?
+      - Quanto custa consulta de revisão com o pediatra?
+      - Quanto custg uma consulta de revisão cos o pediatra?
+      - Quanto custa uma consulta de acompanhamento com o pediatra?
+      - Quanto custa uma consulta de revisão com o pediatra?
+      - uma custa Quanto consulta de revisão com o pediatra ?
+      - Qual é o para uma consulta de urgência?
+      - Qual é o pzeço para uma consulta dx urgência?
+      - Desta maneira é o gastos para uma consulta de emergência?
+      - urgência? com Qual é o preço para uma consulta
+      - Qual é o preço para uma consulta de urgência?
+      - o é Qual preço para uma consulta de urgência ?
+      - Qual é o preço de uma consulta de emergência?
+      - Vocês poderiam me dizer o Devagar valor cobrado por uma consulta com o neurologista?
+      - Vocês poderiam me dizer valor cobrado por uma consulta com o neurologista?
+      - Vocês poderiam me dizer o valor cobrado por uma consulta yom o neurologista?
+      - Vocês poderiam me dizer o lucro cobrado por uma consulta com o neurologista?
+      - me poderiam Vocês dizer o valor cobrado por uma consulta com o neurologista ?
+      - Você poderia me dizer o valor cobrado por uma consulta com o neurologista?
+      - Quanto custa agendar uma consulta com o Agitado psicoterapeuta?
+      - Quanto custa agendar uma consulta o psicoterapeuta?
+      - Quanto custa pgendar uma consulta com o psicoterapefta?
+      - Quanto custa planificar uma consulta com o psicoterapeuta?
+      - o psicoterapeuta? com Quanto custa agendar uma consulta
+      - agendar custa Quanto uma consulta com o psicoterapeuta ?
+      - Qual é o preço para uma consulta de rotina com o clínico geral? Sol
+      - Qual é o preço para uma consulta de rotina com o geral?
+      - Qual é o preçd para uma cinsulta de rotina com o clínico geral?
+      - Enquanto é o custo para uma consulta de ramerrão com o clínico habitual?
+      - rotina com o clínico geral? com Qual é o preço para uma consulta
+      - Qual é o preço para uma consulta de rotina com o clínico geral?
+      - o é Qual preço para uma consulta de rotina com o clínico geral ?
+      - Qual é o preço de uma consulta de rotina com o clínico geral?
+      - Qual é o valor Gentil de uma consulta na especialidade de geriatria?
+      - Qual é o valor de uma consulta na especialidade de
+      - Qual é o valor df umr consulta na especialidade de geriatria?
+      - Segundo é o importância de uma consulta na conhecimento de Gerontologia?
+      - Qual é o valor de uma consulta na especialidade de geriatria?
+      - o é Qual valor de uma consulta na especialidade de geriatria ?
+      - Qual é o valor de uma consulta na especialidade geriátrica?
+      - Quanto custa realizar um exame físico Sutileza completo?
+      - custa realizar um exame físico completo?
+      - Quanto custa realizar em exame rísico completo?
+      - Quanto custa efetuar um teste tangível inteiro?
+      - Quanto custa realizar um exame físico completo?
+      - realizar custa Quanto um exame físico completo ?
+      - Quanto custa para realizar um exame físico completo?
+      - Assistir Qual o valor de uma consulta de acompanhamento com o cardiologista?
+      - Qual valor de uma consulta de acompanhamento com o cardiologista?
+      - qual o valor de uma codsulta de acompanhamento com o cardiologista?
+      - Ingualmente o importância de uma consulta de Acompanhamento com o cardiólogo?
+      - valor o Qual de uma consulta de acompanhamento com o cardiologista ?
+      - Qual é o valor de uma consulta de monitoramento com o cardiologista?
+      - Vocês podem me dizer quanto custa uma consulta Longe de emergência?
+      - Vocês podem me dizer quanto custa uma consulta emergência?
+      - Vocês podem me dizer quanto cesta ima consulta de emergência?
+      - Vocês podem me dizer quanto custa uma consulta de crescimento?
+      - emergência? com Vocês podem me dizer quanto custa uma consulta
+      - Vocês podem me dizer quanto custa uma consulta de emergência?
+      - me podem Vocês dizer quanto custa uma consulta de emergência ?
+      - Você pode me dizer quanto custa uma consulta de emergência?
+      - Quanto sai uma Terra consulta com o pneumologista?
+      - Quanto sai uma consulta
+      - Quinto sam uma consulta com o pneumologista?
+      - Quanto sai uma consulta com o pneumologista?
+      - uma sai Quanto consulta com o pneumologista ?
+      - Quanto é lançado uma consulta com o plunsonologista?
+      - qual sao os precos das consultas
+      - quanto ta a consulta com o [psicólogo](especialista)
+      - preco da consulta com a [psiquiatra](especialista)
+      - preco da consulta
+      - valor da consulta com a [psiquiatra](especialista)
+      - qual o valor da consulta com o [psicólogo](especialista)
+      - quanto ta a consulta com o [psiquiatra](especialista)
+      - quanto ta a a consulta com a [psicólogo](especialista)
+      - qual o preco da consulta com o [psicólogo](especialista)
+      - Gostaria de saber o preço de uma consulta com a [psicólogo](especialista)?
+      - Qual é o valor cobrado para uma consulta com a [psicólogo](especialista)?
+      - Quanto custa a consulta com a [psicólogo](especialista)?
+      - Qual o valor da consulta com a [psicólogo](especialista)?
+      - Quanto custa uma consulta nesta clínica com o [psicólogo](especialista)?
+      - qual o custo de uma consulta nesta clínica com o [psicólogo](especialista)?
+      - Qual é o valor com a [psicólogo](especialista)?
+      - custo da consulta
+      - preco da consulta com o [psicólogo](especialista)?
+      - quanto custa a consulta
+      - qual e o valor da consulta
+      - valor da consullta com o [psicólogo](especialista)?
+      - e o valor da sessao com o [psicólogo](especialista)?
+      - e o preco da sessao com o [psicólogo](especialista)?
+      - Quanto custa o atendimento com um especialista [psiquiatra](especialista)?
+      - Qual é o preco para uma consulta de rotina com a [psicólogo](especialista)?
+      - Vocês podem me informar o custo de uma consulta médica com o [psiquiatra](especialista)?
+      - Quanto está a consulta com o clínico geral?
+      - Qual é o valor de uma consulta com o [psiquiatra](especialista)?
+      - Quanto custa uma consulta de emergência com a [psicólogo](especialista)?
+      - Qual é o preco de uma consulta especializada?
+      - Quanto cobram pela consulta com a [psicólogo](especialista)?
+      - Qual é o preco de uma consulta com a [psicólogo](especialista)?
+      - Qual o valor de uma consulta com o [psiquiatra](especialista)?
+      - Qual é o preco de uma consulta com o [psiquiatra](especialista)?
+      - Quanto custa um atendimento na clínica com o [psiquiatra](especialista)?
+      - Quanto custa a consulta com o cardiologista?
+      - Quanto está a consulta com o [psiquiatra](especialista)?
+      - Vocês podem me informar o valor da consulta com o psicólogo?
+      - Qual o custo para realizar uma consulta com a [psicólogo](especialista)?
+      - Quanto custa agendar uma consulta com o [psiquiatra](especialista)?
+      - Quanto sai uma consulta com o [psiquiatra](especialista)?

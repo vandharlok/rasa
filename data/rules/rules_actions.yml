@@ -1,0 +1,72 @@
+version: "3.1"
+
+rules:
+
+
+- rule: falar com atendente
+  steps:
+  - intent: transferir_atendente
+  - action: action_transferir_atendente
+
+
+- rule: Confirmando a consulta
+  steps:
+  - intent: confirmando_consulta
+  - action: confirm_event_form
+  - active_loop: confirm_event_form
+
+
+
+- rule: Implementation of the Two-Stage-Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: action_custom_fallback
+
+
+
+- rule: Example of an unhappy path
+  condition:
+  - active_loop: event_form
+  steps:
+  - intent: perguntar_dias_livres
+  - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
+  - action: event_form
+  - active_loop: event_form
+
+
+
+- rule: Example of an unhappy path
+  condition:
+  - active_loop: modify_event_form
+  steps:
+  - intent: perguntar_dias_livres
+  - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
+  - action: modify_event_form
+  - active_loop: modify_event_form
+
+
+- rule: Example of an unhappy path
+  condition:
+  - active_loop: event_form
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: event_form
+  - active_loop: event_form
+
+
+- rule: informando sobre precos baseado em entidades ou nao
+  steps:
+  - intent: preco_consulta
+  - action: action_provide_price_and_reset_slot
+  - slot_was_set:
+    - especialista: None
+  wait_for_user_input: False
+ 
+
+
+

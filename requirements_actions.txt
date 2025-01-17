@@ -1,0 +1,6 @@
+rasa==3.6.4
+rasa-sdk==3.6.2
+pytz==2022.7.1
+dateparser==1.2.0
+googlesearch-python==1.2.5
+

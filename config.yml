@@ -1,0 +1,113 @@
+# https://rasa.com/docs/rasa/model-configuration/
+recipe: default.v1
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: pt
+
+pipeline:
+- name: SpacyNLP
+  model: pt_core_news_sm
+  case_sensitive: false
+- name: SpacyTokenizer
+  case_sensitive: false
+- name: SpacyFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: "word"
+  lowercase: true
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
+  min_ngram: 2
+  max_ngram: 4
+  lowercase: True
+  # the featurizer will select only the 1,000 most common terms based on their frequency in the training data.
+  #set the limit of unique tokens,the featurizer will build a vocabulary of only the most frequent terms
+- name: DIETClassifier
+  epochs: 50
+  unidirectional_encoder: false
+  transformer_size: 64
+  hidden_layers_sizes:
+    text: [128, 64]
+    label: [64]
+  drop_rate: 0.20
+  embedding_dimension: 64
+  number_of_transformer_layers: 2
+  number_of_attention_heads: 4
+  learning_rate: 0.0001
+  regularization_constant: 0.0005
+  batch_size: 32
+  early_stopping_patience: 5
+  evaluate_on_number_of_examples: 600
+  evaluate_every_number_of_epochs: 10
+  constrain_similarities: true
+  loss_type: "cross_entropy"
+  random_seed: 1
+  tensorboard_log_directory: "./tensorboard/DIET"
+  tensorboard_log_level: epoch
+- name: ResponseSelector
+  epochs: 12
+  retrieval_intent: faq
+  check_for_contradictions: true
+  tensorboard_log_directory: "./tensorboard/faq"
+  tensorboard_log_level: epoch
+  learning_rate: 0.00002
+  constrain_similarities: true
+  batch_size: 8
+  loss_type: "cross_entropy" 
+  regularization_constant: 0.001
+  evaluate_on_number_of_examples: 200
+  evaluate_every_number_of_epochs: 10 
+- name: ResponseSelector
+  epochs: 12
+  retrieval_intent: chitchat
+  check_for_contradictions: true
+  tensorboard_log_directory: "./tensorboard/chitchat"
+  tensorboard_log_level: epoch
+  learning_rate: 0.00002
+  constrain_similarities: true
+  batch_size: 8
+  loss_type: "cross_entropy" 
+  regularization_constant: 0.001
+  evaluate_on_number_of_examples: 100
+  evaluate_every_number_of_epochs: 5
+- name: FallbackClassifier
+  threshold: 0.7
+  ambiguity_threshold: 0.3
+  core_fallback_action_name: "action_custom_fallback"
+- name: DucklingEntityExtractor
+  url: http://localhost:8000
+  dimensions: ["time", "PhoneNumber"]
+  locale: pt_BR
+  timezone: "America/Sao_Paulo"
+
+
+policies:
+- name: RulePolicy
+  core_fallback_threshold: 0.3
+  core_fallback_action_name: "action_custom_fallback"
+  enable_fallback_prediction: true
+  check_for_contradictions: true
+  tensorboard_log_directory: "./tensorboard/Policy"
+  tensorboard_log_level: epoch
+  restrict_rules: true
+- name: TEDPolicy
+  epochs: 50
+  max_history: 12
+  check_for_contradictions: true
+  batch_size:
+  - 16
+  - 32
+  early_stopping_patience: 10
+  learning_rate: 0.0007
+  regularization_constant: 0.0005
+  dropout_rate: 0.25
+  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 200
+  model_confidence: "softmax"
+  tensorboard_log_directory: "./tensorboard/TED"
+  tensorboard_log_level: epoch
+
+
+
+
+assistant_id: 20241028-210249-mild-cream

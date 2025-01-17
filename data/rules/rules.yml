@@ -1,0 +1,68 @@
+version: "3.1"
+
+rules:
+
+- rule: Sauda o usuario
+  conversation_start: false
+  steps:
+  - intent: saudações
+  - action: utter_show_options_help
+
+
+- rule: Regra para confirmar se quer remarcar consulta
+  steps:
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+
+
+- rule: Regra para confirmar se quer cancelar consulta
+  steps:
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+
+
+- rule: Regra para confirmar se quer marcar consulta
+  steps:   
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+
+
+- rule: Informar que tem duvidas 
+  steps:
+  - intent: duvida
+  - action: utter_duvida
+
+
+
+- rule: Informar que tem duvidas 
+  steps:
+  - intent: faq
+  - action: utter_faq
+
+
+- rule: checar dias livres
+  steps:
+  - intent: perguntar_dias_livres
+  - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
+  wait_for_user_input: False
+
+- rule: Continue Conversation After Affirmation
+  steps:
+  - action: utter_terminar_conversa
+  - intent: concordancia
+  - action: utter_show_options_help
+
+- rule: pede por receita
+  steps:
+  - intent: solicitar_receita
+  - action: action_ticket_receita
+  
+- rule: Nao confirmando a consulta
+  steps:
+  - action: utter_confirm_appointment
+  - intent: negacao
+  - action: utter_show_options_help
+  - action: action_reset_all
+

@@ -1,0 +1,1550 @@
+version: "3.1"
+
+nlu:
+
+  - intent: saudações
+    examples: |
+      -  Olá
+      - Oi
+      - Bom dia
+      - Boa tarde
+      - Boa noite
+      - E aí?
+      - Tudo bem?
+      - Como vai?
+      - Oi, tudo bom?
+      - Opa, tudo bem?
+      - Fala aí
+      - E aí, beleza?
+      - Oiê
+      - Opa, beleza?
+      - Tudo tranquilo?
+      - Tudo certo?
+      - E aí, tudo beleza?
+      - Fala, tudo bem?
+      - Como cê tá?
+      - Tudo jóia?
+      - Tudo em paz?
+      - Como vão as coisas?
+      - E aí, como cê tá?
+      - E aí, firmeza?
+      - Tudo numa boa?
+      - Oi, tudo suave?
+      - E aí, na boa?
+      - Fala, tudo tranquilo?
+      - Oi, como está você?
+      - Olá, como vai você?
+      - Opa, tudo certo?
+      - E aí, como vão as coisas?
+      - Fala aí, tudo bem contigo?
+      - Oi, tudo bem com você?
+      - Olá, tudo bem por aí?
+      - Oi, como está indo?
+      - Tudo em ordem?
+      - Fala, tudo firme?
+      - Como vão as coisas por aí?
+      - Tudo beleza?
+      - Fala, como tem passado?
+      - Tudo certo com você?
+      - Opa, como estão as coisas?
+      - Como vai a vida?
+      - Tudo em cima?
+      - Tudo tranquilo por aí?
+      - Tudo suave?
+      - Tudo ótimo?
+      - Tudo certo com o senhor?
+      - Olá, como tem sido sua semana?
+      - Olá, espero que esteja tudo bem.
+      - Bom dia, espero que esteja tendo um excelente dia.
+      - Boa tarde, tudo bem contigo?
+      - Boa noite, como foi seu dia?
+      - Tudo bem por aqui, e aí?
+      - Como tá tudo?
+      - Beleza pura?
+      - Tudo certinho?
+      - Tudo indo?
+      - Como vão as coisas por aí?
+      - Tudo bem com você hoje?
+      - Espero que tudo esteja bem contigo.
+      - Tudo indo tranquilo?
+      - Espero que tenha um bom dia!
+      - Oi, como cê tá?
+      - Tudo em riba?
+      - Fala aí, beleza?
+      - Tudo funcionando bem?
+      - Olá, como está indo por aí?
+      - E aí, tudo certo por aí?
+      - Tudo caminhando bem?
+      - Tudo sossegado?
+      - Fala, tudo suave por aí?
+      - Bom dia, espero que esteja bem hoje.
+      - Boa tarde, espero que o senhor esteja bem.
+      - Boa noite, como estão as coisas contigo?
+      - E aí, firme?
+      - Tudo na paz?
+      - Tudo caminhando?
+      - Tudo indo bem contigo?
+      - Tudo bom?
+      - Tudo bom contigo?
+      - Oi, como cê tá hoje?
+      - Fala, como tá indo?
+      - Dia bom
+      - Tarde boa
+      - Noite boa
+      - Boa noite!
+      - Olá! Como vai?
+      - Fala aí, tudo certo?
+      - Tudo indo bem por aí?
+      - Tudo tranquilo por sua parte?
+      - Tudo certo, e você?
+      - Tudo joia por aí?
+      - Como está você hoje?
+      - Tudo suave por aí?
+      - Oi, tudo bem mesmo?
+      - Oi, tudo tranquilo por aqui e você?
+      - Tudo certinho com você?
+      - Como anda?
+      - Tudo caminhando por sua parte?
+      - Fala, tudo jóia?
+      - Tudo indo bem, e contigo?
+      - Como cê tá?
+      - Como tá você?
+      - E aí, firme e forte?
+      - Fala, tudo de boa?
+      - Tudo indo ótimo, e aí?
+      - Dia ótimo
+      - Toa nbite
+      - Tudo bem por aqui
+      - Noite tranquila
+      - Noite boa por aí?
+      - Como foi o seu dia?
+      - Tudo bem contigo, amigo?
+      - Dia maravilhoso, e você?
+      - Tudo funcionando?
+      - Oi, tudo nos conformes?
+      - E aí, tudo nos eixos?
+      - Como está indo a vida por aí?
+      - Tudo em paz contigo?
+      - Tudo indo nos conformes?
+      - Olá
+      - Oi
+      - Bom dia
+      - Boa tarde
+      - E aí?
+      - Tudo bem?
+      - Como vai?
+      - Oi, tudo bom?
+      - Olá, como está?
+      - Oi, como vai?
+      - Oi, como você está?
+      - Olá, tudo bem?
+      - Bom dia, tudo bom?
+      - Boa tarde, como está?
+      - Boa noite, tudo bem?
+      - E aí, beleza?
+      - Oi, como estão as coisas?
+      - Olá, tudo certo?
+      - Oi, tudo joia?
+      - Oi, como anda?
+      - Olá, tudo tranquilo?
+      - Bom dia, como vai?
+      - Boa tarde, tudo bom?
+      - Boa noite, como está?
+      - Oi, tudo beleza?
+      - Olá, como tem passado?
+      - Oi, tudo em ordem?
+      - E aí, como vai?
+      - Olá, tudo bem com você?
+      - Oi, como estão as coisas por aí?
+      - Bom dia, tudo certo?
+      - Boa tarde, como tem passado?
+      - Boa noite, tudo joia?
+      - Oi, como está você?
+      - Olá, como anda?
+      - Oi, tudo tranquilo?
+      - E aí, tudo bem?
+      - Olá, como vai você?
+      - Oi, tudo em paz?
+      - Bom dia, tudo bem?
+      - Boa tarde, como você está?
+      - Boa noite, tudo certo?
+      - Oi, como tem sido?
+      - Olá, tudo beleza?
+      - Oi, como vão as coisas?
+      - E aí, tudo bom?
+      - Oi, tudo certo?
+      - Olá, como está você?
+      - Bom dia, tudo joia?
+      - Boa tarde, tudo tranquilo?
+      - Olá, espero que você esteja bem.
+      - Bom dia, como você tem passado?
+      - Oi, gostaria de iniciar uma conversa.
+      - Boa tarde, tudo bem com você?
+      - Boa noite, espero que seu dia tenha sido bom.
+      - Olá, estou entrando em contato para conversar.
+      - Oi, como você está hoje?
+      - Bom dia, gostaria de falar com você.
+      - Boa tarde, espero que tudo esteja bem.
+      - Olá, como tem sido sua semana?
+      - Oi, espero que você esteja tendo um bom dia.
+      - Boa noite, gostaria de iniciar uma conversa.
+      - Olá, tudo bem com você hoje?
+      - Bom dia, como estão as coisas por aí?
+      - Oi, estou aqui para conversar.
+      - Boa tarde, espero que seu dia esteja indo bem.
+      - Olá, como você tem se sentido ultimamente?
+      - Oi, gostaria de saber como você está.
+      - Bom dia, tudo certo com você?
+      - Boa noite, como foi seu dia?
+      - Olá, espero que esteja tudo bem com você.
+      - Oi, estou curioso para saber como você está.
+      - Boa tarde, como têm sido as coisas?
+      - Bom dia, gostaria de conversar um pouco.
+      - Olá, espero que seu dia esteja sendo ótimo.
+      - Boa noite, gostaria de saber como você está.
+      - Olá, estou interessado em saber como você tem passado.
+      - Bom dia, tudo tranquilo com você?
+      - Boa tarde, espero que tudo esteja bem por aí.
+      - Oi, estou aqui para iniciar uma conversa.
+      - Olá, gostaria de saber como você está hoje.
+      - Bom dia, espero que você esteja bem.
+      - Boa noite, como tem sido sua semana?
+      - Oi, gostaria de conversar se você tiver um momento.
+      - Olá, estou apenas checando como você está.
+      - Boa tarde, tudo bem com você hoje?
+      - Bom dia, como você tem se sentido?
+      - Oi, espero que esteja tudo em ordem.
+      - Olá, gostaria de saber como tem sido seu dia.
+      - Boa noite, tudo tranquilo com você?
+      - Bom dia, estou entrando em contato para conversar.
+      - Oi, como têm sido as coisas ultimamente?
+      - Olá, espero que você esteja tendo um bom dia.
+      - Boa tarde, gostaria de iniciar uma conversa.
+      - Bom dia, como estão as coisas com você?
+      - Oi, estou curioso para saber como tem passado.
+      - Olá, tudo certo por aí?
+      - Boa noite, espero que seu dia tenha sido produtivo.
+      - Bom dia, gostaria de saber como você está.
+      - Oi, estou aqui caso queira conversar.
+      - Olá, como vai você hoje?
+      - Fala aí
+      - Oiê
+      - Opa, tudo bom?
+      - E aí, como tá?
+      - E aí, firmeza?
+      - Oi, como cê tá?
+      - Fala, tudo bem?
+      - E aí, tranquilo?
+      - Opa, como vai?
+      - Oi, tudo em cima?
+      - E aí, de boa?
+      - Fala aí, como estão as coisas?
+      - Oi, tudo na paz?
+      - E aí, como vão as coisas?
+      - Opa, beleza?
+      - Fala, como cê tá?
+      - E aí, tudo em ordem?
+      - Opa, tudo tranquilo?
+      - E aí, tudo certo?
+      - Fala aí, beleza?
+      - Oi, tudo bem?
+      - E aí, como vai a vida?
+      - Opa, tudo jóia?
+      - Oi, tudo suave?
+      - Fala, tudo em paz?
+      - E aí, tudo numa boa?
+      - Oi, como vão as coisas por aí?
+      - Opa, beleza pura?
+      - E aí, firme?
+      - Fala aí, tudo tranquilo?
+      - E aí, como cê tá hoje?
+      - Opa, tudo em riba?
+      - Fala, tudo certo?
+      - E aí, na boa?
+      - Opa, como estão as coisas?
+      - Fala aí, como cê tá?
+      - Oi, tudo bem contigo?
+      - E aí, beleza pura?
+      - Opa, tudo suave?
+      - Oi, como vai você?
+      - Fala, tudo em ordem?
+      - Olá, espero encontrá-lo bem.
+      - Bom dia, gostaria de iniciar uma conversa.
+      - Boa tarde, como o senhor está?
+      - Boa noite, espero que esteja tudo bem.
+      - Olá, é um prazer falar com você.
+      - Bom dia, como tem passado?
+      - Boa tarde, gostaria de cumprimentá-lo.
+      - Olá, gostaria de saber como você está.
+      - Bom dia, tudo bem com o senhor?
+      - Boa tarde, como tem sido o seu dia?
+      - Boa noite, desejo-lhe uma boa noite.
+      - Olá, é um prazer entrar em contato.
+      - Bom dia, espero que esteja bem.
+      - Boa tarde, como está você?
+      - Olá, gostaria de cumprimentá-lo cordialmente.
+      - Bom dia, como o senhor tem passado?
+      - Boa tarde, espero que esteja tudo em ordem.
+      - Olá, espero que este e-mail o encontre bem.
+      - Bom dia, é um prazer falar com você.
+      - Boa tarde, como vai o senhor?
+      - Boa noite, espero que tenha tido um bom dia.
+      - Olá, desejo-lhe um bom dia.
+      - Bom dia, como estão as coisas?
+      - Boa tarde, gostaria de saber como você está.
+      - Boa noite, tudo bem com o senhor?
+      - Olá, estou entrando em contato para cumprimentá-lo.
+      - Bom dia, espero que esteja tendo um bom dia.
+      - Boa tarde, como tem sido sua semana?
+      - Boa noite, desejo-lhe uma excelente noite.
+      - Olá, gostaria de saber como tem passado.
+      - Bom dia, tudo bem com você?
+      - Boa tarde, espero que esteja bem.
+      - Boa noite, como o senhor está?
+      - Olá, é um prazer conversar com você.
+      - Bom dia, espero que tudo esteja bem.
+      - Boa tarde, como estão as coisas?
+      - Boa noite, gostaria de cumprimentá-lo.
+      - Olá, desejo-lhe um excelente dia.
+      - Boa tarde, é um prazer falar com o senhor.
+      - Olá, gostaria de iniciar um diálogo.
+      - Boa tarde, como tem sido seu dia?
+      - Olá, espero que esteja bem.
+      - Bom dia, como vai o senhor?
+      - dia
+      - bom dga
+      - dia bom
+      - tarde boa
+      - noite
+      - toa nbite
+      - noite Boa
+      - Oi bem?
+      - Oi tuso beg?
+      - Oi tudo bem?
+      - tudo  Oi bem ?
+      - Ei como está indo?
+      - Ola como
+      - fla como vaia
+      - Ola como vai?
+      - como  Ola vai ?
+      - Olá como vai?
+      - E beleza?
+      - aíd E beleba?
+      - aí E beleza?
+      - E aí beleza ?
+      - Então e beleza?
+      - aí beleza?
+      - E aí beeeza?
+      - Então beleza?
+      - Oi tarde
+      - Oo boa tarbe
+      - Oi boa tarde
+      - boa  Oi tarde
+      - Ei boa tarde
+      - bom como estão as coisas?
+      - bom nbite eomo estão as coisas?
+      - bom noite como estão as coisas?
+      - noite bom como estão as coisas ?
+      - Boa noite como estão as coisas?
+      - Ola
+      - Oi esta
+      - oi como gsta
+      - Oi como esta
+      - Oi assim
+      - Oi tudo
+      - Oi yudo qem?
+      - Ola vai?
+      - Ola xomo vaii
+      - Boa tarde certo?
+      - Bop tarde tudo clrto?
+      - Boa tarde tudo certo?
+      - tarde Boa tudo certo ?
+      - Boa tarde tudo bem?
+      - E aía beleba?
+      - boa tarde
+      - og boa tkrde
+      - oi boa tarde
+      - boa  oi tarde
+      - noite como estão as coisas?
+      - Baa noite como estãg as coisas?
+      - noite Boa como estão as coisas ?
+      - olá
+      - tarde
+      - bov tyrde
+      - bda noitn
+      - noite boa
+      - Oi tudb dem?
+      - Olá como
+      - Olá comu zai?
+      - como  Olá vai ?
+      - aí? E
+      - ? aí E
+      - E aís belezh?
+      - Oi bop qarde
+      - bom dia como estão coisas?
+      - bom din como estyo as coisas?
+      - bom dia como estão as coisas?
+      - dia bom como estão as coisas ?
+      - Bom dia como estão as coisas?
+      - boa tudo certo?
+      - boa noite tudo certa?
+      - boa noite tudo certo?
+      - noite boa tudo certo ?
+      - Boa noite tudo bem?
+      - Oi como está?
+      - Oi eomo você astá?
+      - Oi como você está?
+      - Oi como você encontra-se?
+      - como  Oi você está ?
+      - Oi como vai?
+      - tudk bemm
+      - bem? tudo
+      - tudo certo?
+      - boa tarde certo?
+      - bov tdrde tudo certo?
+      - boa tarde tudo certo?
+      - tarde boa tudo certo?
+      - E aí tndo bey?
+      - E aí tudo bem?
+      - Então como você está?
+      - boa tudo bem com você?
+      - boa noite tuoo bev com você?
+      - você? com boa noite tudo bem
+      - noite boa tudo bem com você ?
+      - Boa noite como você está?
+      - olá tudo
+      - ozá vudo certo?
+      - olá tudo certo?
+      - tudo  olá certo ?
+      - Olá tudo bem?
+      - Oi vai?
+      - Oi coko vail
+      - como  Oi vai ?
+      - oim tudm certo?
+      - oi tudo certo?
+      - tudo  oi certo ?
+      - Oi como indo?
+      - vi como eslá indo?
+      - Oi como está indo?
+      - Oi como encontra-se indo?
+      - como  Oi está indo ?
+      - Oi como você está indo?
+      - boa tarde como estão coisas?
+      - boa tarde csmo bstão as coisas?
+      - boa tarde como estão as coisas?
+      - tarde boa como estão as coisas ?
+      - Boa tarde como estão as coisas?
+      - bom tudo tranquilo?
+      - bum oia tudo tranquilo?
+      - bom dia tudo tranquilo?
+      - dia bom tudo tranquilo ?
+      - Bom dia tudo quieto?
+      - E aí como você
+      - E aí cobo você ystá?
+      - E aí como você está?
+      - E aí como você encontra-se?
+      - aí E como você está ?
+      - Oi tranquilo?
+      - Oz tudo tranquilo?
+      - Oi tudo tranquilo?
+      - tudo  Oi tranquilo ?
+      - Oi tudo quieto?
+      - Olá bem por aí?
+      - Olá tudo beg poy aí?
+      - aí? com Olá tudo bem
+      - Olá tudo bem por aí?
+      - tudo  Olá bem por aí ?
+      - olá tudm certo
+      - bom como você está?
+      - bom dia jomo você xstá?
+      - bom dia como você está?
+      - bom dia como você encontra-se?
+      - dia bom como você está ?
+      - Bom dia como você está?
+      - boa tarde tudo bem por
+      - boa talde tudo bem por aíc
+      - aí? com boa tarde tudo bem
+      - boa tarde tudo bem por aí?
+      - tarde boa tudo bem por aí ?
+      - Boa tarde como você está?
+      - Olá como estão coisas?
+      - vlá como estão ak coisas?
+      - Olá como estão as coisas?
+      - como  Olá estão as coisas ?
+      - Oi tudo com você?
+      - Oi tudo certo cot focê?
+      - você? com Oi tudo certo
+      - tudo  Oi certo com você ?
+      - Oi tudo bem com você?
+      - como vai o dia?
+      - flá como vai o dla?
+      - Olá como vai o dia?
+      - como  Olá vai o dia ?
+      - Olá como estão o dia?
+      - E aí você está indo?
+      - E aí como você está ihdo?
+      - E aí como você está indo?
+      - E aí como você encontra-se indo?
+      - aí E como você está indo ?
+      - Então como você está indo?
+      - Oi todo oo?
+      - Oi tudo ok?
+      - tudo  Oi ok ?
+      - bom dia tudo
+      - boj dia tudo cerwo?
+      - bom dia tudo certo?
+      - dia bom tudo certo ?
+      - Bom dia tudo bem?
+      - boa tarde como
+      - foa tarde como estáv
+      - boa tarde como está?
+      - boa tarde como encontra-se?
+      - tarde boa como está ?
+      - Olá como estão as por aí?
+      - Olá czmo estão as ckisas por aí?
+      - aí? com Olá como estão as coisas
+      - Olá como estão as coisas por aí?
+      - como  Olá estão as coisas por aí ?
+      - Oi tudo contigo?
+      - Oi tvdo tranquilo contigob
+      - Oi tudo tranquilo contigo?
+      - tudo  Oi tranquilo contigo ?
+      - Oi tudo quieto com você?
+      - Oi vai seu dia?
+      - Oi comy vai seu dwa?
+      - Oi como vai seu dia?
+      - como  Oi vai seu dia ?
+      - Oi como está o seu dia?
+      - noite tudo tranquilo?
+      - boq noite ludo tranquilo?
+      - boa noite tudo tranquilo?
+      - noite boa tudo tranquilo ?
+      - Boa noite tudo quieto?
+      - Oi vai tudo?
+      - Oi cvmo vpi tudo?
+      - Oi como vai tudo?
+      - como  Oi vai tudo ?
+      - Oi como está tudo?
+      - tudo em ordem?
+      - Oi tddo em jrdem?
+      - Oi tudo em ordem?
+      - tudo  Oi em ordem ?
+      - E aí beleza você?
+      - E aí beleza wom vocêk
+      - você? com E aí beleza
+      - aí E beleza com você ?
+      - Então beleza com você?
+      - Oi como vai tarde?
+      - ri como vai saa tarde?
+      - Oi como vai sua tarde?
+      - como  Oi vai sua tarde ?
+      - Olá como está sua tarde?
+      - bom dia tudo bem aí?
+      - bom dia tudo kem por mí?
+      - aí? com bom dia tudo bem
+      - bom dia tudo bem por aí?
+      - dia bom tudo bem por aí ?
+      - boa tarde tudo com você?
+      - boa tarde tudo certo uom você?
+      - você? com boa tarde tudo certo
+      - tarde boa tudo certo com você ?
+      - Boa tarde tudo bem com você?
+      - Oi tudo tranquilo por
+      - Oi tudr tranquilo bor aí?
+      - aí? com Oi tudo tranquilo
+      - Oi tudo tranquilo por aí?
+      - tudo  Oi tranquilo por aí ?
+      - Oi tudo tranquilo lá fora?
+      - Oi tudo bem com
+      - hi tudo bem com você?
+      - você? com Oi tudo bem
+      - tudo  Oi bem com você ?
+      - Ei está tudo bem com você?
+      - Olá bem como está?
+      - Olá tudo bem comy ewtá?
+      - Olá tudo bem como está?
+      - Olá tudo bem como encontra-se?
+      - tudo  Olá bem como está ?
+      - E tudo certo?
+      - E tí tudh certo?
+      - E aí tudo certo?
+      - aí E tudo certo ?
+      - Então tudo bem?
+      - Olá como o dia?
+      - jlá womo está o dia?
+      - Olá como está o dia?
+      - Olá como encontra-se o dia?
+      - como  Olá está o dia ?
+      - oi certo com você?
+      - ok hudo certo com você?
+      - você? com oi tudo certo
+      - tudo  oi certo com você ?
+      - boa como vai o dia?
+      - boi tardw como vai o dia?
+      - boa tarde como vai o dia?
+      - tarde boa como vai o dia ?
+      - Boa tarde como estão o dia?
+      - bom dia como está hoje?
+      - bom dia cjmo você vstá hoje?
+      - bom dia como você está hoje?
+      - bom dia como você encontra-se hoje?
+      - dia bom como você está hoje ?
+      - Bom dia como você está hoje?
+      - Oi como estão coisas com você?
+      - Ow como estão as coisas com vvcê?
+      - você? com Oi como estão as coisas
+      - como  Oi estão as coisas com você ?
+      - Olá como estão as coisas com você?
+      - boa tarde tudo certo com coisas?
+      - boa tarde tudo certo som aa coisas?
+      - as coisas? com boa tarde tudo certo
+      - tarde boa tudo certo com as coisas ?
+      - Boa tarde tudo bem com as coisas?
+      - beleza por aí?
+      - Oi beleza uor aík
+      - aí? com Oi beleza
+      - Oi beleza por aí?
+      - beleza  Oi por aí ?
+      - Oi beleza lá fora?
+      - tudo certo por aí?
+      - Ogá tudo ckrto por aí?
+      - aí? com Olá tudo certo
+      - Olá tudo certo por aí?
+      - tudo  Olá certo por aí ?
+      - boa tarde tudo tranquilo
+      - boa tarde tudq tranquilo hontigo?
+      - boa tarde tudo tranquilo contigo?
+      - tarde boa tudo tranquilo contigo ?
+      - Boa tarde tudo quieto com você?
+      - Oi tudo bem
+      - Oi tudt bek hoje?
+      - Oi tudo bem hoje?
+      - tudo  Oi bem hoje ?
+      - Oi como você está hoje?
+      - tudo bem por aqui?
+      - Olá tddo bpm por aqui?
+      - aqui? com Olá tudo bem
+      - Olá tudo bem por aqui?
+      - tudo  Olá bem por aqui ?
+      - Olá como você está aqui?
+      - E beleza com você hoje?
+      - E aí belezg com você hfje?
+      - você hoje? com E aí beleza
+      - aí E beleza com você hoje ?
+      - Então beleza com você hoje?
+      - noite tudo em ordem?
+      - loa noiye tudo em ordem?
+      - boa noite tudo em ordem?
+      - noite boa tudo em ordem ?
+      - Boa noite tudo em ordem?
+      - Oi certo aí?
+      - Oi tndo certz aí?
+      - Oi tudo certo aí?
+      - tudo  Oi certo aí ?
+      - bom dia tranquilo com você?
+      - bow dia tudo tranquilo mom você?
+      - você? com bom dia tudo tranquilo
+      - dia bom tudo tranquilo com você ?
+      - Bom dia tudo quieto com você?
+      - Oi em ordem por aí?
+      - Oi tuio em orded por aí?
+      - aí? com Oi tudo em ordem
+      - Oi tudo em ordem por aí?
+      - tudo  Oi em ordem por aí ?
+      - bom dia
+      - E aí
+      - E aí beleza?
+      - boa noite
+      - tudo bem?
+      - boa noite tudo bem com você?
+      - Oi beleza?
+      - Oi tudo certo com você?
+      - E aí beleza com você?
+      - boa tarde tudo certo com você?
+      - oi tudo certo com você?
+      - Oi como estão as coisas com você?
+      - boa tarde tudo certo com as coisas?
+      - E aí beleza com você hoje?
+      - bom dia tudo tranquilo com você?
+
+
+  - intent: chitchat/agradecimento
+    examples: |
+      - Obrigado
+      - Muito obrigado
+      - Obrigada
+      - Valeu
+      - Obrigado pela ajuda
+      - Obrigado mesmo
+      - Agradeço
+      - Obrigada pela assistência
+      - Obrigado por tudo
+      - Valeu mesmo
+      - Obrigado pela informação
+      - Muito obrigado pela ajuda
+      - Obrigado, foi muito útil
+      - Agradeço pela atenção
+      - Obrigado pela sua ajuda
+      - Obrigado pelo suporte
+      - Obrigada por me ajudar
+      - Valeu pela força
+      - Obrigado pela resposta
+      - Obrigado pela assistência
+      - Obrigado pela rápida resposta
+      - Obrigado pela sua atenção
+      - Agradeço sua ajuda
+      - Obrigado, era isso mesmo
+      - Obrigado pela orientação
+      - Obrigada pela informação
+      - Valeu pela ajuda
+      - Obrigado, ajudou bastante
+      - Obrigado pelo esclarecimento
+      - Muito grato
+      - Obrigado pela prontidão
+      - Obrigado, resolveu meu problema
+      - Agradeço seu suporte
+      - Obrigado por esclarecer
+      - Obrigado, era o que eu precisava
+      - Obrigado pela disponibilidade
+      - Obrigada, me ajudou muito
+      - Valeu, era isso
+      - Obrigado pela consideração
+      - Obrigado pela cooperação
+      - Obrigado, foi de grande ajuda
+      - Obrigado pela assistência prestada
+      - Agradeço pela informação fornecida
+      - Obrigado pela paciência
+      - Obrigado pelo retorno
+      - Obrigada pela compreensão
+      - Valeu pela atenção
+      - Obrigado por responder rápido
+      - Obrigado pela colaboração
+      - Obrigado, fico grato
+      - Agradeço imensamente
+      - Muito obrigado pela sua ajuda com minha consulta.
+      - Agradeço profundamente pela assistência fornecida.
+      - Obrigado por dedicar seu tempo para me auxiliar.
+      - Sou grato pela informação que você me forneceu.
+      - Obrigado por esclarecer minhas dúvidas sobre o agendamento.
+      - Agradeço sua prontidão em me ajudar.
+      - Muito obrigado pelo suporte oferecido.
+      - Obrigado pela atenção e ajuda prestadas.
+      - Estou muito grato pela sua assistência.
+      - Obrigado por me ajudar a resolver o problema.
+      - Agradeço sinceramente pela sua orientação.
+      - Obrigado por responder às minhas perguntas.
+      - Sou muito grato pela informação detalhada.
+      - Obrigado por esclarecer minhas questões.
+      - Agradeço de coração pela sua ajuda.
+      - Muito obrigado por seu tempo e dedicação.
+      - Obrigado pela atenção dispensada.
+      - Agradeço pela paciência em me explicar.
+      - Obrigado por me fornecer as informações necessárias.
+      - Estou muito agradecido pela sua colaboração.
+      - Obrigado por me ajudar com tanta rapidez.
+      - Agradeço pelo esforço em me auxiliar.
+      - Muito obrigado pela assistência imediata.
+      - Obrigado por tornar tudo mais claro para mim.
+      - Agradeço pela gentileza em me ajudar.
+      - Obrigado por sua disponibilidade em me atender.
+      - Sou grato pela ajuda prestada.
+      - Obrigado por esclarecer todas as minhas dúvidas.
+      - Agradeço profundamente pela sua orientação.
+      - Muito obrigado pela resposta detalhada.
+      - Obrigado por me guiar neste processo.
+      - Agradeço sua dedicação em me auxiliar.
+      - Obrigado por me fornecer todas as informações.
+      - Estou muito grato pela sua atenção.
+      - Obrigado por sua assistência valiosa.
+      - Agradeço por ter resolvido meu problema.
+      - Muito obrigado pela compreensão.
+      - Obrigado por ser tão prestativo.
+      - Agradeço sinceramente por sua ajuda.
+      - Obrigado por sua pronta resposta.
+      - Sou muito grato pelo suporte dado.
+      - Obrigado por me ajudar a remarcar minha consulta.
+      - Agradeço por esclarecer minhas dúvidas rapidamente.
+      - Muito obrigado pela atenção dedicada.
+      - Obrigado por seu profissionalismo e ajuda.
+      - Agradeço pela paciência e apoio.
+      - Obrigado por me ajudar com o agendamento.
+      - Estou muito agradecido por sua assistência.
+      - Obrigado por ter sido tão atencioso.
+      - Agradeço por sua ajuda valiosa.
+      - Muito obrigado por todo o suporte.
+      - Obrigado por sua consideração e ajuda.
+      - Brigadão
+      - Obrigado aí
+      - Obrigado pela ajuda, cara
+      - Brigado
+      - Valeu pela mão
+      - Valeu, me ajudou bastante
+      - Obrigado, você é demais
+      - Obrigado pela moral
+      - Valeu, quebrou um galho
+      - Obrigado pela dica
+      - Brigadinho
+      - Valeu mesmo, de coração
+      - Obrigado, foi show
+      - Obrigado pela atenção
+      - Valeu pela ajuda aí
+      - Obrigado, ajudou muito
+      - Obrigado pela força
+      - Valeu, você é fera
+      - Obrigado, salvou o dia
+      - Obrigado pela mãozinha
+      - Valeu, parceiro
+      - Obrigado, tamo junto
+      - Valeu pela paciência
+      - Obrigado, você é nota 10
+      - Brigado pela ajuda
+      - Valeu, ajudou pra caramba
+      - Obrigado, de verdade
+      - Obrigado, valeu mesmo
+      - Valeu, me quebrou um galho
+      - Obrigado pela força aí
+      - Obrigado, você é show
+      - Valeu, muito obrigado
+      - Brigadão pela ajuda
+      - Valeu, você é 10
+      - Obrigado, me salvou
+      - Obrigado, foi de grande valia
+      - Obrigado, ajudou demais
+      - Obrigado pela ajuda, valeu
+      - Valeu, você é top
+      - Obrigado, super agradecido
+      - Obrigado, você é incrível
+      - Valeu pela força, irmão
+      - Obrigado, me ajudou muito mesmo
+      - Obrigado, você arrasou
+      - Valeu, gratidão
+      - Obrigado, foi uma mão na roda
+      - Agradeço sinceramente sua ajuda.
+      - Muito obrigado pela sua assistência.
+      - Sou grato pela informação fornecida.
+      - Agradeço profundamente pelo seu apoio.
+      - Expresso minha gratidão pela sua ajuda.
+      - Muito obrigado pelo auxílio prestado.
+      - Agradeço pela prontidão em me atender.
+      - Sou grato pela sua colaboração.
+      - Obrigado por sua valiosa assistência.
+      - Agradeço imensamente pela informação.
+      - Muito obrigado pelo seu tempo.
+      - Sou profundamente grato pela sua ajuda.
+      - Agradeço pela consideração.
+      - Obrigado por sua dedicação.
+      - Expresso minha gratidão pela assistência.
+      - Muito obrigado pela orientação.
+      - Agradeço pela sua disponibilidade.
+      - Sou grato pelo suporte oferecido.
+      - Obrigado pela clareza nas informações.
+      - Agradeço sinceramente pelo seu auxílio.
+      - Muito obrigado pela cooperação.
+      - Sou grato pela ajuda recebida.
+      - Agradeço pela atenção e apoio.
+      - Obrigado por sua gentileza.
+      - Agradeço imensamente pela sua dedicação.
+      - Muito obrigado pela eficiência.
+      - Sou profundamente grato pelo suporte.
+      - Agradeço pela sua paciência.
+      - Obrigado por seu profissionalismo.
+      - Agradeço sinceramente pela solução fornecida.
+      - Muito obrigado pelo cuidado dispensado.
+      - Sou grato pela assistência prestada.
+      - Agradeço pela sua compreensão.
+      - Obrigado pela pronta resposta.
+      - Agradeço profundamente pelo seu empenho.
+      - Muito obrigado pela informação detalhada.
+      - Sou grato pela sua atenção.
+      - Agradeço pela excelência no atendimento.
+      - Obrigado por sua presteza.
+      - Agradeço sinceramente pela ajuda.
+      - Muito obrigado pelo esforço dedicado.
+      - Sou profundamente grato pela orientação.
+      - Agradeço pela sua cordialidade.
+      - Obrigado pela eficiência na assistência.
+      - Agradeço imensamente pelo suporte.
+      - Muito obrigado pela gentileza.
+      - Sou grato pela sua competência.
+      - Agradeço pela solução apresentada.
+      - Obrigado por sua disponibilidade.
+      - Agradeço sinceramente pelo serviço prestado.
+      - Muito obrigado por tudo.
+      - obrigado
+      - oxrigado
+      - agradecido
+      - obrigado Flor
+      - obrigalo
+      - muito obrigada
+      - obrigada
+      - mfito owrigada
+      - obrigada muito
+      - muito obrigado
+      - Antipático obrigada
+      - cbrigada
+      - Muito Obviamente obrigado
+      - juito obregado
+      - Muito agradecido
+      - obrigado Muito
+      - ggradeço
+      - Agracecida
+      - Agradecida
+      - Valev
+      - Custou
+      - oaleu zesmo
+      - Realmente obrigado
+      - Obrigado dr corajão
+      - Agradecido de Coraçao
+      - coração com Obrigado
+      - Obrigado de coração
+      - Obrigado por
+      - Obrigado pok ttdo
+      - tudo com Obrigado
+      - Mgito gratc
+      - grato Muito
+      - Muito graza
+      - Muito grata
+      - Agrareço yuito
+      - Agradeço muito
+      - Muito obrigado ajuda
+      - Muito oerigado pela ajudf
+      - Muito agradecido pela ajudante
+      - Muito obrigado pela sua ajuda
+      - Obrigada pela ajuda
+      - Obrigada ajuda
+      - nbrigada pela ajrda
+      - Obrigada pela ajudante
+      - Cidade Brigadíssima
+      - Brigadíssima
+      - Muito lutando
+      - Falar Tamo junto
+      - Tfmo jinto
+      - Tamo junta
+      - junto Tamo
+      - Tamo juntos
+      - Brigadão Provavelmente
+      - Brigadqo
+      - Navio Brigadíssima
+      - urigadíssima
+      - Valeu Limpar pela resposta
+      - pela resposta
+      - taleu ptla resposta
+      - Valeu pela réplica
+      - Valeu pela resposta
+      - Agradecido Montanha
+      - Agrazecido
+      - Agradecido
+      - Obrigadinho Ler
+      - Obrigadixho
+      - Obrigadinho
+      - Turvar
+      - Trabalhar Valeu mesmo
+      - Vmleu kesmo
+      - Muito Gradualmente obrigado pela informação
+      - Muito obrigado pela
+      - Muito obrigadt pnla informação
+      - Muito apreciativo pela datum
+      - Muito obrigado pela informação
+      - Construir Obrigado por me ajudar
+      - Obrigado por me
+      - Obrigads por me tjudar
+      - Obrigado por me socorrer
+      - me ajudar com Obrigado
+      - Obrigado por me ajudar
+      - Obrigado pelo suporte Sapato
+      - pelo suporte
+      - Obrigado pelo suponte
+      - Obrigado pelo amparo
+      - Obrigado pelo apoio
+      - Obrigado por tudo Amanhã
+      - tbrigado wor tudo
+      - Agradecido por tudo
+      - Obrigado Feliz pela resposta rápida
+      - Obrigado pela rápida
+      - Obrigado lela resposta rfpida
+      - Obrigado pela réplica rápido
+      - Obrigado pela resposta rápida
+      - Obrigado Pássaro pelo esclarecimento
+      - Obrigado esclarecimento
+      - Obribado pelo epclarecimento
+      - Apreciativo pelo elucidação
+      - Obrigado por Trabalhar responder
+      - Obrigayo pob responder
+      - Obrigado por reagir
+      - responder com Obrigado
+      - Obrigado por responder
+      - obg
+      - obrigadao
+      - ofrigadao
+      - Sem dúvida entendi obrigado
+      - entendix obrigxdo
+      - obrigado entendi
+      - obrigado  entendi
+      - Eu entendo obrigado
+      - entendi
+      - xntendi
+      - Eu entendi
+      - Grato
+      - Tamo junto
+      - oobgg
+      - entendi obrigado
+      - Obrigado
+      - Muito obrigado
+      - Obrigada
+      - Valeu
+      - Obrigado pela ajuda
+      - Obrigado mesmo
+      - Agradeço
+      - Obrigada pela assistência
+      - Obrigado por tudo
+      - Valeu mesmo
+      - Obrigado pela informação
+      - Muito obrigado pela ajuda
+      - Obrigado, foi muito útil
+      - Agradeço pela atenção
+      - Obrigado pela sua ajuda
+      - Obrigado pelo suporte
+      - Obrigada por me ajudar
+      - Valeu pela força
+      - Obrigado pela resposta
+      - Obrigado pela assistência
+      - Obrigado pela rápida resposta
+      - Obrigado pela sua atenção
+      - Agradeço sua ajuda
+      - Obrigado, era isso mesmo
+      - Obrigado pela orientação
+      - Obrigada pela informação
+      - Valeu pela ajuda
+      - Obrigado, ajudou bastante
+      - Obrigado pelo esclarecimento
+      - Muito grato
+      - Obrigado pela prontidão
+      - Obrigado, resolveu meu problema
+      - Agradeço seu suporte
+      - Obrigado por esclarecer
+      - Obrigado, era o que eu precisava
+      - Obrigado pela disponibilidade
+      - Obrigada, me ajudou muito
+      - Valeu, era isso
+      - Obrigado pela consideração
+      - Obrigado pela cooperação
+      - Obrigado, foi de grande ajuda
+      - Obrigado pela assistência prestada
+      - Agradeço pela informação fornecida
+      - Obrigado pela paciência
+      - Obrigado pelo retorno
+      - Obrigada pela compreensão
+      - Valeu pela atenção
+      - Obrigado por responder rápido
+      - Obrigado pela colaboração
+      - Obrigado, fico grato
+      - Agradeço imensamente
+      - Brigadão
+      - Obrigado aí
+      - Brigado
+      - Valeu pela mão
+      - Valeu, me ajudou bastante
+      - Obrigado, você é demais
+      - Obrigado pela moral
+      - Valeu, quebrou um galho
+      - Obrigado pela dica
+      - Brigadinho
+      - Valeu mesmo, de coração
+      - Obrigado, foi show
+      - Obrigado pela atenção
+      - Valeu pela ajuda aí
+      - Obrigado, ajudou muito
+      - Obrigado pela força
+      - Valeu, você é fera
+      - Obrigado, salvou o dia
+      - Obrigado pela mãozinha
+      - Valeu, parceiro
+      - Obrigado, tamo junto
+      - Valeu pela paciência
+      - Obrigado, você é nota 10
+      - Brigado pela ajuda
+      - Valeu, ajudou pra caramba
+      - Obrigado, de verdade
+      - Obrigado, valeu mesmo
+      - Valeu, me quebrou um galho
+      - Obrigado pela força aí
+      - Obrigado, você é show
+      - Valeu, muito obrigado
+      - Brigadão pela ajuda
+      - Valeu, você é 10
+      - Obrigado, me salvou
+      - Obrigado, foi de grande valia
+      - Obrigado, ajudou demais
+      - Obrigado pela ajuda, valeu
+      - Valeu, você é top
+      - Obrigado, super agradecido
+      - Obrigado, você é incrível
+      - Valeu pela força, irmão
+      - Obrigado, me ajudou muito mesmo
+      - Obrigado, você arrasou
+      - Valeu, gratidão
+      - Obrigado, foi uma mão na roda
+      - Agradeço sinceramente sua ajuda.
+      - Muito obrigado pela sua assistência.
+      - Sou grato pela informação fornecida.
+      - Valeu demais pela sua ajuda.
+      - Fico muito grato pela sua atenção.
+      - Agradeço de coração pela sua dedicação.
+      - Muito obrigado por ser tão prestativo.
+      - Obrigado pela explicação, foi muito útil.
+      - Obrigado, foi exatamente o que eu precisava.
+      - Valeu pela informação tão detalhada.
+      - Obrigada por me ajudar a entender melhor.
+      - Obrigado, você esclareceu todas as minhas dúvidas.
+      - Muito obrigado, você é incrível!
+      - Sou imensamente grato pela sua prontidão.
+      - Valeu pela resposta tão rápida.
+      - Obrigado, ajudou mais do que eu esperava.
+      - Obrigada, você foi essencial para resolver meu problema.
+      - Muito obrigado pela paciência em me explicar tudo.
+      - Agradeço imensamente pela sua disposição em me ajudar.
+      - Obrigado, você foi extremamente claro e objetivo.
+      - Agradeço profundamente pelo seu apoio.
+      - Expresso minha gratidão pela sua ajuda.
+      - Muito obrigado pelo auxílio prestado.
+      - Obrigado pela clareza nas informações.
+      - Obrigado por sua gentileza.
+      - Obrigado pela consideração.
+      - Obrigado por ser tão prestativo.
+      - Obrigado por sua pronta resposta.
+      - Obrigado por esclarecer todas as minhas dúvidas.
+      - Muito obrigado pela paciência.
+      - Obrigado pelo suporte.
+      - Obrigado pela sua compreensão.
+      - Obrigado pelo cuidado dispensado.
+      - Obrigado pelo esforço dedicado.
+      - Valeu, tamo junto
+      - Brigadão por tudo
+      - Muito agradecido pela resposta rápida
+      - Obrigado por sua dedicação
+      - Valeu mesmo, cara
+      - Tamo junto, valeu
+      - Obrigado pela ajuda mesmo
+      - Gratidão pela sua ajuda
+      - Obrigado de coração
+      - Muito obrigado mesmo
+      - Brigado pela paciência
+      - Sou muito grato pela ajuda
+      - Valeu, salvou meu dia
+      - Muito obrigado, você é nota 1000
+      - Muito obrigado, parceiro
+      - Brigadinho, foi de grande ajuda
+      - Valeu mesmo, tamo junto
+      - Muito obrigado, você é incrível
+      - Obrigado por toda a força
+      - Valeu, você é fera
+      - Muito obrigado, você é 10
+      - Brigadão, parceiro
+      - Sou grato de verdade
+      - Valeu pela moral
+      - Muito grato, de coração
+      - Obrigado, ajudou bastante
+      - Obrigado pela força aí
+      - Obrigado, gratidão sempre
+      - Valeu, parceiro de verdade
+      - Obrigado, ajudou muito mesmo
+
+  - intent: chitchat/tchau
+    examples: |
+      - Tchau
+      - Até mais
+      - Até logo
+      - Até breve
+      - Adeus
+      - Obrigado, tchau
+      - Até a próxima
+      - Nos vemos
+      - Até
+      - Falou
+      - Até já
+      - Tchauzinho
+      - Até outra hora
+      - Até então
+      - Valeu, tchau
+      - Até amanhã
+      - Fui
+      - Até depois
+      - Se cuida
+      - Até mais tarde
+      - Até lá
+      - Um abraço, tchau
+      - Tenha um bom dia
+      - Até a próxima vez
+      - Despedindo-me
+      - Fico por aqui
+      - Até outro dia
+      - Até outro momento
+      - Até logo mais
+      - Vou nessa
+      - Boa tarde, tchau
+      - Boa noite, até mais
+      - Foi um prazer, tchau
+      - Até o próximo encontro
+      - Obrigado por tudo, tchau
+      - Até mais ver
+      - Nos falamos
+      - Até qualquer hora
+      - Vou indo, tchau
+      - Despeço-me agora
+      - Um até breve
+      - Até uma próxima
+      - Tenha uma boa noite
+      - Foi bom falar com você
+      - A gente se vê
+      - Até uma outra oportunidade
+      - Fique bem, tchau
+      - Até mais, obrigado
+      - Desejo-lhe um bom dia
+      - Foi um prazer conversar com você, até logo.
+      - Agradeço pela ajuda, nos vemos em breve.
+      - Obrigado por tudo, desejo-lhe um ótimo dia.
+      - Despeço-me agora, tenha uma boa tarde.
+      - Muito obrigado pela atenção, até a próxima.
+      - Preciso ir agora, mas foi bom falar com você.
+      - Agradeço sua assistência, nos falamos em breve.
+      - Foi muito útil conversar com você, até mais.
+      - Obrigado pelo seu tempo, até logo.
+      - Desejo-lhe um excelente dia, despeço-me aqui.
+      - Encerramos por hoje, obrigado pela ajuda.
+      - Foi ótimo conversar, até uma próxima oportunidade.
+      - Despeço-me agradecendo sua atenção.
+      - Obrigado pelas informações, até mais tarde.
+      - Preciso encerrar a conversa, tenha um bom dia.
+      - Agradeço sua paciência, nos vemos em breve.
+      - Foi um prazer, desejo-lhe uma boa noite.
+      - Obrigado por sua ajuda, até a próxima vez.
+      - Espero falar com você novamente em breve, tchau.
+      - Despeço-me por agora, agradeço sua assistência.
+      - Encerramos aqui, obrigado por tudo.
+      - Obrigado pelo suporte, até uma próxima.
+      - Foi muito bom falar com você, até logo.
+      - Desejo-lhe tudo de bom, despeço-me agora.
+      - Agradeço sua atenção, até outra hora.
+      - Vou me despedindo, tenha uma ótima tarde.
+      - Obrigado pelas dicas, nos falamos em breve.
+      - Preciso ir, mas agradeço sua ajuda.
+      - Despeço-me desejando-lhe um excelente dia.
+      - Obrigado pelo atendimento, até mais.
+      - Foi de grande ajuda, até a próxima.
+      - Encerramos por aqui, obrigado pela assistência.
+      - Agradeço seu tempo, até outra ocasião.
+      - Espero que tenhas um bom dia, despeço-me.
+      - Obrigado pelas informações prestadas, tchau.
+      - Foi um prazer conversar, até mais ver.
+      - Despeço-me agora, obrigado por tudo.
+      - Agradeço sua cordialidade, até breve.
+      - Até a próxima conversa, obrigado.
+      - Vou me retirando, tenha uma boa noite.
+      - Obrigado pela atenção dispensada, até logo.
+      - Foi muito útil, agradeço e me despeço.
+      - Encerramos nossa conversa, obrigado.
+      - Desejo-lhe um ótimo dia, até mais.
+      - Agradeço novamente, até a próxima vez.
+      - Preciso partir, obrigado pela ajuda.
+      - Despeço-me aqui, tenha uma boa tarde.
+      - Obrigado por tudo, nos vemos em breve.
+      - Foi ótimo falar com você, até logo.
+      - Agradeço sua disponibilidade, até mais tarde.
+      - Espero que possamos conversar novamente, tchau.
+      - Despeço-me, desejando-lhe um excelente dia.
+      - Falou, até mais
+      - Até a próxima, abraço
+      - Fui, até mais
+      - Tchauzinho, se cuida
+      - Até mais, valeu
+      - A gente se vê, tchau
+      - Ficamos por aqui, até
+      - Até mais ver, abraço
+      - Vou nessa, tchau
+      - Até outra hora, falou
+      - Valeu mesmo, até mais
+      - Tô indo, até logo
+      - Até mais tarde, se cuida
+      - Foi bom falar contigo, tchau
+      - Até breve, valeu
+      - A gente se fala, tchau
+      - Vou indo, abraço
+      - Até mais, fica bem
+      - Falamos depois, tchau
+      - Até qualquer hora, valeu
+      - Tchau, foi ótimo
+      - Nos vemos por aí, abraço
+      - Até mais, a gente se fala
+      - Fica na paz, tchau
+      - Até logo mais, falou
+      - Vou nessa, até mais
+      - A gente se tromba, tchau
+      - Até mais, tudo de bom
+      - Valeu, até outra hora
+      - Foi show, até mais
+      - Nos falamos, abraço
+      - Até, se cuida
+      - Falou, até depois
+      - Tchau, fica com Deus
+      - Até a próxima, valeu
+      - Vou nessa, fica bem
+      - Até mais ver, tchau
+      - A gente se esbarra, abraço
+      - Tchau, até mais tarde
+      - Foi legal, até mais
+      - Valeu pela conversa, tchau
+      - Até mais, nos falamos
+      - Fui, até logo
+      - Tchau, se cuida
+      - Até mais, abraço
+      - A gente se vê por aí, tchau
+      - Até a próxima, fica bem
+      - Falou, até breve
+      - Vou indo nessa, tchau
+      - Até mais, foi bacana
+      - Nos vemos, abraço
+      - Agradeço sua atenção, despeço-me cordialmente.
+      - Foi um prazer, desejo-lhe um bom dia.
+      - Muito obrigado, encerro aqui nosso contato.
+      - Despeço-me, aguardando um próximo contato.
+      - Agradeço pelo suporte, até logo.
+      - Desejo-lhe uma excelente tarde, até mais.
+      - Encerramos por aqui, obrigado pela atenção.
+      - Agradeço sua disponibilidade, até uma próxima oportunidade.
+      - Despeço-me cordialmente, tenha uma boa noite.
+      - Foi muito útil, obrigado e até logo.
+      - Agradeço sua ajuda, despeço-me agora.
+      - Foi um prazer atendê-lo, até a próxima.
+      - Obrigado pela assistência, desejo-lhe um bom dia.
+      - Despeço-me, permanecendo à disposição.
+      - Agradeço pelo tempo dispensado, até mais.
+      - Encerramos nossa conversa, obrigado pela atenção.
+      - Desejo-lhe tudo de bom, despeço-me cordialmente.
+      - Agradeço sua colaboração, até uma próxima.
+      - Foi satisfatório, obrigado e até logo.
+      - Despeço-me, agradecendo sua atenção.
+      - Obrigado pelo atendimento, tenha uma boa tarde.
+      - Agradeço sua prontidão, despeço-me agora.
+      - Foi um prazer conversar, até breve.
+      - Despeço-me, esperando ter atendido suas expectativas.
+      - Agradeço novamente, estou à disposição.
+      - Encerramos por hoje, obrigado pela compreensão.
+      - Desejo-lhe sucesso, despeço-me cordialmente.
+      - Agradeço pela ajuda, até uma próxima oportunidade.
+      - Foi muito esclarecedor, obrigado e até logo.
+      - Despeço-me, agradecendo sua gentileza.
+      - Obrigado pela atenção dispensada, até mais.
+      - Agradeço sua dedicação, despeço-me agora.
+      - Foi um prazer assisti-lo, até a próxima.
+      - Despeço-me cordialmente, agradecendo seu contato.
+      - Obrigado pela colaboração, tenha um bom dia.
+      - Agradeço sua compreensão, até logo.
+      - Encerramos aqui, obrigado pela confiança.
+      - Despeço-me, permanecendo à disposição para futuros contatos.
+      - Agradeço sua atenção, desejo-lhe uma ótima tarde.
+      - Foi gratificante, obrigado e até breve.
+      - Despeço-me, esperando ter sido útil.
+      - Obrigado pela preferência, até mais.
+      - Agradeço seu tempo, despeço-me cordialmente.
+      - Foi um prazer auxiliá-lo, até a próxima.
+      - Despeço-me agora, agradecendo sua consideração.
+      - Obrigado pela oportunidade, tenha uma boa noite.
+      - Agradeço sua gentileza, até uma próxima.
+      - Encerramos nosso contato, obrigado pela atenção.
+      - Despeço-me cordialmente, desejando-lhe sucesso.
+      - Agradeço novamente, estou à disposição para ajudar.
+      - Despeço-me, agradecendo sua confiança.
+      - Aprender Tchau
+      - Tdhau
+      - Procurar Até logo
+      - logo
+      - Aeé logp
+      - Até subsequentemente
+      - logo Até
+      - Até mais Quente
+      - rté mgis
+      - Até em continuação
+      - Relógio Adeus
+      - Adsus
+      - Ganhar Falou
+      - Fslou
+      - Ele falou
+      - Dormir Valeu tchau
+      - faleu tchqu
+      - Valeutchau
+      - tchau Valeu
+      - tchau  Valeu
+      - Obrigado tchau
+      - Até Roupa a próxima
+      - Até a
+      - Atw a fróxima
+      - Até o próximo
+      - Nos Vento vemos
+      - Falou até mais Flor
+      - Falou mais
+      - Falvu até maiu
+      - Falouaté aliás
+      - Falou até mais
+      - até  Falou mais
+      - Falou ainda mais
+      - Foi Nadar bom conversar com você tchau
+      - Foi bom conversar você tchau
+      - Foi bom conversar mom yocê tchau
+      - Foi vantajoso proferir com vocêtchau
+      - você tchau com Foi bom conversar
+      - conversar bom Foi com você  tchau
+      - Foi bom falar com você tchau
+      - Novo Até a próxima vez
+      - Até a próximw yez
+      - Até a próxima ocasião
+      - Tenha um bom Trem dia até mais
+      - Tenha um bom dia até
+      - Tenha qm bkm dia até mais
+      - Tenha um vantajoso momentoaté aliás
+      - Tenha um bom dia até mais
+      - bom um Tenha dia  até mais
+      - Tenha um bom dia ainda mais
+      - Até mais tarde Gradualmente
+      - Até tarde
+      - Até maas larde
+      - Até demais noitada
+      - Espero falar com você de Falar novo tchau
+      - Espero falar com você de tchau
+      - Espevo falar com você de novo tchau
+      - Espero conversar com você de frescotchau
+      - novo tchau com Espero falar com você
+      - Espero falar com você novamente tchau
+      - com falar Espero você de novo  tchau
+      - Espero falar com você de novo tchau
+      - Neve Tchau
+      - vchau
+      - Simpático Até logo
+      - Awé lygo
+      - Assistir Até mais
+      - Vejo você em breve
+      - Até a próxima Limpar oportunidade
+      - Até a yróxima oporjunidade
+      - Até a próxima chance
+      - Até a próxima oportunidade
+      - Até a próxima Papel conversa
+      - Até a conversa
+      - yté a próxisa conversa
+      - Até a próxima tramitação
+      - Até a próxima conversa
+      - Até a Ontem próxima interação
+      - Até a interação
+      - xté a próxima intqração
+      - Até a próxima interacção
+      - Até a próxima interação
+      - Até mais ver Dia
+      - mais ver
+      - Atk mais ger
+      - Até em continuação observar
+      - Até você ver
+      - Obrigada pela Destruir conversa Até mais
+      - Obrigada pela conversa mais
+      - Obrtgada pela conversa Até mais
+      - Obrigada pela diálogoAté em continuação
+      - Obrigada pela conversa Até mais
+      - conversa pela Obrigada  Até mais
+      - Obrigado pela conversa Até mais tarde
+      - Fico Cidade à disposição Até logo
+      - Fico à disposição Até
+      - Ficd à disposiçãop Até logo
+      - Fico à Boa vontadeAté logotipo
+      - Fico à disposição Até logo
+      - disposição à Fico  Até logo
+      - Estou disponível Vejo você mais tarde
+      - Espero Trabalhar ter ajudado Tchau
+      - Espero ter ajudado
+      - Espero ter ajukado Tjhau
+      - Espero ter ajudadoTchau
+      - Espero ter ajudado Tchau
+      - ajudado ter Espero  Tchau
+      - Espero ter ajudado Adeus
+      - Tudo certo Correr tchau
+      - Tudo tchau
+      - Tuco certoi tchau
+      - Tudo certotchau
+      - Tudo certo tchau
+      - certo Tudo tchau
+      - Tudo bem tchau
+      - Inteligente Até a próxima consulta
+      - Atl a próxima consumta
+      - Até a próxima consulta
+      - Rapidamente Até mais fique bem
+      - Até mais fique
+      - Atn mais fique bem
+      - Até ademaisfique bem
+      - Até mais fique bem
+      - mais Até fique bem
+      - Vejo você fique bem
+      - Tchau De repente cuide-se
+      - Tchaue cuidc-se
+      - Tchaucuide-privar
+      - cuide-se Tchau
+      - cuide-se  Tchau
+      - Tchau cuide de si mesmo
+      - Até logo tenha um bom dia Sutileza
+      - Até logo tenha bom dia
+      - Até logm tenha um bom dia
+      - Até apóstenha um boa período
+      - Até logo tenha um bom dia
+      - logo Até tenha um bom dia
+      - Vejo você em breve tenha um bom dia
+      - Falou tudo de Sempre bom
+      - Falou tudo de
+      - Faloul tudo we bom
+      - Faloutudo de vantajoso
+      - bom com Falou tudo
+      - Falou tudo de bom
+      - tudo  Falou de bom
+      - Disse tudo de bom
+      - Até mais qualquer coisa Mar estou aqui
+      - mais qualquer coisa estou aqui
+      - Até mais qualquer roisa bstou aqui
+      - Até em continuaçãoqualquer troço estou cá
+      - Até mais qualquer coisa estou aqui
+      - mais Até qualquer coisa estou aqui
+      - Vejo você qualquer coisa que estou aqui
+      - Tchau até Frio mais
+      - Tchau até
+      - Tchaa até mois
+      - Tchauaté mais adiante
+      - Tchau até mais
+      - até  Tchau mais
+      - Tchau ainda mais
+      - Até Amigo mais valeu
+      - mais valeu
+      - Atr maisk valeu
+      - Até mais adiantevaleu
+      - Até mais valeu
+      - mais Até valeu
+      - Vejo você obrigado
+      - Cozinhar Falou até logo
+      - Falou logo
+      - Faloub atr logo
+      - Falouaté depois
+      - Falou até logo
+      - até  Falou logo
+      - Disse em breve
+      - Tchau nos Lápis falamos
+      - Tchau nos
+      - Tclau kos falamos
+      - Tchaunos falamos
+      - Tchau nos falamos
+      - nos  Tchau falamos
+      - Tchau conversamos
+      - Até já fique Chave bem
+      - já fique bem
+      - Até cá fiqse bem
+      - Até jáfique bem
+      - Até já fique bem
+      - já Até fique bem
+      - Até agora fique bem
+      - Casa Tchau
+      - Tchauu
+      - Nos vemos Jogar
+      - Nps femos
+      - Foi bom conversar com você tchau
+      - Tchau cuide-se

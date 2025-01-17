@@ -1,0 +1,10 @@
+rasa==3.6.4
+rasa-sdk==3.6.2
+spacy==3.7.0
+typing-extensions==4.7.1
+transformers==4.41.2
+nltk==3.8.1
+setuptools==70.0.0
+aio_pika==8.2.3
+jax==0.4.13
+jaxlib==0.4.13

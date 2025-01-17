@@ -1,0 +1,3377 @@
+{
+  "5b2c856e54c44fcb96ed64b49c11f64f": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736019921.8551276
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736019921.8775856
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber como funciona as coisas na clinica",
+      "timestamp": 1736019929.772877
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736019929.7985265
+    },
+    {
+      "type_name": "user",
+      "text": "quero conversar com a secretaria entao",
+      "timestamp": 1736019938.8250508
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736019938.8489819
+    },
+    {
+      "type_name": "user",
+      "text": "quero conversar com a secretaria",
+      "timestamp": 1736019962.4067945
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736019962.4438593
+    },
+    {
+      "type_name": "user",
+      "text": "conversar com secretaria",
+      "timestamp": 1736020003.3851056
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736020003.4058836
+    },
+    {
+      "type_name": "user",
+      "text": "quero falar com alguem",
+      "timestamp": 1736020016.2500153
+    },
+    {
+      "type_name": "bot",
+      "text": "Estamos te transferindo para nosso atendente, aguarde um momento... ",
+      "timestamp": 1736020016.3289344
+    }
+  ],
+  "e2356e11052a4dac91261d3323a650be": [
+    {
+      "type_name": "user",
+      "text": "oi bom dia",
+      "timestamp": 1736184168.405078
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736184168.4279573
+    },
+    {
+      "type_name": "user",
+      "text": "eu queria marcar uma consulta com a doutora",
+      "timestamp": 1736184177.4241881
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736184177.4441054
+    },
+    {
+      "type_name": "user",
+      "text": "quero sim",
+      "timestamp": 1736184179.2909603
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736184179.3083794
+    },
+    {
+      "type_name": "user",
+      "text": "nao tenho ainda",
+      "timestamp": 1736184181.2419324
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736184181.2664435
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736184181.3761618
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson augusto",
+      "timestamp": 1736184183.5224552
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer vanderson augusto, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736184183.6002095
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736184185.5237875
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736184185.6123657
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson@gmail.com",
+      "timestamp": 1736184188.0794344
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736184188.163906
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736184191.998566
+    },
+    {
+      "type_name": "bot",
+      "text": "Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!",
+      "timestamp": 1736184192.1540904
+    },
+    {
+      "type_name": "user",
+      "text": "ok, vamos novamente",
+      "timestamp": 1736184442.842348
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736184442.9133108
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar uma consulta",
+      "timestamp": 1736184446.6985457
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736184446.727241
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184447.6989346
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736184447.7581973
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736184447.7721982
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar uma consulta",
+      "timestamp": 1736184452.3411005
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736184452.3584466
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184453.2657452
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736184453.2908034
+    },
+    {
+      "type_name": "user",
+      "text": "nao tenho",
+      "timestamp": 1736184454.8386345
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736184454.8545108
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736184455.1131883
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736184455.2649987
+    }
+  ],
+  "5a18100310a747d6826eaa6130a07de0": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736184671.3921332
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736184671.4123287
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736184677.8605373
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736184677.876454
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184678.728627
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736184678.7485778
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736184680.989064
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736184681.0108051
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736184681.1223123
+    },
+    {
+      "type_name": "user",
+      "text": "eliedina jales da rosa",
+      "timestamp": 1736184684.69285
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer eliedina jales da rosa, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736184684.7599015
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736184687.3499725
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736184687.421397
+    },
+    {
+      "type_name": "user",
+      "text": "eliedina@gmail.com",
+      "timestamp": 1736184690.8082511
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736184690.8854246
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736184693.9475825
+    },
+    {
+      "type_name": "bot",
+      "text": "Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!",
+      "timestamp": 1736184694.1116865
+    },
+    {
+      "type_name": "user",
+      "text": "mas eu quero me cadastrar",
+      "timestamp": 1736184704.4049447
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736184704.4204655
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736184704.5885804
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736184704.5885894
+    },
+    {
+      "type_name": "user",
+      "text": "019932022945",
+      "timestamp": 1736184808.3409536
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736184808.4456756
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736184808.445686
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736184811.2154586
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736184811.3122108
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736184811.3122447
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736184814.1477253
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736184814.3076134
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736184815.7374365
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736184815.87957
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar uma consulta",
+      "timestamp": 1736184826.125592
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736184826.1514482
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184827.1059632
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736184827.132895
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184829.60254
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736184829.7720985
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736184831.6514306
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736184831.7991555
+    },
+    {
+      "type_name": "user",
+      "text": "cancelar",
+      "timestamp": 1736184843.257051
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736184843.3404531
+    },
+    {
+      "type_name": "user",
+      "text": "cancelar tudo",
+      "timestamp": 1736184846.2338977
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja cancelar sua consulta agendada conosco? ☹️",
+      "timestamp": 1736184846.2605057
+    },
+    {
+      "type_name": "user",
+      "text": "nao brother",
+      "timestamp": 1736184849.0738695
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736184849.1023688
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736184850.2902243
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736184850.3020692
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184852.7310393
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736184852.7409737
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736184853.7026727
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736184853.8223097
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736184855.2368965
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736184855.4130003
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736184856.3461366
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736184856.460505
+    }
+  ],
+  "2384fba61b104bd4ac5b86e0543e4c0a": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736185113.4377298
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736185113.4599445
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736185114.203305
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736185114.219955
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736185115.3679132
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736185115.3911545
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736185116.1408157
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736185116.246289
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736185117.9979641
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736185118.1557987
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736185119.1618228
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736185119.297223
+    }
+  ],
+  "c4f859af994a401da14eda85510cfb1c": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736187058.5929337
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736187058.6159062
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber quais atendimentos existem na clinica",
+      "timestamp": 1736187069.3155663
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736187069.3373733
+    },
+    {
+      "type_name": "user",
+      "text": "e voces aceitam cartao? parcelam ou somente a vista",
+      "timestamp": 1736187092.0569751
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736187092.0739384
+    },
+    {
+      "type_name": "user",
+      "text": "e onde que fica a clinica?",
+      "timestamp": 1736187098.469453
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736187098.4866452
+    },
+    {
+      "type_name": "user",
+      "text": "obrigado",
+      "timestamp": 1736187100.6010394
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado por entrar em contato! ",
+      "timestamp": 1736187100.6259863
+    }
+  ],
+  "b485e7261b114807bb4df6dd11c13c88": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736255410.8422897
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736255410.8664985
+    },
+    {
+      "type_name": "user",
+      "text": "onde fica a clinica",
+      "timestamp": 1736255417.2118428
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736255417.227927
+    },
+    {
+      "type_name": "user",
+      "text": "quais planos de saude voces aceitam?",
+      "timestamp": 1736255422.5927947
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clínica aceita os seguintes planos de saúde:\nPor favor, verifique se o seu plano está listado abaixo:\n- AmePlan\n- Ampla Saúde\nMais alguma dúvida sobre nossos planos de saúde? Peça para conversar com nossa secretária!\n",
+      "timestamp": 1736255422.6169567
+    },
+    {
+      "type_name": "user",
+      "text": "quais metodos de pagamentos sao aceitos pela clinica?",
+      "timestamp": 1736255430.5481915
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736255430.5712852
+    }
+  ],
+  "1dbe8474bde640319c958899587f6907": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736269943.287632
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736269943.3089163
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber o local de atendimento",
+      "timestamp": 1736269949.7145052
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736269949.7349095
+    },
+    {
+      "type_name": "user",
+      "text": "e o metodo de pagamento?",
+      "timestamp": 1736269953.0720587
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736269953.0927098
+    }
+  ],
+  "e8874bf32ee343399e411a99057527c2": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736270044.002204
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736270044.0213418
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber quais planos de saude sao aceitos",
+      "timestamp": 1736270055.001804
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clínica aceita os seguintes planos de saúde:\nPor favor, verifique se o seu plano está listado abaixo:\n- AmePlan\n- Ampla Saúde\nMais alguma dúvida sobre nossos planos de saúde? Peça para conversar com nossa secretária!\n",
+      "timestamp": 1736270055.0180092
+    },
+    {
+      "type_name": "user",
+      "text": "e onde que fica a clinica?",
+      "timestamp": 1736270059.765336
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736270059.7865689
+    },
+    {
+      "type_name": "user",
+      "text": "e voces aceitam somente dinheiro ou cartao tabmem",
+      "timestamp": 1736270067.8489437
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736270067.87218
+    },
+    {
+      "type_name": "user",
+      "text": "so cartao?",
+      "timestamp": 1736270071.9804723
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736270072.0106695
+    },
+    {
+      "type_name": "user",
+      "text": "somente cartao vcs aceitam entao?",
+      "timestamp": 1736270076.17932
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736270076.2054505
+    }
+  ],
+  "239cf039868744a68d7149b68d4e2131": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736428956.847135
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736428956.8675525
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber o endereco de voces",
+      "timestamp": 1736428968.3698633
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736428968.389098
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber o endereco de voces",
+      "timestamp": 1736428971.8814864
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736428971.8957884
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber o preco das consultas",
+      "timestamp": 1736428976.6691806
+    },
+    {
+      "type_name": "bot",
+      "text": "O preço de nossas consultas varia de especialistas. As consultas com os psicólogos são R$110,00 e psiquiatras R$480,00.",
+      "timestamp": 1736428976.7387495
+    }
+  ],
+  "a82c16f6470b46bebe23c6b612075d04": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736429199.882933
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736429199.901435
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber os planos de saudes que voces aceitam",
+      "timestamp": 1736429209.6895893
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clínica aceita os seguintes planos de saúde:\nPor favor, verifique se o seu plano está listado abaixo:\n- AmePlan\n- Ampla Saúde\nMais alguma dúvida sobre nossos planos de saúde? Peça para conversar com nossa secretária!\n",
+      "timestamp": 1736429209.7104495
+    },
+    {
+      "type_name": "user",
+      "text": "e quais servicos que a clinica faz? voces tem psiquiatra ou somente psicologo?",
+      "timestamp": 1736429228.8417435
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736429228.862936
+    },
+    {
+      "type_name": "user",
+      "text": "quais servicos a clinica faz",
+      "timestamp": 1736429237.7857206
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736429237.808383
+    }
+  ],
+  "f56893f49d48480a9b6c0622da7c853b": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736429364.064742
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736429364.083855
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber os metodos de pagamento",
+      "timestamp": 1736429371.7364545
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736429371.7560344
+    },
+    {
+      "type_name": "user",
+      "text": "metodos de pagamento",
+      "timestamp": 1736429376.2358654
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736429376.25727
+    },
+    {
+      "type_name": "user",
+      "text": "e os planos de saude?",
+      "timestamp": 1736429382.2474189
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clínica aceita os seguintes planos de saúde:\nPor favor, verifique se o seu plano está listado abaixo:\n- AmePlan\n- Ampla Saúde\nMais alguma dúvida sobre nossos planos de saúde? Peça para conversar com nossa secretária!\n",
+      "timestamp": 1736429382.2716336
+    }
+  ],
+  "5dd8993000c246e7b38ed26615812846": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736430928.0988066
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736430928.1180098
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber o local de atendimento",
+      "timestamp": 1736430932.4882092
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736430932.5083086
+    },
+    {
+      "type_name": "user",
+      "text": "e os metodos de pagamento?",
+      "timestamp": 1736430939.7429903
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736430939.7654133
+    }
+  ],
+  "6e5e4081849648488b3e7afaf60f535a": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736431047.2578151
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736431047.2762678
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber o endereco da clinica",
+      "timestamp": 1736431052.5315328
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP",
+      "timestamp": 1736431052.5508509
+    },
+    {
+      "type_name": "user",
+      "text": "e quais servicos voces tem",
+      "timestamp": 1736431061.6881313
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736431061.71015
+    },
+    {
+      "type_name": "user",
+      "text": "voces parcelam a consulta no cartao?",
+      "timestamp": 1736431073.1636472
+    },
+    {
+      "type_name": "bot",
+      "text": "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros",
+      "timestamp": 1736431073.186834
+    },
+    {
+      "type_name": "user",
+      "text": "e planos de saude, voces aceitam algum ?",
+      "timestamp": 1736431081.271678
+    },
+    {
+      "type_name": "bot",
+      "text": "Nossa clínica aceita os seguintes planos de saúde:\nPor favor, verifique se o seu plano está listado abaixo:\n- AmePlan\n- Ampla Saúde\nMais alguma dúvida sobre nossos planos de saúde? Peça para conversar com nossa secretária!\n",
+      "timestamp": 1736431081.2973583
+    }
+  ],
+  "f772480b335e4196bc4d542bf2f22184": [
+    {
+      "type_name": "user",
+      "text": "ola",
+      "timestamp": 1736431470.2438576
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736431470.2652285
+    },
+    {
+      "type_name": "user",
+      "text": "eu queria marcar uma consulta",
+      "timestamp": 1736431478.932108
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736431478.9512641
+    },
+    {
+      "type_name": "user",
+      "text": "quero sim",
+      "timestamp": 1736431480.4312098
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736431480.4512155
+    },
+    {
+      "type_name": "user",
+      "text": "nao tenho ainda",
+      "timestamp": 1736431482.3940814
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736431482.4160554
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736431482.5352836
+    },
+    {
+      "type_name": "user",
+      "text": "eliedina jales da rosa",
+      "timestamp": 1736431487.66598
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer eliedina jales da rosa, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736431487.752546
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736431489.7459195
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736431489.8307528
+    },
+    {
+      "type_name": "user",
+      "text": "eliedinajales@gmail.com",
+      "timestamp": 1736431493.325643
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736431493.4128284
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736431497.6682024
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736431497.9989529
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736431498.1544857
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736431538.5464492
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psicólogo você tem preferência de consultar?",
+      "timestamp": 1736431538.7332628
+    },
+    {
+      "type_name": "user",
+      "text": "dra. karen",
+      "timestamp": 1736431543.481507
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736431543.573148
+    },
+    {
+      "type_name": "user",
+      "text": "que horarios voces tem livre",
+      "timestamp": 1736431554.9231281
+    },
+    {
+      "type_name": "bot",
+      "text": "Erro ao buscar agendamentos para os próximos horários disponíveis.",
+      "timestamp": 1736431555.1650095
+    },
+    {
+      "type_name": "bot",
+      "text": "Nenhum horário disponível dentro do intervalo especificado.",
+      "timestamp": 1736431555.1650171
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736431555.2306364
+    },
+    {
+      "type_name": "user",
+      "text": "que horarios voces tem livre?",
+      "timestamp": 1736432453.0435147
+    },
+    {
+      "type_name": "bot",
+      "text": "Os próximos horários disponíveis são: 10/01 07:00, 10/01 08:00, 10/01 09:00, 10/01 10:00, 10/01 11:00",
+      "timestamp": 1736432453.294224
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736432453.8584023
+    },
+    {
+      "type_name": "user",
+      "text": "tem horario hoje?",
+      "timestamp": 1736432476.9023726
+    },
+    {
+      "type_name": "bot",
+      "text": "Vou te mostrar os próximos horários disponíveis:",
+      "timestamp": 1736432477.1260288
+    },
+    {
+      "type_name": "bot",
+      "text": "Próximos horários disponíveis: 7:00, 8:00, 9:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00",
+      "timestamp": 1736432477.126033
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736432477.1260438
+    },
+    {
+      "type_name": "user",
+      "text": "pode ser hoje as 1 da tarde",
+      "timestamp": 1736432492.7096038
+    },
+    {
+      "type_name": "bot",
+      "text": "09/01/2025 13:00 está disponível",
+      "timestamp": 1736432492.8489897
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736432492.8656497
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736432495.8860908
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736432496.152739
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736432496.1708777
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736432502.46812
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736432502.497643
+    },
+    {
+      "type_name": "user",
+      "text": "/remarcar_consulta",
+      "timestamp": 1736432505.5911233
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736432505.6200876
+    },
+    {
+      "type_name": "user",
+      "text": "quero sim",
+      "timestamp": 1736432508.1343448
+    },
+    {
+      "type_name": "bot",
+      "text": "Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema",
+      "timestamp": 1736432508.267006
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736432514.347537
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo:",
+      "timestamp": 1736432514.548508
+    },
+    {
+      "type_name": "user",
+      "text": "9 de Janeiro de 2025 às 13:00",
+      "timestamp": 1736432519.6238537
+    },
+    {
+      "type_name": "bot",
+      "text": "Para qual data você gostaria de remarcar? Você pode perguntar os próximos dias livres, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736432520.0215592
+    },
+    {
+      "type_name": "user",
+      "text": "proximos dias livres",
+      "timestamp": 1736432525.5026968
+    },
+    {
+      "type_name": "bot",
+      "text": "Próximos horários disponíveis em 10/01: 10/01 07:00, 10/01 08:00, 10/01 09:00, 10/01 10:00, 10/01 11:00",
+      "timestamp": 1736432525.6155984
+    },
+    {
+      "type_name": "bot",
+      "text": "Para qual data você gostaria de remarcar? Você pode perguntar os próximos dias livres, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736432525.6156087
+    },
+    {
+      "type_name": "user",
+      "text": "pode ser amanha as 10 da manha",
+      "timestamp": 1736432532.6568937
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 10:00 está disponível",
+      "timestamp": 1736432532.770311
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736432532.787564
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736432536.0953283
+    },
+    {
+      "type_name": "bot",
+      "text": "Mudança de consulta concluída com sucesso!",
+      "timestamp": 1736432536.2393477
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736432536.2573578
+    },
+    {
+      "type_name": "user",
+      "text": "quero cancelar minha consulta agora",
+      "timestamp": 1736432735.585012
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja cancelar sua consulta agendada conosco? ☹️",
+      "timestamp": 1736432735.6154866
+    },
+    {
+      "type_name": "user",
+      "text": "isso",
+      "timestamp": 1736432738.0813344
+    },
+    {
+      "type_name": "bot",
+      "text": "Você poderia me passar seu CPF para que possamos continuar?",
+      "timestamp": 1736432738.2169144
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736432742.0388749
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo para exclusão:",
+      "timestamp": 1736432742.2309437
+    },
+    {
+      "type_name": "user",
+      "text": "10 de Janeiro de 2025 às 10:00",
+      "timestamp": 1736432747.3946865
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta cancelada com sucesso!",
+      "timestamp": 1736432747.615201
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736432747.6306748
+    },
+    {
+      "type_name": "user",
+      "text": "so isso mesmo, obrigado",
+      "timestamp": 1736432752.4506805
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado por entrar em contato! ",
+      "timestamp": 1736432752.4818423
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar uma consulta",
+      "timestamp": 1736433117.523502
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736433117.5548382
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736433118.7843528
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736433118.8172169
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736433120.2354681
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736433120.3730545
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736433122.6893346
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736433122.894441
+    },
+    {
+      "type_name": "user",
+      "text": "psiquiatra",
+      "timestamp": 1736433124.6994376
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psiquiatra você tem preferência de consultar?",
+      "timestamp": 1736433124.863622
+    },
+    {
+      "type_name": "user",
+      "text": "dr. pedro lourenço",
+      "timestamp": 1736433126.2052372
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736433126.3079705
+    },
+    {
+      "type_name": "user",
+      "text": "amanha meio dia",
+      "timestamp": 1736433130.1779196
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 12:00 está disponível",
+      "timestamp": 1736433130.289516
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736433130.3075557
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736433131.5813522
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736433131.731137
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736433131.7513628
+    }
+  ],
+  "7fb4f315023c4bbebaecc5b2cb3d63e0": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736433937.1388762
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736433937.1572177
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736433940.8691692
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736433940.8881598
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736433942.3309546
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736433942.3511822
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736433944.2131345
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736433944.2350485
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736433944.3521767
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson",
+      "timestamp": 1736433945.8721607
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer vanderson, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736433945.9567993
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736433947.4707887
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736433947.5522103
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson@gmail.com",
+      "timestamp": 1736433949.946145
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736433950.034452
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736433954.8889756
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736433955.1025958
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736433955.2185495
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736433977.4522583
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psicólogo você tem preferência de consultar?",
+      "timestamp": 1736433977.638652
+    },
+    {
+      "type_name": "user",
+      "text": "dr. joão silva",
+      "timestamp": 1736433978.3493829
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736433978.4441316
+    },
+    {
+      "type_name": "user",
+      "text": "amanha meio dia",
+      "timestamp": 1736433981.9053934
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 12:00 está disponível",
+      "timestamp": 1736433982.122232
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736433982.1377983
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736433983.9747536
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736433984.136387
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736433984.152967
+    },
+    {
+      "type_name": "user",
+      "text": "quero remarcar minha consulta",
+      "timestamp": 1736433988.7488353
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736433988.7754776
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736433989.8660104
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736433989.891403
+    },
+    {
+      "type_name": "user",
+      "text": "/remarcar_consulta",
+      "timestamp": 1736434014.481083
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736434014.5082796
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434015.747131
+    },
+    {
+      "type_name": "bot",
+      "text": "Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema",
+      "timestamp": 1736434015.8557575
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736434019.3054695
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo:",
+      "timestamp": 1736434019.478975
+    },
+    {
+      "type_name": "user",
+      "text": "10 de Janeiro de 2025 às 12:00",
+      "timestamp": 1736434021.3343062
+    },
+    {
+      "type_name": "bot",
+      "text": "Para qual data você gostaria de remarcar? Você pode perguntar os próximos dias livres, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736434021.7138822
+    },
+    {
+      "type_name": "user",
+      "text": "amanha 2 da tarde",
+      "timestamp": 1736434025.118594
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 14:00 está disponível",
+      "timestamp": 1736434025.2202685
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736434025.2363658
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434026.4665785
+    },
+    {
+      "type_name": "bot",
+      "text": "Mudança de consulta concluída com sucesso!",
+      "timestamp": 1736434026.6043057
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434026.6253765
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434028.2519464
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736434028.2820282
+    },
+    {
+      "type_name": "user",
+      "text": "/cancelar_consulta",
+      "timestamp": 1736434030.033511
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja cancelar sua consulta agendada conosco? ☹️",
+      "timestamp": 1736434030.0633762
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434030.9685643
+    },
+    {
+      "type_name": "bot",
+      "text": "Você poderia me passar seu CPF para que possamos continuar?",
+      "timestamp": 1736434031.10951
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736434032.6532555
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo para exclusão:",
+      "timestamp": 1736434032.8194075
+    },
+    {
+      "type_name": "user",
+      "text": "10 de Janeiro de 2025 às 14:00",
+      "timestamp": 1736434034.37706
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta cancelada com sucesso!",
+      "timestamp": 1736434034.5715811
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434034.5883837
+    },
+    {
+      "type_name": "user",
+      "text": "so isso, obrigado",
+      "timestamp": 1736434037.658988
+    },
+    {
+      "type_name": "bot",
+      "text": "Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩",
+      "timestamp": 1736434037.6921418
+    },
+    {
+      "type_name": "user",
+      "text": "5",
+      "timestamp": 1736434039.9881737
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736434040.0936708
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar uma consulta",
+      "timestamp": 1736434052.3460162
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736434052.3766384
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434054.0984924
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736434054.1306486
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736434055.0626798
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736434055.091639
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer vanderson, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736434055.165053
+    },
+    {
+      "type_name": "user",
+      "text": "09018159614",
+      "timestamp": 1736434072.2152371
+    },
+    {
+      "type_name": "bot",
+      "text": "Falha ao cadastrar o usuário. Tente novamente.",
+      "timestamp": 1736434072.404362
+    },
+    {
+      "type_name": "bot",
+      "text": "Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!",
+      "timestamp": 1736434072.4212222
+    }
+  ],
+  "62fb2e6a3d494d70a877027f4d213020": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736434174.7289906
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736434174.7471242
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736434175.439135
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736434175.449333
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434176.4135742
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736434176.4344122
+    },
+    {
+      "type_name": "user",
+      "text": "nao tenho",
+      "timestamp": 1736434178.5361187
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736434178.5551107
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736434178.6696966
+    },
+    {
+      "type_name": "user",
+      "text": "eliedina jales",
+      "timestamp": 1736434181.1044772
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer eliedina jales, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736434181.1883388
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736434184.430432
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736434184.5159461
+    },
+    {
+      "type_name": "user",
+      "text": "eliedina@gmail.com",
+      "timestamp": 1736434187.5122018
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736434187.5983322
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736434191.3755698
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736434191.567211
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736434191.6827822
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736434192.508989
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psicólogo você tem preferência de consultar?",
+      "timestamp": 1736434192.6530013
+    },
+    {
+      "type_name": "user",
+      "text": "dr. joão silva",
+      "timestamp": 1736434193.126007
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736434193.2157145
+    },
+    {
+      "type_name": "user",
+      "text": "amanha 3 da tarde",
+      "timestamp": 1736434197.068139
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 15:00 está disponível",
+      "timestamp": 1736434197.1898696
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736434197.2053664
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434198.051554
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736434198.229827
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434198.2440746
+    },
+    {
+      "type_name": "user",
+      "text": "quero remarcar a consulta agora",
+      "timestamp": 1736434202.14033
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736434202.1625626
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434202.9500778
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736434202.977685
+    },
+    {
+      "type_name": "user",
+      "text": "/remarcar_consulta",
+      "timestamp": 1736434207.0548527
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736434207.0824113
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434208.5612762
+    },
+    {
+      "type_name": "bot",
+      "text": "Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema",
+      "timestamp": 1736434208.6854346
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736434210.9924304
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo:",
+      "timestamp": 1736434211.1792629
+    },
+    {
+      "type_name": "user",
+      "text": "10 de Janeiro de 2025 às 15:00",
+      "timestamp": 1736434212.1092603
+    },
+    {
+      "type_name": "bot",
+      "text": "Para qual data você gostaria de remarcar? Você pode perguntar os próximos dias livres, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736434212.1959085
+    },
+    {
+      "type_name": "user",
+      "text": "amanha 4 da tarde",
+      "timestamp": 1736434216.424473
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 16:00 está disponível",
+      "timestamp": 1736434216.5413811
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736434216.5578375
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434217.9895544
+    },
+    {
+      "type_name": "bot",
+      "text": "Mudança de consulta concluída com sucesso!",
+      "timestamp": 1736434218.119622
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434218.1357179
+    },
+    {
+      "type_name": "user",
+      "text": "quero cancelar a consulta",
+      "timestamp": 1736434221.1904228
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja cancelar sua consulta agendada conosco? ☹️",
+      "timestamp": 1736434221.2196245
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434222.2879493
+    },
+    {
+      "type_name": "bot",
+      "text": "Você poderia me passar seu CPF para que possamos continuar?",
+      "timestamp": 1736434222.421227
+    },
+    {
+      "type_name": "user",
+      "text": "01993022945",
+      "timestamp": 1736434224.6892354
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo para exclusão:",
+      "timestamp": 1736434224.8574307
+    },
+    {
+      "type_name": "user",
+      "text": "10 de Janeiro de 2025 às 16:00",
+      "timestamp": 1736434225.9178798
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta cancelada com sucesso!",
+      "timestamp": 1736434226.1181579
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434226.1334515
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736434228.3645914
+    },
+    {
+      "type_name": "bot",
+      "text": "Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩",
+      "timestamp": 1736434228.3994765
+    },
+    {
+      "type_name": "user",
+      "text": "5",
+      "timestamp": 1736434229.78879
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736434229.8977804
+    },
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736434233.2015393
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736434233.2236319
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736434234.325168
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736434234.355683
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434235.8359675
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736434235.8679707
+    },
+    {
+      "type_name": "user",
+      "text": "nao tenho",
+      "timestamp": 1736434237.6883047
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736434237.7217145
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer eliedina jales, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736434237.8031573
+    }
+  ],
+  "272855f00e49462f976bd93d3e103766": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736434378.4919431
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736434378.5131671
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736434378.9745088
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736434378.9865382
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434382.9182048
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736434382.9361382
+    },
+    {
+      "type_name": "user",
+      "text": "nao tenho",
+      "timestamp": 1736434384.1641061
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736434384.1863923
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736434384.3133476
+    },
+    {
+      "type_name": "user",
+      "text": "jose carlos",
+      "timestamp": 1736434386.4918983
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer jose carlos, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736434386.567836
+    },
+    {
+      "type_name": "user",
+      "text": "69948801920",
+      "timestamp": 1736434388.5636933
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736434388.6254764
+    },
+    {
+      "type_name": "user",
+      "text": "jose@gmail.com",
+      "timestamp": 1736434392.143601
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736434392.20887
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736434395.5364552
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736434395.7383015
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736434395.8481953
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736434396.885418
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psicólogo você tem preferência de consultar?",
+      "timestamp": 1736434397.0211854
+    },
+    {
+      "type_name": "user",
+      "text": "dr. joão silva",
+      "timestamp": 1736434397.85027
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736434397.9462018
+    },
+    {
+      "type_name": "user",
+      "text": "amanha 5 da tared",
+      "timestamp": 1736434402.0708501
+    },
+    {
+      "type_name": "bot",
+      "text": "Próximos horários disponíveis em 10/01: 7:00, 8:00, 9:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00",
+      "timestamp": 1736434402.1533124
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736434402.1533217
+    },
+    {
+      "type_name": "user",
+      "text": "amanha 5 da tarde",
+      "timestamp": 1736434406.5906947
+    },
+    {
+      "type_name": "bot",
+      "text": "10/01/2025 17:00 está disponível",
+      "timestamp": 1736434406.6761298
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736434406.6898832
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434409.70564
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736434409.8417792
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434409.8562195
+    },
+    {
+      "type_name": "user",
+      "text": "quero remarcar a consulta",
+      "timestamp": 1736434413.1222866
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736434413.1402826
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434414.3509169
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736434414.3712296
+    },
+    {
+      "type_name": "user",
+      "text": "/remarcar_consulta",
+      "timestamp": 1736434415.9215093
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja remarcar a data da consulta ?",
+      "timestamp": 1736434415.9418566
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434417.6673934
+    },
+    {
+      "type_name": "bot",
+      "text": "Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema",
+      "timestamp": 1736434417.8097894
+    },
+    {
+      "type_name": "user",
+      "text": "69948801920",
+      "timestamp": 1736434420.6609354
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo:",
+      "timestamp": 1736434420.8446248
+    },
+    {
+      "type_name": "user",
+      "text": "10 de Janeiro de 2025 às 17:00",
+      "timestamp": 1736434422.3186634
+    },
+    {
+      "type_name": "bot",
+      "text": "Para qual data você gostaria de remarcar? Você pode perguntar os próximos dias livres, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736434422.4260259
+    },
+    {
+      "type_name": "user",
+      "text": "segunda feira as 10 da manha",
+      "timestamp": 1736434430.9508286
+    },
+    {
+      "type_name": "bot",
+      "text": "13/01/2025 10:00 está disponível",
+      "timestamp": 1736434431.0706415
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736434431.085672
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434432.9698598
+    },
+    {
+      "type_name": "bot",
+      "text": "Mudança de consulta concluída com sucesso!",
+      "timestamp": 1736434433.1058352
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434433.1224458
+    },
+    {
+      "type_name": "user",
+      "text": "quero cancelar a consulta",
+      "timestamp": 1736434437.6441915
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja cancelar sua consulta agendada conosco? ☹️",
+      "timestamp": 1736434437.6733313
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736434438.9128652
+    },
+    {
+      "type_name": "bot",
+      "text": "Você poderia me passar seu CPF para que possamos continuar?",
+      "timestamp": 1736434439.0536292
+    },
+    {
+      "type_name": "user",
+      "text": "69948801920",
+      "timestamp": 1736434441.931405
+    },
+    {
+      "type_name": "bot",
+      "text": "Por favor, selecione um dos agendamentos abaixo para exclusão:",
+      "timestamp": 1736434442.1037269
+    },
+    {
+      "type_name": "user",
+      "text": "13 de Janeiro de 2025 às 10:00",
+      "timestamp": 1736434443.027449
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta cancelada com sucesso!",
+      "timestamp": 1736434443.2131028
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736434443.2291808
+    },
+    {
+      "type_name": "user",
+      "text": "so isso, obrigado",
+      "timestamp": 1736434446.2245543
+    },
+    {
+      "type_name": "bot",
+      "text": "Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩",
+      "timestamp": 1736434446.2583826
+    },
+    {
+      "type_name": "user",
+      "text": "5",
+      "timestamp": 1736434447.367914
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736434447.4462938
+    }
+  ],
+  "d3f3fa237dbd4da09e027e94c35621e7": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736522905.8983476
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736522905.916837
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736522906.5835795
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736522906.6021235
+    },
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736522907.5633557
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736522907.5849242
+    }
+  ],
+  "dc06a4a66cd54fcb8a3f327a87c24734": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736518794.0163386
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736518794.0367527
+    },
+    {
+      "type_name": "user",
+      "text": "queria saber o preco das consultas",
+      "timestamp": 1736518802.5729008
+    },
+    {
+      "type_name": "bot",
+      "text": "O preço de nossas consultas varia de especialistas. As consultas com os psicólogos são R$110,00 e psiquiatras R$480,00.",
+      "timestamp": 1736518802.6395524
+    },
+    {
+      "type_name": "user",
+      "text": "obrigado",
+      "timestamp": 1736518807.2690916
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado por entrar em contato! ",
+      "timestamp": 1736518807.2898657
+    }
+  ],
+  "61b29cbd7c484a7698cd66ceac7a14bf": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736523051.4377708
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736523051.4559486
+    },
+    {
+      "type_name": "user",
+      "text": "so saber mesmo",
+      "timestamp": 1736523054.659229
+    },
+    {
+      "type_name": "bot",
+      "text": "Nosso horário de funcionamento é:\nSegunda a Sexta-feira: 8h às 18h\nSábado: 9h às 14h\nDomingo: Fechado\n",
+      "timestamp": 1736523054.6860924
+    }
+  ],
+  "e749bee3ee2442de89702eab1da6380d": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736523143.071679
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736523143.0901873
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736523143.8819537
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736523143.898068
+    },
+    {
+      "type_name": "user",
+      "text": "s",
+      "timestamp": 1736523144.404403
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736523144.4260995
+    },
+    {
+      "type_name": "user",
+      "text": "s",
+      "timestamp": 1736523145.289559
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736523145.414622
+    },
+    {
+      "type_name": "user",
+      "text": "s",
+      "timestamp": 1736523146.0857346
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736523146.1758442
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736523146.1758554
+    },
+    {
+      "type_name": "user",
+      "text": "s",
+      "timestamp": 1736523146.8927083
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736523146.9898345
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736523146.9898455
+    }
+  ],
+  "072aa314aca242fbb802c6789c432b38": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736794732.9524355
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736794732.9734538
+    },
+    {
+      "type_name": "user",
+      "text": "so quero testar uns bagulhos doidos",
+      "timestamp": 1736794740.7329438
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736794740.8026125
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber se o medico tem horario pra hoje",
+      "timestamp": 1736794747.658093
+    },
+    {
+      "type_name": "bot",
+      "text": "Nosso horário de funcionamento é:\nSegunda a Sexta-feira: 8h às 18h\nSábado: 9h às 14h\nDomingo: Fechado\n",
+      "timestamp": 1736794747.6792045
+    },
+    {
+      "type_name": "user",
+      "text": "quero saber se o psicolog tem horario pra essa semana",
+      "timestamp": 1736794770.17225
+    },
+    {
+      "type_name": "bot",
+      "text": "Nosso horário de funcionamento é:\nSegunda a Sexta-feira: 8h às 18h\nSábado: 9h às 14h\nDomingo: Fechado\n",
+      "timestamp": 1736794770.1944056
+    },
+    {
+      "type_name": "user",
+      "text": "quero conversar com alguem",
+      "timestamp": 1736794788.8922071
+    },
+    {
+      "type_name": "bot",
+      "text": "Estamos te transferindo para nosso atendente, aguarde um momento... ",
+      "timestamp": 1736794788.9728315
+    }
+  ],
+  "632e21dbc6fa46608b0d970d7d269f36": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736795688.2838905
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736795688.3033113
+    },
+    {
+      "type_name": "user",
+      "text": "como ce ta",
+      "timestamp": 1736795693.0955238
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736795693.116081
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736795696.153579
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736795696.1739724
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736795697.3052795
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736795697.3291593
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736795698.796545
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736795698.8221362
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736795698.946886
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson",
+      "timestamp": 1736795700.892466
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer vanderson, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736795700.9680061
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736795702.9258604
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736795703.0105798
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson@gmail.com",
+      "timestamp": 1736795705.7552376
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736795705.8437138
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736795709.0515008
+    },
+    {
+      "type_name": "bot",
+      "text": "Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!",
+      "timestamp": 1736795709.2146137
+    },
+    {
+      "type_name": "user",
+      "text": "salva agora entao",
+      "timestamp": 1736795770.5897193
+    },
+    {
+      "type_name": "bot",
+      "text": "Nosso horário de funcionamento é:\nSegunda a Sexta-feira: 8h às 18h\nSábado: 9h às 14h\nDomingo: Fechado\n",
+      "timestamp": 1736795770.61586
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar consulta",
+      "timestamp": 1736795776.0711248
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736795776.0986521
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736795776.9909122
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736795777.0143974
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736795777.928668
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736795777.9582825
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736795780.3234026
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736795780.3530812
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736795780.4621282
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson",
+      "timestamp": 1736795781.8308914
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer vanderson, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736795781.9123764
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736795783.720856
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736795783.796645
+    },
+    {
+      "type_name": "user",
+      "text": "vand@gmail.com",
+      "timestamp": 1736795786.301126
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736795786.3900821
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736795790.1814034
+    },
+    {
+      "type_name": "bot",
+      "text": "Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!",
+      "timestamp": 1736795790.3498237
+    },
+    {
+      "type_name": "user",
+      "text": "tenta agora",
+      "timestamp": 1736795862.7194455
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736795862.750396
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736795862.8659189
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736795866.2418623
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736795866.3672247
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736795866.3672376
+    },
+    {
+      "type_name": "user",
+      "text": "cancelar entao",
+      "timestamp": 1736795871.30453
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736795871.4081783
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736795871.40819
+    },
+    {
+      "type_name": "user",
+      "text": "para com isso",
+      "timestamp": 1736795873.7319949
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736795873.8975782
+    },
+    {
+      "type_name": "user",
+      "text": "quero marcar uma consulta",
+      "timestamp": 1736795879.4624496
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736795879.495031
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736795881.3025167
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736795881.3340151
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736795882.5604308
+    },
+    {
+      "type_name": "bot",
+      "text": "Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente",
+      "timestamp": 1736795882.593084
+    },
+    {
+      "type_name": "bot",
+      "text": "Antes de tudo, me diga seu nome completo, por favor?",
+      "timestamp": 1736795882.7121708
+    },
+    {
+      "type_name": "user",
+      "text": "vanderson",
+      "timestamp": 1736795883.5740614
+    },
+    {
+      "type_name": "bot",
+      "text": "Prazer vanderson, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema",
+      "timestamp": 1736795883.66539
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736795885.1333706
+    },
+    {
+      "type_name": "bot",
+      "text": "Agora informe seu email",
+      "timestamp": 1736795885.2232814
+    },
+    {
+      "type_name": "user",
+      "text": "vand@gmail.com",
+      "timestamp": 1736795887.3728092
+    },
+    {
+      "type_name": "bot",
+      "text": "Por fim, informe seu telefone celular",
+      "timestamp": 1736795887.451572
+    },
+    {
+      "type_name": "user",
+      "text": "(43) 98867-7440",
+      "timestamp": 1736795892.0285516
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo certo! Voce foi cadastrado com sucesso! ",
+      "timestamp": 1736795892.2846684
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736795892.4207737
+    },
+    {
+      "type_name": "user",
+      "text": "psicólogo",
+      "timestamp": 1736795895.640889
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psicólogo você tem preferência de consultar?",
+      "timestamp": 1736795895.8328469
+    },
+    {
+      "type_name": "user",
+      "text": "dr. joão silva",
+      "timestamp": 1736795897.772449
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736795897.8721488
+    },
+    {
+      "type_name": "user",
+      "text": "proximos horarios disponiveis",
+      "timestamp": 1736795919.6387126
+    },
+    {
+      "type_name": "bot",
+      "text": "Os próximos horários disponíveis são: 14/01 07:00, 14/01 08:00, 14/01 09:00, 14/01 10:00, 14/01 11:00",
+      "timestamp": 1736795919.8472848
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736795919.9137475
+    },
+    {
+      "type_name": "user",
+      "text": "pode ser amanha as 7 da manha entao",
+      "timestamp": 1736795928.7625902
+    },
+    {
+      "type_name": "bot",
+      "text": "14/01/2025 07:00 está disponível",
+      "timestamp": 1736795929.0143044
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736795929.0359619
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736795930.999493
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736795931.256446
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736795931.2751381
+    },
+    {
+      "type_name": "user",
+      "text": "nao",
+      "timestamp": 1736795933.1388276
+    },
+    {
+      "type_name": "bot",
+      "text": "Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩",
+      "timestamp": 1736795933.1657948
+    },
+    {
+      "type_name": "user",
+      "text": "obrigado, 5",
+      "timestamp": 1736795935.5048115
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736795935.610787
+    }
+  ],
+  "45c390edfd844009b37a4714474317f2": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736796300.2807288
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736796300.3007185
+    },
+    {
+      "type_name": "user",
+      "text": "/marcar_consulta",
+      "timestamp": 1736796301.5759912
+    },
+    {
+      "type_name": "bot",
+      "text": "Você deseja agendar uma consulta conosco?",
+      "timestamp": 1736796301.5937135
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736796302.5580704
+    },
+    {
+      "type_name": "bot",
+      "text": "Só pra checar, você já tem cadastro com a gente?",
+      "timestamp": 1736796302.5823877
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736796303.6929028
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736796303.8460963
+    },
+    {
+      "type_name": "user",
+      "text": "09018156914",
+      "timestamp": 1736796305.1902137
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dos nossos especialistas deseja marcar a consulta?",
+      "timestamp": 1736796305.3922596
+    },
+    {
+      "type_name": "user",
+      "text": "psiquiatra",
+      "timestamp": 1736796306.7727108
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual psiquiatra você tem preferência de consultar?",
+      "timestamp": 1736796306.9141433
+    },
+    {
+      "type_name": "user",
+      "text": "dra. maria oliveira",
+      "timestamp": 1736796308.8809965
+    },
+    {
+      "type_name": "bot",
+      "text": "Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis",
+      "timestamp": 1736796308.9782727
+    },
+    {
+      "type_name": "user",
+      "text": "amanha meio dia",
+      "timestamp": 1736796311.2152174
+    },
+    {
+      "type_name": "bot",
+      "text": "14/01/2025 12:00 está disponível",
+      "timestamp": 1736796311.4595928
+    },
+    {
+      "type_name": "bot",
+      "text": "Deseja confirmar o agendamento?",
+      "timestamp": 1736796311.4779358
+    },
+    {
+      "type_name": "user",
+      "text": "sim",
+      "timestamp": 1736796312.8992646
+    },
+    {
+      "type_name": "bot",
+      "text": "Consulta marcada!",
+      "timestamp": 1736796313.052982
+    },
+    {
+      "type_name": "bot",
+      "text": "Mais alguma coisa que posso fazer por você hoje? 😊",
+      "timestamp": 1736796313.0683334
+    },
+    {
+      "type_name": "user",
+      "text": "so isso",
+      "timestamp": 1736796314.731799
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736796314.7983356
+    },
+    {
+      "type_name": "user",
+      "text": "somente isso",
+      "timestamp": 1736796321.8102775
+    },
+    {
+      "type_name": "bot",
+      "text": "Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩",
+      "timestamp": 1736796321.828838
+    },
+    {
+      "type_name": "user",
+      "text": "5",
+      "timestamp": 1736796322.7632005
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736796322.8648427
+    },
+    {
+      "type_name": "user",
+      "text": "de nada meu caro",
+      "timestamp": 1736796426.6975195
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736796426.781459
+    },
+    {
+      "type_name": "user",
+      "text": "de nada",
+      "timestamp": 1736796428.681119
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736796428.7815397
+    },
+    {
+      "type_name": "user",
+      "text": "obrigado",
+      "timestamp": 1736796433.4237022
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado por entrar em contato! ",
+      "timestamp": 1736796433.4527004
+    },
+    {
+      "type_name": "user",
+      "text": "tamo junto",
+      "timestamp": 1736796435.5340781
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado por entrar em contato! ",
+      "timestamp": 1736796435.5616844
+    },
+    {
+      "type_name": "user",
+      "text": "tamo junto maninoh",
+      "timestamp": 1736796606.9876072
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado por entrar em contato! ",
+      "timestamp": 1736796607.0173016
+    },
+    {
+      "type_name": "user",
+      "text": "voce e muito especial pra mim tlg",
+      "timestamp": 1736796612.027073
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736796612.0541992
+    },
+    {
+      "type_name": "user",
+      "text": "mas vc deve saber as coisas corretamente",
+      "timestamp": 1736796618.4236777
+    },
+    {
+      "type_name": "bot",
+      "text": "Ops, acho que não entendi. Você poderia repetir? 😁",
+      "timestamp": 1736796618.5162504
+    },
+    {
+      "type_name": "user",
+      "text": "e nao somente ir falando tlg",
+      "timestamp": 1736796622.0633075
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736796622.1717951
+    },
+    {
+      "type_name": "user",
+      "text": "entao, se temeq saber as coisas",
+      "timestamp": 1736796643.5979981
+    },
+    {
+      "type_name": "bot",
+      "text": "Nosso horário de funcionamento é:\nSegunda a Sexta-feira: 8h às 18h\nSábado: 9h às 14h\nDomingo: Fechado\n",
+      "timestamp": 1736796643.624257
+    },
+    {
+      "type_name": "user",
+      "text": "tipo agora, temq calar a boca e so ouvir tlg",
+      "timestamp": 1736796650.3887749
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736796650.4190738
+    },
+    {
+      "type_name": "user",
+      "text": "nao ficar de micuinha",
+      "timestamp": 1736796656.601631
+    },
+    {
+      "type_name": "bot",
+      "text": "Muito obrigado pelo seu feedback!",
+      "timestamp": 1736796656.6987062
+    },
+    {
+      "type_name": "user",
+      "text": "right lets try again so",
+      "timestamp": 1736797185.8668919
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736797185.964781
+    },
+    {
+      "type_name": "user",
+      "text": "i need to know some new things about it",
+      "timestamp": 1736797195.7549515
+    },
+    {
+      "type_name": "bot",
+      "text": "Tudo bem... com o que posso te ajudar?",
+      "timestamp": 1736797195.856694
+    },
+    {
+      "type_name": "user",
+      "text": "probably its not the best way to do it",
+      "timestamp": 1736797201.2935047
+    },
+    {
+      "type_name": "bot",
+      "text": "No que posso te ajudar? ",
+      "timestamp": 1736797201.3282044
+    },
+    {
+      "type_name": "user",
+      "text": "thats perfect bro",
+      "timestamp": 1736797234.7705283
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736797234.9091804
+    },
+    {
+      "type_name": "user",
+      "text": "actually not",
+      "timestamp": 1736797238.9828932
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736797239.1047096
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736797239.1047204
+    },
+    {
+      "type_name": "user",
+      "text": "but i dont want sign up",
+      "timestamp": 1736797244.377257
+    },
+    {
+      "type_name": "bot",
+      "text": "Parece que você não está cadastrado.",
+      "timestamp": 1736797244.4886117
+    },
+    {
+      "type_name": "bot",
+      "text": "Poderia me passar seu CPF para te identificar em nosso sistema?",
+      "timestamp": 1736797244.4886227
+    }
+  ],
+  "1595520ac52248fa815b9d849d05ab5a": [
+    {
+      "type_name": "user",
+      "text": "oi",
+      "timestamp": 1736875730.505253
+    },
+    {
+      "type_name": "bot",
+      "text": "Como poderia te ajudar? \n",
+      "timestamp": 1736875730.526362
+    },
+    {
+      "type_name": "user",
+      "text": "voces tem medico alergista?",
+      "timestamp": 1736875745.44274
+    },
+    {
+      "type_name": "bot",
+      "text": "🧠 Psiquiatria\nCuidamos da sua saúde mental com nossos especialistas em psiquiatria. Sempre com atenção e respeito ao que você precisa.\n💬 Psicologia\nOferecemos um espaço acolhedor para terapia individual, terapias comportamentais e psicoterapia online. Com nossos especialistas em psicologia, você tem a atenção e cuidado que merece!\n😁 Odontologia\nSeu sorriso é importante para nós! Realizamos desde check-ups e limpezas até tratamentos odontológicos mais avançados. Sempre priorizando conforto, cuidado e qualidade para garantir sua melhor saúde bucal.\nMais alguma dúvida sobre nossos serviços? Peça pra conversar com nossa secretária! \n",
+      "timestamp": 1736875745.4698696
+    },
+    {
+      "type_name": "user",
+      "text": "quero conversar com a secretaria",
+      "timestamp": 1736875753.2205753
+    },
+    {
+      "type_name": "bot",
+      "text": "Estamos te transferindo para nosso atendente, aguarde um momento... ",
+      "timestamp": 1736875753.2916512
+    }
+  ]
+}

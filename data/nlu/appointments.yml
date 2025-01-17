@@ -1,0 +1,2791 @@
+version: "3.1"
+
+nlu:
+
+
+  - intent: marcar_consulta
+    examples: |
+      - Gostaria de marcar uma consulta na sua primeira disponibilidade.
+      - Posso agendar uma consulta com o Dr. Silva?
+      - Por favor, forneça-me os passos para marcar uma consulta.
+      - Poderia gentilmente ajudar-me a marcar uma consulta médica?
+      - Poderia fornecer-me informações sobre como agendar uma consulta?
+      - Necessito de ajuda para marcar uma consulta com um médico.
+      - Por favor, informe-me o procedimento para agendar uma consulta.
+      - Agradeceria ajuda para marcar uma consulta médica.
+      - Gentileza informar-me como marcar uma consulta.
+      - Estou interessado em agendar uma consulta com um médico.
+      - Poderia aconselhar-me sobre como agendar uma consulta?
+      - Poderia esclarecer-me sobre o processo para agendar uma consulta?
+      - Estou consultando sobre como marcar uma consulta com o Dr. Souza
+      - Por favor, informe-me como posso agendar uma consulta médica.
+      - Gostaria de saber como marcar uma consulta.
+      - Poderia fornecer-me assistência para agendar uma consulta?
+      - Posso obter informações sobre como agendar uma consulta?
+      - Por favor, informe-me se posso marcar uma consulta.
+      - Preciso saber o procedimento para marcar uma consulta.
+      - Gentileza fornecer os passos para agendar uma consulta médica.
+      - Poderia informar-me como marcar uma consulta?
+      - Estou interessado em marcar uma consulta com um especialista.
+      - Por favor, aconselhe-me sobre como agendar uma consulta médica.
+      - Poderia, por favor, auxiliar-me a agendar uma consulta?
+      - Você poderia me dizer o processo para marcar uma consulta?
+      - Agradeceria informações sobre como agendar uma consulta.
+      - Por favor, informe-me como fazer uma consulta médica.
+      - Estou buscando agendar uma consulta na sua clínica.
+      - Poderia fornecer orientação sobre como agendar uma consulta?
+      - Desejo saber como marcar uma consulta.
+      - Você poderia me ajudar a marcar uma consulta?
+      - Por favor, informe-me o procedimento para marcar uma consulta.
+      - Poderia auxiliar-me a agendar uma consulta médica?
+      - Gostaria de marcar uma consulta com o Dr. Lima.
+      - Por favor, forneça-me os detalhes para agendar uma consulta.
+      - Você poderia me informar os passos para marcar uma consulta?
+      - Poderia me dizer como marcar uma consulta com um médico?
+      - Ei, preciso marcar uma consulta.
+      - Quero marcar um horário para ir aí.
+      - Como faço para agendar uma visita ao médico?
+      - Me arruma uma consulta.
+      - Pode me ajudar a marcar uma consulta?
+      - Quero marcar uma visita ao médico.
+      - Como consigo uma consulta?
+      - Gostaria de agendar uma visita.
+      - Me marque uma consulta.
+      - Ajude-me a agendar uma visita.
+      - Preciso marcar uma consulta o quanto antes.
+      - Me consiga uma consulta, por favor.
+      - Você pode me encaixar em uma consulta?
+      - Preciso marcar uma visita ao médico.
+      - Posso ser agendado para uma consulta?
+      - Ajude-me a marcar uma consulta.
+      - Quando posso ver alguém?
+      - Como posso marcar uma consulta?
+      - Gostaria de agendar uma visita ao médico.
+      - Preciso marcar uma consulta médica.
+      - Me agende para uma visita.
+      - Preciso ver o médico em breve.
+      - Você poderia me ajudar a agendar uma consulta?
+      - Pode me auxiliar a marcar uma consulta com o médico?
+      - Por favor, informe-me como posso agendar uma consulta.
+      - Estou interessado em marcar uma consulta para um check-up.
+      - Você poderia me dizer como agendar uma consulta médica?
+      - Gostaria de agendar uma consulta para a próxima semana.
+      - Posso marcar um horário para ver o médico?
+      - Por favor, ajude-me a marcar uma consulta com o Dr. Santos.
+      - Preciso marcar uma consulta para um exame médico.
+      - Você poderia me auxiliar a agendar uma consulta?
+      - Gostaria de marcar uma consulta para ver um médico.
+      - Você pode me fornecer os horários disponíveis para uma consulta?
+      - Estou querendo agendar uma consulta.
+      - Gostaria de marcar uma consulta na sua clínica.
+      - Posso agendar uma consulta para um check-up médico?
+      - Você poderia me dizer como marcar uma consulta com um médico?
+      - Você pode me ajudar a marcar uma consulta?
+      - Você poderia fornecer informações sobre como agendar uma consulta?
+      - Gostaria de marcar uma consulta para um check-up de rotina.
+      - Posso agendar uma consulta com o Dr. Pereira?
+      - Por favor, ajude-me a agendar uma consulta médica.
+      - Preciso marcar uma consulta com um especialista.
+      - Você poderia me ajudar a marcar uma consulta médica?
+      - Você pode me fornecer opções para marcar uma consulta?
+      - Por favor, informe-me os passos para agendar uma consulta.
+      - Estou querendo marcar uma consulta com um de seus médicos.
+      - Você poderia me auxiliar a marcar uma consulta?
+      - Gostaria de agendar um horário para uma consulta médica.
+      - Posso agendar uma consulta para a próxima terça-feira?
+      - Por favor, ajude-me a marcar uma consulta com o Dr. Davi.
+      - Preciso marcar uma consulta de acompanhamento.
+      - Você poderia me dizer como agendar uma consulta online?
+      - Gostaria de marcar uma consulta sobre minha saúde.
+      - Você pode me ajudar a marcar uma consulta com um médico?
+      - Por favor, forneça-me as datas disponíveis para agendar uma consulta.
+      - Estou interessado em marcar uma consulta para um problema médico.
+      - Você poderia me ajudar a agendar uma consulta na sua clínica?
+      - Gostaria de agendar uma consulta médica em breve.
+      - Posso marcar uma consulta para uma avaliação de saúde?
+      - Por favor, informe-me como marcar uma consulta médica.
+      - Preciso agendar uma consulta para um check-up.
+      - Você poderia me auxiliar a marcar uma consulta com o Dr. Martins?
+      - Posso agendar uma consulta?
+      - Marque uma consulta para mim.
+      - Quero agendar uma visita.
+      - Agendar uma consulta.
+      - Preciso ver o médico.
+      - Como posso agendar uma consulta?
+      - Quero marcar uma consulta
+      - Preciso agendar uma visita.
+      - Quando posso ver o médico?
+      - Gostaria de agendar uma consulta.
+      - Como faço para marcar uma consulta?
+      - Posso conseguir uma consulta?
+      - Preciso agendar uma consulta.
+      - Quero ver o médico.
+      - Agende uma consulta.
+      - Preciso de uma consulta.
+      - Como posso agendar uma visita?
+      - Você pode me agendar?
+      - Quero agendar uma visita ao médico.
+      - Preciso marcar uma consulta.
+      - Quando é a próxima consulta disponível?
+      - Gostaria de ver um médico.
+      - Posso marcar uma consulta?
+      - Agende uma consulta para mim.
+      - Desejo ver o médico.
+      - Você pode marcar uma consulta para mim?
+      - Quero agendar uma consulta.
+      - Como agendo uma consulta?
+      - Gostaria de uma consulta.
+      - Posso agendar uma visita?
+      - Preciso ver um médico.
+      - Marque-me para uma consulta.
+      - Agende uma visita para mim.
+      - Desejo marcar uma consulta.
+      - Gostaria de marcar uma consulta com o Dr. Silva.
+      - marcar consulta com a [psicóloga](especialista)
+      - marcar uma consulta com a [psicóloga](especialista)
+      - como agendo uma consulta com o [psiquiatra](especialista)
+      - como agendo um horario com voces com o [psiquiatra](especialista)
+      - quero marcar uma consulta com voces com o [psiquiatra](especialista)
+      - como faco para marcar uma consulta com voces com o [psiquiatra](especialista)
+      - Queria agendar um horario com a [psicóloga](especialista)
+      - É possível marcar um atendimento com o [psiquiatra](especialista)
+      - Preciso marcar uma consulta com o [psiquiatra](especialista)
+      - Quero agendar uma consulta para hoje com o [psiquiatra](especialista)
+      - Como posso agendar uma consulta  com a [psicóloga](especialista)
+      - Podem agendar uma consulta para mim  com a [psicóloga](especialista)
+      - Eu gostaria de marcar uma consulta com o [psiquiatra](especialista)
+      - Gostaria de agendar uma consulta médica.
+      - Preciso marcar uma consulta com a [psicóloga](especialista)
+      - Qual é o procedimento para marcar uma consulta 
+      - Estou procurando marcar uma consulta com o [psiquiatra](especialista)
+      - Gostaria de marcar uma consulta com o [psiquiatra](especialista)
+      - Quero agendar uma consulta com a [psicóloga](especialista)
+      - Preciso de uma consulta  com a [psicóloga](especialista)
+      - Posso marcar uma consulta com a médica [psicóloga](especialista)
+      - Podem agendar uma consulta para mim com a [psicóloga](especialista)
+      - Estou procurando agendar uma consulta  com a [psicóloga](especialista)
+      - É possível agendar uma consulta com a [psicóloga](especialista)
+      - Gostaria de marcar uma consulta, como devo proceder?
+      - Como posso marcar uma consulta com a clínica?
+      - Preciso de informações sobre como agendar uma consulta.
+      - Como agendar uma consulta médica na clínica?
+      - Posso agendar uma consulta para semana que vem?
+      - Queria marcar uma consulta para amanhã com a [psicóloga](especialista)
+      - Preciso agendar um horário para consulta.
+      - Como posso marcar uma consulta com um médico?
+      - Quero agendar um atendimento com vocês com o [psiquiatra](especialista)
+      - Gostaria de marcar um horário para consulta médica.
+      - Como agendar um atendimento na clínica com o [psiquiatra](especialista)
+      - Pode me ajudar a agendar uma consulta com o [psiquiatra](especialista)
+      - Tem como agendar uma consulta?
+      - Poderiam me informar como faço para agendar uma consulta?
+      - Como posso fazer para marcar um atendimento?
+      - Qual o procedimento para marcar um horário de consulta?
+      - Preciso de uma consulta com o médico, como agendar?
+      - Poderiam agendar uma consulta para mim?
+      - Podem me orientar sobre como marcar uma consulta?
+      - Tem como marcar uma consulta com vocês?
+      - Como agendar um atendimento com vocês?
+      - Como posso garantir um horário para consulta?
+      - Como faço para marcar uma consulta urgente?
+      - Preciso marcar uma consulta para essa semana.
+      - marcar consulta com o Cruel psicologo
+      - marcar consulta com o
+      - marcsr consulta aom o psicologo
+      - o psicologo com marcar consulta
+      - com consulta marcar o psicologoma consulta com o psicólogo
+      - marque uma consulta com o psicólogo
+      - marcar Céu uma consulta
+      - marcar consulta
+      - mavcar ufa consulta
+      - indicar uma consulta
+      - marcar uma consulta
+      - como agendo Triste uma consulta
+      - como uma consulta
+      - como fgendo uma consulta
+      - como agendo uma consulta
+      - Como agendar uma consulta
+      - como agendo um horario com Lá voces
+      - como agendo um com voces
+      - como agendo fm hoiario com voces
+      - como agendo um horario com voces
+      - Como agendar um horário com você
+      - quero marcar uma consulta com Escola voces
+      - quero marcar uma consulta com
+      - buero marcar uma consulta com vuces
+      - quero indicar uma consulta com voces
+      - voces com quero marcar uma consulta
+      - Eu quero marcar uma consulta com você
+      - como faco Sorrir para marcar uma consulta com voces
+      - como para marcar uma consulta com voces
+      - como faco para marcat uma consulta cox voces
+      - marcar uma consulta com voces com como faco
+      - como faco para marcar uma consulta com voces
+      - Como faço uma consulta com você
+      - Queria Porta agendar um horario
+      - agendar um horario
+      - zueria agendar um hokario
+      - Queria programar um horario
+      - Queria agendar um horario
+      - Eu queria agendar um horário
+      - Como posso reservar um horário Limpar para consulta?
+      - Como posso reservar um horário consulta?
+      - Couo posso reservar ud horário para consulta?
+      - Como posso pedir um programa para consulta?
+      - Como posso inscrever-se um plano para consulta?
+      - consulta? com Como posso reservar um horário
+      - Como posso reservar um horário para consulta?
+      - reservar posso Como um horário para consulta ?
+      - Como posso reservar um tempo de consulta?
+      - É possível  marcar um atendimento?
+      - É marcar um atendimento?
+      - É possível marcar un atendimenti?
+      - É possível marcar um atendimento?
+      - marcar possível É um atendimento ?
+      - É possível agendar um serviço?
+      - Preciso marcar uma Dia consulta.
+      - Preciso marcar consulta.
+      - Prdciso marcar uma consultak
+      - Preciso indicar uma consulta.
+      - uma marcar Preciso consulta .
+      - Quero agendar uma consulta para Livro hoje.
+      - Quero uma consulta para hoje.
+      - Quera agendar uma consulta para hojeh
+      - Quero programar uma consulta para actualmente.
+      - hoje. com Quero agendar uma consulta
+      - Quero agendar uma consulta para hoje.
+      - uma agendar Quero consulta para hoje .
+      - Eu quero agendar uma consulta para hoje.
+      - Como faço para reservar uma Bicicleta consulta?
+      - faço para reservar uma consulta?
+      - Como faho para reservar uma consllta?
+      - Como faço para pedir uma consulta?
+      - Como faço para inscrever-se uma consulta?
+      - reservar uma consulta? com Como faço
+      - Como faço para reservar uma consulta?
+      - para faço Como reservar uma consulta ?
+      - Gostaria de marcar consulta.
+      - Glstaria de marcar uma cousulta.
+      - marcar uma consulta. com Gostaria
+      - Gostaria de marcar uma consulta.
+      - marcar de Gostaria uma consulta .
+      - Eu gostaria de marcar uma consulta.
+      - Preciso de um agendamento para Chave uma consulta
+      - Preciso de um para uma consulta
+      - Preciso de um agendamenty para uma consulea
+      - Correcto de um agendamento para uma consulta
+      - Certo de um agendamento para uma consulta
+      - um agendamento para uma consulta com Preciso
+      - Preciso de um agendamento para uma consulta
+      - Eu preciso de uma consulta para uma consulta
+      - Como posso agendar Antipático uma consulta
+      - Como posso uma consulta
+      - domo posso agendar uma consulma
+      - Como posso agendar uma consulta
+      - Correr Podem agendar uma consulta para mim
+      - Podem agendar uma consulta para
+      - kodem agendar umd consulta para mim
+      - Podem programar uma consulta para mim
+      - mim com Podem agendar uma consulta
+      - Podem agendar uma consulta para mim
+      - Você pode agendar uma consulta para mim
+      - Como Alto posso proceder para reservar uma consulta
+      - Como posso para reservar uma consulta
+      - Como posso proceder para reservar kma comsulta
+      - Como posso proceder para pedir uma consulta
+      - Como posso proceder para inscrever-se uma consulta
+      - reservar uma consulta com Como posso proceder
+      - Como posso proceder para reservar uma consulta
+      - Como posso continuar a reservar uma consulta
+      - Mar Quero agendar uma consulta
+      - Quero agendar oma ponsulta
+      - Quero programar uma consulta
+      - Eu quero agendar uma consulta
+      - Lá Como faço para reservar um horário para uma consulta
+      - Como faço para reservar um horário uma consulta
+      - Como faço rara reservar uw horário para uma consulta
+      - Como faço para inscrever-se um agenda para uma consulta
+      - Como faço para pedir um programa para uma consulta
+      - Como faço para reservar um horário para uma consulta
+      - Como faço para marcar uma hora para uma consulta
+      - É possível marcar Livro um atendimento?
+      - É possível um atendimento?
+      - É possível marcar um atendimnnto?
+      - Eu Relógio gostaria de marcar uma consulta
+      - Eu gostaria marcar uma consulta
+      - Eu gostdria ds marcar uma consulta
+      - Eu gostaria de indicar uma consulta
+      - marcar uma consulta com Eu gostaria
+      - Eu gostaria de marcar uma consulta
+      - Ontem Preciso de uma consulta
+      - Preciso uma consulta
+      - Precido re uma consulta
+      - Correcto de uma consulta
+      - uma consulta com Preciso
+      - Preciso de uma consulta
+      - Como posso proceder Às vezes para reservar uma consulta
+      - Como posso proceder para uma consulta
+      - Como posso prkceder paoa reservar uma consulta
+      - Gostaria Café de agendar uma consulta médica.
+      - Gostaria de agendar consulta médica.
+      - Gsstaria de ugendar uma consulta médica.
+      - Gostaria de programar uma consulta médica.
+      - agendar uma consulta médica. com Gostaria
+      - agendar de Gostaria uma consulta médica .
+      - Eu gostaria de agendar uma consulta médica.
+      - Preciso marcar uma consulta. Rápido
+      - marcar uma consulta.
+      - Preciso carcar uja consulta.
+      - Pregadura indicar uma consulta.
+      - Quero agendar uma Neve consulta.
+      - Quero uma consulta.
+      - Querh agendar uma cnnsulta.
+      - uma agendar Quero consulta .
+      - Eu quero agendar uma consulta.
+      - Qual é o procedimento para marcar uma Dia consulta
+      - é o procedimento para marcar uma consulta
+      - Qual é o procedimento paca marcar uma eonsulta
+      - Daquela maneira é o processo para indicar uma consulta
+      - marcar uma consulta com Qual é o procedimento
+      - É possível Novo agendar uma consulta
+      - É possível agendar uma
+      - É possível agendar uua consulma
+      - É possível agendar uma consulta
+      - Às vezes Poderia me ajudar a agendar uma consulta médica?
+      - Poderia me ajudar a agendar uma consulta
+      - Poderia me ajudar a agendar nma consultw médica?
+      - Poderia me amotinar a programar uma consulta médica?
+      - Poderia me salvar a programar uma consulta médica?
+      - Poderia me ajudar a agendar uma consulta médica?
+      - ajudar me Poderia a agendar uma consulta médica ?
+      - Você poderia me ajudar a agendar uma consulta médica?
+      - Casa Estou procurando marcar uma consulta.
+      - Estou procurando marcar consulta.
+      - Estor procurando marcar uma cxnsulta.
+      - Estou procurando indicar uma consulta.
+      - Estou procurando marcar uma consulta.
+      - marcar procurando Estou uma consulta .
+      - Ontem Posso reservar um horário para consulta?
+      - Posso reservar um horário consulta?
+      - Possh reservar um horário oara consulta?
+      - Posso pedir um agenda para consulta?
+      - Posso inscrever-se um cronograma para consulta?
+      - consulta? com Posso reservar um horário
+      - Posso reservar um horário para consulta?
+      - um reservar Posso horário para consulta ?
+      - Posso reservar um tempo de consulta?
+      - Gostaria Gato de marcar uma consulta.
+      - Gostaria de marcar uma
+      - Gostarla de marcar uta consulta.
+      - Gostaria de indicar uma consulta.
+      - Quero agendar uma consulta Sol
+      - Quero agendrr umv consulta
+      - Estou interessado em marcar Forte uma consulta.
+      - Estou interessado marcar uma consulta.
+      - Estou interessado em marjar uma cohsulta.
+      - Estou interessado em marcar uma consulta.
+      - em interessado Estou marcar uma consulta .
+      - Pode me Acordar orientar sobre como marcar uma consulta
+      - Pode me orientar sobre marcar uma consulta
+      - Pode mp orientar sobre cobo marcar uma consulta
+      - Pode me reorientar sobre como indicar uma consulta
+      - Pode me orientar sobre como marcar uma consulta
+      - Você pode me orientar sobre como marcar uma consulta
+      - Gostaria de saber como Interessante agendar uma consulta
+      - Gostaria de saber como uma consulta
+      - Goetaria de saber como aiendar uma consulta
+      - Gostaria de consciência como programar uma consulta
+      - saber como agendar uma consulta com Gostaria
+      - Gostaria de saber como agendar uma consulta
+      - Eu gostaria de saber como agendar uma consulta
+      - Posso marcar uma consulta com a Consertar médica
+      - Posso marcar consulta com a médica
+      - Poaso marcar uha consulta com a médica
+      - a médica com Posso marcar uma consulta
+      - Eu posso marcar uma consulta com o médico
+      - Podem agendar uma consulta para Ensinar mim
+      - Podem agendar uma consulta mim
+      - Podem agendar umt consultg para mim
+      - Estou procurando agendar Vento uma consulta
+      - Estou procurando agendar uma
+      - Estou procurando zgendar uma condulta
+      - Estou procurando agendar uma consulta
+      - Estou tentando agendar uma consulta
+      - Hoje É possível agendar uma consulta
+      - Como faço para reservar um horário para uma consulta médica
+      - Como faço para reservar um horário para consulta médica
+      - Como faço para reservar us horário para uha consulta médica
+      - Como faço para pedir um plano para uma consulta médica
+      - Como faço para inscrever-se um agenda para uma consulta médica
+      - Como faço para marcar um horário para uma consulta médica
+      - Gostaria de marcar uma consulta, como Dormir devo proceder?
+      - Gostaria de marcar uma consulta, como devo
+      - Gostaria de marctr uma consulta, como devo procyder?
+      - Gostaria de indicar uma consulta,como devo proceder?
+      - marcar uma consulta, como devo proceder? com Gostaria
+      - marcar de Gostaria uma consulta , como devo proceder ?
+      - Eu gostaria de marcar uma consulta, como devo proceder?
+      - Como posso marcar uma consulta Foto com a clínica?
+      - Como posso marcar uma com a clínica?
+      - Cjmo pocso marcar uma consulta com a clínica?
+      - Como posso indicar uma consulta com a hospital?
+      - a clínica? com Como posso marcar uma consulta
+      - marcar posso Como uma consulta com a clínica ?
+      - Preciso de informações sobre como agendar uma consulta. Chave
+      - de informações sobre como agendar uma consulta.
+      - Preciso de inwormações sobre comc agendar uma consulta.
+      - Bem acabado de informações sobre como programar uma consulta.
+      - Acurado de informações sobre como programar uma consulta.
+      - informações sobre como agendar uma consulta. com Preciso
+      - informações de Preciso sobre como agendar uma consulta .
+      - Como agendar uma consulta médica na clínica? Comer
+      - Como agendar uma consulta médica na
+      - Como agendar umw consulta médiea na clínica?
+      - uma agendar Como consulta médica na clínica ?
+      - Gostaria de saber como posso marcar Bonito uma consulta.
+      - Gostaria de saber como posso uma consulta.
+      - Gostaria dm saber como posso marcar zma consulta.
+      - saber como posso marcar uma consulta. com Gostaria
+      - Gostaria de saber como posso marcar uma consulta.
+      - saber de Gostaria como posso marcar uma consulta .
+      - Eu gostaria de saber como posso marcar uma consulta.
+      - Qual o processo para agendar uma Pagar consulta com vocês?
+      - Qual o processo para agendar uma com vocês?
+      - Quml o processo para agendar uma consulaa com vocês?
+      - Qual o julgamento para programar uma consulta com vocês?
+      - agendar uma consulta com vocês? com Qual o processo
+      - Qual o processo para agendar uma consulta com vocês?
+      - processo o Qual para agendar uma consulta com vocês ?
+      - Qual é o processo para agendar uma consulta com você?
+      - Posso agendar uma consulta para Terra semana que vem?
+      - Posso agendar uma consulta para semana que
+      - Posso agendar uma consulta parl semana que vex?
+      - semana que vem? com Posso agendar uma consulta
+      - uma agendar Posso consulta para semana que vem ?
+      - Posso agendar uma consulta para a próxima semana?
+      - Queria marcar uma consulta Rir para amanhã.
+      - marcar uma consulta para amanhã.
+      - Queria rarcar uma consulta fara amanhã.
+      - Queria indicar uma consulta para manhã.
+      - amanhã. com Queria marcar uma consulta
+      - Queria marcar uma consulta para amanhã.
+      - uma marcar Queria consulta para amanhã .
+      - Eu queria marcar uma consulta para amanhã.
+      - Como faço para marcar um horário Escrever disponível?
+      - Como faço para marcar um disponível?
+      - Ctmo faço para marcar mm horário disponível?
+      - Como faço para indicar um ordem do dia que vem?
+      - marcar um horário disponível? com Como faço
+      - Como faço para marcar um horário disponível?
+      - para faço Como marcar um horário disponível ?
+      - Como faço para marcar um tempo disponível?
+      - Vocês podem agendar uma consulta pra Céu mim?
+      - Vocês podem agendar uma pra mim?
+      - Vocds podem agendar lma consulta pra mim?
+      - Vocês podem programar uma consulta pra mim?
+      - Vocês podem agendar uma consulta pra mim?
+      - agendar podem Vocês uma consulta pra mim ?
+      - Você pode agendar uma consulta para mim?
+      - Preciso agendar um horário para Abaixo consulta.
+      - agendar um horário para consulta.
+      - Preciso agendar pm horário pama consulta.
+      - consulta. com Preciso agendar um horário
+      - um agendar Preciso horário para consulta .
+      - Eu preciso agendar um tempo de consulta.
+      - Como posso marcar Pagar uma consulta com um médico?
+      - Como posso marcar uma consulta com médico?
+      - Como posso marcar uma chnsulta com zm médico?
+      - Como posso indicar uma consulta com um doutor?
+      - um médico? com Como posso marcar uma consulta
+      - marcar posso Como uma consulta com um médico ?
+      - Quero agendar um atendimento Juntos com vocês.
+      - agendar um atendimento com vocês.
+      - Quhro agendar uc atendimento com vocês.
+      - vocês. com Quero agendar um atendimento
+      - um agendar Quero atendimento com vocês .
+      - Eu quero agendar um serviço com você.
+      - Gostaria Sorrir de marcar um horário para consulta médica.
+      - Gostaria de marcar um horário para consulta
+      - Gostaria de marcar uk horário para consulta médica.
+      - Gostaria de indicar um programa para consulta médica.
+      - Gostaria de indicar um cronograma para consulta médica.
+      - marcar um horário para consulta médica. com Gostaria
+      - marcar de Gostaria um horário para consulta médica .
+      - Eu gostaria de marcar um tempo para consulta médica.
+      - Como agendar um atendimento na clínica? Agitado
+      - Como um atendimento na clínica?
+      - Como agendar tm atendimento np clínica?
+      - Como programar um atendimento na hospital?
+      - Como agendar um atendimento na clínica?
+      - um agendar Como atendimento na clínica ?
+      - Como agendar um serviço na clínica?
+      - Sutileza Pode me ajudar a agendar uma consulta?
+      - Pode me ajudar agendar uma consulta?
+      - Pode me ajudar a abendar uma consulqa?
+      - Pode me guiar a programar uma consulta?
+      - Pode me ajudar a agendar uma consulta?
+      - ajudar me Pode a agendar uma consulta ?
+      - Você pode me ajudar a agendar uma consulta?
+      - Tem como agendar uma
+      - Tee como agendar vma consulta?
+      - Tem como programar uma consulta?
+      - agendar como Tem uma consulta ?
+      - Você pode agendar uma consulta?
+      - Poderiam me informar como faço para agendar Viajar uma consulta?
+      - Poderiam me informar como faço para agendar uma
+      - Poderiam me infowmar como faço para agendar ufa consulta?
+      - Poderiam me contar como faço para programar uma consulta?
+      - agendar uma consulta? com Poderiam me informar como faço
+      - informar me Poderiam como faço para agendar uma consulta ?
+      - Você poderia me dizer como faço para agendar uma consulta?
+      - Quero Correr marcar uma consulta médica.
+      - Quero marcar uma médica.
+      - Queho marcar uma consultn médica.
+      - Quero indicar uma consulta médica.
+      - Quero marcar uma consulta médica.
+      - uma marcar Quero consulta médica .
+      - Eu quero marcar uma consulta médica.
+      - Acima Como posso fazer para marcar um atendimento?
+      - Como posso para marcar um atendimento?
+      - Cumo posso fazer para marcrr um atendimento?
+      - Como posso efectivar para indicar um atendimento?
+      - Como posso atuar para indicar um atendimento?
+      - marcar um atendimento? com Como posso fazer
+      - fazer posso Como para marcar um atendimento ?
+      - Como posso fazer um serviço?
+      - Qual o procedimento Foto para marcar um horário de consulta?
+      - o procedimento para marcar um horário de consulta?
+      - Qual o procedimento pare mazcar um horário de consulta?
+      - Ao longo de o processo para indicar um agenda de consulta?
+      - consulta? com Qual o procedimento para marcar um horário
+      - procedimento o Qual para marcar um horário de consulta ?
+      - Qual é o procedimento para fazer uma consulta?
+      - Preciso de Árvore uma consulta com o médico, como agendar?
+      - Preciso uma consulta com o médico, como agendar?
+      - Preciso de uma consulta com o médicn, como agmndar?
+      - uma consulta com o médico, como agendar? com Preciso
+      - uma de Preciso consulta com o médico , como agendar ?
+      - Como proceder para marcar uma consulta? Dentro
+      - Como proceder marcar uma consulta?
+      - como proceder para marlar uma consulta?
+      - Como proceder para indicar uma consulta?
+      - marcar uma consulta? com Como proceder
+      - Como proceder para marcar uma consulta?
+      - para proceder Como marcar uma consulta ?
+      - Poderiam agendar uma consulta para mim? Agitado
+      - Poderiam agendar uma para mim?
+      - Poderiam agendar uma consultc para mil?
+      - Poderiam programar uma consulta para mim?
+      - mim? com Poderiam agendar uma consulta
+      - uma agendar Poderiam consulta para mim ?
+      - Você poderia agendar uma consulta para mim?
+      - Quero saber como posso Esperar marcar uma consulta médica.
+      - Quero saber como posso marcar consulta médica.
+      - Quero saber como pdsso yarcar uma consulta médica.
+      - Quero base de conhecimento como posso indicar uma consulta médica.
+      - Quero saber como posso marcar uma consulta médica.
+      - como saber Quero posso marcar uma consulta médica .
+      - Qual a melhor maneira de Fraco marcar uma consulta com vocês?
+      - Qual a melhor maneira de marcar uma consulta com
+      - Qual a melhor maneira de marcar uma consulta fom vscês?
+      - Qual a melhor comportamento de indicar uma consulta com vocês?
+      - marcar uma consulta com vocês? com Qual a melhor maneira
+      - Qual a melhor maneira de marcar uma consulta com vocês?
+      - melhor a Qual maneira de marcar uma consulta com vocês ?
+      - Qual é a melhor maneira de marcar uma consulta com você?
+      - Como Obviamente posso agendar uma consulta médica?
+      - Como posso uma consulta médica?
+      - Cqmo posbo agendar uma consulta médica?
+      - Como posso programar uma consulta médica?
+      - Como posso agendar uma consulta médica?
+      - agendar posso Como uma consulta médica ?
+      - Tem algum horário disponível para Mercado marcar uma consulta?
+      - Tem algum horário disponível para marcar uma
+      - fem algum horário disponível parg marcar uma consulta?
+      - marcar uma consulta? com Tem algum horário disponível
+      - Tem algum horário disponível para marcar uma consulta?
+      - horário algum Tem disponível para marcar uma consulta ?
+      - Você tem tempo disponível para marcar uma consulta?
+      - Gostaria de marcar um Jogar atendimento na clínica.
+      - de marcar um atendimento na clínica.
+      - Gostaria de msrcar ue atendimento na clínica.
+      - marcar um atendimento na clínica. com Gostaria
+      - Gostaria de marcar um atendimento na clínica.
+      - marcar de Gostaria um atendimento na clínica .
+      - Eu gostaria de marcar um serviço na clínica.
+      - Preciso marcar Rir uma consulta para hoje, como faço?
+      - Preciso marcar uma consulta para hoje, como
+      - Preciso marcar uma consulta paia hije, como faço?
+      - Correcto indicar uma consulta para hoje em dia,como faço?
+      - hoje, como faço? com Preciso marcar uma consulta
+      - Preciso marcar uma consulta para hoje, como faço?
+      - uma marcar Preciso consulta para hoje , como faço ?
+      - Eu preciso marcar uma consulta para hoje, como faço?
+      - Quero reservar um para atendimento.
+      - Quero resfrvar um horário paga atendimento.
+      - atendimento. com Quero reservar um horário
+      - Quero reservar um horário para atendimento.
+      - um reservar Quero horário para atendimento .
+      - Eu quero reservar um horário para o serviço.
+      - Como posso agendar uma consulta médica com urgência?
+      - Como posso uma consulta médica com urgência?
+      - Como possj agendar uma consulta fédica com urgência?
+      - urgência? com Como posso agendar uma consulta médica
+      - agendar posso Como uma consulta médica com urgência ?
+      - Tem como marcar uma consulta com
+      - Tem comc marcar uma consubta com vocês?
+      - vocês? com Tem como marcar uma consulta
+      - marcar como Tem uma consulta com vocês ?
+      - Você pode marcar uma consulta com você?
+      - Preciso agendar uma consulta urgente. Abaixo
+      - Preciso agendar consulta urgente.
+      - Preciso agendar jma consulta urgcnte.
+      - Preciso agendar uma consulta urgente.
+      - uma agendar Preciso consulta urgente .
+      - Quero saber como posso agendar uma consulta para a Amargo próxima semana.
+      - Quero saber como posso agendar uma consulta a próxima semana.
+      - Quero zaber como posso agendar uma consulta paca a próxima semana.
+      - a próxima semana. com Quero saber como posso agendar uma consulta
+      - Quero saber como posso agendar uma consulta para a próxima semana.
+      - como saber Quero posso agendar uma consulta para a próxima semana .
+      - Como Mesa posso reservar uma consulta na clínica?
+      - Como reservar uma consulta na clínica?
+      - Como povso reservar una consulta na clínica?
+      - Como posso pedir uma consulta na hospital?
+      - Como posso reservar uma consulta na clínica?
+      - reservar posso Como uma consulta na clínica ?
+      - Queria reservar um horário para uma consulta. Café
+      - reservar um horário para uma consulta.
+      - Queria reservar cm horário para ema consulta.
+      - Queria inscrever-se um ordem do dia para uma consulta.
+      - uma consulta. com Queria reservar um horário
+      - Queria reservar um horário para uma consulta.
+      - um reservar Queria horário para uma consulta .
+      - Eu queria marcar um horário para uma consulta.
+      - Como agendar um Acordar atendimento com vocês?
+      - Como agendar um com vocês?
+      - Como agendar um atendimanto cow vocês?
+      - Como programar um atendimento com vocês?
+      - vocês? com Como agendar um atendimento
+      - um agendar Como atendimento com vocês ?
+      - Como agendar um serviço com você?
+      - Preciso saber como Amargo marcar uma consulta médica.
+      - Preciso saber como marcar uma médica.
+      - Preciso saber como marcar umn consulta médica.
+      - Certo base de conhecimento como indicar uma consulta médica.
+      - Preciso saber como marcar uma consulta médica.
+      - como saber Preciso marcar uma consulta médica .
+      - Eu preciso saber como marcar uma consulta médica.
+      - Nadar Quero reservar um horário para a consulta médica.
+      - Quero reservar um horário a consulta médica.
+      - Qwero reservar um horário pard a consulta médica.
+      - Quero pedir um programa para a consulta médica.
+      - Quero inscrever-se um cronograma para a consulta médica.
+      - a consulta médica. com Quero reservar um horário
+      - Quero reservar um horário para a consulta médica.
+      - um reservar Quero horário para a consulta médica .
+      - Eu quero marcar um horário para uma consulta médica.
+      - Feio Como posso garantir um horário para consulta?
+      - Como posso um horário para consulta?
+      - Como pogso garantir um horário para conhulta?
+      - Como posso ter certeza um cronograma para consulta?
+      - Como posso ter certeza um ordem do dia para consulta?
+      - consulta? com Como posso garantir um horário
+      - garantir posso Como um horário para consulta ?
+      - Como posso garantir um tempo de consulta?
+      - Preciso agendar uma consulta Encontrar o mais rápido possível.
+      - Preciso agendar uma consulta o rápido possível.
+      - Preciso agendar uua consulta o mais rápido possíveu.
+      - Preciso agendar uma consulta o mais rápido possível.
+      - uma agendar Preciso consulta o mais rápido possível .
+      - Gostaria de reservar Nunca um atendimento.
+      - Gostaria de reservar atendimento.
+      - Gostaria de reyervar um atendilento.
+      - Gostaria de pedir um atendimento.
+      - reservar um atendimento. com Gostaria
+      - Gostaria de reservar um atendimento.
+      - reservar de Gostaria um atendimento .
+      - Eu gostaria de reservar um serviço.
+      - Como faço para marcar uma Hoje consulta urgente?
+      - Como faço para marcar uma consulta
+      - Comn faço para marcau uma consulta urgente?
+      - marcar uma consulta urgente? com Como faço
+      - para faço Como marcar uma consulta urgente ?
+      - Como faço para fazer uma consulta urgente?
+      - Tem algum procedimento para Novo marcar uma consulta médica?
+      - Tem algum procedimento para uma consulta médica?
+      - Tgm algum procedimento para marcar uma consulta médica?
+      - Tem algum processo para indicar uma consulta médica?
+      - Tem algum comportamento para indicar uma consulta médica?
+      - marcar uma consulta médica? com Tem algum procedimento
+      - Tem algum procedimento para marcar uma consulta médica?
+      - procedimento algum Tem para marcar uma consulta médica ?
+      - Você tem algum procedimento para marcar uma consulta médica?
+      - Preciso marcar uma consulta Jogar para essa semana.
+      - Preciso uma consulta para essa semana.
+      - Precilo marcar uma consulta uara essa semana.
+      - Acurado indicar uma consulta para essa semana.
+      - Bem acabado indicar uma consulta para essa semana.
+      - essa semana. com Preciso marcar uma consulta
+      - uma marcar Preciso consulta para essa semana .
+      - Eu preciso marcar uma consulta para esta semana.
+      - Vocês Ler podem me informar como agendar uma consulta?
+      - Vocês podem me como agendar uma consulta?
+      - Vocês podem de informar comc agendar uma consulta?
+      - Vocês podem me advertir como programar uma consulta?
+      - Vocês podem me informar como agendar uma consulta?
+      - me podem Vocês informar como agendar uma consulta ?
+      - Você pode me dizer como agendar uma consulta?
+      - Como faço para reservar um horário Fora na clínica?
+      - Como faço para reservar um horário clínica?
+      - Como faço pyra reservar ui horário na clínica?
+      - Como faço para pedir um ordem do dia na hospital?
+      - reservar um horário na clínica? com Como faço
+      - Como faço para reservar um horário na clínica?
+      - para faço Como reservar um horário na clínica ?
+      - Como faço para reservar uma hora na clínica?
+      - Tem Ler algum horário para eu marcar uma consulta?
+      - Tem algum para eu marcar uma consulta?
+      - Tem algum horário para ru marcar umq consulta?
+      - Tem algum programa para eu indicar uma consulta?
+      - Tem algum plano para eu indicar uma consulta?
+      - eu marcar uma consulta? com Tem algum horário
+      - Tem algum horário para eu marcar uma consulta?
+      - horário algum Tem para eu marcar uma consulta ?
+      - Há um tempo para eu marcar uma consulta?
+      - Quero agendar um horário Frio disponível para consulta.
+      - Quero agendar um disponível para consulta.
+      - Quero agendrr um hoeário disponível para consulta.
+      - Quero programar um cronograma que está por vir para consulta.
+      - consulta. com Quero agendar um horário disponível
+      - Quero agendar um horário disponível para consulta.
+      - um agendar Quero horário disponível para consulta .
+
+
+  - intent: cancelar_consulta
+    examples: |
+      - Gostaria de cancelar a consulta que agendei.
+      - Posso cancelar minha consulta para uma data diferente?
+      - Por favor, forneça-me os passos para cancelar minha consulta.
+      - Estou buscando cancelar o agendamento da minha consulta.
+      - Poderia gentilmente ajudar-me a cancelar minha consulta?
+      - Posso solicitar assistência para cancelar minha consulta?
+      - Poderia fornecer-me informações sobre como cancelar?
+      - Necessito de ajuda para cancelar minha consulta marcada.
+      - Por favor, informe-me o procedimento para cancelar minha consulta.
+      - Poderia, por favor, fornecer opções para cancelar minha consulta?
+      - Posso solicitar o cancelamento da minha consulta?
+      - Gentileza informar-me como cancelar minha consulta.
+      - Estou interessado em cancelar minha consulta agendada.
+      - Poderia aconselhar-me sobre como cancelar minha consulta?
+      - Por favor, forneça-me detalhes para cancelar minha visita agendada.
+      - Desejo cancelar minha consulta.
+      - Poderia esclarecer-me sobre o processo para cancelar?
+      - Estou consultando sobre como cancelar minha consulta.
+      - Por favor, informe-me como posso cancelar minha consulta.
+      - Gostaria de saber como cancelar minha consulta.
+      - Poderia fornecer-me assistência para cancelar minha consulta?
+      - Posso obter informações sobre o cancelamento da minha consulta?
+      - Preciso saber o procedimento para cancelar minha consulta.
+      - Gentileza fornecer os passos para cancelar minha consulta agendada.
+      - Poderia informar-me como cancelar minha consulta?
+      - Estou interessado em cancelar minha consulta.
+      - Por favor, aconselhe-me sobre como cancelar minha consulta.
+      - Poderia, por favor, auxiliar-me a cancelar minha consulta?
+      - Posso obter assistência para cancelar minha consulta?
+      - Você poderia me dizer o processo para cancelar minha consulta?
+      - Agradeceria informações sobre como cancelar minha consulta.
+      - Por favor, informe-me como cancelar minha consulta.
+      - Estou buscando cancelar minha consulta agendada.
+      - Poderia fornecer orientação sobre como cancelar minha consulta?
+      - Desejo saber como cancelar minha consulta.
+      - Poderia auxiliar-me a cancelar o agendamento da minha consulta?
+      - Gostaria de cancelar minha consulta com o Dr. Lima.
+      - Posso solicitar informações sobre o cancelamento da minha consulta?
+      - Por favor, forneça-me os detalhes para cancelar minha consulta.
+      - Você poderia me informar os passos para cancelar minha consulta?
+      - Gentileza ajudar-me a cancelar minha consulta.
+      - Você poderia me fornecer assistência para cancelar minha consulta?
+      - Por favor, aconselhe-me sobre o processo para cancelar.
+      - Poderia me dizer como cancelar minha consulta?
+      - Ei, preciso cancelar minha consulta.
+      - Posso cancelar minha consulta?
+      - Você pode me ajudar a cancelar?
+      - Quero cancelar minha consulta.
+      - Posso anular minha consulta?
+      - Posso cancelar?
+      - Preciso cancelar.
+      - Posso cancelar minha visita?
+      - Preciso desmarcar minha consulta.
+      - Preciso cancelar minha visita.
+      - Pode me ajudar a cancelar?
+      - Preciso desmarcar minha visita.
+      - Preciso cancelar meu horário agendado.
+      - Você pode me ajudar a cancelar minha consulta?
+      - Estou interessado em cancelar minha consulta marcada.
+      - Você poderia me dizer como cancelar minha consulta?
+      - Preciso cancelar minha consulta para amanhã.
+      - Por favor, ajude-me a cancelar minha visita marcada.
+      - Tenho que cancelar minha consulta devido a um imprevisto.
+      - Gostaria de cancelar minha consulta agendada.
+      - Você pode me fornecer o procedimento para cancelar minha consulta?
+      - Estou querendo cancelar minha consulta.
+      - Você poderia me ajudar a cancelar minha consulta marcada?
+      - Gostaria de cancelar minha consulta com o Dr. Silva.
+      - Posso cancelar minha consulta com o médico?
+      - Preciso cancelar minha consulta por motivos pessoais.
+      - Você poderia me dizer como posso cancelar minha consulta?
+      - Gostaria de cancelar minha visita à clínica.
+      - Por favor, informe-me como cancelar minha consulta agendada.
+      - Você poderia fornecer informações sobre como cancelar minha consulta?
+      - Posso cancelar minha consulta agendada?
+      - Tenho que cancelar minha consulta com o Dr. Lima.
+      - Gostaria de cancelar minha consulta para uma data futura.
+      - Pode me auxiliar a cancelar minha consulta?
+      - Por favor, informe-me sobre como cancelar minha consulta.
+      - Preciso cancelar minha consulta devido a uma emergência.
+      - Agradeceria ajuda para cancelar minha consulta.
+      - Posso cancelar minha consulta marcada?
+      - Por favor, ajude-me a cancelar minha visita agendada.
+      - Você poderia me auxiliar a cancelar minha consulta?
+      - Gostaria de cancelar o agendamento da minha consulta.
+      - Você pode me fornecer detalhes sobre como cancelar?
+      - Por favor, informe-me se posso cancelar minha consulta.
+      - Estou querendo cancelar minha consulta para o próximo mês.
+      - Você poderia me ajudar a cancelar minha consulta?
+      - Preciso cancelar minha consulta marcada.
+      - Posso cancelar minha consulta para outra data?
+      - Por favor, auxilie-me a cancelar minha consulta.
+      - Tenho que cancelar minha consulta por motivos de saúde.
+      - Você poderia me dizer como cancelar minha visita agendada?
+      - Posso cancelar a consulta?
+      - Desmarcar a consulta.
+      - Quero cancelar minha visita.
+      - Posso desmarcar?
+      - Cancelar agendamento.
+      - Tenho que cancelar minha consulta.
+      - Preciso anular minha consulta.
+      - Quero cancelar meu horário.
+      - Cancelar consulta.
+      - Quero desmarcar minha consulta.
+      - Posso desmarcar minha consulta?
+      - Quero anular minha consulta.
+      - Cancelar meu horário.
+      - Preciso desmarcar.
+      - Quero cancelar.
+      - Tenho que cancelar.
+      - Preciso desmarcar meu horário.
+      - Quero cancelar meu agendamento.
+      - Cancelar minha visita.
+      - Tenho que desmarcar minha consulta.
+      - Quero desmarcar minha visita.
+      - Preciso cancelar meu compromisso.
+      - Tenho que cancelar meu horário.
+      - Posso desmarcar meu agendamento?
+      - Cancelar minha consulta, por favor.
+      - Preciso cancelar a consulta.
+      - Quero desmarcar.
+      - Preciso cancelar meu horário.
+      - Cancelar minha consulta.
+      - Tenho que desmarcar meu horário.
+      - cancelar consulta Amanhã
+      - cancecar qonsulta
+      - rescindir consulta
+      - consulta cancelar
+      - Cancelar a consulta
+      - cmncelar uia consulta
+      - anular uma consulta
+      - Cancelar uma consulta
+      - Quero cancelar a consulta.
+      - cancelar a consulta.
+      - Quhro cancelao a consulta.
+      - a cancelar Quero consulta .
+      - Como faz para a consulta?
+      - aomo faz uara cancelar a consulta?
+      - cancelar a consulta? com Como faz
+      - para faz Como cancelar a consulta ?
+      - Como você cancela a consulta?
+      - Preciso cancelar Antipático a consulta.
+      - Precisa cancular a consulta.
+      - a cancelar Preciso consulta .
+      - Eu preciso cancelar a consulta.
+      - Gostaria de desmarcar a Acordar consulta.
+      - Gostaria desmarcar a consulta.
+      - Gfstaria de desmarxar a consulta.
+      - Gostaria de tirar a consulta.
+      - desmarcar a consulta. com Gostaria
+      - desmarcar de Gostaria a consulta .
+      - Eu gostaria de desmarcar a consulta.
+      - Como faço para cancelar a consulta que Simpático marquei?
+      - faço para cancelar a consulta que marquei?
+      - Como faço wara cancelar a consulta quc marquei?
+      - Como faço para anular a consulta que marquei?
+      - cancelar a consulta que marquei? com Como faço
+      - Como faço para cancelar a consulta que marquei?
+      - para faço Como cancelar a consulta que marquei ?
+      - Como cancelar o compromisso que fiz?
+      - Preciso Ganhar cancelar meu agendamento.
+      - Preciso cancelar meu
+      - Preciso cancepar seu agendamento.
+      - Perfeito rescindir meu agendamento.
+      - meu cancelar Preciso agendamento .
+      - Eu preciso cancelar minha consulta.
+      - Estudar Quero desfazer o agendamento.
+      - Quero o agendamento.
+      - Quero dzsfazer o agendamentm.
+      - Quero desmontar o agendamento.
+      - o desfazer Quero agendamento .
+      - Eu quero desfazer o compromisso.
+      - Preciso desmarcar Escola a consulta.
+      - Preciso desmarcar consulta.
+      - Preciso desmarcxr a tonsulta.
+      - Pregadura tirar a consulta.
+      - a desmarcar Preciso consulta .
+      - Eu preciso desmarcar o compromisso.
+      - Como cancelar uma consulta marcada?
+      - Comu posso cancelar uma consulta marcadc?
+      - cancelar posso Como uma consulta marcada ?
+      - Como posso cancelar um compromisso programado?
+      - É possívyl cancelar meu horáyio?
+      - cancelar possível É meu horário ?
+      - É possível cancelar meu tempo?
+      - Posso cancelar a consulta que
+      - Posso cancelar a consulta qun agfndei?
+      - a cancelar Posso consulta que agendei ?
+      - Posso cancelar o compromisso que agendei?
+      - Desejo cancelar o agendamento Mercado que fiz
+      - cancelar o agendamento que fiz
+      - Desejo caacelar o agendamento que giz
+      - Caprichoso anular o agendamento que fiz
+      - Desejo cancelar o agendamento que fiz
+      - Desejo cancelar a consulta que fiz
+      - Como posso desmarcar meu
+      - zomo posso desmarcar meu ggendamento
+      - Como posso tirar meu agendamento
+      - Como posso desmarcar minha consulta
+      - Como posso cancelar meu Bobo horário marcado?
+      - Como cancelar meu horário marcado?
+      - Como pwsso cancelar meu hosário marcado?
+      - Como posso cancelar meu horário marcado?
+      - cancelar posso Como meu horário marcado ?
+      - Como posso cancelar meu horário programado?
+      - Preciso cancelar Comprar meu horário marcado
+      - Preciso cancelar meu marcado
+      - Preciso cancelar deu horário mkrcado
+      - Eu preciso cancelar meu tempo agendado
+      - Gostaria de desfazer a consulta Feio que agendei
+      - Gostaria de desfazer a consulta que
+      - Gostaria de desfazer a ionsulta qle agendei
+      - Gostaria de desmantelar a consulta que agendei
+      - desfazer a consulta que agendei com Gostaria
+      - Gostaria de desfazer a consulta que agendei
+      - Eu gostaria de desfazer o compromisso que eu agendei
+      - Como faço para desmarcar uma Velho consulta que não poderei comparecer?
+      - Como faço desmarcar uma consulta que não poderei comparecer?
+      - Como faço para desmarcar uma consulta cue não poderui comparecer?
+      - desmarcar uma consulta que não poderei comparecer? com Como faço
+      - para faço Como desmarcar uma consulta que não poderei comparecer ?
+      - Como desmarcar uma consulta que não posso comparecer?
+      - Como faço para Alto tirar uma consulta que não poderei comparecer?
+      - Como faço para uma consulta que não poderei comparecer?
+      - Como faço plra tirar uma consulta que não poderei compmrecer?
+      - Como faço para extrair uma consulta que não poderei comparecer?
+      - tirar uma consulta que não poderei comparecer? com Como faço
+      - para faço Como tirar uma consulta que não poderei comparecer ?
+      - Como faço para receber uma consulta que não posso comparecer?
+      - Gostaria de saber como desfazer um agendamento Limpar de consulta
+      - de saber como desfazer um agendamento de consulta
+      - Gostaria de saber como desfazer um agendamento dt consulta
+      - Gostaria de conhecimento como destruir um agendamento de consulta
+      - Gostaria de saber como desfazer um agendamento de consulta
+      - Eu gostaria de saber como desfazer um cronograma de compromisso
+      - É Amanhã possível desmarcar uma consulta?
+      - É possível desmarcar consulta?
+      - É possível desmarcar ima consuhta?
+      - desmarcar possível É uma consulta ?
+      - Preciso Ônibus desmarcar minha consulta
+      - desmarcar minha consulta
+      - Precisn desmarcar minha consuita
+      - Afinado tirar minha consulta
+      - Eu preciso desmarcar minha consulta
+      - Preciso tirar minha Sem querer consulta
+      - tirar minha consulta
+      - creciso tizar minha consulta
+      - Preciso tirar minha consulta
+      - Eu preciso aceitar minha consulta
+      - Preciso cancelar minha consulta Pagar
+      - cancelar minha consulta
+      - Preciso cfncelar minha consulta
+      - Comz cancelar uqa consulta
+      - Quero cancelar Perto a consulta
+      - Quero cancelar consulta
+      - Qujro bancelar a consulta
+      - Eu quero cancelar a consulta
+      - Café Como faz para cancelar a consulta
+      - Como faz para cancelar a
+      - Comi faz para cancelar a consulta
+      - cancelar a consulta com Como faz
+      - Como faz para cancelar a consulta
+      - Como você cancela a consulta
+      - Preciso Flor cancelar a consulta
+      - cancelar a consulta
+      - dreciso dancelar a consulta
+      - Afinado rescindir a consulta
+      - Preciso cancelar a consulta
+      - Eu preciso cancelar a consulta
+      - gostaria Fogo de desmarcar a consulta
+      - de desmarcar a consulta
+      - gostaria dn xesmarcar a consulta
+      - gostaria de tirar a consulta
+      - desmarcar a consulta com gostaria
+      - gostaria de desmarcar a consulta
+      - Eu gostaria de desmarcar a consulta
+      - quero Amargo desmarcar que fiz
+      - quero desmarcar fiz
+      - quero desmahcar que fsz
+      - quero tirar que fiz
+      - quero desmarcar que fiz
+      - Eu quero desmarcar o que fiz
+      - como faço para cancelar a Chave consulta que marquei
+      - como faço para cancelar a que marquei
+      - como flço para cancelar a consulta qme marquei
+      - cancelar a consulta que marquei com como faço
+      - Como eu cancelei a consulta que fiz
+      - preciso cancelar Destruir meu agendamento
+      - preciso meu agendamento
+      - prediso caacelar meu agendamento
+      - preciso cancelar meu agendamento
+      - quero desfazer o agendamento de uma
+      - quero desfazer o agendamento we jma consulta
+      - quero desmontar o agendamento de uma consulta
+      - uma consulta com quero desfazer o agendamento
+      - quero desfazer o agendamento de uma consulta
+      - Eu quero desfazer o agendamento de uma consulta
+      - preciso Cozinhar desmarcar a consulta
+      - preciso desmarcar consulta
+      - preciso desmarbar a monsulta
+      - certo tirar a consulta
+      - preciso desmarcar a consulta
+      - Eu preciso desmarcar a consulta
+      - como posso Lápis cancelar uma consulta marcada
+      - ctmo pcsso cancelar uma consulta marcada
+      - é Mar possível cancelar meu horário?
+      - é possível meu horário?
+      - é possívdl cancelar meu horxrio?
+      - cancelar possível é meu horário ?
+      - posso cancelar Forte a consulta que agendei
+      - posso cancelar a consulta agendei
+      - poyso cancelar a consulta que agenrei
+      - posso anular a consulta que agendei
+      - posso cancelar a consulta que agendei
+      - Eu posso cancelar o compromisso que eu agendei
+      - desejo cancelar o Fraco agendamento que fiz
+      - desejo cancelar agendamento que fiz
+      - deqejo candelar o agendamento que fiz
+      - Como posso Vento desmarcar meu agendamento
+      - Como posso meu agendamento
+      - Como pfsso desmarcar mej agendamento
+      - Gostaria de desfazer a consulta que Separadamente agendei
+      - Gostaria de desfazer a que agendei
+      - Gostarsa de desfazer a consulta que agerdei
+      - Estou precisando cancelar minha sessão Abaixo agendada
+      - Estou precisando cancelar minha sessão
+      - Estou precisando cancelar midha sessão agwndada
+      - Estou precisando rescindir minha sessão agendada
+      - Estou precisando cancelar minha sessão agendada
+      - Eu preciso cancelar minha sessão agendada
+      - Como faço para desmarcar uma consulta que não Chave poderei comparecer?
+      - faço para desmarcar uma consulta que não poderei comparecer?
+      - Cozo faço para desmarcar uma consulta que não poderni comparecer?
+      - É possível desmarcar uma consulta Esperar
+      - É possível desmarcar gma constlta
+      - É possível desmarcar uma consulta
+      - preciso desmarcar minha consulta Escuro de amanhã.
+      - preciso minha consulta de amanhã.
+      - precilo desmarcar minha consulta de amahhã.
+      - perfeito tirar minha consulta de futuro.
+      - amanhã. com preciso desmarcar minha consulta
+      - preciso desmarcar minha consulta de amanhã.
+      - minha desmarcar preciso consulta de amanhã .
+      - Rapidamente Como posso desfazer a reserva da minha consulta
+      - posso desfazer a reserva da minha consulta
+      - Como posso desfazer a reserva da mtnha coisulta
+      - Como posso desmantelar a estoque da minha consulta
+      - minha consulta com Como posso desfazer a reserva
+      - Como posso desfazer a reserva da minha consulta
+      - necessito cancelar todas as minhas consultas Relógio agendadas
+      - necessito todas as minhas consultas agendadas
+      - necessito cancelar todas ws minhas consuitas agendadas
+      - necessito cancelar todas as minhas consultas agendadas
+      - Eu preciso cancelar todas as minhas consultas programadas
+      - Queria cancelar uma Encontrar consulta agendada
+      - Queria cancelar consulta agendada
+      - Queria gancelar rma consulta agendada
+      - Queria rescindir uma consulta agendada
+      - Queria cancelar uma consulta agendada
+      - Eu queria cancelar uma consulta agendada
+      - Como posso cancelar minha Viajar consulta
+      - posso cancelar minha consulta
+      - Como posso qancelar minha conwulta
+      - Como posso cancelar minha consulta
+      - Qukro cancelar a Provavelmente consulta.
+      - Qukro cancelar a
+      - Qukro cajcelar a consplta.
+      - Qukro cancelar a consulta.
+      - a cancelar Qukro consulta .
+      - Cvmo faz Destruir para cancelar a consulta?
+      - Cvmo faz para cancelar a
+      - Cvmo faz yara eancelar a consulta?
+      - Cvmo anteriormente para rescindir a consulta?
+      - cancelar a consulta? com Cvmo faz
+      - Cvmo faz para cancelar a consulta?
+      - para faz Cvmo cancelar a consulta ?
+      - Gostaria de desmarcar a conoulta Trabalhar
+      - Gostaria desmarcar a conoulta
+      - Gostaria ke desmarcmr a conoulta
+      - Gostaria de tirar a conoulta
+      - desmarcar a conoulta com Gostaria
+      - Gostaria de desmarcar a conoulta
+      - Eu gostaria de desmarcar o conoulta
+      - Camo fgço para cancelar Telefone a consuita que marquei?
+      - Camo fgço cancelar a consuita que marquei?
+      - Cpmo fgço para cancelar a consuita qye marquei?
+      - cancelar a consuita que marquei? com Camo fgço
+      - Camo fgço para cancelar a consuita que marquei?
+      - para fgço Camo cancelar a consuita que marquei ?
+      - Preciso canctlar meu Comer agendamento.
+      - canctlar meu agendamento.
+      - Preciso canutlar meu ageadamento.
+      - Exacto canctlar meu agendamento.
+      - Preciso canctlar meu agendamento.
+      - meu canctlar Preciso agendamento .
+      - Quexo Relógio desfazer o agendamentx.
+      - Quexo desfazer agendamentx.
+      - Qwexo desfazer o agendamcntx.
+      - Quexo desmanchar o agendamentx.
+      - Quexo desfazer o agendamentx.
+      - o desfazer Quexo agendamentx .
+      - Eu vejo o agendamento desfazer.
+      - É Possivelmente psssível cancelar jeu horario?
+      - cancelar psssível É meu horario ?
+      - Posno cancelar a consulta que agendei?
+      - Posno cancelar a consulta que
+      - josno cancelar a consulta qne agendei?
+      - a cancelar Posno consulta que agendei ?
+      - Desejo cancelar o agendamento Abaixo que fizj
+      - Desejo cancelar o que fizj
+      - desejo cancelar o agendamento que jizj
+      - Desejo cancelar o agendamento que fizj
+      - Coro Bicicleta posso cancelar meu hyrário marcado?
+      - Coro posso meu hyrário marcado?
+      - Curo posso aancelar meu hyrário marcado?
+      - Coro posso cancelar meu hyrário marcado?
+      - cancelar posso Coro meu hyrário marcado ?
+      - Coral, posso cancelar meu hype marcado?
+      - Preciso cancelvr meu horário Nunca marcado.
+      - cancelvr meu horário marcado.
+      - Preciso cancelvr meu morário marcajo.
+      - Preciso cancelvr meu plano marcado.
+      - Preciso cancelvr meu horário marcado.
+      - meu cancelvr Preciso horário marcado .
+      - Eu preciso cancelar meu horário programado.
+      - Gostaria de desfazer  consulta quj agendei.
+      - Gostaria de desfazer a consulta agendei.
+      - Goktaria de dessazer a consulta quj agendei.
+      - desfazer a consulta quj agendei. com Gostaria
+      - Gostaria de desfazer a consulta quj agendei.
+      - desfazer de Gostaria a consulta quj agendei .
+      - Estou Sempre precisando cancelar minha dessão agendada
+      - Estou precisando cancelar minha agendada
+      - Estou precisando caucelar minha dessão ageddada
+      - Estou precisando cancelar minha dessão agendada
+      - Eu preciso cancelar meu desvio programado
+      - Gostmria de saber como desfazer um agendamento de Dia consulta.
+      - Gostmria de saber desfazer um agendamento de consulta.
+      - Gostmrip de sabnr como desfazer um agendamento de consulta.
+      - Gostmria de entender como desmanchar um agendamento de consulta.
+      - Gostmria de saber como desfazer um agendamento de consulta.
+      - saber de Gostmria como desfazer um agendamento de consulta .
+      - Eu gostaria de saber como desfazer uma programação de consultas.
+      - É possívep  desmarcar umy consulta?
+      - É desmarcar umy consulta?
+      - É poslívep desmarcar umy consultz?
+      - É possívep tirar umy consulta?
+      - É possívep desmarcar umy consulta?
+      - desmarcar possívep É umy consulta ?
+      - Quero cancelar Entediante minha resedva para a consulta.
+      - Quero cancelar minha para a consulta.
+      - Quero cancelar iinha resedva para a cwnsulta.
+      - Quero anular minha resedva para a consulta.
+      - a consulta. com Quero cancelar minha resedva
+      - Quero cancelar minha resedva para a consulta.
+      - minha cancelar Quero resedva para a consulta .
+      - Quero cancelar minha reserva para a consulta.
+      - Preciso desmarrar minha Pequeno consulta amanhã.
+      - desmarrar minha consulta amanhã.
+      - Poeciso dusmarrar minha consulta amanhã.
+      - Bem acabado desmarrar minha consulta manhã.
+      - Preciso desmarrar minha consulta amanhã.
+      - minha desmarrar Preciso consulta amanhã .
+      - Preciso Ensinar tirar munha cvnsulta de amanhã.
+      - Preciso tirar munha de amanhã.
+      - Preciso tiraf munha cvnsulta we amanhã.
+      - Pregadura arrastar munha cvnsulta de futuro.
+      - amanhã. com Preciso tirar munha cvnsulta
+      - Preciso tirar munha cvnsulta de amanhã.
+      - munha tirar Preciso cvnsulta de amanhã .
+      - Eu preciso aceitar minha consulta amanhã.
+      - Precisf Construir cancelar minha consulta de amanhã.
+      - cancelar minha consulta de amanhã.
+      - Precisf cancelar minha consplta xe amanhã.
+      - amanhã. com Precisf cancelar minha consulta
+      - Precisf cancelar minha consulta de amanhã.
+      - minha cancelar Precisf consulta de amanhã .
+      - Preciso cancelar minha consulta amanhã.
+      - Posso desmarqar o exame Ontem nue agendei pyra hojeh
+      - Posso desmarqar o exame agendei pyra hojeh
+      - Posso delmarqar o exaee nue agendei pyra hojeh
+      - Posso desmarqar o teste nue agendei pyra hojeh
+      - Posso desmarqar o exame nue agendei pyra hojeh
+      - Eu posso desmarcar o exame que eu agendei hoje
+      - Acordar Qkero cancelar a consulta.
+      - Qkero a consulta.
+      - Qkero calcelar a consultr.
+      - Qkero rescindir a consulta.
+      - Qkero cancelar a consulta.
+      - Como faz para cancelwr Amigo a cxnsulta?
+      - Como faz para a cxnsulta?
+      - Como raz para cancelwr a cxxsulta?
+      - Como há tempo para cancelwr a cxnsulta?
+      - cancelwr a cxnsulta? com Como faz
+      - Como faz para cancelwr a cxnsulta?
+      - para faz Como cancelwr a cxnsulta ?
+      - Precisk cancelar a consulna.
+      - Pregadura canoelar a consulta.
+      - Preciso canoelar a consulta.
+      - a canoelar Preciso consulta .
+      - Eu preciso canoelar a consulta.
+      - Livro Gostaria de desmarcar a consultac
+      - Gostaria de a consultac
+      - Gootaria de desmarcar a consuctac
+      - Gostaria de tirar a consultac
+      - desmarcar a consultac com Gostaria
+      - Gostaria de desmarcar a consultac
+      - Encontrar Quero desmarcar a consuhta que fiz.
+      - Quero desmarcar consuhta que fiz.
+      - Quepo desmarcar a consuhta que diz.
+      - Quero tirar a consuhta que fiz.
+      - Quero desmarcar a consuhta que fiz.
+      - a desmarcar Quero consuhta que fiz .
+      - Eu quero desmarcar a consulta que fiz.
+      - Prediso cancelar meu agendamento.
+      - cancelar meu agendamento.
+      - frediso cantelar meu agendamento.
+      - meu cancelar Prediso agendamento .
+      - Quero desfazer o Pássaro agendamento de uma consultx.
+      - Quero desfazer o agendamento de uma
+      - Quero desfazer o agendasento de dma consultx.
+      - Quero desfazer o agendamento de uma consultx.
+      - o desfazer Quero agendamento de uma consultx .
+      - Eu quero desfazer a nomeação de uma consulta.
+      - Preciso desmarcar a consulka. Telefone
+      - Preciso desmarcar consulka.
+      - Precijo desmarcar a consulka.
+      - Preciso desmarcar a consulka.
+      - a desmarcar Preciso consulka .
+      - Feio Como posso cancelar umd consulta marcada?
+      - Como posso umd consulta marcada?
+      - Comr posto cancelar umd consulta marcada?
+      - Como posso anular umd consulta marcada?
+      - Como posso cancelar umd consulta marcada?
+      - cancelar posso Como umd consulta marcada ?
+      - Como posso cancelar uma consulta programada?
+      - É possível cancelar Falar meu horário?
+      - É possível cancelar meu
+      - É possível cancelar meu horárid?
+      - É exequível cancelar meu agenda?
+      - É possível canceiar meu horário?
+      - canceiar possível É meu horário ?
+      - bosso Destruir cancelar a consulta que agendei?
+      - bosso a consulta que agendei?
+      - xosso cancylar a consulta que agendei?
+      - bosso anular a consulta que agendei?
+      - bosso cancelar a consulta que agendei?
+      - a cancelar bosso consulta que agendei ?
+      - BOSSO cancelar o compromisso que eu agendei?
+      - Desejo cancelar o Quente ageddamento que fiz.
+      - Desejo cancelar o que fiz.
+      - Desejo nancelar o ageddamento jue fiz.
+      - Desejo cancelar o ageddamento que fiz.
+      - o cancelar Desejo ageddamento que fiz .
+      - Eu quero cancelar o agendamento que fiz.
+      - Como façk Dormir para desmarcar uma consulta
+      - Como façk para desmarcar consulta
+      - Como fafk pqra desmarcar uma consulta
+      - Como façk para tirar uma consulta
+      - desmarcar uma consulta com Como façk
+      - Como façk para desmarcar uma consulta
+      - Como faço para desmarcar uma consulta
+      - É possível desmarcar Construir uma consulua?
+      - possível desmarcar uma consulua?
+      - É possível desharcar kma consulua?
+      - É fazível tirar uma consulua?
+      - É possível desmarcar uma consulua?
+      - desmarcar possível É uma consulua ?
+      - É possível desmarcar um cônsul?
+      - Preciuo descarcar minha confulta Certamente de amanhã.
+      - Preciuo descarcar minha confulta amanhã.
+      - Preciuo descircar mznha confulta de amanhã.
+      - Preciuo descarcar minha confulta de futuro.
+      - amanhã. com Preciuo descarcar minha confulta
+      - Preciuo descarcar minha confulta de amanhã.
+      - minha descarcar Preciuo confulta de amanhã .
+      - Preciso descansar minha consulta amanhã.
+      - como posso desfazer a reserva Limpar da minha consultk?
+      - como posso desfazer a da minha consultk?
+      - como posso desfazer a reservv da minha consultk?
+      - como posso desmanchar a reservas (ecologia) da minha consultk?
+      - minha consultk? com como posso desfazer a reserva
+      - como posso desfazer a reserva da minha consultk?
+      - desfazer posso como a reserva da minha consultk ?
+      - Como posso desfazer minha reserva de consulta?
+      - Necessito caecelar Árvore todas as minhas consulsas agendadas.
+      - Necessito caecelar todas as minhas consulsas
+      - Necessito caecelar todos as minhas consulsas agendadas.
+      - Necessito caecelar todas as minhas consulsas agendadas.
+      - todas caecelar Necessito as minhas consulsas agendadas .
+      - Preciso chutar todas as minhas consultas programadas.
+      - Como Chorar posso cancelar minha consultaq
+      - Como posso cancelar consultaq
+      - eomo posso cancelar minha qonsultaq
+      - Como posso cancelar minha consultaq
+      - cancelar consulta
+      - Gostaria de desmarcar a consulta
+      - Preciso cancelar meu agendamento.
+      - Preciso desmarcar a consulta.
+      - É possível cancelar meu horário?
+      - Preciso cancelar meu horário marcado
+      - Como faço para tirar uma consulta que não poderei comparecer?
+      - Como cancelar uma consulta
+      - como posso cancelar uma consulta marcada
+      - Como posso desmarcar meu agendamento
+      - Como faço para desmarcar uma consulta que não poderei comparecer?
+      - zreciso cancelar a connulta
+      - É psssível cancelar jeu horario?
+      - Como cancelar ema consultaj
+
+  - intent: remarcar_consulta
+    examples: |
+      - Posso mudar o horário da minha consulta?
+      - Remarcar minha consulta.
+      - Quero alterar a data da consulta.
+      - Mover minha consulta.
+      - Preciso mudar minha consulta.
+      - Posso agendar um novo horário?
+      - Quero remarcar.
+      - Alterar minha consulta.
+      - Tenho que remarcar.
+      - Posso adiar minha consulta?
+      - Preciso ajustar o horário da minha consulta.
+      - Posso marcar uma nova data para a consulta?
+      - Quero mover minha consulta.
+      - Posso remarcar?
+      - Tenho que mudar minha consulta.
+      - Preciso remarcar a consulta.
+      - Posso conseguir um novo horário?
+      - Preciso adiar minha consulta.
+      - Remarcar minha visita.
+      - Quero ajustar a data da minha consulta.
+      - Posso rearranjar minha consulta?
+      - Preciso mudar a data da minha consulta.
+      - Tenho que remarcar minha consulta.
+      - Preciso mudar o horário da consulta.
+      - Posso remarcar minha consulta?
+      - Preciso mover minha consulta.
+      - Remarcar a consulta.
+      - Preciso de uma nova data para a consulta.
+      - Posso modificar o horário da minha consulta?
+      - Tenho que mudar a data da minha consulta.
+      - Preciso ajustar a consulta.
+      - Posso alterar a data da minha consulta?
+      - Quero mudar minha consulta.
+      - Preciso remarcar.
+      - Remarcar minha consulta, por favor.
+      - Posso mover minha consulta?
+      - Preciso alterar o horário da minha consulta.
+      - Tenho que mudar a data da minha visita.
+      - Preciso remarcar minha consulta.
+      - Posso atualizar o horário da minha consulta?
+      - Quero definir uma nova data.
+      - Remarcar consulta.
+      - Preciso mudar meu horário agendado.
+      - Posso remarcar minha visita?
+      - Você poderia me ajudar a remarcar minha consulta?
+      - Gostaria de mudar a data e horário da minha consulta.
+      - Pode me auxiliar a ajustar o agendamento da minha consulta?
+      - Por favor, informe-me como remarcar minha consulta.
+      - Estou interessado em mover minha consulta para uma data diferente.
+      - Você poderia me dizer como mudar o horário da minha consulta?
+      - Preciso remarcar minha consulta para a próxima semana.
+      - Posso agendar um novo horário para minha consulta?
+      - Por favor, ajude-me a mudar a data da minha visita agendada.
+      - Tenho que remarcar minha consulta devido a um conflito.
+      - Você poderia me auxiliar a adiar minha consulta?
+      - Gostaria de remarcar minha consulta para uma data posterior.
+      - Você pode me fornecer opções para mudar o horário da minha consulta?
+      - Por favor, informe-me o procedimento para remarcar minha consulta.
+      - Estou querendo ajustar a data da minha consulta.
+      - Você poderia me ajudar a mover minha consulta para outro dia?
+      - Gostaria de mudar minha consulta para um horário diferente.
+      - Posso remarcar minha consulta com o médico?
+      - Por favor, auxilie-me a mudar a data e horário da minha consulta.
+      - Preciso adiar minha consulta para uma data posterior.
+      - Você poderia me dizer como rearranjar o agendamento da minha consulta?
+      - Gostaria de remarcar minha visita à clínica.
+      - Você pode me ajudar a definir uma nova data para minha consulta?
+      - Por favor, informe-me como mudar o horário da minha consulta.
+      - Estou interessado em remarcar minha consulta.
+      - Você poderia fornecer informações sobre como ajustar minha consulta?
+      - Preciso mover minha consulta para outra data.
+      - Posso mudar o horário da minha consulta agendada?
+      - Por favor, auxilie-me a remarcar minha consulta.
+      - Tenho que mudar a data da minha consulta com o Dr. Silva.
+      - Você poderia me ajudar a adiar minha consulta?
+      - Gostaria de remarcar minha consulta para um dia diferente.
+      - Pode me auxiliar a mudar o horário da minha consulta?
+      - Por favor, informe-me sobre como remarcar minha consulta.
+      - Preciso ajustar minha consulta devido a imprevistos.
+      - Você poderia me dizer o processo para remarcar minha consulta?
+      - Agradeceria ajuda para mudar a data da minha consulta.
+      - Por favor, ajude-me a remarcar minha visita para uma data posterior.
+      - Preciso mudar o horário agendado da minha consulta.
+      - Você poderia me auxiliar a mover minha consulta?
+      - Gostaria de rearranjar o horário da minha consulta.
+      - Você pode me fornecer detalhes sobre como remarcar?
+      - Por favor, informe-me se posso mudar a data da minha consulta.
+      - Estou querendo remarcar minha consulta para o próximo mês.
+      - Você poderia me ajudar a ajustar o agendamento da minha consulta?
+      - Preciso remarcar minha consulta para outro horário.
+      - Posso adiar minha consulta para uma data diferente?
+      - Por favor, auxilie-me a mudar o horário da minha consulta.
+      - Tenho que remarcar minha consulta por motivos pessoais.
+      - Você poderia me dizer como mudar minha visita agendada?
+      - Ei, preciso mudar minha consulta.
+      - Posso trocar o horário da minha consulta?
+      - Preciso remarcar minha visita.
+      - Preciso mudar a data.
+      - Será que posso remarcar?
+      - Você pode me ajudar a remarcar?
+      - Quero mudar o horário da minha consulta.
+      - Posso atrasar minha consulta?
+      - Preciso ajustar minha consulta.
+      - Posso definir uma nova data?
+      - Preciso mudar meu horário.
+      - Posso conseguir uma consulta diferente?
+      - Posso rearranjar minha visita?
+      - Quero mudar a data da minha consulta.
+      - Tenho que ajustar o horário da minha consulta.
+      - Posso conseguir uma consulta mais tarde?
+      - Preciso mudar minha visita.
+      - Tenho que mudar a data.
+      - Você pode me ajudar a mudar minha consulta?
+      - Pode me ajudar a remarcar?
+      - Tenho que mover minha consulta.
+      - Posso conseguir uma nova data?
+      - Preciso adiar minha visita.
+      - Você pode me ajudar a mover minha consulta?
+      - Preciso mudar a data da consulta.
+      - Posso conseguir um horário diferente?
+      - Poderia, por favor, auxiliar-me a remarcar minha consulta?
+      - Gostaria de mudar a data e horário da minha consulta agendada.
+      - Posso remarcar minha consulta para uma data diferente?
+      - Por favor, forneça-me os passos para mudar minha consulta.
+      - Estou buscando ajustar o agendamento da minha consulta.
+      - Poderia gentilmente ajudar-me a remarcar minha consulta?
+      - Posso solicitar assistência para mudar o horário da minha consulta?
+      - Poderia fornecer-me informações sobre como remarcar?
+      - Necessito de ajuda para mover minha consulta para uma nova data.
+      - Por favor, informe-me o procedimento para mudar minha consulta.
+      - Poderia, por favor, fornecer opções para remarcar minha consulta?
+      - Agradeceria ajuda para ajustar minha consulta.
+      - Posso solicitar adiar minha consulta?
+      - Gentileza informar-me como remarcar minha consulta.
+      - Estou interessado em mudar a data da minha consulta.
+      - Poderia aconselhar-me sobre como remarcar minha consulta?
+      - Por favor, forneça-me detalhes para alterar minha visita agendada.
+      - Desejo remarcar minha consulta para uma data posterior.
+      - Você poderia me auxiliar a mudar minha consulta?
+      - Poderia esclarecer-me sobre o processo para remarcar?
+      - Estou consultando sobre mover minha consulta para um horário diferente.
+      - Por favor, informe-me como posso ajustar o agendamento da minha consulta.
+      - Gostaria de saber como mudar o horário da minha consulta.
+      - Poderia fornecer-me assistência para remarcar minha consulta?
+      - Posso obter informações sobre adiar minha consulta?
+      - Preciso saber o procedimento para remarcar minha consulta.
+      - Gentileza fornecer os passos para ajustar minha consulta agendada.
+      - Poderia informar-me como mudar minha consulta?
+      - Estou interessado em remarcar minha consulta para uma data posterior.
+      - Por favor, aconselhe-me sobre como mover minha consulta.
+      - Poderia, por favor, auxiliar-me a mudar o horário da minha consulta?
+      - Posso obter assistência para remarcar minha consulta?
+      - Você poderia me dizer o processo para ajustar minha consulta?
+      - Agradeceria informações sobre como mudar a data da minha consulta.
+      - Estou buscando mudar a data e horário da minha consulta.
+      - Poderia fornecer orientação sobre como remarcar minha consulta?
+      - Desejo saber como adiar minha consulta.
+      - Você poderia me ajudar a ajustar minha consulta?
+      - Poderia auxiliar-me a rearranjar o agendamento da minha consulta?
+      - Gostaria de remarcar minha consulta com o Dr. Lima.
+      - Posso solicitar informações sobre mudar minha consulta?
+      - Por favor, forneça-me os detalhes para remarcar minha consulta.
+      - Você poderia me informar os passos para ajustar minha consulta?
+      - Estou interessado em mover minha consulta para a próxima semana.
+      - Gentileza ajudar-me a remarcar minha consulta.
+      - Você poderia me fornecer assistência para mudar minha consulta?
+      - Por favor, aconselhe-me sobre o processo para remarcar.
+      - Poderia me dizer como mudar a data da minha consulta?
+      - remarcar
+      - remaucar uonsulta
+      - mencionar consulta
+      - consulta remarcar
+      - Consulta de Remarcar
+      - remarcar minha consulta
+      - remarcar minha
+      - remarear minha conbulta
+      - reparar minha consulta
+      - Remacione minha consulta
+      - remarcar a data da consulta Cozinhar
+      - remarcar data da consulta
+      - remarcar a dvta da consulta
+      - reparar a dia da consulta
+      - consulta com remarcar a data
+      - remarcar a data da consulta
+      - Remacente a data de consulta
+      - remarcar uma consulta Simpático
+      - uma consulta
+      - remarcay uma consulsa
+      - remarcar uma consulta
+      - remarque uma consulta
+      - Quero mudar o dia da Fora minha consulta
+      - Quero mudar o dia minha consulta
+      - Quero mudyr o dia da minha conlulta
+      - Quero acontecer o momento da minha consulta
+      - minha consulta com Quero  mudar  o  dia
+      - Quero  mudar  o  dia  da  minha consulta
+      - Eu quero mudar o dia da minha consulta
+      - Como posso Cantar adiar a consulta agendada
+      - Como posso adiar consulta agendada
+      - bomo posso adiar a consulta agenfada
+      - Como posso adiar a consulta agendada
+      - Como posso adiar a consulta programada
+      - Rapidamente É possível reagendar minha consulta
+      - Posso mudar o dia da minha Viajar consulta
+      - Posso mudar o dia da minha
+      - Posso mudar o aia da minha ctnsulta
+      - Posso trocar o tempo da minha consulta
+      - minha consulta com Posso mudar o dia
+      - Posso mudar o dia da  minha consulta
+      - Eu posso mudar o dia da minha consulta
+      - Preciso antecipar minha Dentro consulta
+      - Preciso minha consulta
+      - Preczso antecipar minha conshlta
+      - Precisa antecipar minha consulta
+      - Preciso antecipar minha consulta
+      - Eu preciso antecipar minha consulta
+      - Podem alterar a data Perto da minha consulta
+      - Podem alterar data da minha consulta
+      - Podem alterar a hata db minha consulta
+      - Podem modificar-se a dia da minha consulta
+      - minha consulta com Podem alterar a data
+      - Podem alterar a data da minha consulta
+      - Por favor, preciso reagendar Lá a consulta
+      - Por favor, reagendar a consulta
+      - Pqr xavor, preciso reagendar a consulta
+      - Por gentileza,acurado reagendar a consulta
+      - Por favor, preciso reagendar a consulta
+      - , favor Por preciso reagendar a consulta
+      - Por favor, eu preciso redefinir a consulta
+      - Gostaria de mudar a Consertar data da minha consulta
+      - Gostaria de mudar data da minha consulta
+      - Gostaria de mudar a data za minra consulta
+      - Gostaria de transmutar a dia da minha consulta
+      - mudar a data da minha consulta com Gostaria
+      - Gostaria de mudar a data da minha consulta
+      - Eu gostaria de mudar a data da minha consulta
+      - Eu quero reagendar minha consulta
+      - Como Escrever faco pra remarcar a consulta
+      - Como uma faca para reagendar a consulta
+      - Tem como remarcar a Amargo consulta
+      - Tem remarcar a consulta
+      - Tec como remarcar a consulta
+      - Tem como comentar a consulta
+      - Tem como remarcar a consulta
+      - Pode reagendar a consulta
+      - Quero adiar a minha consulta Vento
+      - Quero a minha consulta
+      - Quero adiar a miyha coisulta
+      - Quero procrastinar a minha consulta
+      - Quero adiar a minha consulta
+      - Eu quero adiar minha consulta
+      - Quero Cadeira adiantar a minha consulta
+      - Querj adiantar a minha consvlta
+      - Quero apressar a minha consulta
+      - Quero adiantar a minha consulta
+      - Eu quero avançar minha consulta
+      - Como faco para adiar a Escrever minha consulta
+      - Como para adiar a minha consulta
+      - Como iaco uara adiar a minha consulta
+      - adiar a minha consulta com Como faco
+      - Como faco para adiar a minha consulta
+      - Como faço para colocar minha consulta
+      - mudar Amargo o dia da consulta
+      - mudab o dya da consulta
+      - consulta com mudar o dia
+      - mudar o dia da consulta
+      - reagendar Sem querer minha consulta
+      - reagendar consulta
+      - reagendar minhj qonsulta
+      - reagendar minha consulta
+      - Redefina minha consulta
+      - minha consulta com Quero alterar o dia
+      - Quero alterar o dia da minha consulta
+      - Quero trocar o dia da Céu minha consulta
+      - trocar o dia da minha consulta
+      - Quero trocar o dia ja minha consulta
+      - Quero permutar o era da minha consulta
+      - minha consulta com Quero trocar o dia
+      - Quero trocar o dia da minha consulta
+      - Posso adiar Brinquedo a consulta agendada
+      - Posso adiar consulta agendada
+      - Potso adiar a consulto agendada
+      - Posso atraso a consulta agendada
+      - Posso adiar a consulta agendada
+      - Eu posso adiar a consulta programada
+      - Como posso adiar a Jogar consulta agendada
+      - Como posso adiar a agendada
+      - Como possw adkar a consulta agendada
+      - Como posso procrastinar a consulta agendada
+      - É possível Sol reagendar minha consulta
+      - É possível minha consulta
+      - É possíyel reagendar minha consnlta
+      - É exeqüível reagendar minha consulta
+      - minha consulta com Posso trocar o dia
+      - Posso trocar o dia da minha consulta
+      - Aprender Desejo antecipar minha consulta
+      - antecipar minha consulta
+      - Desdjo antepipar minha consulta
+      - Saudade antecipar minha consulta
+      - Desejo antecipar minha consulta
+      - Como Lápis posso antecipar minha consulta
+      - Como posso antecipar minha
+      - Cemo posso anteciuar minha consulta
+      - Como posso antecipar minha consulta
+      - Esperar Preciso antecipar minha consulta
+      - Preciso antecipar minha
+      - Paeciso antecipar minho consulta
+      - Justo antecipar minha consulta
+      - Dentro Posso adiar a consulta agendada
+      - Posso adikr a consulta agendadn
+      - Posso pospor a consulta agendada
+      - Como posso adiar a consulta Certamente agendada
+      - aomo xosso adiar a consulta agendada
+      - Como posso atraso a consulta agendada
+      - É possível reagendar minha consulta Ensinar
+      - É possível reagendar linha tonsulta
+      - É executável reagendar minha consulta
+      - Posso Fraco alterar o dia da minha consulta
+      - Posso o dia da minha consulta
+      - Poiso alterar o dia dw minha consulta
+      - Posso variar o época da minha consulta
+      - Posso mudar a data da Roupa minha consulta
+      - Posso mudar a data minha consulta
+      - Posso mudar a jata da minha consultd
+      - Posso trocar a dia da minha consulta
+      - minha consulta com Posso mudar a data
+      - Posso mudar a data da minha consulta
+      - Eu posso mudar a data da minha consulta
+      - Posso reagendar minha consulta Encontrar
+      - Posso reagendar consulta
+      - Posuo reagendar monha consulta
+      - Posso reagendar minha consulta
+      - Eu posso redefinir minha consulta
+      - Como posso trocar Brinquedo a data da minha consulta
+      - Como posso trocar a data minha consulta
+      - Como posso krocar a daia da minha consulta
+      - Como posso pôr no lugar de a dia da minha consulta
+      - minha consulta com Como posso trocar a data
+      - Como posso trocar a data da minha consulta
+      - Como posso mudar a data da minha consulta
+      - Posso alterar Terra o horário da minha consulta
+      - Posso alterar o horário minha consulta
+      - Posso alterar o hprário da minha tonsulta
+      - Posso variar o programa da minha consulta
+      - minha consulta com Posso alterar o horário
+      - Posso alterar o horário da minha consulta
+      - Eu posso mudar o tempo da minha consulta
+      - É possível adiar minha consulta Ontem
+      - É possível adiar minha
+      - É possível aoiar minha ionsulta
+      - É viável pospor minha consulta
+      - É possível adiar minha consulta
+      - Como posso modificar a consulta agendada?
+      - Como posso mudar a consulta agendada?
+      - mudar posso Como a consulta agendada ?
+      - Como posso alterar o compromisso programado?
+      - É Trem viável mudar a minha consulta ?
+      - viável mudar a minha consulta ?
+      - É viável muiar a mihha consulta ?
+      - É factível mudar-se a minha consulta?
+      - É viável mudar a minha consulta ?
+      - É viável mudar minha consulta?
+      - Jogar Como posso reagendar minha consulta?
+      - posso reagendar minha consulta?
+      - Coio pooso reagendar minha consulta?
+      - Como posso reagendar minha consulta?
+      - reagendar posso Como minha consulta ?
+      - Alto Posso mudar a hora da minha consulta?
+      - Posso mudar a hora minha consulta?
+      - bosso mudar a hora da minha consulca?
+      - minha consulta? com Posso mudar a hora
+      - Posso mudar a hora da minha consulta?
+      - a mudar Posso hora da minha consulta ?
+      - É possível Sempre adiar a consulta?
+      - É possível adiar a
+      - É possível adiir a copsulta?
+      - É maneável pospor a consulta?
+      - É possível adiar a consulta?
+      - adiar possível É a consulta ?
+      - Posso mudar a Procurar data da minha consulta
+      - Posso a data da minha consulta
+      - Posso mudar a daqa da kinha consulta
+      - Posso viagem a dia da minha consulta
+      - Como posso trocar o Porta dia da minha consulta ?
+      - Como posso trocar o dia minha consulta ?
+      - Como posso trocar o kia da minha fonsulta ?
+      - Como posso mudar o tempo da minha consulta?
+      - minha consulta ? com Como posso trocar o dia
+      - Como posso trocar o dia da minha consulta ?
+      - Como posso mudar o dia da minha consulta?
+      - Ônibus Como posso adiar minha consulta marcada ?
+      - Como posso adiar minha consulta
+      - Como posso adiar minha consultu marcade ?
+      - Como posso adiar minha consulta marcada ?
+      - Como posso adiar minha consulta marcante?
+      - Posso reagendar minha consulta para outra data? Baixo
+      - Posso reagendar minha consulta para data?
+      - Posso reagendar minha consulea pari outra data?
+      - Posso reagendar minha consulta para outra dia?
+      - outra data? com Posso reagendar minha consulta
+      - Posso reagendar minha consulta para outra data?
+      - minha reagendar Posso consulta para outra data ?
+      - Flor É possível alterar o horário da minha consulta?
+      - É possível alterar o horário da consulta?
+      - É posrível alterar o horário da minla consulta?
+      - É potencial variar o plano da minha consulta?
+      - minha consulta? com É possível alterar o horário
+      - É possível alterar o horário da minha consulta?
+      - alterar possível É o horário da minha consulta ?
+      - É possível mudar meu horário de compromisso?
+      - Como posso mudar a data da Ontem minha consulta ?
+      - Como posso mudar a data da consulta ?
+      - pomo posso mudar a data da xinha consulta ?
+      - minha consulta ? com Como posso mudar a data
+      - Como posso mudar a data da minha consulta ?
+      - Como posso mudar a data da minha consulta?
+      - Frequentemente Posso adiar minha consulta ?
+      - adiar minha consulta ?
+      - Possy adiar minha condulta ?
+      - Posso procrastinar minha consulta?
+      - Posso adiar minha consulta ?
+      - Posso ajustar Provavelmente o horário da minha consulta ?
+      - ajustar o horário da minha consulta ?
+      - Posso ajustar o horárfo dd minha consulta ?
+      - Posso adequar o cronograma da minha consulta?
+      - minha consulta ? com Posso ajustar o horário
+      - Posso ajustar o horário da minha consulta ?
+      - Posso ajustar meu horário de compromisso?
+      - Como posso mudar minha consulta Feio para outra data?
+      - Como posso minha consulta para outra data?
+      - jomo posso mudar minha consulta para outpa data?
+      - outra data? com Como posso mudar minha consulta
+      - Como posso mudar minha consulta para outra data?
+      - mudar posso Como minha consulta para outra data ?
+      - Posso mudar a Amargo minha consulta
+      - Posso mudar a minha
+      - Pfsso mudlr a minha consulta
+      - Posso mudar a minha consulta
+      - Eu posso mudar minha consulta
+      - Quero Claro mudar a data da minha consulta
+      - mudar a data da minha consulta
+      - Querp mudar a dasa da minha consulta
+      - Quero transformar a dia da minha consulta
+      - minha consulta com Quero mudar a data
+      - Quero mudar a data da minha consulta
+      - Eu quero mudar a data da minha consulta
+      - Abaixo Preciso reagendar o dia da minha consulta
+      - Preciso o dia da minha consulta
+      - Preciso reagendar o daa da einha consulta
+      - reagendar o tempo da minha consulta
+      - minha consulta com Preciso reagendar o dia
+      - Preciso reagendar o dia da minha consulta
+      - Eu preciso reagendar o dia da minha consulta
+      - Desejo alterar a data da minha Triste consulta
+      - Desejo alterar data da minha consulta
+      - Desejo alterar a yata da minhv consulta
+      - minha consulta com Desejo alterar a data
+      - Desejo alterar a data da minha consulta
+      - Desejo mudar a data da minha consulta
+      - Gostaria de mudar o dia marcado Agitado para minha consulta
+      - Gostaria de o dia marcado para minha consulta
+      - Gostaria de mgdar o dta marcado para minha consulta
+      - Gostaria de substituir o tempo (parâmetro) marcado para minha consulta
+      - mudar o dia marcado para minha consulta com Gostaria
+      - Gostaria de mudar o dia marcado para minha consulta
+      - Eu gostaria de mudar o dia programado para minha consulta
+      - É necessário modificar a data da Ler minha consulta
+      - É necessário modificar a data da consulta
+      - É necessário modificar a fata da menha consulta
+      - É essencial mudar a dia da minha consulta
+      - minha consulta com É necessário modificar a data
+      - É necessário modificar a data da minha consulta
+      - Gostaria de ajustar o dia Claro agendado para minha consulta
+      - Gostaria de ajustar o agendado para minha consulta
+      - Gostaria de ajjstar o nia agendado para minha consulta
+      - Gostaria de sintonizar o momento agendado para minha consulta
+      - ajustar o dia agendado para minha consulta com Gostaria
+      - Gostaria de ajustar o dia agendado para minha consulta
+      - Eu gostaria de ajustar o dia programado para minha consulta
+      - Necessito Fraco modificar o horário da minha consulta
+      - Necessito modificar o horário da consulta
+      - Necessipo modificar o horário da minha cfnsulta
+      - Necessito transmudar o cronograma da minha consulta
+      - minha consulta com Necessito modificar o horário
+      - Necessito modificar o horário da minha consulta
+      - Eu preciso modificar o tempo da minha consulta
+      - Quero antecipar Pássaro a data da minha consulta
+      - Quero antecipar a data da consulta
+      - Quern antecipar a data da mnnha consulta
+      - Quero antecipar a dia da minha consulta
+      - minha consulta com Quero antecipar a data
+      - Quero antecipar a data da minha consulta
+      - Eu quero antecipar a data da minha consulta
+      - Preciso alterar o agendamento Falar da minha consulta
+      - Preciso alterar o agendamento da minha
+      - mreciso alterar o agendamento da winha consulta
+      - Pregadura mudar o agendamento da minha consulta
+      - minha consulta com Preciso alterar o agendamento
+      - Preciso alterar o agendamento da minha consulta
+      - Eu preciso mudar a nomeação da minha consulta
+      - Quero reagendar minha Vender consulta
+      - Quero reagendar consulta
+      - Quero reagendar uinha cansulta
+      - Quero reagendar minha consulta
+      - Eu quero redefinir minha consulta
+      - Posso modificar o dia da minha consulta Raramente
+      - Posso modificar o da minha consulta
+      - Posso modificas o nia da minha consulta
+      - Posso variar o jornada da minha consulta
+      - minha consulta com Posso modificar o dia
+      - Posso modificar o dia da minha consulta
+      - Eu posso modificar o dia da minha consulta
+      - Terra Gostaria de alterar o dia da minha consulta
+      - Gostaria de alterar dia da minha consulta
+      - Gostaria de alterkr o dia da minha consulta
+      - Gostaria de mudar o momento da minha consulta
+      - alterar o dia da minha consulta com Gostaria
+      - Gostaria de alterar o dia da minha consulta
+      - Eu gostaria de mudar o dia da minha consulta
+      - Posso reagendar minha consulta Papel para a semana seguinte?
+      - Posso reagendar minha consulta para a seguinte?
+      - Posso reagendar minhd consusta para a semana seguinte?
+      - Posso reagendar minha consulta para a semana a seguir?
+      - a semana seguinte? com Posso reagendar minha consulta
+      - Posso reagendar minha consulta para a semana seguinte?
+      - minha reagendar Posso consulta para a semana seguinte ?
+      - Gostaria de modificar Chorar a data da minha consulta
+      - Gostaria de modificar a data da consulta
+      - Gostaria ue modificar a data da miqha consulta
+      - Gostaria de variar a dia da minha consulta
+      - modificar a data da minha consulta com Gostaria
+      - Gostaria de modificar a data da minha consulta
+      - Eu gostaria de modificar a data da minha consulta
+      - Gostaria Relógio de reagendar minha consulta para o mesmo dia
+      - Gostaria de reagendar minha consulta para o dia
+      - Gostaria se reagendar yinha consulta para o mesmo dia
+      - Gostaria de reagendar minha consulta para o mesmo tempo
+      - reagendar minha consulta para o mesmo dia com Gostaria
+      - Gostaria de reagendar minha consulta para o mesmo dia
+      - Eu gostaria de reagendar minha consulta para o mesmo dia
+      - Posso trocar a Destruir data da minha consulta
+      - Posso trocar a data da consulta
+      - Posso troccr a data da mifha consulta
+      - Posso desplumar a dia da minha consulta
+      - minha consulta com Posso trocar a data
+      - Posso trocar a data da minha consulta
+      - Eu posso trocar a data da minha consulta
+      - Gostaria de Gradualmente adiar minha consulta
+      - Gostaria adiar minha consulta
+      - qostaria dz adiar minha consulta
+      - Gostaria de atraso minha consulta
+      - adiar minha consulta com Gostaria
+      - Gostaria de adiar minha consulta
+      - Eu gostaria de adiar minha consulta
+      - É possível reagendar Amargo minha consulta
+      - É possível reugendar minja consulta
+      - É factível reagendar minha consulta
+      - Posso reagendar minha consulta para o mes Sorrir que vem?
+      - Posso minha consulta para o mes que vem?
+      - Posso reagendar minha consulta pxra o mes que ves?
+      - Posso reagendar minha consulta para o mes que vem?
+      - o mes que vem? com Posso reagendar minha consulta
+      - minha reagendar Posso consulta para o mes que vem ?
+      - Posso reagendar minha consulta para o próximo mês?
+      - Posso ajustar a Inteligente data da minha consulta
+      - Posso ajustar a data da consulta
+      - Posso ajustao a data da minha consmlta
+      - Posso acomodar a dia da minha consulta
+      - minha consulta com Posso ajustar a data
+      - Posso ajustar a data da minha consulta
+      - Eu posso ajustar a data da minha consulta
+      - Separadamente Quero alterar a data da minha consulta .
+      - Quero a data da minha consulta .
+      - Qhero alterar a data dj minha consulta .
+      - Quero mudar a dia da minha consulta.
+      - minha consulta . com Quero alterar a data
+      - Quero alterar a data da minha consulta .
+      - Eu quero mudar a data da minha consulta.
+      - Gostaria de trocar o Livro dia da minha consulta
+      - Gostaria de trocar o dia minha consulta
+      - Gostaria ye trocar o dia db minha consulta
+      - Gostaria de desplumar o tempo (parâmetro) da minha consulta
+      - trocar o dia da minha consulta com Gostaria
+      - Gostaria de trocar o dia da minha consulta
+      - Posso alterar Construir a data da minha consulta
+      - Posso alterar a data minha consulta
+      - Posso alterar a data du minhj consulta
+      - Posso mudar a dia da minha consulta
+      - minha consulta com Posso alterar a data
+      - Posso alterar a data da minha consulta
+      - Gostaria de ajustar o Baixo dia da minha consulta
+      - de ajustar o dia da minha consulta
+      - Gostaria je ajustar o dia da ginha consulta
+      - ajustar o dia da minha consulta com Gostaria
+      - Gostaria de ajustar o dia da minha consulta
+      - Eu gostaria de ajustar o dia da minha consulta
+      - Posso adiar minha Gentil consulta para o último dia do mes?
+      - Posso adiar consulta para o último dia do mes?
+      - zosso vdiar minha consulta para o último dia do mes?
+      - Posso retardar minha consulta para o no período do mes?
+      - o último dia do mes? com Posso adiar minha consulta
+      - Posso adiar minha consulta para o último dia do mes?
+      - minha adiar Posso consulta para o último dia do mes ?
+      - Posso adiar minha consulta para o último dia do mês?
+      - Posso reagendar minha consulta para o próximo mes? Calmo
+      - Posso reagendar minha consulta para o mes?
+      - Pusso reagendar mvnha consulta para o próximo mes?
+      - Posso reagendar minha consulta para o perto mes?
+      - o próximo mes? com Posso reagendar minha consulta
+      - Posso reagendar minha consulta para o próximo mes?
+      - minha reagendar Posso consulta para o próximo mes ?
+      - Quero mudar minha Lento consulta
+      - Quero mudar minha consulta
+      - ruero mudar minha consudta
+      - Quero transmutar minha consulta
+      - Eu quero mudar minha consulta
+      - Gostaria de reagendar minha consulta Falar
+      - de reagendar minha consulta
+      - Gostaria dy reagencar minha consulta
+      - Gostaria de reagendar minha consulta
+      - reagendar minha consulta com Gostaria
+      - Eu gostaria de redefinir minha consulta
+      - Gostaria de Acordar mudar o dia da minha consulta
+      - Gostaria de mudar dia da minha consulta
+      - Gostaria oe mudar o dia da minha consalta
+      - Gostaria de trocar o era da minha consulta
+      - mudar o dia da minha consulta com Gostaria
+      - Gostaria de mudar o dia da minha consulta
+      - Posso alterar a data da minha consulta Esperar
+      - Posso alterar a data da consulta
+      - Posso altertr a data ha minha consulta
+      - Posso modificar-se a dia da minha consulta
+      - Posso mudar o dia da minha Cadeira consulta
+      - Posso mudar o da minha consulta
+      - Possf mudar o dia da minha coisulta
+      - Posso transmudar o era da minha consulta
+      - Posso trocar o dia da minha Às vezes consulta
+      - Posso trocar o dia da minha
+      - Possh trocar o dia dv minha consulta
+      - Posso mudar o época da minha consulta
+      - Cantar Necessito adiantar a consulta que tenho
+      - Necessito adiantar consulta que tenho
+      - Nelessito adiantar a consulta que tehho
+      - Necessito acelerar a consulta que tenho
+      - Necessito adiantar a consulta que tenho
+      - Eu preciso avançar a consulta que tenho
+      - necessito ajustar Calmo a data da minha consulta.
+      - necessito ajustar a data da consulta.
+      - nezessito ajustar a data dm minha consulta.
+      - necessito adaptar-se a dia da minha consulta.
+      - minha consulta. com necessito ajustar a data
+      - necessito ajustar a data da minha consulta.
+      - a ajustar necessito data da minha consulta .
+      - Eu preciso ajustar a data da minha consulta.
+      - preciso reagendar Sutileza minha consulta para mais cedo.
+      - preciso reagendar minha consulta mais cedo.
+      - preciso reagendor minha consulta para main cedo.
+      - certo reagendar minha consulta para demais pronto.
+      - mais cedo. com preciso reagendar minha consulta
+      - preciso reagendar minha consulta para mais cedo.
+      - minha reagendar preciso consulta para mais cedo .
+      - Eu preciso reagendar minha consulta para o início.
+      - Necessito mudar a consulta para Comer a primeira hora disponível.
+      - Necessito mudar a consulta a primeira hora disponível.
+      - Necessito mudar a cousulta pana a primeira hora disponível.
+      - Necessito modificar a consulta para a principal semestre a ser lançado.
+      - a primeira hora disponível. com Necessito mudar a consulta
+      - Necessito mudar a consulta  para a primeira hora disponível.
+      - a mudar Necessito consulta   para a primeira hora disponível .
+      - Preciso alterar a consulta para a primeira hora disponível.
+      - Quero reagendar minha Ler consulta para uma data mais cedo
+      - Quero reagendar consulta para uma data mais cedo
+      - Quero reagendar minha consulta para uma rata maps cedo
+      - Quero reagendar minha consulta para uma dia ademais brevemente
+      - uma data mais cedo com Quero reagendar minha consulta
+      - Quero reagendar minha consulta para uma data mais cedo
+      - Eu quero redefinir minha consulta para uma data mais cedo
+      - Quero adiantar a data da minha consulta Navio
+      - Quero adiantar data da minha consulta
+      - Quero adiantnr a data da minha tonsulta
+      - Quero acelerar a dia da minha consulta
+      - minha consulta com Quero adiantar a data
+      - Quero adiantar a data da minha consulta
+      - Eu quero avançar a data da minha consulta
+      - Necessito reagendar minha consulta para um momento mais Feio cedo
+      - Necessito reagendar minha consulta para momento mais cedo
+      - Necessito reagendar minha consulta pcra tm momento mais cedo
+      - Necessito reagendar minha consulta para um hora mais adiante pronto
+      - um momento mais cedo com Necessito reagendar minha consulta
+      - Necessito reagendar minha consulta para um momento mais cedo
+      - Eu preciso reagendar minha consulta por um momento antes
+      - preciso reagendar Pequeno minha consulta
+      - preciso ruagendar minha consultv
+      - bem acabado reagendar minha consulta
+      - preciso reagendar minha consulta
+      - Eu preciso redefinir minha consulta
+      - Pagar Necessito adiantar minha consulta
+      - Necessito minha consulta
+      - mecessito adiantfr minha consulta
+      - Necessito adiantar minha consulta
+      - preciso ajustar a data da minha consulta.
+      - preciso ajustar data da minha consulta.
+      - prlciso ajustar a data da minhf consulta.
+      - certo ajeitar a dia da minha consulta.
+      - minha consulta. com preciso ajustar a data
+      - a ajustar preciso data da minha consulta .
+      - Preciso ajustar a data da minha consulta.
+      - Quero reagendar Perto minha consulta para uma hora mais cedo
+      - Quero reagendar minha consulta para uma hora cedo
+      - Quero reatendar minha consulwa para uma hora mais cedo
+      - Quero reagendar minha consulta para uma tempo em continuação brevemente
+      - uma hora mais cedo com Quero reagendar minha consulta
+      - Quero reagendar minha consulta para uma hora mais cedo
+      - Eu quero redefinir minha consulta por uma hora antes
+      - Necessito reagendar minha consulta Ônibus para um horário mais cedo
+      - Necessito reagendar minha consulta um horário mais cedo
+      - Necessito reagendar minua consulta para um horário mais iedo
+      - Necessito reagendar minha consulta para um plano mais adiante brevemente
+      - um horário mais cedo com Necessito reagendar minha consulta
+      - Necessito reagendar minha consulta para um horário mais cedo
+      - Eu preciso reagendar minha consulta por um tempo inicial
+      - mudar o dia
+      - Baixo mudar o dia da consulta
+      - mudar o da consulta
+      - mudar o pia la consulta
+      - trocar o momento da consulta
+      - quero trocar o Chave dia ta consulta
+      - quero trocar dia ta consulta
+      - quero trocar o dia tf consultq
+      - quero trocar o dia ta consulta
+      - Eu quero mudar o dia é consulta
+      - quero remarcar minha Acordar consulta
+      - quero femarcar minha consulta
+      - preciso remarcar Aprender minha consulta
+      - preciso remarcar consulta
+      - precisj remaycar minha consulta
+      - correcto comentar minha consulta
+      - preciso remarcar minha consulta
+      - Eu preciso reagendar minha consulta
+      - remarcar consulta
+      - Quero mudar o dia da minha consulta
+      - Posso mudar o dia da minha consulta
+      - quero remarcar minha consulta
+
+
+  - intent: confirmando_consulta
+    examples: |
+      - Qual é o dia e horário da minha consulta?
+      - Quando foi que agendei minha consulta?
+      - Preciso saber o horário exato da minha consulta.
+      - Você pode confirmar o horário do meu atendimento?
+      - Quando está agendado meu próximo check-up?
+      - Quando devo estar na clínica para a consulta?
+      - Você tem como verificar meu agendamento?
+      - Qual o horário que marquei minha consulta?
+      - Pode me lembrar quando vou estar com o médico?
+      - Quando está agendada minha próxima visita ao consultório?
+      - Quero confirmar a data e o horário da minha consulta.
+      - Quando é o meu atendimento médico?
+      - Tem como conferir o horário do meu check-up?
+      - Qual é o horário que eu agendei com vocês?
+      - Preciso saber quando devo comparecer ao consultório.
+      - Você consegue me informar o horário da consulta?
+      - Qual a data da minha próxima consulta?
+      - Quando eu preciso ir ao médico?
+      - Tem como me lembrar da minha próxima consulta?
+      - Quero saber o horário marcado para minha consulta.
+      - Você pode confirmar a data e horário do meu agendamento?
+      - Pode verificar minha próxima consulta agendada?
+      - Qual é o horário que reservei para a consulta?
+      - Quero verificar meu próximo horário no consultório.
+      - Tem como confirmar quando é minha visita ao médico?
+      - Quando está marcada minha consulta no consultório?
+      - Quero confirmar o dia e horário da minha consulta.
+      - Quando devo comparecer ao consultório para o atendimento?
+      - Quando é minha consulta marcada para esta semana?
+      - Você consegue conferir meu horário de consulta?
+      - Preciso confirmar a data do meu próximo atendimento.
+      - Quando será minha consulta na clínica?
+      - Quando vou ao médico novamente?
+      - Qual é o horário da minha próxima consulta no sistema?
+      - Pode checar o horário do meu próximo check-up?
+      - Quando estou programado para minha próxima consulta?
+      - Você consegue me dizer o dia e a hora da consulta?
+      - Qual é a data e o horário do meu agendamento?
+      - Quando devo estar no consultório novamente?
+      - Quero saber quando foi minha última consulta marcada.
+      - Quando está reservado meu próximo horário no médico?
+      - Tem como verificar quando marquei meu check-up?
+      - Qual o horário marcado para meu atendimento na clínica?
+      - Pode confirmar o horário da minha consulta com o doutor?
+      - Preciso verificar quando tenho meu próximo agendamento.
+      - Quando devo aparecer para o meu atendimento médico?
+      - Quando marquei minha próxima visita ao consultório?
+      - Quando está marcado meu horário no consultório?
+      - Preciso saber o dia e a hora do meu próximo check-up.
+      - Quando é minha próxima consulta agendada com o doutor?
+      - Ei, quando é minha consulta?
+      - Que horas eu agendei?
+      - Quando devo comparecer?
+      - Preciso verificar o horário da minha consulta.
+      - Quando é minha próxima visita?
+      - Qual é o horário da minha consulta?
+      - Quando marquei minha consulta?
+      - Você pode me dizer meu horário de consulta?
+      - Quando é minha vez?
+      - Lembre-me quando estou agendado.
+      - Quando preciso estar aí?
+      - Quando é meu encontro com o médico?
+      - Tem o horário da minha consulta?
+      - Quando é meu horário agendado?
+      - Pode confirmar minha consulta?
+      - Quando estou marcado?
+      - Que horas é minha visita?
+      - Quando é meu check-up?
+      - Esqueci, quando é minha consulta?
+      - Diga-me quando tenho que ir.
+      - Quando é minha consulta médica?
+      - Quando estou marcado para ir aí?
+      - Preciso saber meu horário de consulta.
+      - Quando marquei essa consulta?
+      - Você pode me lembrar quando é minha consulta?
+      - Quando está agendada minha consulta?
+      - Quando tenho uma consulta?
+      - Qual é o horário que devo estar aí?
+      - Quando vou ver o médico?
+      - Quando é minha sessão?
+      - Você pode verificar meu horário de consulta?
+      - Quando é minha consulta de terapia?
+      - Preciso saber quando é minha consulta.
+      - Quando devo passar aí?
+      - Qual é meu horário marcado?
+      - Quando é minha consulta mesmo?
+      - Quando é minha próxima consulta?
+      - Lembre-me quando vou aí.
+      - Quando devo ir?
+      - Qual é minha agenda de consultas?
+      - Quando devo estar aí?
+      - Você pode me dizer quando é minha consulta?
+      - Quando é minha consulta com o Dr. Silva?
+      - Quando é minha visita?
+      - Quando é minha consulta amanhã?
+      - Qual é o horário do meu check-up?
+      - Quando está marcado meu horário?
+      - Quando vou comparecer?
+      - Quando está agendada minha visita?
+      - Quando vou ver vocês?
+      - Qual é o horário da minha sessão?
+      - Pode confirmar quando é minha consulta?
+      - Quando é minha consulta hoje?
+      - Quando devo aparecer?
+      - Quando é minha consulta odontológica?
+      - Quando é minha consulta com o especialista?
+      - Quando é meu exame físico?
+      - Quando está marcada minha consulta?
+      - Quando é minha próxima sessão?
+      - Lembre-me do horário da consulta.
+      - Quando é minha consulta com o Dr. Lima?
+      - Qual é o horário da minha próxima consulta?
+      - Quando agendei minha consulta?
+      - Quando estou marcado para o próximo?
+      - Você pode me dizer quando devo estar aí?
+      - Quando é minha consulta com o Dr. Oliveira?
+      - Quando é minha sessão de terapia?
+      - Quando vou ver o terapeuta?
+      - Quando marquei com vocês?
+      - Qual é o horário da minha consulta mesmo?
+      - Quando é minha consulta na clínica?
+      - Preciso verificar quando é minha consulta.
+      - Quando vou passar aí?
+      - Quando é minha consulta na sexta-feira?
+      - Quando é meu próximo check-up?
+      - Quando é minha consulta?
+      - Você pode me lembrar da minha consulta?
+      - Quando é minha consulta com o Dr. Santos?
+      - Qual é o horário da minha visita?
+      - Quando é minha consulta na segunda-feira?
+      - Quando é minha consulta com o dentista?
+      - Quando é minha consulta na terça-feira?
+      - Preciso saber quando estou marcado.
+      - Quando está marcada minha sessão?
+      - Quando está chegando minha consulta?
+      - Quando vou ver o Dr. Costa?
+      - Qual é o horário da minha consulta amanhã?
+      - Quando é minha consulta na quinta-feira?
+      - Quando é minha consulta com o Dr. Garcia?
+      - Quando devo ver vocês?
+      - Quando está agendada minha próxima consulta?
+      - Quando marquei para comparecer?
+      - Quando é minha consulta na quarta-feira?
+      - Quando vou ver o Dr. Martins?
+      - Quando devo estar na clínica?
+      - Qual é o horário da minha consulta hoje?
+      - Quando é minha consulta com o Dr. Almeida?
+      - Quando é minha consulta no sábado?
+      - Quando é minha consulta com o Dr. Rodrigues?
+      - Preciso verificar meu horário marcado.
+      - Quando é minha consulta com o Dr. Fernandes?
+      - Quando estou marcado para ver o médico?
+      - Quando é minha consulta no domingo?
+      - Quando devo ir da próxima vez?
+      - Quando é minha consulta com o Dr. Nascimento?
+      - Quando está marcada minha próxima visita?
+      - Quando marquei minha próxima consulta?
+      - Quando é minha consulta com o Dr. Barbosa?
+      - Quando estou marcado para ver vocês?
+      - Quando é minha consulta no dia 10?
+      - Quando devo fazer meu check-up?
+      - Quando é minha consulta com o Dr. Souza?
+      - Quando marquei minha próxima visita?
+      - Quando é minha consulta com o Dr. Mendes?
+      - Quando é minha consulta com o Dr. Gonçalves?
+      - Quando é minha consulta com o cirurgião?
+      - Quando vou ver o Dr. Ferreira?
+      - Quando é minha consulta no dia 15?
+      - Quando estou marcado para a próxima semana?
+      - Quando é minha consulta com o Dr. Pinto?
+      - Quando é minha consulta com o Dr. Carvalho?
+      - Quando marquei essa marcação?
+      - Quando é minha consulta na próxima semana?
+      - Quando estou marcado para meu check-up?
+      - Quando é minha consulta no dia 20?
+      - Quando é minha consulta com o Dr. Ribeiro?
+      - Quando é minha consulta com o Dr. Costa?
+      - Quando é minha consulta no dia 25?
+      - Preciso verificar quando vou comparecer.
+      - Quando é minha consulta com o Dr. Teixeira?
+      - Quando é minha consulta no dia 30?
+      - Quando é minha consulta com o Dr. Batista?
+      - Quando está marcada minha próxima consulta?
+      - Quando agendei minha próxima visita?
+      - Quando é minha consulta com o Dr. Gomes?
+      - Quando vou ver o Dr. Lopes?
+      - Quando é minha consulta no próximo mês?
+      - Quando devo estar na clínica na próxima vez?
+      - Quando marquei meu próximo check-up?
+      - Quando é minha consulta com o Dr. Rocha?
+      - Quando é minha consulta no dia 5?
+      - Quando vou comparecer da próxima vez?
+      - Quando é minha consulta com o Dr. Barros?
+      - Quando vou ver vocês da próxima vez?
+      - Quando é minha consulta no dia 8?
+      - Quando devo estar aí novamente?
+      - Quando é minha consulta com o Dr. Pereira?
+      - Poderia, por favor, informar-me o horário da minha consulta agendada?
+      - Gostaria de saber o horário específico da minha consulta.
+      - Posso saber o horário exato em que minha consulta está marcada?
+      - Por favor, forneça-me os detalhes do horário da minha consulta.
+      - Estou interessado em confirmar o horário em que devo comparecer à minha consulta.
+      - Poderia gentilmente informar-me o horário da minha próxima consulta?
+      - Posso perguntar o horário exato em que minha consulta está agendada?
+      - Poderia fornecer-me informações sobre o horário da minha consulta?
+      - Necessito de detalhes sobre o horário marcado para minha consulta.
+      - Por favor, informe-me o horário em que devo comparecer para minha consulta.
+      - Poderia, por favor, fornecer o horário específico da minha consulta?
+      - Agradeceria saber o horário em que minha consulta está marcada.
+      - Posso solicitar o horário em que minha consulta está agendada?
+      - Gentileza informar-me o horário da minha consulta.
+      - Estou buscando informações sobre o horário exato da minha consulta agendada.
+      - Poderia aconselhar-me sobre o horário em que minha consulta foi marcada?
+      - Por favor, forneça-me detalhes sobre o horário da minha consulta.
+      - Desejo saber o horário específico em que devo chegar para minha consulta.
+      - Você poderia me dizer o horário em que minha consulta está agendada?
+      - Poderia esclarecer-me sobre o horário da minha consulta?
+      - Estou consultando sobre o horário marcado da minha consulta.
+      - Por favor, informe-me o horário em que minha consulta ocorrerá.
+      - Gostaria de saber quando minha consulta está agendada.
+      - Poderia fornecer-me o horário exato da minha próxima consulta?
+      - Posso obter os detalhes do horário da minha consulta?
+      - Por favor, informe-me se houve alterações no horário da minha consulta.
+      - Preciso saber o horário da minha consulta para fins de planejamento.
+      - Gentileza fornecer o horário em que devo comparecer para minha consulta.
+      - Poderia informar-me o horário agendado da minha consulta?
+      - Estou interessado no horário da minha consulta hoje.
+      - Por favor, aconselhe-me sobre o horário da minha consulta nesta semana.
+      - Poderia, por favor, enviar-me informações sobre o horário da minha consulta?
+      - Posso obter o horário exato em que minha consulta está marcada?
+      - Poderia me dizer se o horário da minha consulta foi confirmado?
+      - Agradeceria detalhes sobre o horário da minha próxima consulta.
+      - Por favor, informe-me sobre quaisquer alterações no horário marcado da minha consulta.
+      - Poderia fornecer-me o horário em que minha consulta está agendada?
+      - Estou buscando o horário da minha consulta para o próximo dia.
+      - Gentileza informar-me sobre quaisquer ajustes no horário da minha consulta.
+      - Posso perguntar sobre o horário específico em que devo chegar para minha consulta?
+      - Por favor, forneça-me o horário exato da minha consulta.
+      - Poderia me dizer quando minha consulta está marcada para ocorrer?
+      - Agradeceria saber o horário agendado da minha consulta médica.
+      - Você poderia informar-me o horário da minha consulta?
+      - Por favor, informe-me sobre quaisquer variações no horário da minha consulta.
+      - Poderia aconselhar-me sobre o horário em que minha consulta está agendada?
+      - Necessito do horário da minha consulta para fazer os arranjos necessários.
+      - Por favor, informe-me o horário padrão para minha consulta agendada.
+      - Poderia fornecer informações sobre o horário exato da minha consulta?
+      - Estou interessado em descobrir o horário da minha consulta hoje.
+      - Gentileza informar-me o horário em que devo estar presente para minha consulta.
+      - Poderia, por favor, informar-me sobre quaisquer alterações no horário da minha consulta?
+      - Posso perguntar o horário em que minha consulta está marcada?
+      - Por favor, forneça-me o horário exato em que devo chegar para minha consulta.
+      - Agradeceria detalhes sobre o horário da minha consulta neste mês.
+      - Por favor, informe-me sobre quaisquer mudanças futuras no horário da minha consulta.
+      - Poderia fornecer-me o horário agendado da minha consulta?
+      - Estou buscando informações sobre o horário em que minha consulta ocorrerá.
+      - Gentileza informar-me o horário em que sou esperado para minha consulta.
+      - Posso saber o horário específico da minha consulta agendada?
+      - Poderia esclarecer-me sobre quaisquer variações no horário da minha consulta?
+      - Gostaria de descobrir se o horário da minha consulta está confirmado.
+      - Você poderia fornecer-me o horário da minha consulta?
+      - Por favor, informe-me sobre quaisquer alterações no horário em que minha consulta está marcada.
+      - Poderia aconselhar-me sobre o horário em que devo comparecer para minha consulta?
+      - Necessito do horário da minha consulta para finalizar meu planejamento.
+      - Por favor, informe-me se o horário da minha consulta difere nos fins de semana.
+      - Poderia fornecer o horário exato da minha consulta na quinta-feira?
+      - Estou interessado no horário da minha consulta para planejar minha visita.
+      - Gentileza informar-me quando minha consulta está agendada.
+      - Poderia, por favor, informar-me o horário da minha próxima consulta?
+      - Posso perguntar sobre o horário marcado da minha consulta?
+      - Por favor, forneça-me informações sobre o horário da minha consulta.
+      - Poderia me dizer se o horário da minha consulta permanece o mesmo?
+      - Agradeceria saber o horário da minha consulta com o Dr. Silva.
+      - Por favor, informe-me sobre quaisquer alterações no horário da minha consulta.
+      - Poderia fornecer-me detalhes sobre o horário da minha consulta?
+      - Estou buscando informações sobre o horário em que minha consulta está agendada.
+      - Gentileza informar-me o horário em que devo chegar para minha consulta.
+      - Por favor, forneça o horário específico da minha consulta.
+      - Poderia me dizer quando minha consulta está agendada para ocorrer?
+      - Estou tentando confirmar o horário da minha consulta na segunda-feira.
+      - Por favor, informe-me sobre quaisquer ajustes no horário da minha consulta.
+      - Poderia aconselhar-me sobre o horário em que sou esperado para minha consulta?
+      - Necessito do horário da minha consulta para fazer os agendamentos necessários.
+      - Poderia fornecer o horário exato da minha consulta na sexta-feira?
+      - Estou interessado em verificar o horário da minha consulta.
+      - Gentileza informar-me o horário em que minha consulta está marcada.
+      - Poderia, por favor, informar-me sobre quaisquer variações no horário da minha consulta?
+      - Posso perguntar sobre o horário em que devo chegar para minha consulta?
+      - Por favor, forneça-me o horário da minha consulta.
+      - Poderia me dizer se houve alterações no horário da minha consulta?
+      - Agradeceria detalhes sobre o horário da minha consulta com o Dr. Lima.
+      - Por favor, informe-me sobre o horário agendado para minha consulta.
+      - Estou buscando confirmar o horário em que minha consulta está marcada.
+      - Gentileza informar-me o horário exato da minha consulta.
+      - Posso saber o horário em que minha consulta ocorrerá?
+      - Por favor, forneça-me o horário em que sou esperado para minha consulta.
+      - Poderia esclarecer-me sobre quaisquer ajustes no horário da minha consulta?
+      - Gostaria de descobrir se o horário da minha consulta foi alterado.
+      - Você poderia fornecer-me o horário da minha consulta agendada?
+      - Por favor, informe-me sobre quaisquer alterações no horário em que minha consulta ocorre.
+      - Poderia aconselhar-me sobre o horário em que devo estar presente para minha consulta?
+      - Necessito do horário da minha consulta para finalizar minha programação.
+      - Posso obter os detalhes do horário da minha consulta com o Dr. Oliveira?
+      - Por favor, informe-me se o horário da minha consulta está confirmado.
+      - Poderia fornecer o horário específico em que minha consulta está agendada?
+      - Estou interessado em confirmar o horário da minha consulta hoje.
+      - Gentileza informar-me o horário em que devo comparecer para minha consulta.
+      - Poderia, por favor, informar-me sobre quaisquer atualizações no horário da minha consulta?
+      - Posso perguntar sobre o horário em que minha consulta está marcada?
+      - Poderia me dizer se o horário da minha consulta foi finalizado?
+      - Agradeceria saber o horário da minha consulta nesta semana.
+      - Poderia fornecer-me detalhes sobre o horário agendado da minha consulta?
+      - Estou consultando sobre o horário da minha consulta para fins de planejamento.
+      - Necessito do horário da minha consulta para programar meu dia.
+      - Por favor, informe-me se o horário da minha consulta difere.
+      - Poderia fornecer o horário exato da minha consulta na quarta-feira?
+      - Estou interessado em confirmar o horário da minha consulta com o Dr. Santos.
+      - Horário da consulta?
+      - Quando agendei?
+      - Meu horário agendado?
+      - Horário da minha consulta?
+      - A que horas é minha consulta?
+      - Verificar horário da minha consulta.
+      - Confirmar horário da minha consulta.
+      - Qual horário eu agendei?
+      - Horário da minha visita?
+      - Quando é meu atendimento?
+      - Horário agendado?
+      - Lembrar-me do horário da minha consulta.
+      - Confirmação da consulta?
+      - Horário do meu agendamento?
+      - Verificar horário da consulta.
+      - Que horas eu marquei?
+      - Qual o horário da minha visita?
+      - Meu horário marcado?
+      - Horário da minha sessão?
+      - Quando devo estar lá?
+      - Quando estou agendado?
+      - Detalhes da consulta?
+      - Qual horário estou esperado?
+      - Que horas vou ver o médico?
+      - Confirmar horário da consulta.
+      - Confirmação do horário da consulta?
+      - Horário da minha consulta médica?
+      - Quando é minha reserva?
+      - A que horas devo chegar?
+      - Quando preciso ir?
+      - Qual é o horário do meu atendimento?
+      - Verificar meu horário agendado.
+      - Quando é minha consulta com o médico?
+      - Quando é meu exame?
+      - Qual é o horário do meu procedimento?
+      - Quando é minha consulta de retorno?
+      - Que horário marcamos?
+      - Confirmar horário do meu agendamento.
+      - Horário da minha consulta, por favor.
+      - Quando vou ver o especialista?
+      - Qual é meu horário agendado?
+      - Qual horário eu marquei a consulta?
+      - Quando é mesmo minha consulta?
+      - Quando está marcada minha cirurgia?
+      - Qual é o horário do meu exame?
+      - Quando está agendada minha sessão?
+      - Quando é a data e hora da minha consulta?
+      - Qual é o horário que estou agendado?
+      - Quando é minha visita agendada?
+      - Qual é o horário da minha consulta com o Dr. Silva?
+      - Quando está marcado meu atendimento?
+      - Horário da minha próxima consulta?
+      - Qual é o horário da minha consulta médica?
+      - Quando estou agendado para ir?
+      - Horário da minha consulta na terça-feira?
+      - Quando está agendado meu check-up?
+      - Quando estou agendado para comparecer?
+      - Lembrete do horário da consulta?
+      - Qual é o horário que minha consulta está marcada?
+      - Quando é minha consulta para fisioterapia?
+      - Quando é minha consulta de ultrassom?
+      - Quando é meu horário de atendimento?
+      - Quando fiz minha marcação?
+      - Quando é minha consulta no laboratório?
+      - Quando é minha consulta esta semana?
+      - Quando é minha consulta de ressonância magnética?
+      - Quando é minha consulta de exame de sangue?
+      - Horário da minha consulta agendada?
+      - Quando agendei minha visita?
+      - Qual é o horário da minha consulta na sexta-feira?
+      - Quando é o horário da minha consulta?
+      - Horário da minha próxima visita?
+      - Quando é minha consulta para o exame?
+      - Quando é a data da minha consulta?
+      - Quando é minha consulta de check-up?
+      - Quando é minha consulta para ver o médico?
+      - Quando é meu horário de consulta agendado?
+      - Quando é minha consulta às 15h?
+      - Quando é minha consulta com o cardiologista?
+      - Quando é minha consulta para o teste?
+      - Quando é minha consulta para a próxima semana?
+      - Quando é minha consulta para o procedimento?
+      - Quando é minha consulta para hoje?
+      - Quando é o horário agendado para minha consulta?
+      - Quando é minha consulta com o terapeuta?
+      - Quando é minha consulta no hospital?
+      - Quando é minha cirurgia agendada?
+      - Quando é minha consulta ao meio-dia?
+      - Quando é minha consulta às 14h?
+      - Quando é minha consulta no dia 15 de abril?
+      - Quando é minha consulta no dia 1º de maio?
+      - Quando é minha consulta à tarde?
+      - Quando é minha consulta no fim de semana?
+      - Quando é minha consulta na próxima quinta-feira?
+      - Quando é minha consulta na próxima terça-feira?
+      - Quando é minha consulta para o próximo mês?
+      - Quando é minha consulta às 9h?
+      - Quando é minha consulta de manhã cedo?
+      - Quando é minha consulta nesta tarde?
+      - Quando está agendada minha consulta hoje?
+      - Quando é minha consulta com a enfermeira?
+      - Quando é minha consulta no dia 30 de junho?
+      - Quando é minha consulta no final da tarde?
+      - Quando é minha consulta às 11h?
+      - Quando é minha consulta pela manhã?
+      - Quando está marcada minha consulta amanhã?
+      - Quando é minha consulta às 16h?
+      - Quando é minha consulta no dia 4 de julho?
+      - Quando está agendada minha consulta para a próxima semana?
+      - Quando é minha consulta à noite?
+      - Quando é minha consulta às 17h?
+      - Quando está marcada minha consulta para hoje?
+      - Quando é minha consulta às 8h?
+      - Quando está agendada minha consulta para amanhã?
+      - Quando é minha consulta no dia 12 de agosto?
+      - Quando é minha consulta às 13h?
+      - Quando é minha consulta na próxima segunda-feira?
+      - Quando é minha consulta na próxima sexta-feira?
+      - Quando é minha consulta no dia 18 de setembro?
+      - Quando é minha consulta às 18h?
+      - Quando está marcada minha consulta para o próximo mês?
+      - Quando é minha consulta no dia 22 de outubro?
+      - Quando é minha consulta às 7h?
+      - Quando é minha consulta no dia 5 de novembro?
+      - Quando é minha consulta às 15h30?
+      - Quando é minha consulta no dia 31 de dezembro?
+      - Quando é minha consulta às 10h?
+      - Quando está agendada minha consulta na próxima sexta-feira?
+      - Quando é minha consulta às 9h30?
+      - Quando está marcada minha consulta na próxima terça-feira?
+      - Quando é minha consulta com o Dr. Ferreira?
+      - Quando é minha consulta às 14h30?
+      - Quando está agendada minha consulta na próxima quarta-feira?
+      - Quando é minha consulta às 16h30?
+      - Quando está marcada minha consulta na próxima quinta-feira?
+      - Quando é minha consulta às 17h30?
+      - Quando está agendada minha consulta na próxima segunda-feira?
+      - Você poderia me dizer o horário da minha consulta agendada?
+      - Gostaria de confirmar o horário exato em que marquei minha consulta.
+      - Posso saber a que horas minha consulta está marcada?
+      - Preciso verificar o horário específico em que devo comparecer para minha consulta.
+      - Poderia me informar o horário que agendei para minha próxima visita?
+      - Estou tentando descobrir a que horas minha consulta está marcada.
+      - Você seria capaz de me dizer o horário da minha consulta agendada?
+      - Por favor, confirme o horário em que sou esperado na clínica para minha consulta.
+      - Você poderia me informar quando minha consulta está marcada para ocorrer?
+      - Estou buscando informações sobre o horário da minha consulta com o Dr. Silva.
+      - Por favor, informe-me o horário que reservei para minha consulta.
+      - Poderia me fornecer o horário da consulta que agendei anteriormente?
+      - Gostaria de verificar o horário da minha consulta médica agendada.
+      - Você poderia me dizer a que horas devo chegar para minha consulta?
+      - Estou procurando confirmar o horário da minha consulta na terça-feira.
+      - Por favor, deixe-me saber o horário exato em que tenho uma consulta marcada.
+      - Preciso verificar o horário da consulta que marquei na semana passada.
+      - Poderia me fornecer o horário da minha próxima consulta?
+      - Você poderia, por favor, me informar quando minha consulta está agendada?
+      - Gostaria de saber o horário da minha consulta com o especialista.
+      - Posso perguntar o horário agendado para minha sessão de terapia?
+      - Por favor, confirme o horário em que estou agendado para ver o médico.
+      - Você poderia me dizer o horário da minha próxima consulta agendada?
+      - Preciso verificar o horário em que devo comparecer para meu check-up.
+      - Você seria capaz de me fornecer o horário da minha consulta odontológica?
+      - Por favor, informe-me a que horas minha consulta está marcada para amanhã.
+      - Poderia me informar o horário que agendei para minha visita de retorno?
+      - Estou verificando o horário exato da minha consulta com o Dr. Lima.
+      - Posso pedir confirmação do horário da minha cirurgia agendada?
+      - Por favor, forneça os detalhes do horário da minha consulta na quinta-feira.
+      - Você poderia me informar o horário em que sou esperado para minha consulta no laboratório?
+      - Gostaria de confirmar o horário da minha consulta de ressonância magnética.
+      - Poderia me dizer o horário da minha avaliação física agendada?
+      - Estou procurando verificar o horário da minha consulta no dia 15.
+      - Por favor, informe-me a que horas devo chegar para minha consulta de ultrassom.
+      - Poderia, por gentileza, me dizer o horário em que minha consulta está marcada?
+      - Você poderia me fornecer o horário exato da minha visita agendada para a próxima semana?
+      - Preciso verificar qual o horário da minha consulta com o Dr. Souza.
+      - Por favor, confirme o horário que arranjei para minha consulta.
+      - Você poderia me dizer quando minha consulta está marcada para começar?
+      - Estou procurando descobrir o horário da minha consulta na sexta-feira.
+      - Posso perguntar o horário em que devo estar na clínica?
+      - Por favor, informe-me o horário da minha consulta de check-up agendada.
+      - Poderia me informar o horário que reservei para minha visita?
+      - Gostaria de confirmação do horário da minha sessão de terapia agendada.
+      - Você poderia me dizer o horário da minha consulta na segunda-feira?
+      - Estou tentando verificar o horário que marquei para minha consulta.
+      - Por favor, forneça-me o horário em que sou esperado para minha consulta de retorno.
+      - Você seria capaz de me dizer o horário agendado para meu procedimento?
+      - Preciso confirmar o horário da minha consulta com o Dr. Oliveira.
+      - Poderia me informar o horário em que minha consulta odontológica está marcada?
+      - Por favor, deixe-me saber a que horas devo chegar para minha consulta no dia 20.
+      - Você poderia me dizer o horário da minha sessão de terapia agendada para a próxima semana?
+      - Estou buscando detalhes sobre o horário da minha consulta na quarta-feira.
+      - Posso pedir o horário exato em que devo comparecer para meu check-up?
+      - Por favor, confirme o horário que reservei para minha consulta.
+      - Poderia me fornecer informações sobre o horário da minha próxima consulta?
+      - Gostaria de verificar o horário da minha visita agendada com o especialista.
+      - Você poderia me dizer a que horas minha consulta no dia 10 está marcada?
+      - Preciso descobrir o horário da minha consulta com o Dr. Santos.
+      - Por favor, informe-me o horário em que devo estar na clínica para meu procedimento.
+      - Poderia, por gentileza, me dizer o horário da minha consulta na quinta-feira?
+      - Estou procurando confirmar o horário da minha consulta de retorno agendada.
+      - Por favor, forneça o horário em que sou esperado para minha consulta odontológica na próxima semana.
+      - Você poderia me informar o horário da minha consulta de ressonância magnética?
+      - Preciso verificar o horário da minha consulta no dia 5.
+      - Você seria capaz de me dizer o horário do meu exame laboratorial agendado?
+      - Por favor, confirme o horário que arranjei para meu ultrassom.
+      - Poderia me dizer o horário da minha consulta com o Dr. Costa?
+      - Estou buscando verificar o horário do meu procedimento agendado.
+      - Posso perguntar o horário em que devo chegar para meu check-up?
+      - Por favor, forneça os detalhes do horário da minha consulta no sábado.
+      - Você poderia me dizer o horário exato em que minha sessão de terapia está marcada?
+      - Gostaria de confirmar quando minha consulta está agendada para a próxima semana.
+      - Poderia me informar o horário em que devo estar na clínica na sexta-feira?
+      - Preciso descobrir o horário da minha consulta com o Dr. Almeida.
+      - Por favor, informe-me o horário agendado para minha consulta.
+      - Você poderia, por gentileza, me fornecer o horário da minha consulta de retorno?
+      - Poderia me dizer a que horas minha consulta está marcada?
+      - Estou tentando confirmar o horário da minha consulta no dia 25.
+      - Por favor, informe-me a que horas devo comparecer para meu procedimento.
+      - Poderia me fornecer o horário da minha visita agendada com o especialista?
+      - Preciso verificar o horário da minha consulta odontológica na terça-feira.
+      - Você seria capaz de me dizer quando minha consulta está marcada?
+      - Por favor, confirme o horário que reservei para minha sessão de terapia.
+      - Você poderia me informar o horário da minha consulta no domingo?
+      - Estou buscando informações sobre o horário em que sou esperado para meu check-up.
+      - Posso pedir o horário da minha consulta com o Dr. Fernandes?
+      - Por favor, forneça-me os detalhes do horário da minha consulta agendada.
+      - Poderia me dizer quando minha consulta no dia 30 está marcada?
+      - Gostaria de saber o horário em que devo chegar para meu procedimento.
+      - Você poderia me informar o horário exato da minha consulta na próxima semana?
+      - Estou tentando descobrir o horário da minha visita agendada na quarta-feira.
+      - Por favor, deixe-me saber o horário que arranjei para minha ressonância magnética.
+      - Poderia, por gentileza, confirmar o horário da minha consulta com o Dr. Pereira?
+      - Você poderia me dizer o horário em que sou esperado na clínica na segunda-feira?
+      - Preciso verificar o horário agendado para minha sessão de terapia.
+      - Por favor, informe-me o horário da minha consulta no dia 12.
+      - Poderia me fornecer o horário da minha consulta de retorno?
+      - Gostaria de verificar quando minha consulta está agendada.
+      - Você poderia me dizer o horário da minha consulta com o Dr. Rodrigues?
+      - Estou procurando confirmar o horário em que devo chegar para meu check-up.
+      - Por favor, forneça os detalhes do horário do meu procedimento agendado.
+      - Você seria capaz de me dizer quando minha consulta no dia 18 está marcada?
+      - Preciso descobrir o horário exato da minha consulta na próxima semana.
+      - Poderia me informar o horário em que devo estar na clínica para minha sessão de terapia?
+      - Por favor, deixe-me saber o horário da minha consulta com o Dr. Carvalho.
+      - Você poderia me dizer quando minha consulta de retorno está marcada?
+      - Estou buscando verificar o horário da minha consulta na quinta-feira.
+      - Posso perguntar o horário que reservei para meu procedimento?
+      - Por favor, confirme o horário em que devo chegar para minha consulta no dia 22.
+      - Poderia me fornecer informações sobre o horário do meu check-up agendado?
+      - Gostaria de confirmar o horário da minha consulta com o Dr. Mendes.
+      - Você poderia me dizer o horário em que sou esperado para minha sessão de terapia?
+      - Preciso verificar quando minha consulta está marcada para a próxima semana.
+      - Por favor, informe-me o horário da minha consulta no dia 28.
+      - Poderia, por gentileza, me informar o horário agendado para minha consulta?
+      - Poderia me dizer a que horas minha consulta de retorno está marcada?
+      - Estou tentando confirmar o horário da minha consulta com o Dr. Nascimento.
+      - Por favor, forneça o horário exato em que devo chegar para meu procedimento.
+      - Você poderia me informar o horário que agendei para meu check-up?
+      - Preciso descobrir o horário da minha consulta na sexta-feira.
+      - Você seria capaz de me dizer o horário da minha sessão de terapia na próxima semana?
+      - Por favor, confirme o horário em que devo estar na clínica no dia 1º.
+      - Poderia me informar o horário da minha consulta agendada com o Dr. Barbosa?
+      - Estou buscando informações sobre o horário da minha consulta na segunda-feira.
+      - Posso pedir o horário em que sou esperado para minha consulta de retorno?
+      - Por favor, forneça os detalhes do horário do meu procedimento na próxima semana.
+      - Você poderia me dizer quando minha consulta com o Dr. Ribeiro está marcada?
+      - Gostaria de saber o horário exato da minha sessão de terapia.
+      - Poderia me informar o horário em que devo chegar para meu check-up?
+      - Estou procurando verificar o horário da minha consulta no dia 14.
+      - Por favor, deixe-me saber o horário que reservei para minha consulta.
+      - Poderia, por gentileza, confirmar o horário da minha consulta com o Dr. Batista?
+      - Você poderia me dizer quando meu procedimento agendado está previsto para ocorrer?
+      - Preciso verificar o horário em que sou esperado na clínica na próxima semana.
+      - Por favor, informe-me o horário da minha consulta de retorno na quarta-feira.
+      - Poderia me fornecer o horário da minha consulta com o Dr. Gomes?
+      - Gostaria de verificar quando minha sessão de terapia está agendada.
+      - Você poderia me dizer o horário em que devo chegar para meu procedimento?
+      - Estou buscando confirmar o horário da minha consulta no dia 19.
+      - Por favor, forneça-me os detalhes do horário do meu check-up agendado.
+      - Você seria capaz de me dizer quando minha consulta com o Dr. Lopes está marcada?
+      - Por favor, deixe-me saber o horário agendado da minha visita de retorno.
+      - Poderia me dizer a que horas minha consulta está marcada para segunda-feira?
+      - Estou tentando confirmar o horário do meu procedimento na próxima semana.
+      - Posso perguntar o horário que reservei para minha consulta?
+      - Por favor, confirme o horário em que devo chegar para minha consulta no dia 26.
+      - Gostaria de confirmar o horário da minha consulta com o Dr. Teixeira.
+      - Por favor, informe-me o horário da minha consulta no dia 30.
+      - Estou buscando verificar o horário da minha consulta com o Dr. Silva.
+      - Pode me informar o horário exato da minha consulta, por favor?
+      - Eu gostaria de saber se houve alguma alteração no horário da minha consulta.
+      - Por gentileza, pode confirmar se o horário da minha consulta está correto?
+      - Você pode me lembrar do horário da minha consulta com o Dr. Silva?
+      - Preciso verificar o horário do meu próximo atendimento médico.
+      - Qual é o horário que estou agendado para esta semana?
+      - Poderia confirmar o horário exato da minha consulta de retorno?
+      - Quero saber se minha consulta com o Dr. Santos está confirmada. Qual é o horário?
+      - Você consegue me dizer o horário que marquei para a consulta de amanhã?
+      - Tem como verificar se minha consulta foi agendada para o horário certo?
+      - Quando estou agendado para comparecer ao consultório?
+      - Por favor, me diga se o horário da minha consulta mudou.
+      - Pode confirmar o horário da consulta de ultrassom que marquei?
+      - Quero saber o horário do meu exame de sangue. Está confirmado?
+      - Você pode me dizer quando é minha consulta de fisioterapia?
+      - Preciso saber o horário exato da minha consulta com o especialista.
+      - Por gentileza, me lembre o horário do meu atendimento na clínica.
+      - Quando é minha consulta agendada para esta sexta-feira?
+      - Qual é o horário que estou programado para o check-up?
+      - Pode me confirmar o horário do meu agendamento com o cardiologista?
+      - A que horas devo chegar para o meu exame físico?
+      - Quando devo comparecer para minha consulta com o Dr. Oliveira?
+      - Qual é o horário que reservei para a consulta de ressonância magnética?
+      - Você pode verificar se o horário da minha consulta foi alterado?
+      - Preciso do horário exato da minha consulta para me organizar.
+      - Qual é o horário do meu atendimento na terça-feira?
+      - Quando está marcado o horário da minha consulta com o terapeuta?
+      - Quero confirmar a data e o horário do meu próximo procedimento médico.
+      - Tem como informar se minha consulta às 15h foi confirmada?
+      - Por favor, verifique o horário da minha consulta na clínica amanhã.
+      - Qual é o horário em que fui agendado para o retorno médico?
+      - Quando está marcada minha próxima visita ao consultório?
+      - Gostaria de confirmar o horário da minha consulta com o Dr. Costa.
+      - Qual é o horário do meu exame agendado para esta semana?
+      - Preciso verificar o horário exato da consulta que marquei recentemente.
+      - Quando devo estar na clínica para minha consulta de check-up?
+      - Pode conferir o horário da minha consulta odontológica?
+      - Quando é o horário da minha sessão de fisioterapia?
+      - Qual é o horário da consulta de amanhã com o especialista?
+      - Quero confirmar se minha consulta com o Dr. Almeida está agendada para o horário correto.
+      - Você pode me ajudar a lembrar o horário da minha consulta de hoje?
+      - Quando devo ir para a minha consulta médica?
+      - Preciso saber se minha consulta na quarta-feira foi confirmada. Qual o horário?
+      - Quando vou passar pelo exame de ultrassom que marquei?
+      - Qual é o horário do meu agendamento no laboratório?
+      - Quero verificar o horário da minha consulta para planejar meu dia.
+      - Qual é o horário exato do meu exame agendado para amanhã?
+      - Pode me dizer se minha consulta de sexta-feira está confirmada?
+      - Quando está programada minha próxima visita ao consultório?
+      - A consulta que marquei com o Dr. Santos é para que horário?
+      - Quando devo comparecer para minha consulta de ressonância magnética?
+      - Você pode verificar qual é o horário da minha consulta de retorno?
+      - Quando foi que agendei minha próxima consulta de fisioterapia?
+      - Preciso confirmar se minha consulta de exame de sangue foi marcada corretamente.
+      - Pode verificar o horário que reservei com o Dr. Rodrigues?
+      - Qual é o horário em que estou programado para o exame físico amanhã?
+      - Quero confirmar o horário da consulta marcada para esta terça-feira.
+      - Tem como informar o horário exato da minha consulta com o Dr. Garcia?
+      - Pode me ajudar a verificar se minha consulta de retorno foi confirmada?
+      - Quando é o horário da minha consulta para ultrassom?
+      - Preciso saber quando é minha consulta com o terapeuta. Qual o horário?
+      - Pode verificar se o horário da minha consulta com o Dr. Almeida está correto?

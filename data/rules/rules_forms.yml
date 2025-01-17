@@ -1,0 +1,226 @@
+version: "3.1"
+
+rules:
+
+## inicia o event form, responsavel por marcar a consulta
+- rule: event
+  steps:
+  - action: event_form
+  - active_loop: event_form
+
+### encerra o event form e adiciona a consulta
+- rule: Completar event_form e confirmar
+  condition:
+    - active_loop: event_form
+    - slot_was_set:
+        - requested_slot: null ## all slots have been filled
+        - form_completed: True
+  steps:
+    - action: event_form      # Include this to process the final form actions
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null ## all slots have been filled       
+    - action: utter_confirm_appointment
+    - intent: concordancia
+    - action: action_add_event 
+    - slot_was_set:
+        - event_completed: True 
+    - action: utter_terminar_conversa
+  wait_for_user_input: False
+
+
+
+- rule: finaliza o forms e chama a action delete
+  condition:
+  - active_loop: delete_event_form
+  steps:
+  - action: delete_event_form
+  - active_loop: null ## deactive the form
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_delete_event_form
+  - slot_was_set:
+    - event_delete_completed: True 
+  - action: utter_terminar_conversa
+  wait_for_user_input: False
+
+
+
+- rule: Completar modify_event_form e confirmar
+  condition:
+  - active_loop: modify_event_form
+  - slot_was_set:
+      - requested_slot: null
+      - form_completed: True
+      - cpf_validate: True
+  steps:
+  - action: modify_event_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_modify_event_form
+  - slot_was_set:
+    - event_modify_completed: True 
+  - action: utter_terminar_conversa
+
+
+
+- rule: finaliza o forms e chama a action salvar user (100% correto)
+  condition:
+  - active_loop: cadastro_form
+  steps:
+  - action: cadastro_form
+  - active_loop: null 
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_salvar_cadastro
+  - slot_was_set:
+    - login_sucess: False 
+  - action: utter_fail_sign
+
+
+- rule: Finaliza cadastro e inicia agendamento (sucesso)
+  condition:
+  - active_loop: cadastro_form
+  steps:
+  - action: cadastro_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_salvar_cadastro
+  - slot_was_set:
+      - login_sucess: True
+  - action: utter_success_sign
+  - action: event_form
+  - active_loop: event_form
+
+
+- rule: cadastrando usuario
+  steps:
+  - action: cadastro_form
+  - active_loop: cadastro_form
+  
+
+- rule: feedback
+  steps:
+  - action: feedback_form
+  - active_loop: feedback_form
+
+
+###right way
+- rule: covalidando feedback
+  condition:
+  - active_loop: feedback_form
+  steps:
+  - action: feedback_form
+  - active_loop: null
+  - slot_was_set:
+      - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+- rule: confirm appoint
+  steps:
+  - action: confirm_event_form
+  - active_loop: confirm_event_form
+
+
+- rule: covalidando confirm appoint
+  condition:
+  - active_loop: confirm_event_form
+  steps:
+  - action: confirm_event_form
+  - active_loop: null
+  - slot_was_set:
+      - requested_slot: null
+  - slot_was_set:
+    - cpf
+  - action: action_confirm_appointment
+
+
+
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: cadastro_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+  
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+- rule: User interrupts the form and doesn't want to continue 
+  condition:
+  - active_loop: confirm_event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: feedback_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: modify_event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: delete_event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop

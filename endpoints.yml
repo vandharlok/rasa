@@ -1,0 +1,11 @@
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+ 
+
+tracker_store:
+  type: SQL
+  dialect: "postgresql"  
+  url: "localhost" 
+  db: "rasachatbot"  
+  username: "vanderson"
+  password:  "Love13Skate06Boarding2002desdemeno"

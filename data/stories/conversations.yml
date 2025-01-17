@@ -1,0 +1,92 @@
+version: "3.1"
+
+stories:
+
+- story: Inicia conversa e quer marcar consulta
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+
+- story: Sauda o usuario e mostra as opcoes do bot
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+
+
+- story: Inicia conversa e quer remarcar consulta
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+
+
+- story: Inicia conversa e quer cancelar consulta
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+
+
+- story: Inicia conversa e quer saber o preco 
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: preco_consulta
+  - action: action_provide_price_and_reset_slot
+
+
+- story: Inicia conversa e quer saber os metodos de pagamento
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: faq
+  - action: utter_faq
+
+
+- story: Inicia conversa e tem duvidas
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+
+- story: Inicia conversa e quer saber o local de atendimento
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: faq
+  - action: utter_faq
+
+- story: Inicia conversa e quer saber os precos da clinica
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: preco_consulta
+  - action: action_provide_price_and_reset_slot
+
+- story: Inicia conversa e ja quer ser transferido para atendente
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: transferir_atendente
+  - action: action_transferir_atendente

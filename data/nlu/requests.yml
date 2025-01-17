@@ -1,0 +1,691 @@
+version: "3.1"
+
+nlu:
+
+  - intent: solicitar_receita
+    examples: |
+      - Preciso da minha receita médica
+      - Posso obter minha receita?
+      - Quero a receita da minha medicação
+      - Preciso renovar minha receita
+      - Você pode me dar minha receita?
+      - Preciso da receita do meu remédio
+      - Quero minha receita médica
+      - Posso pegar minha receita?
+      - Preciso da receita do meu medicamento
+      - Gostaria de obter minha receita
+      - Preciso da receita para meu remédio
+      - Quero a receita do meu medicamento
+      - Pode me fornecer minha receita?
+      - Preciso da receita do meu tratamento
+      - Quero pegar minha receita
+      - Posso receber minha receita?
+      - Preciso da receita médica
+      - Gostaria de ter minha receita
+      - Preciso da receita para meu medicamento
+      - Quero minha receita
+      - Pode me dar minha receita?
+      - Preciso da receita do remédio
+      - Quero obter minha receita
+      - Posso ter minha receita?
+      - Gostaria de pegar minha receita
+      - Pode me fornecer a receita?
+      - Quero obter a receita do meu medicamento
+      - Preciso da receita para meu tratamento
+      - Pode me dar a receita?
+      - Quero pegar minha receita médica
+      - Quero minha receita do medicamento
+      - Quero obter minha receita médica
+      - Posso receber a receita?
+      - Olá, gostaria de solicitar a receita da minha medicação
+      - Preciso renovar a receita do meu remédio, poderia me ajudar?
+      - Gostaria de saber como posso obter a receita do meu medicamento
+      - Poderia me fornecer a receita da medicação que estou usando?
+      - Preciso da receita para comprar meu remédio, como posso obtê-la?
+      - Quero obter minha receita médica para continuar meu tratamento
+      - Poderia me ajudar a conseguir a receita do meu medicamento?
+      - Gostaria de solicitar a renovação da minha receita médica
+      - Preciso da receita do meu remédio, poderia me orientar?
+      - Como faço para obter a receita da minha medicação?
+      - Gostaria de saber se posso pegar minha receita médica hoje
+      - Preciso da receita do meu medicamento para continuar o tratamento
+      - Poderia me informar como obter minha receita?
+      - Quero solicitar a receita da medicação que estou tomando
+      - Preciso renovar minha receita médica, pode me ajudar?
+      - Gostaria de obter a receita do meu remédio, o que devo fazer?
+      - Poderia me auxiliar na obtenção da receita do meu medicamento?
+      - Preciso da receita para comprar meu remédio, como proceder?
+      - Quero saber como posso pegar minha receita médica
+      - Gostaria de solicitar minha receita para continuar o tratamento
+      - Preciso da receita da minha medicação, poderia me ajudar?
+      - Poderia me informar como renovar minha receita médica?
+      - Quero obter a receita do meu medicamento, como faço?
+      - Preciso da receita do meu remédio para comprar mais
+      - Gostaria de saber como obter minha receita médica
+      - Preciso renovar minha receita, poderia me orientar?
+      - Quero solicitar a receita da minha medicação, como proceder?
+      - Preciso da receita para meu remédio, pode me ajudar?
+      - Gostaria de obter minha receita médica, o que preciso fazer?
+      - Poderia me auxiliar na renovação da minha receita?
+      - Preciso da receita do meu medicamento, como posso obtê-la?
+      - Quero saber como pegar minha receita médica
+      - Gostaria de solicitar a receita do remédio que estou usando
+      - Preciso renovar minha receita, pode me ajudar com isso?
+      - Poderia me informar como obter a receita do meu medicamento?
+      - Quero obter minha receita para continuar meu tratamento
+      - Preciso da receita do meu remédio, como devo proceder?
+      - Gostaria de saber como posso obter minha receita
+      - Poderia me ajudar a renovar a receita do meu medicamento?
+      - Preciso da receita médica para comprar meu remédio
+      - Quero solicitar minha receita médica, pode me auxiliar?
+      - Gostaria de obter a receita da minha medicação, como faço?
+      - Preciso renovar minha receita, poderia me ajudar?
+      - Poderia me informar como pegar a receita do meu remédio?
+      - Quero saber como obter a receita do meu medicamento
+      - Preciso da receita para meu remédio, pode me orientar?
+      - Gostaria de solicitar a renovação da minha receita
+      - Poderia me auxiliar na obtenção da receita médica?
+      - Preciso da receita do meu medicamento, como proceder?
+      - Quero obter minha receita médica, o que devo fazer?
+      - Gostaria de saber como renovar minha receita
+      - Minha receita acabou Como faço para solicitar uma nova receita? Pássaro
+      - Minha receita acabou Como faço para uma nova receita?
+      - Minha receita acabou Cjmo faço para solicitar uma sova receita?
+      - Minha renda acabouComo faço para rogar uma fresco Receita?
+      - solicitar uma nova receita? com Minha receita acabou Como faço
+      - Minha receita acabou Como faço para solicitar uma nova receita?
+      - acabou receita Minha  Como faço para solicitar uma nova receita ?
+      - Minha receita acabou Como solicito uma nova receita?
+      - Preciso renovar minha Chave receita para medicação contínua
+      - Preciso renovar receita para medicação contínua
+      - kreciso renovar minha receita para medicaçko contínua
+      - Perfeito restaurar minha fórmula para medicação contínua
+      - medicação contínua com Preciso renovar minha receita
+      - Preciso renovar minha receita para medicação contínua
+      - minha renovar Preciso receita para medicação contínua
+      - Preciso renovar minha receita para medicamentos contínuos
+      - Como posso Computador conseguir uma nova receita médica?
+      - Como posso conseguir uma receita médica?
+      - Comb posso conseguir uma nova receita médica?
+      - Como posso atingir uma fresco renda médica?
+      - Como posso conseguir uma nova receita médica?
+      - conseguir posso Como uma nova receita médica ?
+      - Como posso receber uma nova receita?
+      - Necessito de uma renovação da minha receita, voce pode me ajudar? Aprender
+      - Necessito de uma renovação da minha receita, voce pode me
+      - Necessito de uma renovação da mcnha recejta, voce pode me ajudar?
+      - Necessito de uma restauração da minha Renda,voce pode me conduzir?
+      - uma renovação da minha receita, voce pode me ajudar? com Necessito
+      - Necessito de uma renovação da minha receita, voce pode me ajudar?
+      - uma de Necessito renovação da minha receita , voce pode me ajudar ?
+      - Eu preciso de uma renovação da minha receita, você pode me ajudar?
+      - Gostaria Janela de solicitar uma receita para meu medicamento
+      - Gostaria solicitar uma receita para meu medicamento
+      - Gostania de solicitar uma receioa para meu medicamento
+      - Gostaria de exigir uma fórmula para meu remédio
+      - solicitar uma receita para meu medicamento com Gostaria
+      - Gostaria de solicitar uma receita para meu medicamento
+      - solicitar de Gostaria uma receita para meu medicamento
+      - Eu gostaria de solicitar uma receita para o meu remédio
+      - Roupa Minha receita venceu, como faço para renovar?
+      - Minha receita venceu, faço para renovar?
+      - Mirha receita venceu, como faço paza renovar?
+      - Minha provento venceu,como faço para restaurar?
+      - renovar? com Minha receita venceu, como faço
+      - Minha receita venceu, como faço para renovar?
+      - venceu receita Minha , como faço para renovar ?
+      - É possível obter uma Possivelmente receita nova hoje?
+      - É possível uma receita nova hoje?
+      - É possível oeter uma receita nwva hoje?
+      - É prestimoso fazer uma receita novo actualidade?
+      - É possível obter uma receita nova hoje?
+      - obter possível É uma receita nova hoje ?
+      - Preciso de uma receita urgente, como proceder? Perto
+      - de uma receita urgente, como proceder?
+      - Preciso de ump receitq urgente, como proceder?
+      - Preciso de uma Receita culinária insistente,como proceder?
+      - uma receita urgente, como proceder? com Preciso
+      - Preciso de uma receita urgente, como proceder?
+      - uma de Preciso receita urgente , como proceder ?
+      - Preciso de receita urgente, como proceder?
+      - Certamente Como renovar uma receita de uso contínuo?
+      - Como renovar uma de uso contínuo?
+      - Como renovar uma reqeita de uso contínyo?
+      - Como restaurar uma Receita culinária de utilização sem paradas?
+      - uso contínuo? com Como renovar uma receita
+      - Como renovar uma receita de uso contínuo?
+      - uma renovar Como receita de uso contínuo ?
+      - Meu medicamento acabou, preciso de uma Consertar nova receita
+      - Meu medicamento acabou, preciso de uma nova
+      - Meu medicamenyo acabou, preciso de uma nova rqceita
+      - Meu droga acabou,acurado de uma fresco Receita
+      - uma nova receita com Meu medicamento acabou, preciso
+      - Meu medicamento acabou, necessito de uma nova receita
+      - acabou medicamento Meu , preciso de uma nova receita
+      - Meu remédio acabou, preciso de uma nova receita
+      - Amigo Como faço para solicitar uma receita pela primeira vez?
+      - Como para solicitar uma receita pela primeira vez?
+      - Como faço pxra solicitar uma receita peoa primeira vez?
+      - Como faço para pedir uma rendimento pela primeiro jogo?
+      - solicitar uma receita pela primeira vez? com Como faço
+      - Como faço para solicitar uma receita pela primeira vez?
+      - para faço Como solicitar uma receita pela primeira vez ?
+      - Como solicito uma receita pela primeira vez?
+      - Preciso de uma receita atualizada, voce Vento pode emitir uma?
+      - Preciso de receita atualizada, voce pode emitir uma?
+      - Preciso de uma receita atualizada, vbce pode emitlr uma?
+      - Perfeito de uma provento atualizada,voce pode emita-se uma?
+      - uma receita atualizada, voce pode emitir uma? com Preciso
+      - Preciso de uma receita atualizada, voce pode emitir uma?
+      - uma de Preciso receita atualizada , voce pode emitir uma ?
+      - Eu preciso de uma receita atualizada, você pode emitir uma?
+      - Posso renovar minha Gato receita online?
+      - Posso renovar minha online?
+      - Posso renooar minha receitg online?
+      - Posso restaurar minha ingresso ligado?
+      - Posso renovar minha receita online?
+      - minha renovar Posso receita online ?
+      - Gostaria de uma receita para um novo tratamento Claro
+      - Gostaria de uma para um novo tratamento
+      - Gostaria qe uxa receita para um novo tratamento
+      - Gostaria de uma receita para um fresco Assistência médica
+      - uma receita para um novo tratamento com Gostaria
+      - Gostaria de uma receita para um novo tratamento
+      - uma de Gostaria receita para um novo tratamento
+      - Queria uma receita para um novo tratamento
+      - Quero Construir uma receita para continuar meu tratamento atual
+      - Quero uma para continuar meu tratamento atual
+      - Quero uma receita paya continuar meu trakamento atual
+      - Quero uma provento para permanecer meu cuidado moderno
+      - continuar meu tratamento atual com Quero uma receita
+      - Quero uma receita para continuar meu tratamento atual
+      - receita uma Quero para continuar meu tratamento atual
+      - Eu quero uma receita para continuar meu tratamento atual
+      - Preciso de Certamente uma nova receita para o meu medicamento
+      - Preciso de uma receita para o meu medicamento
+      - Preciso de fma nova recbita para o meu medicamento
+      - Acurado de uma original provento para o meu entorpecente
+      - uma nova receita para o meu medicamento com Preciso
+      - Preciso de uma nova receita para o meu medicamento
+      - uma de Preciso nova receita para o meu medicamento
+      - Eu preciso de uma nova receita para o meu remédio
+      - Como posso solicitar a receita para meu tratamento contínuo? Alto
+      - Como posso solicitar a receita para meu tratamento
+      - zomo posso solicitar a receita para weu tratamento contínuo?
+      - Como posso requerer a renda para meu cuidado sem paradas?
+      - meu tratamento contínuo? com Como posso solicitar a receita
+      - Como posso solicitar a receita para meu tratamento contínuo?
+      - solicitar posso Como a receita para meu tratamento contínuo ?
+      - Gostaria de pedir Ouvir uma receita médica
+      - Gostaria de pedir receita médica
+      - Ei, preciso da minha receita
+      - Tem como me dar a receita do meu remédio?
+      - Como faço pra pegar minha receita?
+      - Preciso da receita do meu remédio, pode me ajudar?
+      - Preciso da receita pro meu remédio
+      - Pode me arrumar minha receita?
+      - Como consigo minha receita?
+      - Tem como me dar minha receita?
+      - Pode me ajudar com a receita?
+      - Como pego minha receita?
+      - Preciso da receita do meu remédio, me ajuda?
+      - Me dá minha receita?
+      - Como faço pra ter minha receita?
+      - Pode me passar minha receita?
+      - Tem como pegar minha receita?
+      - Me ajuda com a receita?
+      - Poderia, por favor, fornecer-me a receita da minha medicação?
+      - Necessito da receita médica para meu medicamento, por gentileza
+      - Gostaria de solicitar a receita do remédio que estou tomando
+      - Seria possível obter a receita da minha medicação?
+      - Poderia auxiliar-me na obtenção da receita do meu medicamento?
+      - Gostaria de saber como posso obter a receita médica
+      - Poderia informar-me sobre como obter minha receita?
+      - Necessito da receita para continuar meu tratamento
+      - Por favor, poderia fornecer-me a receita do meu medicamento?
+      - Seria possível auxiliar-me na obtenção da receita?
+      - Poderia ajudar-me a obter a receita da minha medicação?
+      - Necessito da receita médica para meu remédio, por favor
+      - Gostaria de saber o procedimento para obter minha receita
+      - Poderia orientar-me sobre como renovar minha receita?
+      - Preciso da receita do meu medicamento, poderia auxiliar-me?
+      - Por gentileza, poderia fornecer-me minha receita médica?
+      - Gostaria de solicitar a receita do meu remédio
+      - Seria possível obter a receita para meu medicamento?
+      - Poderia ajudar-me com a obtenção da receita?
+      - Necessito renovar minha receita médica, poderia me orientar?
+      - Gostaria de saber como proceder para obter minha receita
+      - Poderia informar-me sobre a renovação da minha receita?
+      - Preciso da receita do meu remédio, poderia ajudar-me?
+      - Por favor, poderia auxiliar-me na obtenção da receita?
+      - Gostaria de solicitar a receita da minha medicação
+      - Seria possível fornecer-me a receita do meu medicamento?
+      - Poderia ajudar-me a renovar minha receita médica?
+      - Necessito da receita para meu tratamento, por gentileza
+      - Gostaria de saber como obter a receita do meu remédio
+      - Poderia orientar-me sobre a obtenção da minha receita?
+      - Preciso renovar minha receita, poderia ajudar-me?
+      - Por gentileza, poderia fornecer-me a receita médica?
+      - Gostaria de solicitar a receita do medicamento que uso
+      - Seria possível auxiliar-me na renovação da minha receita?
+      - Poderia ajudar-me a obter a receita do meu remédio?
+      - Necessito da receita médica para meu medicamento, por favor
+      - Gostaria de saber como proceder para renovar minha receita
+      - Poderia informar-me sobre a obtenção da minha receita?
+      - Por favor, poderia fornecer-me minha receita médica?
+      - Seria possível obter a receita do meu remédio?
+      - Poderia ajudar-me com a renovação da minha receita?
+      - Necessito da receita médica para meu tratamento, por gentileza
+      - Poderia orientar-me sobre como obter a receita do meu medicamento?
+      - Preciso renovar minha receita médica, poderia ajudar-me?
+      - Por gentileza, poderia auxiliar-me na obtenção da receita?
+      - Seria possível fornecer-me a receita do meu remédio?
+      - Gostaria de aedir umb receita médica
+      - Gostaria de suplicar uma rendimento médica
+      - pedir uma receita médica com Gostaria
+      - Gostaria de pedir uma receita médica
+      - pedir de Gostaria uma receita médica
+      - Eu gostaria de pedir uma receita
+      - Minha receita Feliz expirou, preciso de uma nova
+      - Minha receita expirou, preciso de uma
+      - Minha ryceita expirou, preciso de jma nova
+      - Minha receita expirou,justo de uma novo
+      - uma nova com Minha receita expirou, preciso
+      - Minha receita expirou, necessito de uma nova
+      - expirou receita Minha , preciso de uma nova
+      - Minha receita expirou, preciso de uma nova
+      - Como faço para renovar Quente minha receita médica?
+      - Como faço renovar minha receita médica?
+      - Como faço para rcnovar minha recgita médica?
+      - Como faço para restaurar minha Receita culinária médica?
+      - renovar minha receita médica? com Como faço
+      - Como faço para renovar minha receita médica?
+      - para faço Como renovar minha receita médica ?
+      - Sutileza Vocês podem emitir uma receita para mim?
+      - Vocês emitir uma receita para mim?
+      - Vocês pqdem emitir uma receita paia mim?
+      - Vocês podem soltar uma provento para mim?
+      - mim? com Vocês podem emitir uma receita
+      - Vocês podem emitir uma receita para mim?
+      - emitir podem Vocês uma receita para mim ?
+      - Você pode emitir uma receita para mim?
+      - Preciso de Rápido uma receita para o meu medicamento de uso contínuo
+      - Preciso de uma receita para o meu medicamento de contínuo
+      - Preciso de uma receita para o aeu medicamento ie uso contínuo
+      - Justo de uma rendimentos para o meu sonífero de utilização constante
+      - o meu medicamento de uso contínuo com Preciso de uma receita
+      - Preciso de uma receita para o meu medicamento de uso contínuo
+      - uma de Preciso receita para o meu medicamento de uso contínuo
+      - Preciso de uma receita para o meu remédio para uso contínuo
+      - Posso pedir uma receita médica pela consulta de hoje? Cachorro
+      - Posso pedir uma receita médica pela consulta de
+      - Possw pedir uma recmita médica pela consulta de hoje?
+      - Posso exigir uma rendimentos médica pela consulta de presentemente?
+      - hoje? com Posso pedir uma receita médica pela consulta
+      - Posso pedir uma receita médica pela consulta de hoje?
+      - uma pedir Posso receita médica pela consulta de hoje ?
+      - Posso encomendar uma receita para a consulta de hoje?
+      - Dia Gostaria de renovar minha receita
+      - de renovar minha receita
+      - Gostarib de renzvar minha receita
+      - Gostaria de restaurar minha rendimento
+      - renovar minha receita com Gostaria
+      - Gostaria de renovar minha receita
+      - renovar de Gostaria minha receita
+      - Eu gostaria de renovar minha receita
+      - Preciso de uma receita para o tratamento que Gradualmente estou fazendo
+      - Preciso de receita para o tratamento que estou fazendo
+      - Preciso de uma receita pasa o tratamento que estou fazendo
+      - Acurado de uma receita para o cuidados de saúde que estou fazendo
+      - uma receita para o tratamento que estou fazendo com Preciso
+      - Preciso de uma receita para o tratamento que estou fazendo
+      - uma de Preciso receita para o tratamento que estou fazendo
+      - Como consigo uma receita nova para meu Separadamente remédio?
+      - Como consigo uma receita para meu remédio?
+      - Como consigo uma receita novj para peu remédio?
+      - Minha receita venceu, preciso ze outrag
+      - Minha provento venceu,exacto de outra
+      - outra com Minha receita venceu, preciso
+      - Minha receita venceu, necessito de outra
+      - venceu receita Minha , preciso de outra
+      - Minha receita venceu, eu preciso de outra
+      - Gostaria de obter uma receita médica Dançar para meu medicamento de uso contínuo
+      - Gostaria de obter uma receita médica para meu medicamento de uso
+      - Gostaria de obter uma receita médica cara meu medicamento de usx contínuo
+      - Gostaria de chegar a uma ingresso médica para meu sonífero de utilização constante
+      - meu medicamento de uso contínuo com Gostaria de obter uma receita médica
+      - Gostaria de obter uma receita médica para meu medicamento de uso contínuo
+      - obter de Gostaria uma receita médica para meu medicamento de uso contínuo
+      - Eu gostaria de receber uma receita para o meu remédio para uso contínuo
+      - Preciso de uma Praia receita nova, como proceder?
+      - de uma receita nova, como proceder?
+      - ureciso di uma receita nova, como proceder?
+      - Bem acabado de uma ingresso fresco,como proceder?
+      - uma receita nova, como proceder? com Preciso
+      - Preciso de uma receita nova, como proceder?
+      - uma de Preciso receita nova , como proceder ?
+      - Eu preciso de uma nova receita, como proceder?
+      - Posso pedir uma receita médica para meu medicamento Estudar atual?
+      - Posso pedir uma receita médica meu medicamento atual?
+      - Posso pedrr umr receita médica para meu medicamento atual?
+      - Posso mendigar uma rendimento médica para meu sonífero hodierno?
+      - meu medicamento atual? com Posso pedir uma receita médica
+      - Posso pedir uma receita médica para meu medicamento atual?
+      - uma pedir Posso receita médica para meu medicamento atual ?
+      - Posso pedir uma receita para o meu medicamento atual?
+      - Gostaria de solicitar a receita do Encontrar meu tratamento
+      - Gostaria de solicitar a receita do tratamento
+      - Gostaria de soficitar a receita do mer tratamento
+      - Gostaria de exigir a provento do meu Assistência médica
+      - solicitar a receita do meu tratamento com Gostaria
+      - Gostaria de solicitar a receita do meu tratamento
+      - solicitar de Gostaria a receita do meu tratamento
+      - Preciso de uma receita nova para continuar Comer meu tratamento médico
+      - Preciso de uma receita nova para continuar meu médico
+      - Preciso de uma receita novw para continuar meu tratamento médico
+      - Exato de uma fórmula original para avançar meu cuidado doutor
+      - uma receita nova para continuar meu tratamento médico com Preciso
+      - Preciso de uma receita nova para continuar meu tratamento médico
+      - uma de Preciso receita nova para continuar meu tratamento médico
+      - Noite Como consigo uma receita médica para meu medicamento de uso contínuo?
+      - Como consigo uma receita médica meu medicamento de uso contínuo?
+      - Como cnnsigo uma receita médica para mew medicamento de uso contínuo?
+      - Como consigo uma provento médica para meu remédio de utilização incessante?
+      - uso contínuo? com Como consigo uma receita médica para meu medicamento
+      - Como consigo uma receita médica para meu medicamento de uso contínuo?
+      - uma consigo Como receita médica para meu medicamento de uso contínuo ?
+      - Como faço para obter uma receita para o meu medicamento de uso contínuo?
+      - Sorrir Preciso renovar minha receita, como faço?
+      - Preciso renovar minha receita, como
+      - Preciso renovmr mioha receita, como faço?
+      - Afinado restaurar minha receita,como faço?
+      - Preciso renovar minha receita, como faço?
+      - minha renovar Preciso receita , como faço ?
+      - Eu preciso renovar minha receita, como faço?
+      - Minha receita está vencida, posso solicitar uma Nunca nova?
+      - Minha receita está posso solicitar uma nova?
+      - Minha receita está vkncida, pqsso solicitar uma nova?
+      - Minha Receita está vencida,posso exigir uma novo?
+      - Minha receita está vencida, posso solicitar uma nova?
+      - Minha receita encontra-se vencida, posso solicitar uma nova?
+      - está receita Minha vencida , posso solicitar uma nova ?
+      - Minha receita está atrasada, posso solicitar uma nova?
+      - Lento Gostaria de pedir uma nova receita para meu tratamento contínuo
+      - Gostaria de pedir uma nova receita para meu contínuo
+      - Gostaria dk pedir uma nova receita pwra meu tratamento contínuo
+      - Gostaria de suplicar uma original Receita culinária para meu cuidados de saúde constante
+      - pedir uma nova receita para meu tratamento contínuo com Gostaria
+      - Gostaria de pedir uma nova receita para meu tratamento contínuo
+      - pedir de Gostaria uma nova receita para meu tratamento contínuo
+      - Preciso de uma receita para Rir o medicamento que uso regularmente
+      - Preciso de uma receita para o medicamento uso regularmente
+      - Preciso de uma receita paro o medicamento que uzo regularmente
+      - Acurado de uma rendimentos para o droga que utilização muitasvezes
+      - uma receita para o medicamento que uso regularmente com Preciso
+      - Preciso de uma receita para o medicamento que uso regularmente
+      - uma de Preciso receita para o medicamento que uso regularmente
+      - Como posso obter uma Escrever nova receita médica?
+      - Como posso obter uma receita médica?
+      - Como posso hbter uma nova receita médicav
+      - Como posso fazer uma original rendimento médica?
+      - Como posso obter uma nova receita médica?
+      - obter posso Como uma nova receita médica ?
+      - Preciso de Caneta uma receita para meu tratamento médico
+      - Preciso de uma receita meu tratamento médico
+      - Praciso de uma receita para meu tratamento mudico
+      - Exacto de uma Receita culinária para meu cuidados de saúde doutor
+      - uma receita para meu tratamento médico com Preciso
+      - Preciso de uma receita para meu tratamento médico
+      - uma de Preciso receita para meu tratamento médico
+      - Preciso de uma receita para o meu tratamento médico
+      - Vocês podem emitir uma Mercado receita médica para o meu medicamento?
+      - podem emitir uma receita médica para o meu medicamento?
+      - Vocês podem emitir uma receita médfca lara o meu medicamento?
+      - Vocês podem emita-se uma renda médica para o meu narcótico?
+      - o meu medicamento? com Vocês podem emitir uma receita médica
+      - Vocês podem emitir uma receita médica para o meu medicamento?
+      - emitir podem Vocês uma receita médica para o meu medicamento ?
+      - Você pode emitir uma receita para o meu remédio?
+      - Gostaria Abaixo de pedir uma receita para meu tratamento
+      - Gostaria de pedir uma receita para meu
+      - Gostaria dj pedir uma receita paza meu tratamento
+      - Gostaria de captar uma provento para meu seguro-saúde
+      - pedir uma receita para meu tratamento com Gostaria
+      - Gostaria de pedir uma receita para meu tratamento
+      - pedir de Gostaria uma receita para meu tratamento
+      - Eu gostaria de pedir uma receita para o meu tratamento
+      - Minha receita está Avião vencida, preciso de uma nova
+      - Minha receita está vencida, preciso uma nova
+      - Minhj receita está vencida, preciso ee uma nova
+      - Minha rendimentos está vencida,Pregadura de uma novo
+      - uma nova com Minha receita está vencida, preciso
+      - Minha receita encontra-se vencida, necessito de uma nova
+      - está receita Minha vencida , preciso de uma nova
+      - Minha receita está atrasada, preciso de uma nova
+      - Como posso solicitar uma receita para o meu medicamento de uso Acordar contínuo?
+      - Como posso solicitar uma receita para o meu medicamento de uso
+      - Como posso soeicitar uma receita para o meu medccamento de uso contínuo?
+      - Como posso pedir uma Receita culinária para o meu sonífero de utilização sem paradas?
+      - uso contínuo? com Como posso solicitar uma receita para o meu medicamento
+      - Como posso solicitar uma receita para o meu medicamento de uso contínuo?
+      - solicitar posso Como uma receita para o meu medicamento de uso contínuo ?
+      - Como posso solicitar uma receita para meu medicamento de uso contínuo?
+      - Gostaria de renovar minha receita Limpar médica
+      - Gostaria de renovar minha médica
+      - eostaria di renovar minha receita médica
+      - Gostaria de restaurar minha Receita médica
+      - renovar minha receita médica com Gostaria
+      - Gostaria de renovar minha receita médica
+      - renovar de Gostaria minha receita médica
+      - Preciso de uma Frio receita médica urgente, como posso solicitar?
+      - de uma receita médica urgente, como posso solicitar?
+      - Preciso de uma receita médica urgenti, homo posso solicitar?
+      - Perfeito de uma rendimentos médica insistente,como posso requerer?
+      - uma receita médica urgente, como posso solicitar? com Preciso
+      - Preciso de uma receita médica urgente, como posso solicitar?
+      - uma de Preciso receita médica urgente , como posso solicitar ?
+      - Eu preciso de uma receita médica urgente, como posso perguntar?
+      - Antipático Minha receita médica expirou, posso pedir uma nova?
+      - Minha receita médica posso pedir uma nova?
+      - Minha receita médicp expirou, posso pedir bma nova?
+      - Minha rendimento médica expirou,posso reservar uma original?
+      - Minha receita médica expirou, posso pedir uma nova?
+      - médica receita Minha expirou , posso pedir uma nova ?
+      - Minha receita expirou, posso pedir uma nova?
+      - Preciso de uma receita para o meu remédio, como faço para Baixo pedir?
+      - Preciso de uma receita para meu remédio, como faço para pedir?
+      - Preciso de uma receita para o meu remédio, comk faço para pedhr?
+      - Pregadura de uma provento para o meu terapia,como faço para solicitar?
+      - uma receita para o meu remédio, como faço para pedir? com Preciso
+      - Preciso de uma receita para o meu remédio, como faço para pedir?
+      - uma de Preciso receita para o meu remédio , como faço para pedir ?
+      - Preciso de uma receita para o meu remédio, como faço para perguntar?
+      - Como posso pedir Ouvir uma nova receita médica?
+      - Como posso uma nova receita médica?
+      - Como posso pefir uma nova receita médica?
+      - Como posso suplicar uma novo fórmula médica?
+      - Como posso pedir uma nova receita médica?
+      - pedir posso Como uma nova receita médica ?
+      - Como posso pedir uma nova receita?
+      - Preciso de uma nova receita para meu tratamento, Pequeno vocês podem me ajudar?
+      - Preciso de uma nova receita meu tratamento, vocês podem me ajudar?
+      - Preciso de uma novb receita para meu tratamento, vocês podem ae ajudar?
+      - Bem acabado de uma novo receita para meu seguro-saúde,vocês podem me amotinar?
+      - uma nova receita para meu tratamento, vocês podem me ajudar? com Preciso
+      - Preciso de uma nova receita para meu tratamento, vocês podem me ajudar?
+      - uma de Preciso nova receita para meu tratamento , vocês podem me ajudar ?
+      - Eu preciso de uma nova receita para o meu tratamento, você pode me ajudar?
+      - Posso renovar minha receita médica? Frio
+      - renovar minha receita médica?
+      - Posso renovar pinha receita médicag
+      - Posso restaurar minha receita médica?
+      - Posso renovar minha receita médica?
+      - minha renovar Posso receita médica ?
+      - Posso renovar minha receita?
+      - Preciso de uma receita Ouvir para o medicamento que estou usando
+      - Preciso de uma receita para o medicamento que usando
+      - Preciso de uma receita parg o medicamento que estoh usando
+      - Exacto de uma renda para o entorpecente que estou usando
+      - uma receita para o medicamento que estou usando com Preciso
+      - Preciso de uma receita para o medicamento que estou usando
+      - uma de Preciso receita para o medicamento que estou usando
+      - Preciso de uma receita para o remédio que estou usando
+      - Gostaria de solicitar uma Comprar nova receita para meu medicamento
+      - Gostaria de solicitar uma nova para meu medicamento
+      - Gostarta de solicitar uma noka receita para meu medicamento
+      - Gostaria de exigir uma original receita para meu remédio
+      - solicitar uma nova receita para meu medicamento com Gostaria
+      - Gostaria de solicitar uma nova receita para meu medicamento
+      - solicitar de Gostaria uma nova receita para meu medicamento
+      - Eu gostaria de solicitar uma nova receita para o meu remédio
+      - Alto Minha receita venceu, posso pedir outra?
+      - Minha venceu, posso pedir outra?
+      - Mitha receiba venceu, posso pedir outra?
+      - Minha rendimentos venceu,posso reservar outra?
+      - Minha receita venceu, posso pedir outra?
+      - venceu receita Minha , posso pedir outra ?
+      - Preciso de uma receita nova para meu Lento remédio de uso contínuo
+      - Preciso de receita nova para meu remédio de uso contínuo
+      - Poeciso de uma receiha nova para meu remédio de uso contínuo
+      - Exato de uma renda fresco para meu produtos farmacêuticos de utilização incessante
+      - meu remédio de uso contínuo com Preciso de uma receita nova
+      - Preciso de uma receita nova para meu remédio de uso contínuo
+      - uma de Preciso receita nova para meu remédio de uso contínuo
+      - Preciso de uma nova receita para meu medicamento de uso contínuo
+      - Como faço para solicitar uma receita Velho médica?
+      - Como faço para solicitar receita médica?
+      - Como façt para szlicitar uma receita médica?
+      - Como faço para exigir uma Receita culinária médica?
+      - solicitar uma receita médica? com Como faço
+      - Como faço para solicitar uma receita médica?
+      - para faço Como solicitar uma receita médica ?
+      - Como solicito uma receita?
+      - Gostaria de Claramente pedir uma receita para o medicamento que tomo
+      - Gostaria de pedir uma receita para o que tomo
+      - Gostaria de pedir uma recrita para o medikamento que tomo
+      - Gostaria de mendigar uma provento para o remédio que porção
+      - pedir uma receita para o medicamento que tomo com Gostaria
+      - Gostaria de pedir uma receita para o medicamento que tomo
+      - pedir de Gostaria uma receita para o medicamento que tomo
+      - Eu gostaria de pedir uma receita para o remédio que tomo
+      - Preciso de Lento uma receita médica para meu tratamento
+      - Preciso de uma médica para meu tratamento
+      - Precdso de uva receita médica para meu tratamento
+      - Correcto de uma rendimentos médica para meu seguro-saúde
+      - uma receita médica para meu tratamento com Preciso
+      - Preciso de uma receita médica para meu tratamento
+      - uma de Preciso receita médica para meu tratamento
+      - Minha Nunca receita venceu, preciso renovar
+      - receita venceu, preciso renovar
+      - Minha receica vencdu, preciso renovar
+      - Minha Renda venceu,perfeito restaurar
+      - Minha receita venceu, preciso renovar
+      - venceu receita Minha , preciso renovar
+      - Como posso renovar Cachorro minha receita médica para o meu remédio?
+      - posso renovar minha receita médica para o meu remédio?
+      - Como posso renovjr mbnha receita médica para o meu remédio?
+      - Como posso restaurar minha provento médica para o meu Incisão?
+      - o meu remédio? com Como posso renovar minha receita médica
+      - Como posso renovar minha receita médica para o meu remédio?
+      - renovar posso Como minha receita médica para o meu remédio ?
+      - Como posso renovar minha receita para o meu remédio?
+      - Preciso de Amargo uma receita médica para continuar meu tratamento
+      - Preciso de uma receita médica para continuar tratamento
+      - Preciso de uma recfita médica para continuar meu tratamento
+      - Precisa de uma provento médica para progredir meu Assistência médica
+      - uma receita médica para continuar meu tratamento com Preciso
+      - Preciso de uma receita médica para continuar meu tratamento
+      - uma de Preciso receita médica para continuar meu tratamento
+      - Preciso de uma receita para continuar meu tratamento
+      - Gostaria de obter uma receita Assistir médica nova
+      - de obter uma receita médica nova
+      - Gostaria de obter umm rwceita médica nova
+      - Gostaria de efetuar uma rendimento médica original
+      - obter uma receita médica nova com Gostaria
+      - Gostaria de obter uma receita médica nova
+      - obter de Gostaria uma receita médica nova
+      - Eu gostaria de receber uma nova receita
+      - Minha receita Viajar venceu, como posso solicitar uma nova?
+      - Minha receita venceu, como posso solicitar nova?
+      - Minha receita venceui womo posso solicitar uma nova?
+      - Minha Receita venceu,como posso rogar uma novo?
+      - Minha receita venceu, como posso solicitar uma nova?
+      - venceu receita Minha , como posso solicitar uma nova ?
+      - Preciso de uma receita para o medicamento que uso, como faço para pedir? Cruel
+      - Preciso de uma para o medicamento que uso, como faço para pedir?
+      - Prxciso de umm receita para o medicamento que uso, como faço para pedir?
+      - Precisa de uma Receita para o narcótico que utilização,como faço para suplicar?
+      - uma receita para o medicamento que uso, como faço para pedir? com Preciso
+      - Preciso de uma receita para o medicamento que uso, como faço para pedir?
+      - uma de Preciso receita para o medicamento que uso , como faço para pedir ?
+      - Preciso de uma receita para o remédio que uso, como faço para perguntar?
+      - Gostaria de solicitar Cadeira a renovação da minha receita médica
+      - Gostaria solicitar a renovação da minha receita médica
+      - Gostarig de solicitar a renovação da minhl receita médica
+      - Gostaria de pedir a restauração do património da minha rendimento médica
+      - solicitar a renovação da minha receita médica com Gostaria
+      - solicitar de Gostaria a renovação da minha receita médica
+      - Como consigo uma nova receita Esperar para meu medicamento?
+      - Como consigo uma nova receita para meu
+      - Como consigo uoa novz receita para meu medicamento?
+      - Como consigo uma fresco Receita para meu terapia?
+      - meu medicamento? com Como consigo uma nova receita
+      - Como consigo uma nova receita para meu medicamento?
+      - uma consigo Como nova receita para meu medicamento ?
+      - Como posso obter uma nova receita para o meu remédio?
+      - Minha receita está vencida, preciso Vender de uma nova
+      - Minha receita vencida, preciso de uma nova
+      - Minha receita está venciua, preciso ne uma nova
+      - Minha Receita está vencida,justo de uma novo
+      - Gostaria de Montanha pedir uma receita médica nova
+      - Gostaria de pedir uma receita nova
+      - rostaria de pedir ima receita médica nova
+      - Gostaria de encomendar uma Receita médica novo
+      - pedir uma receita médica nova com Gostaria
+      - Gostaria de pedir uma receita médica nova
+      - pedir de Gostaria uma receita médica nova
+      - Eu gostaria de pedir uma nova receita
+      - Preciso de Frequentemente uma receita para o meu medicamento de uso contínuo
+      - Preciso uma receita para o meu medicamento de uso contínuo
+      - Preciso de umc receiga para o meu medicamento de uso contínuo
+      - Perfeito de uma rendimento para o meu narcótico de utilização incessante
+      - Como Encontrar posso renovar minha receita médica?
+      - Como posso renovar minha receita
+      - uma pedir Posso receita médica para o meu remédio ?
+      - Posso pedir uma receita para o meu remédio?
+      - Preciso de uma receita Terra médica urgente, como posso conseguir?
+      - Preciso de uma receita urgente, como posso conseguir?
+      - Preciso di uma recepta médica urgente, como posso conseguir?
+      - Exato de uma fórmula médica insistente,como posso atingir?
+      - uma receita médica urgente, como posso conseguir? com Preciso
+      - Preciso de uma receita médica urgente, como posso conseguir?
+      - uma de Preciso receita médica urgente , como posso conseguir ?
+      - Eu preciso de uma receita médica urgente, como posso obtê -la?
+      - Minha receita expirou, como faço Amigo para renovar?
+      - receita expirou, como faço para renovar?
+      - Minha receiba expwrou, como faço para renovar?
+      - Minha Renda expirou,como faço para restaurar?
+      - renovar? com Minha receita expirou, como faço
+      - Minha receita expirou, como faço para renovar?
+      - expirou receita Minha , como faço para renovar ?
+      - Gostaria de pedir uma receita para continuar meu tratamento Jogo
+      - Gostaria de pedir ufa receita para continucr meu tratamento
+      - Gostaria de mendigar uma provento para sustenar meu seguro-saúde
+      - pedir uma receita para continuar meu tratamento com Gostaria
+      - Gostaria de pedir uma receita para continuar meu tratamento
+      - Minha receita médica venccu, pcsso solicitar uma nova?
+      - Minha Renda médica venceu,posso rogar uma fresco?
+      - Minha receita médica venceu, posso solicitar uma nova?
+      - médica receita Minha venceu , posso solicitar uma nova ?
+      - Minha receita venceu, posso solicitar uma nova?
+      - Foto Preciso de uma receita para meu remédio de uso contínuo
+      - Preciso de uma receita para remédio de uso contínuo
+      - Preciso de uma receita paxa meu remédio dc uso contínuo
+      - Preciso de uma provento para meu Medicina de utilização perpétuo
+      - meu remédio de uso contínuo com Preciso de uma receita
+      - Preciso de uma receita para meu remédio de uso contínuo
+      - uma de Preciso receita para meu remédio de uso contínuo
+      - Gostaria de solicitar a renovação da minha receita Sem dúvida
+      - Gostaria de solicitar a renovação da minha
+      - Gostaria dz solicitar a renovação dr minha receita
+      - Minha receita está vencida, preciso de uma nova

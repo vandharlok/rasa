@@ -1,0 +1,11 @@
+# Ignorar a pasta de modelos gerados pelo Rasa
+models/
+
+# Ignorar o cache da Rasa
+.rasa/cache/
+
+.env 
+
+tensorboard/
+
+results/

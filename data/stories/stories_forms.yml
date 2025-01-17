@@ -1,0 +1,270 @@
+version: "3.1"
+
+stories:
+
+
+## STORIES CANCELANDO A CONSULTA MARCADA
+## STORIES CANCELANDO A CONSULTA MARCADA
+## STORIES CANCELANDO A CONSULTA MARCADA
+
+- story: Cancelando a consulta depois de falar algo
+  steps:
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+  - intent: concordancia
+  - action: delete_event_form
+  - active_loop: delete_event_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_delete_event_form
+  - slot_was_set:
+    - event_delete_completed: True
+    - requested_slot: null
+  - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+
+
+- story: Cancelar o dia de uma consulta no comeco da conversa
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+  - intent: concordancia
+  - action: delete_event_form
+  - active_loop: delete_event_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_delete_event_form
+  - slot_was_set:
+    - event_delete_completed: True
+  - action: utter_terminar_conversa ## conversa terminada pela rule
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+#### STORIES MARCANDO CONSULTA
+#### STORIES MARCANDO CONSULTA
+#### STORIES MARCANDO CONSULTA
+#### STORIES MARCANDO CONSULTA
+#### STORIES MARCANDO CONSULTA
+
+- story: marcando consulta dps de perguntar algo
+  steps:
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: concordancia
+  - action: utter_verifica_cadastro
+  - intent: concordancia
+  - action: event_form
+  - active_loop: event_form
+  - active_loop: null
+  - slot_was_set:
+    - form_completed: True
+    - requested_slot: null
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_add_event
+  - slot_was_set:
+    - event_completed: True
+  - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+- story: marcar consulta sem cadastrado
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: concordancia
+  - action: utter_verifica_cadastro
+  - intent: negacao
+  - action: utter_inform_form
+  - action: cadastro_form
+  - active_loop: cadastro_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_salvar_cadastro
+  - slot_was_set:
+    - login_sucess: True 
+  - action: utter_success_sign
+  - action: event_form
+  - active_loop: event_form
+  - active_loop: null
+  - slot_was_set:
+    - form_completed: True
+    - requested_slot: null
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_add_event
+  - slot_was_set:
+    - event_completed: True
+  - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+
+### STORIES CORTADA PARA MARCAR CONSULTA, CASO HAJA OUTRO INICIO DE CONVERSA
+- story: Falando o dia que quer e marcando horario
+  steps:
+  - action: event_form
+  - active_loop: event_form
+  - active_loop: null
+  - slot_was_set:
+    - form_completed: True
+    - requested_slot: null
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_add_event
+  - slot_was_set:
+    - event_completed: True
+  - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+
+- story: perguntar dias livres e marcar consulta
+  steps:
+  - action: event_form
+  - active_loop: event_form
+  - intent: perguntar_dias_livres
+  - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
+  - action: event_form
+  - active_loop: event_form
+  - active_loop: null 
+  - slot_was_set:
+    - form_completed: True
+    - requested_slot: null
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_add_event
+  - slot_was_set:
+    - event_completed: True
+  - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: cadastro_form
+  - active_loop: cadastro_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: event_form
+  - active_loop: event_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+  
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: delete_event_form
+  - active_loop: delete_event_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: modify_event_form
+  - active_loop: modify_event_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: feedback_form
+  - active_loop: feedback_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+

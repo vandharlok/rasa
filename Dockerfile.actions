@@ -1,0 +1,19 @@
+
+FROM python:3.8-slim
+
+COPY requirements_actions.txt /app/requirements_actions.txt
+WORKDIR /app
+
+RUN pip install -r requirements_actions.txt
+
+COPY ./actions /app/actions
+COPY ./helpers /app/helpers
+COPY ./endpoints.yml /app/endpoints.yml
+
+EXPOSE 5055
+
+USER root
+
+ENTRYPOINT ["rasa"]
+
+CMD ["run","actions"]

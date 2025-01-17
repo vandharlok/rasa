@@ -1,0 +1,29 @@
+
+
+# Ignorar arquivos do Git
+.git/
+.gitignore
+
+
+.vscode/
+.idea/
+
+# Ignorar arquivos de dependências
+node_modules/
+
+
+# Ignorar arquivos temporários do sistema
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do sistema operacional
+*.bak
+*.old
+
+
+
+# Ignorar arquivos de compilação (se aplicável)
+build/
+dist/
