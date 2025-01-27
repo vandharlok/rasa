@@ -4,6 +4,7 @@ import json
 import datetime
 import time
 import schedule
+import re 
 
 from sqlalchemy import create_engine
 from sqlalchemy.dialects.postgresql import JSONB
@@ -119,7 +120,25 @@ def get_last_stats_from_db():
         if isinstance(last_stats, str):
             last_stats = json.loads(last_stats)
         return last_stats
-
+def filter_feedback_value(json_str):
+    try:
+        json_data = json.loads(json_str)  # Converte string JSON para dicionário
+        # Verifica se existe a chave 'feedback' e retorna o 'value'
+        if json_data.get("name") == "feedback":
+            return json_data.get("value", None)  # Retorna o 'value' ou None se não existir
+        return None
+    except json.JSONDecodeError:
+        return None  # Retorna None em caso de erro ao decodificar o JSON
+        
+def extract_feedback_number(value):
+    try:
+        # Procura por números inteiros de 1 a 5
+        match = re.search(r'\b[1-5]\b', str(value))
+        if match:
+            return int(match.group())  # Retorna o número encontrado como inteiro
+        return None  # Retorna None se nenhum número válido for encontrado
+    except:
+        return None
 def insert_stats_in_db(stats_dict):
     """
     Insere o dicionário de estatísticas em formato JSON no banco.
@@ -142,7 +161,49 @@ def insert_stats_in_db(stats_dict):
         index=False,
         dtype={'stats_data': JSONB}  # informa que stats_data é JSONB
     )
+def calculate_duration(df):
+    # Certifique-se de que o DataFrame está ordenado por sender_id e timestamp
+    df = df.sort_values(by=['sender_id', 'timestamp'])
 
+    # Agrupa pelo sender_id e calcula o primeiro e o último timestamp
+    grouped = df.groupby('sender_id')
+
+    durations = []
+    for sender_id, group in grouped:
+        first_timestamp = group['timestamp'].iloc[0]  # Primeiro timestamp
+        last_timestamp = group['timestamp'].iloc[-1]  # Último timestamp
+        duration = last_timestamp - first_timestamp  # Diferença em segundos
+
+        durations.append({
+            'sender_id': sender_id,
+            'start_time': first_timestamp,
+            'end_time': last_timestamp,
+            'duration_seconds': duration
+        })
+
+    # Retorna um novo DataFrame com os resultados
+    result_df = pd.DataFrame(durations)
+    return result_df
+
+def calculate_average_duration(df):
+    # Calcula a duração total e a média
+    average_duration = df['duration_seconds'].mean()
+    return average_duration
+
+def calculate_engagement(data):
+    # Keys to exclude from the sum
+    exclude_keys = {'action_transferir_atendente', 'login_sucess', 'novas_conversas', 'duration_cnvs'}
+    
+    # Sum the values of keys that are not in the exclude list
+    total_sum = sum(value for key, value in data.items() if key not in exclude_keys)
+    
+    # Get the value of 'novas_conversas' to use as the divisor
+    novas_conversas = data.get('novas_conversas', 1)  # Use 1 to avoid division by zero if not present
+    
+    # Calculate the result
+    result = total_sum / novas_conversas if novas_conversas != 0 else 0
+    
+    return result
 # -------------------------------------------------------------------
 # Função principal: faz a leitura de "events", gera estatísticas e compara
 def main():
@@ -191,6 +252,8 @@ def main():
     df_table['is_event_complete_true'] = df_table['data'].apply(filter_event_completed)
     df_table['is_modify_true'] = df_table['data'].apply(filter_event_modify_completed)
     df_table['is_delete_true'] = df_table['data'].apply(filter_event_delete_completed)
+    df_table['feedback_value']=df_table['data'].apply(filter_feedback_value)
+    df_table['feedback_number'] = df_table['feedback_value'].apply(extract_feedback_number)
 
     df_table_login = df_table[df_table['is_login_success_true']]
     df_table_event = df_table[df_table['is_event_complete_true']]
@@ -213,10 +276,19 @@ def main():
 
     # 6) Concat estatísticas: contagens + filter2 + table_actions
     df_statistics_final = pd.concat([df_counts_actions, df_filter2, df_table_actions])
+    print(df_table_actions)
+  
+    # 7) Converter para dict e adicionar "novas_conversas",duration,'feedback',engagement
+    mean_feedback = df_table['feedback_number'].mean()
 
-    # 7) Converter para dict e adicionar "novas_conversas"
     stats_json = df_statistics_final.to_dict()
     stats_json["novas_conversas"] = df_table_unique_sender_id
+    result = calculate_duration(df_table)
+    average_duration_conversation= calculate_average_duration(result)
+    stats_json['duration_cnvs'] = average_duration_conversation
+    engagement = calculate_engagement(stats_json)
+    stats_json['engagement']= engagement
+    stats_json['feedback_mean']=mean_feedback
 
     # 8) Comparar com último stats salvo no DB
     last_stats = get_last_stats_from_db()

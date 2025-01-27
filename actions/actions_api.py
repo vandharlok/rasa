@@ -6,7 +6,7 @@ from rasa_sdk import Action, Tracker
 from typing import Dict, Text, Any, List
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
-from rasa_sdk.events import  SlotSet, AllSlotsReset, ConversationPaused, ConversationResumed
+from rasa_sdk.events import  SlotSet, AllSlotsReset
 
 from rasa_sdk.events import EventType
 
