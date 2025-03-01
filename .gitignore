@@ -1,5 +1,5 @@
 # Ignorar a pasta de modelos gerados pelo Rasa
-/models/
+models/
 
 # Ignorar o cache da Rasa
 .rasa/cache/

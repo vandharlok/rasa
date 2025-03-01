@@ -280,7 +280,8 @@ def main():
   
     # 7) Converter para dict e adicionar "novas_conversas",duration,'feedback',engagement
     mean_feedback = df_table['feedback_number'].mean()
-
+    contagem_feedback=df_table['feedback_number'].value_counts()
+    contagem_feedback=contagem_feedback.to_dict()
     stats_json = df_statistics_final.to_dict()
     stats_json["novas_conversas"] = df_table_unique_sender_id
     result = calculate_duration(df_table)
@@ -289,7 +290,7 @@ def main():
     engagement = calculate_engagement(stats_json)
     stats_json['engagement']= engagement
     stats_json['feedback_mean']=mean_feedback
-
+    stats_json['contagem_feedback']=contagem_feedback
     # 8) Comparar com último stats salvo no DB
     last_stats = get_last_stats_from_db()
 
