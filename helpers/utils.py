@@ -365,6 +365,7 @@ def handle_unavailable_time(adjusted_date: datetime, dispatcher: CollectingDispa
         dispatcher.utter_message(text="Não há horários disponíveis.")
     return {"time": None}
 
+    
 def validate_time_def(slot_value: str, dispatcher: CollectingDispatcher, tracker: Tracker) -> Dict[Text, Any]:
     """
     Valida o horário fornecido pelo usuário e interage com o dispatcher para informar a disponibilidade.
@@ -377,6 +378,39 @@ def validate_time_def(slot_value: str, dispatcher: CollectingDispatcher, tracker
         logger.error("Falha ao normalizar a data.")
         dispatcher.utter_message(text="Data fornecida é inválida.")
         return {"time": None}
+
+    # Se já foi guardada uma data parcial (dia/mês/ano), combine com o horário fornecido.
+    stored_date_str = tracker.get_slot('data_agendamento')
+    if stored_date_str:
+        try:
+            stored_date = datetime.fromisoformat(stored_date_str)
+            if stored_date.tzinfo is None:
+                stored_date = pytz.timezone(TIMEZONE).localize(stored_date)
+
+            # Verifica se a nova data é diferente da armazenada
+            if normalized_date.date() != stored_date.date():
+                # Se o novo valor for uma data diferente, mas ainda sem horário, atualizamos apenas `data_agendamento`
+                if normalized_date.hour == 0 and normalized_date.minute == 0:
+                    is_available, available_times = check_availability(normalized_date, dispatcher, api_url)
+
+                    if is_available:
+                        slots_message = ', '.join(available_times)
+                        dispatcher.utter_message(
+                            text=f"Próximos horários disponíveis em {normalized_date.strftime('%d/%m')}: {slots_message}"
+                        )
+                    else:
+                        dispatcher.utter_message(
+                            text=f"Não há horários disponíveis em {normalized_date.strftime('%d/%m')}."
+                        )
+
+                    return {"data_agendamento": normalized_date.isoformat(), "time": None}
+
+            # Caso contrário, o usuário forneceu um horário válido, então devemos 
+            # combinar com o dia armazenado.
+            normalized_date = datetime.combine(stored_date.date(), normalized_date.timetz())
+
+        except Exception as e:
+            logger.error(f"Erro ao combinar data armazenada: {e}")
 
     timezone = pytz.timezone(TIMEZONE)
     current_datetime = get_current_datetime(timezone)
@@ -416,9 +450,8 @@ def validate_time_def(slot_value: str, dispatcher: CollectingDispatcher, tracker
                     text="Infelizmente, esse horário não está disponível. Vou te mostrar outros horários próximos."
                 )
                 dispatcher.utter_message(
-                    f"{normalized_date.strftime('%d/%m/%Y %H:%M')} nao está disponível"
+                    f"{normalized_date.strftime('%d/%m/%Y %H:%M')} não está disponível"
                 )
-                
                 print(normalized_date.strftime('%d/%m/%Y %H:%M'))
                 adjusted_date = current_datetime + timedelta(hours=1)
                 return handle_unavailable_time(adjusted_date, dispatcher, api_url)
@@ -437,7 +470,8 @@ def validate_time_def(slot_value: str, dispatcher: CollectingDispatcher, tracker
                 dispatcher.utter_message(
                     text=f"Não há horários disponíveis em {normalized_date.strftime('%d/%m')}."
                 )
-            return {"time": None}
+            # Armazena a data parcial (dia/mês/ano) para combinar com um horário posterior
+            return {"time": None, "data_agendamento": normalized_date.isoformat()}
         else:
             # Horário específico em data futura: verificar disponibilidade
             check_time_iso = normalized_date.isoformat()

@@ -106,6 +106,7 @@ class ValidateAndAddEvent(Action):
                     SlotSet("especialista", None),
                     SlotSet("profissional", None),
                     SlotSet("medicoId", None),
+                    SlotSet("data_agendamento",None)
                 ]
             else:
                 dispatcher.utter_message(text="Ocorreu um problema ao realizarmos sua consulta, por favor, tente novamente ou peça por um atendimento humano!")

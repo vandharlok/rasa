@@ -23,7 +23,7 @@ pipeline:
   # the featurizer will select only the 1,000 most common terms based on their frequency in the training data.
   #set the limit of unique tokens,the featurizer will build a vocabulary of only the most frequent terms
 - name: DIETClassifier
-  epochs: 50
+  epochs: 20
   unidirectional_encoder: false
   transformer_size: 64
   hidden_layers_sizes:
@@ -45,7 +45,7 @@ pipeline:
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
 - name: ResponseSelector
-  epochs: 12
+  epochs: 1
   retrieval_intent: faq
   check_for_contradictions: true
   tensorboard_log_directory: "./tensorboard/faq"
@@ -58,7 +58,7 @@ pipeline:
   evaluate_on_number_of_examples: 200
   evaluate_every_number_of_epochs: 10 
 - name: ResponseSelector
-  epochs: 12
+  epochs: 1
   retrieval_intent: chitchat
   check_for_contradictions: true
   tensorboard_log_directory: "./tensorboard/chitchat"
@@ -91,7 +91,7 @@ policies:
   tensorboard_log_level: epoch
   restrict_rules: true
 - name: TEDPolicy
-  epochs: 50
+  epochs: 10
   max_history: 12
   check_for_contradictions: true
   batch_size:

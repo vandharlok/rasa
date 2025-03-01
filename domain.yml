@@ -75,7 +75,14 @@ slots:
     mappings:
     - type: custom
       not_intent: [stop, transferir_atendente]
-      
+  data_agendamento:
+    type: text
+    influence_conversation: True
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: event_form
+        requested_slot: data_agendamento
   feedback:
     type: text
     influence_conversation: False
@@ -242,6 +249,7 @@ forms:
     - especialista
     - profissional
     - time
+    - data_agendamento
   cadastro_form:
     required_slots:
     - nome

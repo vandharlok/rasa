@@ -274,7 +274,7 @@ class ActionCustomFallback(Action):
             dispatcher.utter_message(response="utter_default")
             dispatcher.utter_message(response="utter_show_options_restart")
             logger.info("Custom Fallback triggered after 3 consecutive failures")
-            return [SlotSet("fallback_count", 0.0)]  
+            return [SlotSet("fallback_count", 0.0),Restarted()]  
         
         dispatcher.utter_message(response="utter_ask_rephrase")
         return [SlotSet("fallback_count", fallback_count)]
